@@ -1,0 +1,317 @@
+ datatran
+
+ Timestamp is 641732c1 (Sun Mar 19 11:05:21 2023)
+
+ Preferred load address is 77000000
+
+ Start         Length     Name                   Class
+ 0001:00000000 00002b68H .text                   CODE
+ 0002:00000000 00000540H .rdata                  DATA
+ 0002:00000540 0000006bH .edata                  DATA
+ 0003:00000000 00000004H .CRT$XCA                DATA
+ 0003:00000008 00000004H .CRT$XCZ                DATA
+ 0003:00000010 00000004H .CRT$XIA                DATA
+ 0003:00000018 00000004H .CRT$XIZ                DATA
+ 0003:00000020 0000002cH .data                   DATA
+ 0003:0000004c 0000000cH .bss                    DATA
+ 0004:00000000 000005c8H .pdata                  DATA
+ 0005:00000000 00000050H .idata$2                DATA
+ 0005:00000050 00000014H .idata$3                DATA
+ 0005:00000064 00000050H .idata$4                DATA
+ 0005:000000b4 00000084H .idata$4toc             DATA
+ 0005:00000138 00000050H .idata$5                DATA
+ 0005:00000188 00000118H .idata$6                DATA
+ 0006:00000000 00000058H .rsrc$01                DATA
+ 0006:00000060 00000590H .rsrc$02                DATA
+
+  Address         Publics by Value              Rva+Base   Lib:Object
+
+ 0001:00000000       ..?LibMain32@@YAHPAUHINSTANCE__@@KPAX@Z 77001000 f datatran.obj
+ 0001:00000038       ..DllGetClassObject        77001038 f datatran.obj
+ 0001:00000164       ..DllCanUnloadNow          77001164 f datatran.obj
+ 0001:000001c4       ..?ObjectDestroyed@@YAXXZ  770011c4 f datatran.obj
+ 0001:000001f8       ..??0CDataTransferClassFactory@@QAA@XZ 770011f8 f datatran.obj
+ 0001:0000024c       ..??1CDataTransferClassFactory@@QAA@XZ 7700124c f datatran.obj
+ 0001:0000027c       ..?QueryInterface@CDataTransferClassFactory@@UAAJABU_GUID@@PAPAX@Z 7700127c f datatran.obj
+ 0001:00000354       ..?AddRef@CDataTransferClassFactory@@UAAKXZ 77001354 f datatran.obj
+ 0001:00000398       ..?Release@CDataTransferClassFactory@@UAAKXZ 77001398 f datatran.obj
+ 0001:00000418       ..?CreateInstance@CDataTransferClassFactory@@UAAJPAUIUnknown@@ABU_GUID@@PAPAX@Z 77001418 f datatran.obj
+ 0001:0000058c       ..?LockServer@CDataTransferClassFactory@@UAAJH@Z 7700158c f datatran.obj
+ 0001:000005f8       ..??8@YAHABU_GUID@@0@Z     770015f8 f datatran.obj
+ 0001:00000654       ..??9@YAHABU_GUID@@0@Z     77001654 f datatran.obj
+ 0001:000006a8       ..??0IClassFactory@@QAA@XZ 770016a8 f datatran.obj
+ 0001:000006f0       ..??0IUnknown@@QAA@XZ      770016f0 f datatran.obj
+ 0001:00000730       ..??_GCDataTransferClassFactory@@QAAPAXI@Z 77001730 f datatran.obj
+ 0001:0000078c       ..??_GCDataObject@@QAAPAXI@Z 7700178c f datatran.obj
+ 0001:000007ec       ..??0CDataObject@@QAA@PAUIUnknown@@P6AXXZ@Z 770017ec f dataobj.obj
+ 0001:00000880       ..??1CDataObject@@QAA@XZ   77001880 f dataobj.obj
+ 0001:00000938       ..?FInit@CDataObject@@QAAHXZ 77001938 f dataobj.obj
+ 0001:00000a8c       ..?Purge@CDataObject@@QAAXXZ 77001a8c f dataobj.obj
+ 0001:00000c24       ..?QueryInterface@CDataObject@@UAAJABU_GUID@@PAPAX@Z 77001c24 f dataobj.obj
+ 0001:00000d0c       ..?AddRef@CDataObject@@UAAKXZ 77001d0c f dataobj.obj
+ 0001:00000d50       ..?Release@CDataObject@@UAAKXZ 77001d50 f dataobj.obj
+ 0001:00000e0c       ..??_GCImpIDataObject@@QAAPAXI@Z 77001e0c f dataobj.obj
+ 0001:00000e6c       ..??0CImpIDataObject@@QAA@PAVCDataObject@@PAUIUnknown@@@Z 77001e6c f idataobj.obj
+ 0001:00000ee8       ..??1CImpIDataObject@@QAA@XZ 77001ee8 f idataobj.obj
+ 0001:00000f18       ..?QueryInterface@CImpIDataObject@@UAAJABU_GUID@@PAPAX@Z 77001f18 f idataobj.obj
+ 0001:00000f8c       ..?AddRef@CImpIDataObject@@UAAKXZ 77001f8c f idataobj.obj
+ 0001:00001004       ..?Release@CImpIDataObject@@UAAKXZ 77002004 f idataobj.obj
+ 0001:0000107c       ..?GetData@CImpIDataObject@@UAAJPAUtagFORMATETC@@PAUtagSTGMEDIUM@@@Z 7700207c f idataobj.obj
+ 0001:00001304       ..?GetDataHere@CImpIDataObject@@UAAJPAUtagFORMATETC@@PAUtagSTGMEDIUM@@@Z 77002304 f idataobj.obj
+ 0001:0000152c       ..?QueryGetData@CImpIDataObject@@UAAJPAUtagFORMATETC@@@Z 7700252c f idataobj.obj
+ 0001:000016c4       ..?SetData@CImpIDataObject@@UAAJPAUtagFORMATETC@@PAUtagSTGMEDIUM@@H@Z 770026c4 f idataobj.obj
+ 0001:00001844       ..?EnumFormatEtc@CImpIDataObject@@UAAJKPAPAUIEnumFORMATETC@@@Z 77002844 f idataobj.obj
+ 0001:000019ac       ..?GetCanonicalFormatEtc@CImpIDataObject@@UAAJPAUtagFORMATETC@@0@Z 770029ac f idataobj.obj
+ 0001:000019e8       ..?DAdvise@CImpIDataObject@@UAAJPAUtagFORMATETC@@KPAUIAdviseSink@@PAK@Z 770029e8 f idataobj.obj
+ 0001:00001a2c       ..?DUnadvise@CImpIDataObject@@UAAJK@Z 77002a2c f idataobj.obj
+ 0001:00001a64       ..?EnumDAdvise@CImpIDataObject@@UAAJPAPAUIEnumSTATDATA@@@Z 77002a64 f idataobj.obj
+ 0001:00001a9c       ..??0IDataObject@@QAA@XZ   77002a9c f idataobj.obj
+ 0001:00001ae4       ..??_GCEnumFormatEtc@@QAAPAXI@Z 77002ae4 f idataobj.obj
+ 0001:00001b44       ..??0CEnumFormatEtc@@QAA@PAUIUnknown@@@Z 77002b44 f ienumfe.obj
+ 0001:00001bc4       ..??1CEnumFormatEtc@@QAA@XZ 77002bc4 f ienumfe.obj
+ 0001:00001cb4       ..?FInit@CEnumFormatEtc@@QAAHPAUHWND__@@@Z 77002cb4 f ienumfe.obj
+ 0001:00001ee0       ..?QueryInterface@CEnumFormatEtc@@UAAJABU_GUID@@PAPAX@Z 77002ee0 f ienumfe.obj
+ 0001:00001fb8       ..?AddRef@CEnumFormatEtc@@UAAKXZ 77002fb8 f ienumfe.obj
+ 0001:00002038       ..?Release@CEnumFormatEtc@@UAAKXZ 77003038 f ienumfe.obj
+ 0001:000020f0       ..?Next@CEnumFormatEtc@@UAAJKPAUtagFORMATETC@@PAK@Z 770030f0 f ienumfe.obj
+ 0001:0000225c       ..?Skip@CEnumFormatEtc@@UAAJK@Z 7700325c f ienumfe.obj
+ 0001:000022cc       ..?Reset@CEnumFormatEtc@@UAAJXZ 770032cc f ienumfe.obj
+ 0001:00002308       ..?Clone@CEnumFormatEtc@@UAAJPAPAUIEnumFORMATETC@@@Z 77003308 f ienumfe.obj
+ 0001:000024f8       ..??0IEnumFORMATETC@@QAA@XZ 770034f8 f ienumfe.obj
+ 0001:00002540       ..ReleaseStgMedium         77003540 f ole32:ole32.dll
+ 0001:00002558       ..CoGetMalloc              77003558 f ole32:ole32.dll
+ 0001:00002570       .._CRT_INIT                77003570 f msvcrt:crtdll.obj
+ 0001:000026ec       .._DllMainCRTStartup       770036ec f msvcrt:crtdll.obj
+ 0001:00002840       ..??2@YAPAXI@Z             77003840 f msvcrt:MSVCRT40.dll
+ 0001:00002858       ..memcmp                   77003858 f msvcrt:MSVCRT40.dll
+ 0001:00002870       .._purecall                77003870 f msvcrt:MSVCRT40.dll
+ 0001:00002888       ..??3@YAXPAX@Z             77003888 f msvcrt:MSVCRT40.dll
+ 0001:000028a0       ..memcpy                   770038a0 f msvcrt:MSVCRT40.dll
+ 0001:000028b8       ..__restgpr_All            770038b8 f msvcrt:restgpr.obj
+ 0001:000028ec       ..__restgpr_14             770038ec   msvcrt:restgpr.obj
+ 0001:000028f0       ..__restgpr_15             770038f0   msvcrt:restgpr.obj
+ 0001:000028f4       ..__restgpr_16             770038f4   msvcrt:restgpr.obj
+ 0001:000028f8       ..__restgpr_17             770038f8   msvcrt:restgpr.obj
+ 0001:000028fc       ..__restgpr_18             770038fc   msvcrt:restgpr.obj
+ 0001:00002900       ..__restgpr_19             77003900   msvcrt:restgpr.obj
+ 0001:00002904       ..__restgpr_20             77003904   msvcrt:restgpr.obj
+ 0001:00002908       ..__restgpr_21             77003908   msvcrt:restgpr.obj
+ 0001:0000290c       ..__restgpr_22             7700390c   msvcrt:restgpr.obj
+ 0001:00002910       ..__restgpr_23             77003910   msvcrt:restgpr.obj
+ 0001:00002914       ..__restgpr_24             77003914   msvcrt:restgpr.obj
+ 0001:00002918       ..__restgpr_25             77003918   msvcrt:restgpr.obj
+ 0001:0000291c       ..__restgpr_26             7700391c   msvcrt:restgpr.obj
+ 0001:00002920       ..__restgpr_27             77003920   msvcrt:restgpr.obj
+ 0001:00002924       ..__restgpr_28             77003924   msvcrt:restgpr.obj
+ 0001:00002928       ..__restgpr_29             77003928   msvcrt:restgpr.obj
+ 0001:0000292c       ..__restgpr_30             7700392c   msvcrt:restgpr.obj
+ 0001:00002930       ..__restgpr_31             77003930   msvcrt:restgpr.obj
+ 0001:00002938       ..free                     77003938 f msvcrt:MSVCRT40.dll
+ 0001:00002950       .._initterm                77003950 f msvcrt:MSVCRT40.dll
+ 0001:00002968       .._onexit                  77003968 f msvcrt:atonexit.obj
+ 0001:000029d0       ..atexit                   770039d0 f msvcrt:atonexit.obj
+ 0001:00002a00       ..malloc                   77003a00 f msvcrt:MSVCRT40.dll
+ 0001:00002a18       ..__savegpr_All            77003a18 f msvcrt:savegpr.obj
+ 0001:00002a4c       ..__savegpr_14             77003a4c   msvcrt:savegpr.obj
+ 0001:00002a50       ..__savegpr_15             77003a50   msvcrt:savegpr.obj
+ 0001:00002a54       ..__savegpr_16             77003a54   msvcrt:savegpr.obj
+ 0001:00002a58       ..__savegpr_17             77003a58   msvcrt:savegpr.obj
+ 0001:00002a5c       ..__savegpr_18             77003a5c   msvcrt:savegpr.obj
+ 0001:00002a60       ..__savegpr_19             77003a60   msvcrt:savegpr.obj
+ 0001:00002a64       ..__savegpr_20             77003a64   msvcrt:savegpr.obj
+ 0001:00002a68       ..__savegpr_21             77003a68   msvcrt:savegpr.obj
+ 0001:00002a6c       ..__savegpr_22             77003a6c   msvcrt:savegpr.obj
+ 0001:00002a70       ..__savegpr_23             77003a70   msvcrt:savegpr.obj
+ 0001:00002a74       ..__savegpr_24             77003a74   msvcrt:savegpr.obj
+ 0001:00002a78       ..__savegpr_25             77003a78   msvcrt:savegpr.obj
+ 0001:00002a7c       ..__savegpr_26             77003a7c   msvcrt:savegpr.obj
+ 0001:00002a80       ..__savegpr_27             77003a80   msvcrt:savegpr.obj
+ 0001:00002a84       ..__savegpr_28             77003a84   msvcrt:savegpr.obj
+ 0001:00002a88       ..__savegpr_29             77003a88   msvcrt:savegpr.obj
+ 0001:00002a8c       ..__savegpr_30             77003a8c   msvcrt:savegpr.obj
+ 0001:00002a90       ..__savegpr_31             77003a90   msvcrt:savegpr.obj
+ 0001:00002a98       ..DllMain                  77003a98 f msvcrt:dllmain.obj
+ 0001:00002af0       ..__dllonexit              77003af0 f msvcrt:MSVCRT40.dll
+ 0001:00002b08       ..DisableThreadLibraryCalls 77003b08 f kernel32:KERNEL32.dll
+ 0001:00002b20       ..DestroyWindow            77003b20 f user32:USER32.dll
+ 0001:00002b38       ..CreateWindowExA          77003b38 f user32:USER32.dll
+ 0001:00002b50       ..SendMessageA             77003b50 f user32:USER32.dll
+ 0002:000000a0       CLSID_Koala                770040a0   datatran.obj
+ 0002:000000b0       CLSID_Polyline4            770040b0   datatran.obj
+ 0002:000000c0       IID_IPolyline4             770040c0   datatran.obj
+ 0002:000000d0       IID_IPolylineAdviseSink4   770040d0   datatran.obj
+ 0002:000000e0       CLSID_PatronPages          770040e0   datatran.obj
+ 0002:000000f0       CLSID_Cosmo2Figure         770040f0   datatran.obj
+ 0002:00000100       CLSID_Polyline5            77004100   datatran.obj
+ 0002:00000110       IID_IPolyline5             77004110   datatran.obj
+ 0002:00000120       IID_IPolylineAdviseSink5   77004120   datatran.obj
+ 0002:00000130       CLSID_DataObjectSmall      77004130   datatran.obj
+ 0002:00000140       CLSID_DataObjectMedium     77004140   datatran.obj
+ 0002:00000150       CLSID_DataObjectLarge      77004150   datatran.obj
+ 0002:00000160       CLSID_Polyline6            77004160   datatran.obj
+ 0002:00000170       IID_IPolyline6             77004170   datatran.obj
+ 0002:00000180       IID_IPolylineAdviseSink6   77004180   datatran.obj
+ 0002:00000190       CLSID_DataTransferObject   77004190   datatran.obj
+ 0002:000001a0       CLSID_Polyline11           770041a0   datatran.obj
+ 0002:000001b0       CLSID_LinksAssistant       770041b0   datatran.obj
+ 0002:000001c0       IID_IOleUILinkContainer    770041c0   datatran.obj
+ 0002:000001d0       ?LibMain32@@YAHPAUHINSTANCE__@@KPAX@Z 770041d0   datatran.obj
+ 0002:000001d8       DllGetClassObject          770041d8   datatran.obj
+ 0002:000001e0       DllCanUnloadNow            770041e0   datatran.obj
+ 0002:000001e8       ?ObjectDestroyed@@YAXXZ    770041e8   datatran.obj
+ 0002:000001f0       ??0CDataTransferClassFactory@@QAA@XZ 770041f0   datatran.obj
+ 0002:000001f8       ?QueryInterface@CDataTransferClassFactory@@UAAJABU_GUID@@PAPAX@Z 770041f8   datatran.obj
+ 0002:00000200       ?AddRef@CDataTransferClassFactory@@UAAKXZ 77004200   datatran.obj
+ 0002:00000208       ?Release@CDataTransferClassFactory@@UAAKXZ 77004208   datatran.obj
+ 0002:00000210       ?CreateInstance@CDataTransferClassFactory@@UAAJPAUIUnknown@@ABU_GUID@@PAPAX@Z 77004210   datatran.obj
+ 0002:00000218       ?LockServer@CDataTransferClassFactory@@UAAJH@Z 77004218   datatran.obj
+ 0002:00000220       ??1CDataTransferClassFactory@@QAA@XZ 77004220   datatran.obj
+ 0002:00000228       ??8@YAHABU_GUID@@0@Z       77004228   datatran.obj
+ 0002:00000230       ??9@YAHABU_GUID@@0@Z       77004230   datatran.obj
+ 0002:00000238       ??_7CDataTransferClassFactory@@6B@ 77004238   datatran.obj
+ 0002:0000024c       ??0IClassFactory@@QAA@XZ   7700424c   datatran.obj
+ 0002:00000258       ??_7IClassFactory@@6B@     77004258   datatran.obj
+ 0002:0000026c       ??0IUnknown@@QAA@XZ        7700426c   datatran.obj
+ 0002:00000278       ??_7IUnknown@@6B@          77004278   datatran.obj
+ 0002:00000284       ??_GCDataTransferClassFactory@@QAAPAXI@Z 77004284   datatran.obj
+ 0002:0000028c       ??_GCDataObject@@QAAPAXI@Z 7700428c   datatran.obj
+ 0002:00000298       ??0CDataObject@@QAA@PAUIUnknown@@P6AXXZ@Z 77004298   dataobj.obj
+ 0002:000002a0       ?QueryInterface@CDataObject@@UAAJABU_GUID@@PAPAX@Z 770042a0   dataobj.obj
+ 0002:000002a8       ?AddRef@CDataObject@@UAAKXZ 770042a8   dataobj.obj
+ 0002:000002b0       ?Release@CDataObject@@UAAKXZ 770042b0   dataobj.obj
+ 0002:000002b8       ??1CDataObject@@QAA@XZ     770042b8   dataobj.obj
+ 0002:000002c0       ?FInit@CDataObject@@QAAHXZ 770042c0   dataobj.obj
+ 0002:000002c8       ?Purge@CDataObject@@QAAXXZ 770042c8   dataobj.obj
+ 0002:000002d0       ??_7CDataObject@@6B@       770042d0   dataobj.obj
+ 0002:000002dc       ??_GCImpIDataObject@@QAAPAXI@Z 770042dc   dataobj.obj
+ 0002:000002e8       ??0CImpIDataObject@@QAA@PAVCDataObject@@PAUIUnknown@@@Z 770042e8   idataobj.obj
+ 0002:000002f0       ?QueryInterface@CImpIDataObject@@UAAJABU_GUID@@PAPAX@Z 770042f0   idataobj.obj
+ 0002:000002f8       ?AddRef@CImpIDataObject@@UAAKXZ 770042f8   idataobj.obj
+ 0002:00000300       ?Release@CImpIDataObject@@UAAKXZ 77004300   idataobj.obj
+ 0002:00000308       ?GetData@CImpIDataObject@@UAAJPAUtagFORMATETC@@PAUtagSTGMEDIUM@@@Z 77004308   idataobj.obj
+ 0002:00000310       ?GetDataHere@CImpIDataObject@@UAAJPAUtagFORMATETC@@PAUtagSTGMEDIUM@@@Z 77004310   idataobj.obj
+ 0002:00000318       ?QueryGetData@CImpIDataObject@@UAAJPAUtagFORMATETC@@@Z 77004318   idataobj.obj
+ 0002:00000320       ?GetCanonicalFormatEtc@CImpIDataObject@@UAAJPAUtagFORMATETC@@0@Z 77004320   idataobj.obj
+ 0002:00000328       ?SetData@CImpIDataObject@@UAAJPAUtagFORMATETC@@PAUtagSTGMEDIUM@@H@Z 77004328   idataobj.obj
+ 0002:00000330       ?EnumFormatEtc@CImpIDataObject@@UAAJKPAPAUIEnumFORMATETC@@@Z 77004330   idataobj.obj
+ 0002:00000338       ?DAdvise@CImpIDataObject@@UAAJPAUtagFORMATETC@@KPAUIAdviseSink@@PAK@Z 77004338   idataobj.obj
+ 0002:00000340       ?DUnadvise@CImpIDataObject@@UAAJK@Z 77004340   idataobj.obj
+ 0002:00000348       ?EnumDAdvise@CImpIDataObject@@UAAJPAPAUIEnumSTATDATA@@@Z 77004348   idataobj.obj
+ 0002:00000350       ??1CImpIDataObject@@QAA@XZ 77004350   idataobj.obj
+ 0002:00000358       ??_7CImpIDataObject@@6B@   77004358   idataobj.obj
+ 0002:00000388       ??0IDataObject@@QAA@XZ     77004388   idataobj.obj
+ 0002:00000390       ??_7IDataObject@@6B@       77004390   idataobj.obj
+ 0002:000003c0       ??_GCEnumFormatEtc@@QAAPAXI@Z 770043c0   idataobj.obj
+ 0002:000003c8       ??0CEnumFormatEtc@@QAA@PAUIUnknown@@@Z 770043c8   ienumfe.obj
+ 0002:000003d0       ?QueryInterface@CEnumFormatEtc@@UAAJABU_GUID@@PAPAX@Z 770043d0   ienumfe.obj
+ 0002:000003d8       ?AddRef@CEnumFormatEtc@@UAAKXZ 770043d8   ienumfe.obj
+ 0002:000003e0       ?Release@CEnumFormatEtc@@UAAKXZ 770043e0   ienumfe.obj
+ 0002:000003e8       ?Next@CEnumFormatEtc@@UAAJKPAUtagFORMATETC@@PAK@Z 770043e8   ienumfe.obj
+ 0002:000003f0       ?Skip@CEnumFormatEtc@@UAAJK@Z 770043f0   ienumfe.obj
+ 0002:000003f8       ?Reset@CEnumFormatEtc@@UAAJXZ 770043f8   ienumfe.obj
+ 0002:00000400       ?Clone@CEnumFormatEtc@@UAAJPAPAUIEnumFORMATETC@@@Z 77004400   ienumfe.obj
+ 0002:00000408       ??1CEnumFormatEtc@@QAA@XZ  77004408   ienumfe.obj
+ 0002:00000410       ?FInit@CEnumFormatEtc@@QAAHPAUHWND__@@@Z 77004410   ienumfe.obj
+ 0002:00000418       ??_7CEnumFormatEtc@@6B@    77004418   ienumfe.obj
+ 0002:00000434       ??0IEnumFORMATETC@@QAA@XZ  77004434   ienumfe.obj
+ 0002:00000440       ??_7IEnumFORMATETC@@6B@    77004440   ienumfe.obj
+ 0002:00000460       ReleaseStgMedium           77004460   ole32:ole32.dll
+ 0002:00000468       CoGetMalloc                77004468   ole32:ole32.dll
+ 0002:00000470       IID_IClassFactory          77004470   uuid:unknwn_i_guid1.obj
+ 0002:00000480       IID_IUnknown               77004480   uuid:unknwn_i_guid0.obj
+ 0002:00000490       IID_IDataObject            77004490   uuid:objidl_i_guid28.obj
+ 0002:000004a0       IID_IEnumFORMATETC         770044a0   uuid:objidl_i_guid23.obj
+ 0002:000004b0       _CRT_INIT                  770044b0   msvcrt:crtdll.obj
+ 0002:000004b8       _DllMainCRTStartup         770044b8   msvcrt:crtdll.obj
+ 0002:000004c0       ??2@YAPAXI@Z               770044c0   msvcrt:MSVCRT40.dll
+ 0002:000004c8       memcmp                     770044c8   msvcrt:MSVCRT40.dll
+ 0002:000004d0       _purecall                  770044d0   msvcrt:MSVCRT40.dll
+ 0002:000004d8       ??3@YAXPAX@Z               770044d8   msvcrt:MSVCRT40.dll
+ 0002:000004e0       memcpy                     770044e0   msvcrt:MSVCRT40.dll
+ 0002:000004e8       free                       770044e8   msvcrt:MSVCRT40.dll
+ 0002:000004f0       _initterm                  770044f0   msvcrt:MSVCRT40.dll
+ 0002:000004f8       _onexit                    770044f8   msvcrt:atonexit.obj
+ 0002:00000500       atexit                     77004500   msvcrt:atonexit.obj
+ 0002:00000508       malloc                     77004508   msvcrt:MSVCRT40.dll
+ 0002:00000510       DllMain                    77004510   msvcrt:dllmain.obj
+ 0002:00000518       __dllonexit                77004518   msvcrt:MSVCRT40.dll
+ 0002:00000520       DisableThreadLibraryCalls  77004520   kernel32:KERNEL32.dll
+ 0002:00000528       DestroyWindow              77004528   user32:USER32.dll
+ 0002:00000530       CreateWindowExA            77004530   user32:USER32.dll
+ 0002:00000538       SendMessageA               77004538   user32:USER32.dll
+ 0003:00000000       __xc_a                     77005000   msvcrt:cinitexe.obj
+ 0003:00000008       __xc_z                     77005008   msvcrt:cinitexe.obj
+ 0003:00000010       __xi_a                     77005010   msvcrt:cinitexe.obj
+ 0003:00000018       __xi_z                     77005018   msvcrt:cinitexe.obj
+ 0003:00000020       ?g_cObj@@3KA               77005020   datatran.obj
+ 0003:00000024       ?g_cLock@@3KA              77005024   datatran.obj
+ 0003:00000028       ?g_hInst@@3PAUHINSTANCE__@@A 77005028   datatran.obj
+ 0003:0000004c       __onexitend                7700504c   <common>
+ 0003:00000050       __onexitbegin              77005050   <common>
+ 0003:00000054       _pRawDllMain               77005054   <common>
+ 0005:00000000       __IMPORT_DESCRIPTOR_ole32  77007000   ole32:ole32.dll
+ 0005:00000014       __IMPORT_DESCRIPTOR_MSVCRT40 77007014   msvcrt:MSVCRT40.dll
+ 0005:00000028       __IMPORT_DESCRIPTOR_KERNEL32 77007028   kernel32:KERNEL32.dll
+ 0005:0000003c       __IMPORT_DESCRIPTOR_USER32 7700703c   user32:USER32.dll
+ 0005:00000050       __NULL_IMPORT_DESCRIPTOR   77007050   ole32:ole32.dll
+ 0005:00000138       __imp_DisableThreadLibraryCalls 77007138   kernel32:KERNEL32.dll
+ 0005:0000013c       \177KERNEL32_NULL_THUNK_DATA 7700713c   kernel32:KERNEL32.dll
+ 0005:00000140       __imp_malloc               77007140   msvcrt:MSVCRT40.dll
+ 0005:00000144       __imp_??2@YAPAXI@Z         77007144   msvcrt:MSVCRT40.dll
+ 0005:00000148       __imp_memcmp               77007148   msvcrt:MSVCRT40.dll
+ 0005:0000014c       __imp__purecall            7700714c   msvcrt:MSVCRT40.dll
+ 0005:00000150       __imp_??3@YAXPAX@Z         77007150   msvcrt:MSVCRT40.dll
+ 0005:00000154       __imp_memcpy               77007154   msvcrt:MSVCRT40.dll
+ 0005:00000158       __imp_free                 77007158   msvcrt:MSVCRT40.dll
+ 0005:0000015c       __imp__initterm            7700715c   msvcrt:MSVCRT40.dll
+ 0005:00000160       __imp___dllonexit          77007160   msvcrt:MSVCRT40.dll
+ 0005:00000164       __imp__onexit              77007164   msvcrt:MSVCRT40.dll
+ 0005:00000168       \177MSVCRT40_NULL_THUNK_DATA 77007168   msvcrt:MSVCRT40.dll
+ 0005:0000016c       __imp_CreateWindowExA      7700716c   user32:USER32.dll
+ 0005:00000170       __imp_DestroyWindow        77007170   user32:USER32.dll
+ 0005:00000174       __imp_SendMessageA         77007174   user32:USER32.dll
+ 0005:00000178       \177USER32_NULL_THUNK_DATA 77007178   user32:USER32.dll
+ 0005:0000017c       __imp_ReleaseStgMedium     7700717c   ole32:ole32.dll
+ 0005:00000180       __imp_CoGetMalloc          77007180   ole32:ole32.dll
+ 0005:00000184       \177ole32_NULL_THUNK_DATA  77007184   ole32:ole32.dll
+ 0005:000080b4       .toc                       7700f0b4   <linker-defined>
+
+ entry point at        0002:000004b8
+
+ Static symbols
+
+
+ Offset   Rva+Base   Publics by TOC Offset
+
+  8000    770070b4   ??_7CEnumFormatEtc@@6B@
+  8004    770070b8   __imp_CoGetMalloc
+  8008    770070bc   __imp_SendMessageA
+  800c    770070c0   IID_IUnknown
+  8010    770070c4   IID_IEnumFORMATETC
+  8014    770070c8   ??_7IEnumFORMATETC@@6B@
+  8018    770070cc   ??_7CImpIDataObject@@6B@
+  801c    770070d0   ??_7IDataObject@@6B@
+  8020    770070d4   ??_7CDataObject@@6B@
+  8024    770070d8   __imp_DestroyWindow
+  802c    770070e0   ?g_hInst@@3PAUHINSTANCE__@@A
+  8030    770070e4   __imp_CreateWindowExA
+  8034    770070e8   __imp_ReleaseStgMedium
+  8038    770070ec   IID_IDataObject
+  803c    770070f0   IID_IClassFactory
+  8040    770070f4   CLSID_DataTransferObject
+  8044    770070f8   ?g_cObj@@3KA
+  8048    770070fc   ?g_cLock@@3KA
+  804c    77007100   ??_7CDataTransferClassFactory@@6B@
+  8050    77007104   ?ObjectDestroyed@@YAXXZ
+  8054    77007108   ??_7IClassFactory@@6B@
+  8058    7700710c   ??_7IUnknown@@6B@
+  805c    77007110   _pRawDllMain
+  8060    77007114   __imp_DisableThreadLibraryCalls
+  8064    77007118   __onexitbegin
+  8068    7700711c   __imp__onexit
+  806c    77007120   __onexitend
+  8074    77007128   __imp_malloc
+  8078    7700712c   __xc_a
+  807c    77007130   __xc_z
+  8080    77007134   __imp_free
+

@@ -1,0 +1,234 @@
+ dkoala
+
+ Timestamp is 641730d5 (Sun Mar 19 10:57:09 2023)
+
+ Preferred load address is 77000000
+
+ Start         Length     Name                   Class
+ 0001:00000000 000013c8H .text                   CODE
+ 0002:00000000 000003d0H .rdata                  DATA
+ 0002:000003d0 00000069H .edata                  DATA
+ 0003:00000000 00000004H .CRT$XCA                DATA
+ 0003:00000008 00000004H .CRT$XCZ                DATA
+ 0003:00000010 00000004H .CRT$XIA                DATA
+ 0003:00000018 00000004H .CRT$XIZ                DATA
+ 0003:00000020 0000000cH .data                   DATA
+ 0003:0000002c 0000000cH .bss                    DATA
+ 0004:00000000 00000384H .pdata                  DATA
+ 0005:00000000 00000014H .idata$2                DATA
+ 0005:00000014 00000014H .idata$3                DATA
+ 0005:00000028 00000028H .idata$4                DATA
+ 0005:00000050 0000005cH .idata$4toc             DATA
+ 0005:000000ac 00000028H .idata$5                DATA
+ 0005:000000d4 0000007aH .idata$6                DATA
+ 0006:00000000 00000058H .rsrc$01                DATA
+ 0006:00000060 00000540H .rsrc$02                DATA
+
+  Address         Publics by Value              Rva+Base   Lib:Object
+
+ 0001:00000000       ..DllMain                  77001000 f dkoala.obj
+ 0001:00000038       ..DllGetClassObject        77001038 f dkoala.obj
+ 0001:00000168       ..DllCanUnloadNow          77001168 f dkoala.obj
+ 0001:000001c8       ..?ObjectDestroyed@@YAXXZ  770011c8 f dkoala.obj
+ 0001:000001fc       ..??0CKoalaClassFactory@@QAA@XZ 770011fc f dkoala.obj
+ 0001:00000250       ..??1CKoalaClassFactory@@QAA@XZ 77001250 f dkoala.obj
+ 0001:00000280       ..?QueryInterface@CKoalaClassFactory@@UAAJABU_GUID@@PAPAX@Z 77001280 f dkoala.obj
+ 0001:00000358       ..?AddRef@CKoalaClassFactory@@UAAKXZ 77001358 f dkoala.obj
+ 0001:0000039c       ..?Release@CKoalaClassFactory@@UAAKXZ 7700139c f dkoala.obj
+ 0001:0000041c       ..?CreateInstance@CKoalaClassFactory@@UAAJPAUIUnknown@@ABU_GUID@@PAPAX@Z 7700141c f dkoala.obj
+ 0001:00000590       ..?LockServer@CKoalaClassFactory@@UAAJH@Z 77001590 f dkoala.obj
+ 0001:000005fc       ..??9@YAHABU_GUID@@0@Z     770015fc f dkoala.obj
+ 0001:00000650       ..??8@YAHABU_GUID@@0@Z     77001650 f dkoala.obj
+ 0001:000006ac       ..??0IClassFactory@@QAA@XZ 770016ac f dkoala.obj
+ 0001:000006f4       ..??0IUnknown@@QAA@XZ      770016f4 f dkoala.obj
+ 0001:00000734       ..??_GCKoalaClassFactory@@QAAPAXI@Z 77001734 f dkoala.obj
+ 0001:00000790       ..??_GCKoala@@QAAPAXI@Z    77001790 f dkoala.obj
+ 0001:000007f0       ..??0CKoala@@QAA@PAUIUnknown@@P6AXXZ@Z 770017f0 f koala.obj
+ 0001:00000878       ..??1CKoala@@QAA@XZ        77001878 f koala.obj
+ 0001:000008dc       ..?FInit@CKoala@@QAAHXZ    770018dc f koala.obj
+ 0001:00000990       ..?QueryInterface@CKoala@@UAAJABU_GUID@@PAPAX@Z 77001990 f koala.obj
+ 0001:00000a90       ..?AddRef@CKoala@@UAAKXZ   77001a90 f koala.obj
+ 0001:00000ad4       ..?Release@CKoala@@UAAKXZ  77001ad4 f koala.obj
+ 0001:00000b90       ..??0CImpIPersist@@QAA@PAVCKoala@@PAUIUnknown@@@Z 77001b90 f koala.obj
+ 0001:00000c0c       ..??1CImpIPersist@@QAA@XZ  77001c0c f koala.obj
+ 0001:00000c3c       ..?QueryInterface@CImpIPersist@@UAAJABU_GUID@@PAPAX@Z 77001c3c f koala.obj
+ 0001:00000cb0       ..?AddRef@CImpIPersist@@UAAKXZ 77001cb0 f koala.obj
+ 0001:00000d28       ..?Release@CImpIPersist@@UAAKXZ 77001d28 f koala.obj
+ 0001:00000da0       ..?GetClassID@CImpIPersist@@UAAJPAU_GUID@@@Z 77001da0 f koala.obj
+ 0001:00000dfc       ..??_GCImpIPersist@@QAAPAXI@Z 77001dfc f koala.obj
+ 0001:00000e58       ..??0IPersist@@QAA@XZ      77001e58 f koala.obj
+ 0001:00000ea0       .._CRT_INIT                77001ea0 f msvcrt:crtdll.obj
+ 0001:0000101c       .._DllMainCRTStartup       7700201c f msvcrt:crtdll.obj
+ 0001:00001170       ..??2@YAPAXI@Z             77002170 f msvcrt:MSVCRT40.dll
+ 0001:00001188       ..memcmp                   77002188 f msvcrt:MSVCRT40.dll
+ 0001:000011a0       .._purecall                770021a0 f msvcrt:MSVCRT40.dll
+ 0001:000011b8       ..??3@YAXPAX@Z             770021b8 f msvcrt:MSVCRT40.dll
+ 0001:000011d0       ..__restgpr_All            770021d0 f msvcrt:restgpr.obj
+ 0001:00001204       ..__restgpr_14             77002204   msvcrt:restgpr.obj
+ 0001:00001208       ..__restgpr_15             77002208   msvcrt:restgpr.obj
+ 0001:0000120c       ..__restgpr_16             7700220c   msvcrt:restgpr.obj
+ 0001:00001210       ..__restgpr_17             77002210   msvcrt:restgpr.obj
+ 0001:00001214       ..__restgpr_18             77002214   msvcrt:restgpr.obj
+ 0001:00001218       ..__restgpr_19             77002218   msvcrt:restgpr.obj
+ 0001:0000121c       ..__restgpr_20             7700221c   msvcrt:restgpr.obj
+ 0001:00001220       ..__restgpr_21             77002220   msvcrt:restgpr.obj
+ 0001:00001224       ..__restgpr_22             77002224   msvcrt:restgpr.obj
+ 0001:00001228       ..__restgpr_23             77002228   msvcrt:restgpr.obj
+ 0001:0000122c       ..__restgpr_24             7700222c   msvcrt:restgpr.obj
+ 0001:00001230       ..__restgpr_25             77002230   msvcrt:restgpr.obj
+ 0001:00001234       ..__restgpr_26             77002234   msvcrt:restgpr.obj
+ 0001:00001238       ..__restgpr_27             77002238   msvcrt:restgpr.obj
+ 0001:0000123c       ..__restgpr_28             7700223c   msvcrt:restgpr.obj
+ 0001:00001240       ..__restgpr_29             77002240   msvcrt:restgpr.obj
+ 0001:00001244       ..__restgpr_30             77002244   msvcrt:restgpr.obj
+ 0001:00001248       ..__restgpr_31             77002248   msvcrt:restgpr.obj
+ 0001:00001250       ..free                     77002250 f msvcrt:MSVCRT40.dll
+ 0001:00001268       .._initterm                77002268 f msvcrt:MSVCRT40.dll
+ 0001:00001280       .._onexit                  77002280 f msvcrt:atonexit.obj
+ 0001:000012e8       ..atexit                   770022e8 f msvcrt:atonexit.obj
+ 0001:00001318       ..malloc                   77002318 f msvcrt:MSVCRT40.dll
+ 0001:00001330       ..__savegpr_All            77002330 f msvcrt:savegpr.obj
+ 0001:00001364       ..__savegpr_14             77002364   msvcrt:savegpr.obj
+ 0001:00001368       ..__savegpr_15             77002368   msvcrt:savegpr.obj
+ 0001:0000136c       ..__savegpr_16             7700236c   msvcrt:savegpr.obj
+ 0001:00001370       ..__savegpr_17             77002370   msvcrt:savegpr.obj
+ 0001:00001374       ..__savegpr_18             77002374   msvcrt:savegpr.obj
+ 0001:00001378       ..__savegpr_19             77002378   msvcrt:savegpr.obj
+ 0001:0000137c       ..__savegpr_20             7700237c   msvcrt:savegpr.obj
+ 0001:00001380       ..__savegpr_21             77002380   msvcrt:savegpr.obj
+ 0001:00001384       ..__savegpr_22             77002384   msvcrt:savegpr.obj
+ 0001:00001388       ..__savegpr_23             77002388   msvcrt:savegpr.obj
+ 0001:0000138c       ..__savegpr_24             7700238c   msvcrt:savegpr.obj
+ 0001:00001390       ..__savegpr_25             77002390   msvcrt:savegpr.obj
+ 0001:00001394       ..__savegpr_26             77002394   msvcrt:savegpr.obj
+ 0001:00001398       ..__savegpr_27             77002398   msvcrt:savegpr.obj
+ 0001:0000139c       ..__savegpr_28             7700239c   msvcrt:savegpr.obj
+ 0001:000013a0       ..__savegpr_29             770023a0   msvcrt:savegpr.obj
+ 0001:000013a4       ..__savegpr_30             770023a4   msvcrt:savegpr.obj
+ 0001:000013a8       ..__savegpr_31             770023a8   msvcrt:savegpr.obj
+ 0001:000013b0       ..__dllonexit              770023b0 f msvcrt:MSVCRT40.dll
+ 0002:00000098       CLSID_Koala                77003098   dkoala.obj
+ 0002:000000a8       CLSID_Polyline4            770030a8   dkoala.obj
+ 0002:000000b8       IID_IPolyline4             770030b8   dkoala.obj
+ 0002:000000c8       IID_IPolylineAdviseSink4   770030c8   dkoala.obj
+ 0002:000000d8       CLSID_PatronPages          770030d8   dkoala.obj
+ 0002:000000e8       CLSID_Cosmo2Figure         770030e8   dkoala.obj
+ 0002:000000f8       CLSID_Polyline5            770030f8   dkoala.obj
+ 0002:00000108       IID_IPolyline5             77003108   dkoala.obj
+ 0002:00000118       IID_IPolylineAdviseSink5   77003118   dkoala.obj
+ 0002:00000128       CLSID_DataObjectSmall      77003128   dkoala.obj
+ 0002:00000138       CLSID_DataObjectMedium     77003138   dkoala.obj
+ 0002:00000148       CLSID_DataObjectLarge      77003148   dkoala.obj
+ 0002:00000158       CLSID_Polyline6            77003158   dkoala.obj
+ 0002:00000168       IID_IPolyline6             77003168   dkoala.obj
+ 0002:00000178       IID_IPolylineAdviseSink6   77003178   dkoala.obj
+ 0002:00000188       CLSID_DataTransferObject   77003188   dkoala.obj
+ 0002:00000198       CLSID_Polyline11           77003198   dkoala.obj
+ 0002:000001a8       CLSID_LinksAssistant       770031a8   dkoala.obj
+ 0002:000001b8       IID_IOleUILinkContainer    770031b8   dkoala.obj
+ 0002:000001c8       DllMain                    770031c8   dkoala.obj
+ 0002:000001d0       DllGetClassObject          770031d0   dkoala.obj
+ 0002:000001d8       DllCanUnloadNow            770031d8   dkoala.obj
+ 0002:000001e0       ?ObjectDestroyed@@YAXXZ    770031e0   dkoala.obj
+ 0002:000001e8       ??0CKoalaClassFactory@@QAA@XZ 770031e8   dkoala.obj
+ 0002:000001f0       ?QueryInterface@CKoalaClassFactory@@UAAJABU_GUID@@PAPAX@Z 770031f0   dkoala.obj
+ 0002:000001f8       ?AddRef@CKoalaClassFactory@@UAAKXZ 770031f8   dkoala.obj
+ 0002:00000200       ?Release@CKoalaClassFactory@@UAAKXZ 77003200   dkoala.obj
+ 0002:00000208       ?CreateInstance@CKoalaClassFactory@@UAAJPAUIUnknown@@ABU_GUID@@PAPAX@Z 77003208   dkoala.obj
+ 0002:00000210       ?LockServer@CKoalaClassFactory@@UAAJH@Z 77003210   dkoala.obj
+ 0002:00000218       ??1CKoalaClassFactory@@QAA@XZ 77003218   dkoala.obj
+ 0002:00000220       ??9@YAHABU_GUID@@0@Z       77003220   dkoala.obj
+ 0002:00000228       ??8@YAHABU_GUID@@0@Z       77003228   dkoala.obj
+ 0002:00000230       ??_7CKoalaClassFactory@@6B@ 77003230   dkoala.obj
+ 0002:00000244       ??0IClassFactory@@QAA@XZ   77003244   dkoala.obj
+ 0002:00000250       ??_7IClassFactory@@6B@     77003250   dkoala.obj
+ 0002:00000264       ??0IUnknown@@QAA@XZ        77003264   dkoala.obj
+ 0002:00000270       ??_7IUnknown@@6B@          77003270   dkoala.obj
+ 0002:0000027c       ??_GCKoalaClassFactory@@QAAPAXI@Z 7700327c   dkoala.obj
+ 0002:00000284       ??_GCKoala@@QAAPAXI@Z      77003284   dkoala.obj
+ 0002:00000290       ??0CKoala@@QAA@PAUIUnknown@@P6AXXZ@Z 77003290   koala.obj
+ 0002:00000298       ?QueryInterface@CKoala@@UAAJABU_GUID@@PAPAX@Z 77003298   koala.obj
+ 0002:000002a0       ?AddRef@CKoala@@UAAKXZ     770032a0   koala.obj
+ 0002:000002a8       ?Release@CKoala@@UAAKXZ    770032a8   koala.obj
+ 0002:000002b0       ??1CKoala@@QAA@XZ          770032b0   koala.obj
+ 0002:000002b8       ?FInit@CKoala@@QAAHXZ      770032b8   koala.obj
+ 0002:000002c0       ??0CImpIPersist@@QAA@PAVCKoala@@PAUIUnknown@@@Z 770032c0   koala.obj
+ 0002:000002c8       ?QueryInterface@CImpIPersist@@UAAJABU_GUID@@PAPAX@Z 770032c8   koala.obj
+ 0002:000002d0       ?AddRef@CImpIPersist@@UAAKXZ 770032d0   koala.obj
+ 0002:000002d8       ?Release@CImpIPersist@@UAAKXZ 770032d8   koala.obj
+ 0002:000002e0       ?GetClassID@CImpIPersist@@UAAJPAU_GUID@@@Z 770032e0   koala.obj
+ 0002:000002e8       ??1CImpIPersist@@QAA@XZ    770032e8   koala.obj
+ 0002:000002f0       ??_7CKoala@@6B@            770032f0   koala.obj
+ 0002:000002fc       ??_GCImpIPersist@@QAAPAXI@Z 770032fc   koala.obj
+ 0002:00000308       ??_7CImpIPersist@@6B@      77003308   koala.obj
+ 0002:00000318       ??0IPersist@@QAA@XZ        77003318   koala.obj
+ 0002:00000320       ??_7IPersist@@6B@          77003320   koala.obj
+ 0002:00000330       IID_IClassFactory          77003330   uuid:unknwn_i_guid1.obj
+ 0002:00000340       IID_IUnknown               77003340   uuid:unknwn_i_guid0.obj
+ 0002:00000350       IID_IPersistStorage        77003350   uuid:objidl_i_guid21.obj
+ 0002:00000360       IID_IPersist               77003360   uuid:objidl_i_guid11.obj
+ 0002:00000370       _CRT_INIT                  77003370   msvcrt:crtdll.obj
+ 0002:00000378       _DllMainCRTStartup         77003378   msvcrt:crtdll.obj
+ 0002:00000380       ??2@YAPAXI@Z               77003380   msvcrt:MSVCRT40.dll
+ 0002:00000388       memcmp                     77003388   msvcrt:MSVCRT40.dll
+ 0002:00000390       _purecall                  77003390   msvcrt:MSVCRT40.dll
+ 0002:00000398       ??3@YAXPAX@Z               77003398   msvcrt:MSVCRT40.dll
+ 0002:000003a0       free                       770033a0   msvcrt:MSVCRT40.dll
+ 0002:000003a8       _initterm                  770033a8   msvcrt:MSVCRT40.dll
+ 0002:000003b0       _onexit                    770033b0   msvcrt:atonexit.obj
+ 0002:000003b8       atexit                     770033b8   msvcrt:atonexit.obj
+ 0002:000003c0       malloc                     770033c0   msvcrt:MSVCRT40.dll
+ 0002:000003c8       __dllonexit                770033c8   msvcrt:MSVCRT40.dll
+ 0003:00000000       __xc_a                     77004000   msvcrt:cinitexe.obj
+ 0003:00000008       __xc_z                     77004008   msvcrt:cinitexe.obj
+ 0003:00000010       __xi_a                     77004010   msvcrt:cinitexe.obj
+ 0003:00000018       __xi_z                     77004018   msvcrt:cinitexe.obj
+ 0003:00000020       ?g_cObj@@3KA               77004020   dkoala.obj
+ 0003:00000024       ?g_cLock@@3KA              77004024   dkoala.obj
+ 0003:0000002c       __onexitend                7700402c   <common>
+ 0003:00000030       __onexitbegin              77004030   <common>
+ 0003:00000034       _pRawDllMain               77004034   <common>
+ 0005:00000000       __IMPORT_DESCRIPTOR_MSVCRT40 77006000   msvcrt:MSVCRT40.dll
+ 0005:00000014       __NULL_IMPORT_DESCRIPTOR   77006014   msvcrt:MSVCRT40.dll
+ 0005:000000ac       __imp__initterm            770060ac   msvcrt:MSVCRT40.dll
+ 0005:000000b0       __imp_memcmp               770060b0   msvcrt:MSVCRT40.dll
+ 0005:000000b4       __imp__purecall            770060b4   msvcrt:MSVCRT40.dll
+ 0005:000000b8       __imp_??3@YAXPAX@Z         770060b8   msvcrt:MSVCRT40.dll
+ 0005:000000bc       __imp_free                 770060bc   msvcrt:MSVCRT40.dll
+ 0005:000000c0       __imp_??2@YAPAXI@Z         770060c0   msvcrt:MSVCRT40.dll
+ 0005:000000c4       __imp_malloc               770060c4   msvcrt:MSVCRT40.dll
+ 0005:000000c8       __imp___dllonexit          770060c8   msvcrt:MSVCRT40.dll
+ 0005:000000cc       __imp__onexit              770060cc   msvcrt:MSVCRT40.dll
+ 0005:000000d0       \177MSVCRT40_NULL_THUNK_DATA 770060d0   msvcrt:MSVCRT40.dll
+ 0005:00008050       .toc                       7700e050   <linker-defined>
+
+ entry point at        0002:00000378
+
+ Static symbols
+
+
+ Offset   Rva+Base   Publics by TOC Offset
+
+  8000    77006050   ??_7CKoala@@6B@
+  8004    77006054   IID_IUnknown
+  8008    77006058   IID_IPersist
+  800c    7700605c   IID_IPersistStorage
+  8010    77006060   ??_7CImpIPersist@@6B@
+  8014    77006064   CLSID_Koala
+  8018    77006068   ??_7IPersist@@6B@
+  801c    7700606c   IID_IClassFactory
+  8020    77006070   ?g_cObj@@3KA
+  8024    77006074   ?g_cLock@@3KA
+  8028    77006078   ??_7CKoalaClassFactory@@6B@
+  802c    7700607c   ?ObjectDestroyed@@YAXXZ
+  8030    77006080   ??_7IClassFactory@@6B@
+  8034    77006084   ??_7IUnknown@@6B@
+  8038    77006088   __onexitbegin
+  803c    7700608c   __imp__onexit
+  8040    77006090   __onexitend
+  8048    77006098   __imp_malloc
+  804c    7700609c   __xc_a
+  8050    770060a0   __xc_z
+  8054    770060a4   __imp_free
+  8058    770060a8   _pRawDllMain
+

@@ -1,0 +1,347 @@
+ whelloc
+
+ Timestamp is 64173c2a (Sun Mar 19 11:45:30 2023)
+
+ Preferred load address is 00400000
+
+ Start         Length     Name                   Class
+ 0001:00000000 00001f1cH .text                   CODE
+ 0002:00000000 000002f8H .rdata                  DATA
+ 0002:000002f8 00000064H .xdata                  DATA
+ 0002:0000035c 00000000H .edata                  DATA
+ 0003:00000000 00000004H .CRT$XCA                DATA
+ 0003:00000008 00000004H .CRT$XCZ                DATA
+ 0003:00000010 00000004H .CRT$XIA                DATA
+ 0003:00000018 00000004H .CRT$XIZ                DATA
+ 0003:00000020 00000334H .data                   DATA
+ 0003:00000354 00000290H .bss                    DATA
+ 0004:00000000 00000564H .pdata                  DATA
+ 0005:00000000 00000064H .idata$2                DATA
+ 0005:00000064 00000014H .idata$3                DATA
+ 0005:00000078 000000d0H .idata$4                DATA
+ 0005:00000148 000000fcH .idata$4toc             DATA
+ 0005:00000244 000000d0H .idata$5                DATA
+ 0005:00000314 00000356H .idata$6                DATA
+ 0006:00000000 00000280H .rsrc$01                DATA
+ 0006:00000280 0000079cH .rsrc$02                DATA
+
+  Address         Publics by Value              Rva+Base   Lib:Object
+
+ 0001:00000000       ..WinMain                  00401000 f whelloc.obj
+ 0001:00000124       ..InitApplication          00401124 f whelloc.obj
+ 0001:00000270       ..InitInstance             00401270 f whelloc.obj
+ 0001:00000420       ..MainWndProc              00401420 f whelloc.obj
+ 0001:00000870       ..Protseq                  00401870 f whelloc.obj
+ 0001:00000a34       ..Server                   00401a34 f whelloc.obj
+ 0001:00000c40       ..About                    00401c40 f whelloc.obj
+ 0001:00000d08       ..Endpoint                 00401d08 f whelloc.obj
+ 0001:00000f14       ..Send                     00401f14 f whelloc.obj
+ 0001:0000115c       ..MIDL_user_allocate       0040215c f whelloc.obj
+ 0001:0000118c       ..MIDL_user_free           0040218c f whelloc.obj
+ 0001:000011b0       ..Bind                     004021b0 f whelloc.obj
+ 0001:0000146c       ..HelloProc                0040246c f whello_c.obj
+ 0001:000015a8       ..Shutdown                 004025a8 f whello_c.obj
+ 0001:0000169c       ..RpcBindingFromStringBindingA 0040269c f rpcrt4:RPCRT4.dll
+ 0001:000016b4       ..RpcStringBindingComposeA 004026b4 f rpcrt4:RPCRT4.dll
+ 0001:000016cc       ..RpcBindingFree           004026cc f rpcrt4:RPCRT4.dll
+ 0001:000016e4       ..RpcStringFreeA           004026e4 f rpcrt4:RPCRT4.dll
+ 0001:000016fc       ..NdrFreeBuffer            004026fc f rpcrt4:RPCRT4.dll
+ 0001:00001714       ..NdrSendReceive           00402714 f rpcrt4:RPCRT4.dll
+ 0001:0000172c       ..NdrConformantStringMarshall 0040272c f rpcrt4:RPCRT4.dll
+ 0001:00001744       ..NdrGetBuffer             00402744 f rpcrt4:RPCRT4.dll
+ 0001:0000175c       ..NdrConformantStringBufferSize 0040275c f rpcrt4:RPCRT4.dll
+ 0001:00001774       ..NdrClientInitializeNew   00402774 f rpcrt4:RPCRT4.dll
+ 0001:0000178c       ..strcpy                   0040278c f msvcrt:MSVCRT40.dll
+ 0001:000017a4       ..__C_specific_handler     004027a4 f msvcrt:MSVCRT40.dll
+ 0001:000017c0       ..__restgpr_All            004027c0 f msvcrt:restgpr.obj
+ 0001:000017f4       ..__restgpr_14             004027f4   msvcrt:restgpr.obj
+ 0001:000017f8       ..__restgpr_15             004027f8   msvcrt:restgpr.obj
+ 0001:000017fc       ..__restgpr_16             004027fc   msvcrt:restgpr.obj
+ 0001:00001800       ..__restgpr_17             00402800   msvcrt:restgpr.obj
+ 0001:00001804       ..__restgpr_18             00402804   msvcrt:restgpr.obj
+ 0001:00001808       ..__restgpr_19             00402808   msvcrt:restgpr.obj
+ 0001:0000180c       ..__restgpr_20             0040280c   msvcrt:restgpr.obj
+ 0001:00001810       ..__restgpr_21             00402810   msvcrt:restgpr.obj
+ 0001:00001814       ..__restgpr_22             00402814   msvcrt:restgpr.obj
+ 0001:00001818       ..__restgpr_23             00402818   msvcrt:restgpr.obj
+ 0001:0000181c       ..__restgpr_24             0040281c   msvcrt:restgpr.obj
+ 0001:00001820       ..__restgpr_25             00402820   msvcrt:restgpr.obj
+ 0001:00001824       ..__restgpr_26             00402824   msvcrt:restgpr.obj
+ 0001:00001828       ..__restgpr_27             00402828   msvcrt:restgpr.obj
+ 0001:0000182c       ..__restgpr_28             0040282c   msvcrt:restgpr.obj
+ 0001:00001830       ..__restgpr_29             00402830   msvcrt:restgpr.obj
+ 0001:00001834       ..__restgpr_30             00402834   msvcrt:restgpr.obj
+ 0001:00001838       ..__restgpr_31             00402838   msvcrt:restgpr.obj
+ 0001:00001840       ..sprintf                  00402840 f msvcrt:MSVCRT40.dll
+ 0001:00001858       ..WinMainCRTStartup        00402858 f msvcrt:crtexew.obj
+ 0001:00001b24       .._matherr                 00402b24 f msvcrt:merr.obj
+ 0001:00001b30       ..__savegpr_All            00402b30 f msvcrt:savegpr.obj
+ 0001:00001b64       ..__savegpr_14             00402b64   msvcrt:savegpr.obj
+ 0001:00001b68       ..__savegpr_15             00402b68   msvcrt:savegpr.obj
+ 0001:00001b6c       ..__savegpr_16             00402b6c   msvcrt:savegpr.obj
+ 0001:00001b70       ..__savegpr_17             00402b70   msvcrt:savegpr.obj
+ 0001:00001b74       ..__savegpr_18             00402b74   msvcrt:savegpr.obj
+ 0001:00001b78       ..__savegpr_19             00402b78   msvcrt:savegpr.obj
+ 0001:00001b7c       ..__savegpr_20             00402b7c   msvcrt:savegpr.obj
+ 0001:00001b80       ..__savegpr_21             00402b80   msvcrt:savegpr.obj
+ 0001:00001b84       ..__savegpr_22             00402b84   msvcrt:savegpr.obj
+ 0001:00001b88       ..__savegpr_23             00402b88   msvcrt:savegpr.obj
+ 0001:00001b8c       ..__savegpr_24             00402b8c   msvcrt:savegpr.obj
+ 0001:00001b90       ..__savegpr_25             00402b90   msvcrt:savegpr.obj
+ 0001:00001b94       ..__savegpr_26             00402b94   msvcrt:savegpr.obj
+ 0001:00001b98       ..__savegpr_27             00402b98   msvcrt:savegpr.obj
+ 0001:00001b9c       ..__savegpr_28             00402b9c   msvcrt:savegpr.obj
+ 0001:00001ba0       ..__savegpr_29             00402ba0   msvcrt:savegpr.obj
+ 0001:00001ba4       ..__savegpr_30             00402ba4   msvcrt:savegpr.obj
+ 0001:00001ba8       ..__savegpr_31             00402ba8   msvcrt:savegpr.obj
+ 0001:00001bb0       .._exit                    00402bb0 f msvcrt:MSVCRT40.dll
+ 0001:00001bc8       .._XcptFilter              00402bc8 f msvcrt:MSVCRT40.dll
+ 0001:00001be0       ..exit                     00402be0 f msvcrt:MSVCRT40.dll
+ 0001:00001bf8       ..__getmainargs            00402bf8 f msvcrt:MSVCRT40.dll
+ 0001:00001c10       .._initterm                00402c10 f msvcrt:MSVCRT40.dll
+ 0001:00001c28       ..__setusermatherr         00402c28 f msvcrt:MSVCRT40.dll
+ 0001:00001c40       .._setargv                 00402c40 f msvcrt:dllargv.obj
+ 0001:00001c44       .._onexit                  00402c44 f msvcrt:atonexit.obj
+ 0001:00001cac       ..atexit                   00402cac f msvcrt:atonexit.obj
+ 0001:00001cdc       ..__set_app_type           00402cdc f msvcrt:MSVCRT40.dll
+ 0001:00001cf4       ..__dllonexit              00402cf4 f msvcrt:MSVCRT40.dll
+ 0001:00001d0c       ..GetModuleHandleA         00402d0c f kernel32:KERNEL32.dll
+ 0001:00001d24       ..GetStartupInfoA          00402d24 f kernel32:KERNEL32.dll
+ 0001:00001d3c       ..DispatchMessageA         00402d3c f user32:USER32.dll
+ 0001:00001d54       ..TranslateMessage         00402d54 f user32:USER32.dll
+ 0001:00001d6c       ..GetMessageA              00402d6c f user32:USER32.dll
+ 0001:00001d84       ..RegisterClassA           00402d84 f user32:USER32.dll
+ 0001:00001d9c       ..LoadCursorA              00402d9c f user32:USER32.dll
+ 0001:00001db4       ..LoadIconA                00402db4 f user32:USER32.dll
+ 0001:00001dcc       ..UpdateWindow             00402dcc f user32:USER32.dll
+ 0001:00001de4       ..ShowWindow               00402de4 f user32:USER32.dll
+ 0001:00001dfc       ..CreateWindowExA          00402dfc f user32:USER32.dll
+ 0001:00001e14       ..PostQuitMessage          00402e14 f user32:USER32.dll
+ 0001:00001e2c       ..DefWindowProcA           00402e2c f user32:USER32.dll
+ 0001:00001e44       ..MessageBoxA              00402e44 f user32:USER32.dll
+ 0001:00001e5c       ..DestroyWindow            00402e5c f user32:USER32.dll
+ 0001:00001e74       ..DialogBoxParamA          00402e74 f user32:USER32.dll
+ 0001:00001e8c       ..PostMessageA             00402e8c f user32:USER32.dll
+ 0001:00001ea4       ..GetDlgItemTextA          00402ea4 f user32:USER32.dll
+ 0001:00001ebc       ..EndDialog                00402ebc f user32:USER32.dll
+ 0001:00001ed4       ..SetDlgItemTextA          00402ed4 f user32:USER32.dll
+ 0001:00001eec       ..SetCursor                00402eec f user32:USER32.dll
+ 0001:00001f04       ..GetStockObject           00402f04 f gdi32:GDI32.dll
+ 0002:00000058       WinMain                    00403058   whelloc.obj
+ 0002:00000060       InitApplication            00403060   whelloc.obj
+ 0002:00000068       MainWndProc                00403068   whelloc.obj
+ 0002:00000070       InitInstance               00403070   whelloc.obj
+ 0002:00000078       About                      00403078   whelloc.obj
+ 0002:00000080       Protseq                    00403080   whelloc.obj
+ 0002:00000088       Server                     00403088   whelloc.obj
+ 0002:00000090       Endpoint                   00403090   whelloc.obj
+ 0002:00000098       Send                       00403098   whelloc.obj
+ 0002:000000a0       MIDL_user_allocate         004030a0   whelloc.obj
+ 0002:000000a8       MIDL_user_free             004030a8   whelloc.obj
+ 0002:000000b0       Bind                       004030b0   whelloc.obj
+ 0002:00000168       HelloProc                  00403168   whello_c.obj
+ 0002:00000170       Shutdown                   00403170   whello_c.obj
+ 0002:00000178       RpcBindingFromStringBindingA 00403178   rpcrt4:RPCRT4.dll
+ 0002:00000180       RpcStringBindingComposeA   00403180   rpcrt4:RPCRT4.dll
+ 0002:00000188       RpcBindingFree             00403188   rpcrt4:RPCRT4.dll
+ 0002:00000190       RpcStringFreeA             00403190   rpcrt4:RPCRT4.dll
+ 0002:00000198       NdrFreeBuffer              00403198   rpcrt4:RPCRT4.dll
+ 0002:000001a0       NdrSendReceive             004031a0   rpcrt4:RPCRT4.dll
+ 0002:000001a8       NdrConformantStringMarshall 004031a8   rpcrt4:RPCRT4.dll
+ 0002:000001b0       NdrGetBuffer               004031b0   rpcrt4:RPCRT4.dll
+ 0002:000001b8       NdrConformantStringBufferSize 004031b8   rpcrt4:RPCRT4.dll
+ 0002:000001c0       NdrClientInitializeNew     004031c0   rpcrt4:RPCRT4.dll
+ 0002:000001c8       strcpy                     004031c8   msvcrt:MSVCRT40.dll
+ 0002:000001d0       __C_specific_handler       004031d0   msvcrt:MSVCRT40.dll
+ 0002:000001d8       sprintf                    004031d8   msvcrt:MSVCRT40.dll
+ 0002:000001e0       WinMainCRTStartup          004031e0   msvcrt:crtexew.obj
+ 0002:000001e8       _matherr                   004031e8   msvcrt:merr.obj
+ 0002:000001f0       _exit                      004031f0   msvcrt:MSVCRT40.dll
+ 0002:000001f8       _XcptFilter                004031f8   msvcrt:MSVCRT40.dll
+ 0002:00000200       exit                       00403200   msvcrt:MSVCRT40.dll
+ 0002:00000208       __getmainargs              00403208   msvcrt:MSVCRT40.dll
+ 0002:00000210       _initterm                  00403210   msvcrt:MSVCRT40.dll
+ 0002:00000218       __setusermatherr           00403218   msvcrt:MSVCRT40.dll
+ 0002:00000220       _setargv                   00403220   msvcrt:dllargv.obj
+ 0002:00000228       _onexit                    00403228   msvcrt:atonexit.obj
+ 0002:00000230       atexit                     00403230   msvcrt:atonexit.obj
+ 0002:00000238       __set_app_type             00403238   msvcrt:MSVCRT40.dll
+ 0002:00000240       __dllonexit                00403240   msvcrt:MSVCRT40.dll
+ 0002:00000248       GetModuleHandleA           00403248   kernel32:KERNEL32.dll
+ 0002:00000250       GetStartupInfoA            00403250   kernel32:KERNEL32.dll
+ 0002:00000258       DispatchMessageA           00403258   user32:USER32.dll
+ 0002:00000260       TranslateMessage           00403260   user32:USER32.dll
+ 0002:00000268       GetMessageA                00403268   user32:USER32.dll
+ 0002:00000270       RegisterClassA             00403270   user32:USER32.dll
+ 0002:00000278       LoadCursorA                00403278   user32:USER32.dll
+ 0002:00000280       LoadIconA                  00403280   user32:USER32.dll
+ 0002:00000288       UpdateWindow               00403288   user32:USER32.dll
+ 0002:00000290       ShowWindow                 00403290   user32:USER32.dll
+ 0002:00000298       CreateWindowExA            00403298   user32:USER32.dll
+ 0002:000002a0       PostQuitMessage            004032a0   user32:USER32.dll
+ 0002:000002a8       DefWindowProcA             004032a8   user32:USER32.dll
+ 0002:000002b0       MessageBoxA                004032b0   user32:USER32.dll
+ 0002:000002b8       DestroyWindow              004032b8   user32:USER32.dll
+ 0002:000002c0       DialogBoxParamA            004032c0   user32:USER32.dll
+ 0002:000002c8       PostMessageA               004032c8   user32:USER32.dll
+ 0002:000002d0       GetDlgItemTextA            004032d0   user32:USER32.dll
+ 0002:000002d8       EndDialog                  004032d8   user32:USER32.dll
+ 0002:000002e0       SetDlgItemTextA            004032e0   user32:USER32.dll
+ 0002:000002e8       SetCursor                  004032e8   user32:USER32.dll
+ 0002:000002f0       GetStockObject             004032f0   gdi32:GDI32.dll
+ 0003:00000000       __xc_a                     00404000   msvcrt:cinitexe.obj
+ 0003:00000008       __xc_z                     00404008   msvcrt:cinitexe.obj
+ 0003:00000010       __xi_a                     00404010   msvcrt:cinitexe.obj
+ 0003:00000018       __xi_z                     00404018   msvcrt:cinitexe.obj
+ 0003:00000020       pszUuid                    00404020   whelloc.obj
+ 0003:00000024       pszOptions                 00404024   whelloc.obj
+ 0003:00000028       pszStringBinding           00404028   whelloc.obj
+ 0003:0000002c       fBound                     0040402c   whelloc.obj
+ 0003:00000328       whello_ClientIfHandle      00404328   whello_c.obj
+ 0003:00000330       __defaultmatherr           00404330   msvcrt:merr.obj
+ 0003:00000338       _dowildcard                00404338   msvcrt:wildcard.obj
+ 0003:00000340       _newmode                   00404340   msvcrt:_newmode.obj
+ 0003:00000348       _commode                   00404348   msvcrt:xncommod.obj
+ 0003:00000350       _fmode                     00404350   msvcrt:xtxtmode.obj
+ 0003:00000354       hWHello                    00404354   <common>
+ 0003:00000358       hHourGlass                 00404358   <common>
+ 0003:00000360       pszNetworkAddress          00404360   <common>
+ 0003:00000380       pszProtocolSequence        00404380   <common>
+ 0003:000003a0       pszEndpoint                004043a0   <common>
+ 0003:000004a8       hInst                      004044a8   <common>
+ 0003:000004b0       pszString                  004044b0   <common>
+ 0003:000005dc       __onexitend                004045dc   <common>
+ 0003:000005e0       __onexitbegin              004045e0   <common>
+ 0005:00000000       __IMPORT_DESCRIPTOR_RPCRT4 00406000   rpcrt4:RPCRT4.dll
+ 0005:00000014       __IMPORT_DESCRIPTOR_MSVCRT40 00406014   msvcrt:MSVCRT40.dll
+ 0005:00000028       __IMPORT_DESCRIPTOR_KERNEL32 00406028   kernel32:KERNEL32.dll
+ 0005:0000003c       __IMPORT_DESCRIPTOR_USER32 0040603c   user32:USER32.dll
+ 0005:00000050       __IMPORT_DESCRIPTOR_GDI32  00406050   gdi32:GDI32.dll
+ 0005:00000064       __NULL_IMPORT_DESCRIPTOR   00406064   rpcrt4:RPCRT4.dll
+ 0005:00000244       __imp_GetStockObject       00406244   gdi32:GDI32.dll
+ 0005:00000248       \177GDI32_NULL_THUNK_DATA  00406248   gdi32:GDI32.dll
+ 0005:0000024c       __imp_GetStartupInfoA      0040624c   kernel32:KERNEL32.dll
+ 0005:00000250       __imp_GetModuleHandleA     00406250   kernel32:KERNEL32.dll
+ 0005:00000254       \177KERNEL32_NULL_THUNK_DATA 00406254   kernel32:KERNEL32.dll
+ 0005:00000258       __imp__onexit              00406258   msvcrt:MSVCRT40.dll
+ 0005:0000025c       __imp__XcptFilter          0040625c   msvcrt:MSVCRT40.dll
+ 0005:00000260       __imp_exit                 00406260   msvcrt:MSVCRT40.dll
+ 0005:00000264       __imp___dllonexit          00406264   msvcrt:MSVCRT40.dll
+ 0005:00000268       __imp___set_app_type       00406268   msvcrt:MSVCRT40.dll
+ 0005:0000026c       __imp_strcpy               0040626c   msvcrt:MSVCRT40.dll
+ 0005:00000270       __imp___C_specific_handler 00406270   msvcrt:MSVCRT40.dll
+ 0005:00000274       __imp_sprintf              00406274   msvcrt:MSVCRT40.dll
+ 0005:00000278       __imp__exit                00406278   msvcrt:MSVCRT40.dll
+ 0005:0000027c       __imp__commode             0040627c   msvcrt:MSVCRT40.dll
+ 0005:00000280       __imp__fmode               00406280   msvcrt:MSVCRT40.dll
+ 0005:00000284       __imp__acmdln              00406284   msvcrt:MSVCRT40.dll
+ 0005:00000288       __imp___getmainargs        00406288   msvcrt:MSVCRT40.dll
+ 0005:0000028c       __imp__initterm            0040628c   msvcrt:MSVCRT40.dll
+ 0005:00000290       __imp___setusermatherr     00406290   msvcrt:MSVCRT40.dll
+ 0005:00000294       \177MSVCRT40_NULL_THUNK_DATA 00406294   msvcrt:MSVCRT40.dll
+ 0005:00000298       __imp_NdrClientInitializeNew 00406298   rpcrt4:RPCRT4.dll
+ 0005:0000029c       __imp_NdrConformantStringBufferSize 0040629c   rpcrt4:RPCRT4.dll
+ 0005:000002a0       __imp_NdrGetBuffer         004062a0   rpcrt4:RPCRT4.dll
+ 0005:000002a4       __imp_RpcStringFreeA       004062a4   rpcrt4:RPCRT4.dll
+ 0005:000002a8       __imp_RpcBindingFromStringBindingA 004062a8   rpcrt4:RPCRT4.dll
+ 0005:000002ac       __imp_NdrSendReceive       004062ac   rpcrt4:RPCRT4.dll
+ 0005:000002b0       __imp_NdrFreeBuffer        004062b0   rpcrt4:RPCRT4.dll
+ 0005:000002b4       __imp_NdrConformantStringMarshall 004062b4   rpcrt4:RPCRT4.dll
+ 0005:000002b8       __imp_RpcStringBindingComposeA 004062b8   rpcrt4:RPCRT4.dll
+ 0005:000002bc       __imp_RpcBindingFree       004062bc   rpcrt4:RPCRT4.dll
+ 0005:000002c0       \177RPCRT4_NULL_THUNK_DATA 004062c0   rpcrt4:RPCRT4.dll
+ 0005:000002c4       __imp_DispatchMessageA     004062c4   user32:USER32.dll
+ 0005:000002c8       __imp_RegisterClassA       004062c8   user32:USER32.dll
+ 0005:000002cc       __imp_LoadCursorA          004062cc   user32:USER32.dll
+ 0005:000002d0       __imp_LoadIconA            004062d0   user32:USER32.dll
+ 0005:000002d4       __imp_UpdateWindow         004062d4   user32:USER32.dll
+ 0005:000002d8       __imp_ShowWindow           004062d8   user32:USER32.dll
+ 0005:000002dc       __imp_CreateWindowExA      004062dc   user32:USER32.dll
+ 0005:000002e0       __imp_PostQuitMessage      004062e0   user32:USER32.dll
+ 0005:000002e4       __imp_TranslateMessage     004062e4   user32:USER32.dll
+ 0005:000002e8       __imp_GetMessageA          004062e8   user32:USER32.dll
+ 0005:000002ec       __imp_DestroyWindow        004062ec   user32:USER32.dll
+ 0005:000002f0       __imp_DialogBoxParamA      004062f0   user32:USER32.dll
+ 0005:000002f4       __imp_PostMessageA         004062f4   user32:USER32.dll
+ 0005:000002f8       __imp_GetDlgItemTextA      004062f8   user32:USER32.dll
+ 0005:000002fc       __imp_EndDialog            004062fc   user32:USER32.dll
+ 0005:00000300       __imp_SetDlgItemTextA      00406300   user32:USER32.dll
+ 0005:00000304       __imp_SetCursor            00406304   user32:USER32.dll
+ 0005:00000308       __imp_DefWindowProcA       00406308   user32:USER32.dll
+ 0005:0000030c       __imp_MessageBoxA          0040630c   user32:USER32.dll
+ 0005:00000310       \177USER32_NULL_THUNK_DATA 00406310   user32:USER32.dll
+ 0005:00008148       .toc                       0040e148   <linker-defined>
+
+ entry point at        0002:000001e0
+
+ Static symbols
+
+ 0001:00001570       $L22846                    00402570 f whello_c.obj
+ 0001:00001660       $L22867                    00402660 f whello_c.obj
+ 0001:0000085c       $L23167                    0040185c f whelloc.obj
+ 0001:00001138       $L23212                    00402138 f whelloc.obj
+
+ Offset   Rva+Base   Publics by TOC Offset
+
+  8004    0040614c   hWHello
+  8008    00406150   __imp_GetMessageA
+  800c    00406154   __imp_TranslateMessage
+  8010    00406158   __imp_DispatchMessageA
+  8014    0040615c   MainWndProc
+  801c    00406164   __imp_LoadIconA
+  8020    00406168   __imp_LoadCursorA
+  8024    0040616c   __imp_GetStockObject
+  8028    00406170   __imp_RegisterClassA
+  802c    00406174   hInst
+  8030    00406178   hHourGlass
+  8034    0040617c   __imp_CreateWindowExA
+  8038    00406180   pszProtocolSequence
+  803c    00406184   pszEndpoint
+  8040    00406188   pszNetworkAddress
+  8044    0040618c   pszString
+  8048    00406190   __imp_ShowWindow
+  804c    00406194   __imp_UpdateWindow
+  8050    00406198   __imp_PostMessageA
+  8054    0040619c   About
+  8058    004061a0   __imp_DialogBoxParamA
+  805c    004061a4   Protseq
+  8060    004061a8   Server
+  8064    004061ac   Endpoint
+  8068    004061b0   Send
+  806c    004061b4   __imp_DestroyWindow
+  8070    004061b8   fBound
+  8074    004061bc   __imp_MessageBoxA
+  8078    004061c0   __imp_DefWindowProcA
+  807c    004061c4   __imp_PostQuitMessage
+  8080    004061c8   __imp_SetDlgItemTextA
+  8084    004061cc   __imp_EndDialog
+  8088    004061d0   __imp_GetDlgItemTextA
+  808c    004061d4   __imp_SetCursor
+  8090    004061d8   __imp_sprintf
+  8094    004061dc   pszStringBinding
+  8098    004061e0   pszUuid
+  809c    004061e4   pszOptions
+  80a0    004061e8   __onexitbegin
+  80a4    004061ec   __imp__onexit
+  80a8    004061f0   __onexitend
+  80ac    004061f4   __imp___set_app_type
+  80b0    004061f8   __imp__fmode
+  80b4    004061fc   _fmode
+  80b8    00406200   __imp__commode
+  80bc    00406204   _commode
+  80c0    00406208   __defaultmatherr
+  80c4    0040620c   __imp___setusermatherr
+  80c8    00406210   _matherr
+  80cc    00406214   __xi_a
+  80d0    00406218   __xi_z
+  80d4    0040621c   _newmode
+  80d8    00406220   _dowildcard
+  80dc    00406224   __imp___getmainargs
+  80e0    00406228   __xc_a
+  80e4    0040622c   __xc_z
+  80e8    00406230   __imp__acmdln
+  80ec    00406234   __imp_GetStartupInfoA
+  80f0    00406238   __imp_GetModuleHandleA
+  80f4    0040623c   __imp_exit
+  80f8    00406240   __imp__exit
+

@@ -1,0 +1,842 @@
+ mcipuzzl
+
+ Timestamp is 64174030 (Sun Mar 19 12:02:40 2023)
+
+ Preferred load address is 00400000
+
+ Start         Length     Name                   Class
+ 0001:00000000 00009df0H .text                   CODE
+ 0002:00000000 000009a0H .rdata                  DATA
+ 0002:000009a0 00000014H .xdata                  DATA
+ 0002:000009b4 00000000H .edata                  DATA
+ 0003:00000000 00000004H .CRT$XCA                DATA
+ 0003:00000008 00000004H .CRT$XCZ                DATA
+ 0003:00000010 00000004H .CRT$XIA                DATA
+ 0003:00000018 00000004H .CRT$XIZ                DATA
+ 0003:00000020 00000004H .CRT$XPA                DATA
+ 0003:00000028 00000004H .CRT$XPZ                DATA
+ 0003:00000030 00000004H .CRT$XTA                DATA
+ 0003:00000038 00000004H .CRT$XTZ                DATA
+ 0003:00000040 000009dcH .data                   DATA
+ 0003:00000a20 000003c0H .bss                    DATA
+ 0004:00000000 00001158H .pdata                  DATA
+ 0005:00000000 00000078H .idata$2                DATA
+ 0005:00000078 00000014H .idata$3                DATA
+ 0005:0000008c 00000164H .idata$4                DATA
+ 0005:000001f0 00000294H .idata$4toc             DATA
+ 0005:00000484 00000164H .idata$5                DATA
+ 0005:000005e8 000005b8H .idata$6                DATA
+ 0006:00000000 00000018H .reldata                DATA
+ 0007:00000000 000002acH .rsrc$01                DATA
+ 0007:000002b0 00000f44H .rsrc$02                DATA
+
+  Address         Publics by Value              Rva+Base   Lib:Object
+
+ 0001:00000000       ..AppAbout                 00401000 f mcipuzzl.obj
+ 0001:00000094       ..WinMain                  00401094 f mcipuzzl.obj
+ 0001:000005f4       ..AppWndProc               004015f4 f mcipuzzl.obj
+ 0001:00001570       ..ICAVIDrawProc            00402570 f puzzproc.obj
+ 0001:00002448       ..InitPuzzle               00403448 f puzzle.obj
+ 0001:000025b8       ..ClickPuzzle              004035b8 f puzzle.obj
+ 0001:00002874       ..MixPicture               00403874 f puzzle.obj
+ 0001:00002b30       ..__restgpr_All            00403b30 f libc:restgpr.obj
+ 0001:00002b64       ..__restgpr_14             00403b64   libc:restgpr.obj
+ 0001:00002b68       ..__restgpr_15             00403b68   libc:restgpr.obj
+ 0001:00002b6c       ..__restgpr_16             00403b6c   libc:restgpr.obj
+ 0001:00002b70       ..__restgpr_17             00403b70   libc:restgpr.obj
+ 0001:00002b74       ..__restgpr_18             00403b74   libc:restgpr.obj
+ 0001:00002b78       ..__restgpr_19             00403b78   libc:restgpr.obj
+ 0001:00002b7c       ..__restgpr_20             00403b7c   libc:restgpr.obj
+ 0001:00002b80       ..__restgpr_21             00403b80   libc:restgpr.obj
+ 0001:00002b84       ..__restgpr_22             00403b84   libc:restgpr.obj
+ 0001:00002b88       ..__restgpr_23             00403b88   libc:restgpr.obj
+ 0001:00002b8c       ..__restgpr_24             00403b8c   libc:restgpr.obj
+ 0001:00002b90       ..__restgpr_25             00403b90   libc:restgpr.obj
+ 0001:00002b94       ..__restgpr_26             00403b94   libc:restgpr.obj
+ 0001:00002b98       ..__restgpr_27             00403b98   libc:restgpr.obj
+ 0001:00002b9c       ..__restgpr_28             00403b9c   libc:restgpr.obj
+ 0001:00002ba0       ..__restgpr_29             00403ba0   libc:restgpr.obj
+ 0001:00002ba4       ..__restgpr_30             00403ba4   libc:restgpr.obj
+ 0001:00002ba8       ..__restgpr_31             00403ba8   libc:restgpr.obj
+ 0001:00002bb0       ..srand                    00403bb0 f libc:rand.obj
+ 0001:00002bbc       ..rand                     00403bbc f libc:rand.obj
+ 0001:00002be8       ..memmove                  00403be8 f libc:memcpyp.obj
+ 0001:00002ca0       ..memcpy                   00403ca0 f libc:memcpyp.obj
+ 0001:00002d48       ..WinMainCRTStartup        00403d48 f libc:wincrt0.obj
+ 0001:00002ff4       .._amsg_exit               00403ff4 f libc:wincrt0.obj
+ 0001:0000305c       .._cinit                   0040405c f libc:crt0dat.obj
+ 0001:00003098       ..exit                     00404098 f libc:crt0dat.obj
+ 0001:000030c0       .._exit                    004040c0 f libc:crt0dat.obj
+ 0001:000030e8       .._cexit                   004040e8 f libc:crt0dat.obj
+ 0001:00003114       .._c_exit                  00404114 f libc:crt0dat.obj
+ 0001:000032d4       ..__C_specific_handler     004042d4 f libc:chandler.obj
+ 0001:00003490       ..__savegpr_All            00404490 f libc:savegpr.obj
+ 0001:000034c4       ..__savegpr_14             004044c4   libc:savegpr.obj
+ 0001:000034c8       ..__savegpr_15             004044c8   libc:savegpr.obj
+ 0001:000034cc       ..__savegpr_16             004044cc   libc:savegpr.obj
+ 0001:000034d0       ..__savegpr_17             004044d0   libc:savegpr.obj
+ 0001:000034d4       ..__savegpr_18             004044d4   libc:savegpr.obj
+ 0001:000034d8       ..__savegpr_19             004044d8   libc:savegpr.obj
+ 0001:000034dc       ..__savegpr_20             004044dc   libc:savegpr.obj
+ 0001:000034e0       ..__savegpr_21             004044e0   libc:savegpr.obj
+ 0001:000034e4       ..__savegpr_22             004044e4   libc:savegpr.obj
+ 0001:000034e8       ..__savegpr_23             004044e8   libc:savegpr.obj
+ 0001:000034ec       ..__savegpr_24             004044ec   libc:savegpr.obj
+ 0001:000034f0       ..__savegpr_25             004044f0   libc:savegpr.obj
+ 0001:000034f4       ..__savegpr_26             004044f4   libc:savegpr.obj
+ 0001:000034f8       ..__savegpr_27             004044f8   libc:savegpr.obj
+ 0001:000034fc       ..__savegpr_28             004044fc   libc:savegpr.obj
+ 0001:00003500       ..__savegpr_29             00404500   libc:savegpr.obj
+ 0001:00003504       ..__savegpr_30             00404504   libc:savegpr.obj
+ 0001:00003508       ..__savegpr_31             00404508   libc:savegpr.obj
+ 0001:00003510       .._XcptFilter              00404510 f libc:winxfltr.obj
+ 0001:00003794       .._ismbbkalnum             00404794 f libc:ismbbyte.obj
+ 0001:000037bc       .._ismbbkprint             004047bc f libc:ismbbyte.obj
+ 0001:000037e4       .._ismbbkpunct             004047e4 f libc:ismbbyte.obj
+ 0001:0000380c       .._ismbbalnum              0040480c f libc:ismbbyte.obj
+ 0001:00003834       .._ismbbalpha              00404834 f libc:ismbbyte.obj
+ 0001:0000385c       .._ismbbgraph              0040485c f libc:ismbbyte.obj
+ 0001:00003884       .._ismbbprint              00404884 f libc:ismbbyte.obj
+ 0001:000038ac       .._ismbbpunct              004048ac f libc:ismbbyte.obj
+ 0001:000038d4       .._ismbblead               004048d4 f libc:ismbbyte.obj
+ 0001:000038fc       .._ismbbtrail              004048fc f libc:ismbbyte.obj
+ 0001:00003924       .._ismbbkana               00404924 f libc:ismbbyte.obj
+ 0001:000039d4       .._setenvp                 004049d4 f libc:stdenvp.obj
+ 0001:00003b2c       .._setargv                 00404b2c f libc:stdargv.obj
+ 0001:00003fd8       ..__crtGetEnvironmentStringsW 00404fd8 f libc:aw_env.obj
+ 0001:000043e0       ..__crtGetEnvironmentStringsA 004053e0 f libc:aw_env.obj
+ 0001:00004720       .._setmbcp                 00405720 f libc:mbctype.obj
+ 0001:00004c38       .._getmbcp                 00405c38 f libc:mbctype.obj
+ 0001:00004c44       ..__initmbctable           00405c44 f libc:mbctype.obj
+ 0001:00004c68       .._ioinit                  00405c68 f libc:ioinit.obj
+ 0001:00004fe8       .._ioterm                  00405fe8 f libc:ioinit.obj
+ 0001:00005030       .._heap_init               00406030 f libc:heapinit.obj
+ 0001:00005080       .._heap_term               00406080 f libc:heapinit.obj
+ 0001:000050c4       .._FF_MSGBANNER            004060c4 f libc:crt0msg.obj
+ 0001:00005148       .._NMSG_WRITE              00406148 f libc:crt0msg.obj
+ 0001:00005444       .._GET_RTERRMSG            00406444 f libc:crt0msg.obj
+ 0001:00005498       .._fpmath                  00406498 f libc:fpinit.obj
+ 0001:000054b8       .._fpclear                 004064b8 f libc:fpinit.obj
+ 0001:000054bc       .._cfltcvt_init            004064bc f libc:fpinit.obj
+ 0001:000054f0       ..__setfflag               004064f0 f libc:fpinit.obj
+ 0001:00005508       ..__C_ExecuteExceptionFilter 00406508   libc:jmpuwind.obj
+ 0001:00005530       ..__C_ExecuteTerminationHandler 00406530   libc:jmpuwind.obj
+ 0001:00005548       __NLG_Return2              00406548   libc:jmpuwind.obj
+ 0001:00005558       ..__jump_unwind            00406558   libc:jmpuwind.obj
+ 0001:00005588       .._NLG_Notify              00406588 f libc:exsup.obj
+ 0001:00005598       __NLG_Dispatch             00406598   libc:exsup.obj
+ 0001:0000559c       ..free                     0040659c f libc:free.obj
+ 0001:000055f0       ..malloc                   004065f0 f libc:malloc.obj
+ 0001:00005618       .._nh_malloc               00406618 f libc:malloc.obj
+ 0001:000056a0       .._heap_alloc              004066a0 f libc:malloc.obj
+ 0001:000056ec       ..wcslen                   004066ec f libc:wcslen.obj
+ 0001:00005714       ..__crtMessageBoxA         00406714 f libc:crtmbox.obj
+ 0001:000058b0       ..strncpy                  004068b0 f libc:strncpy.obj
+ 0001:00005924       .._forcdecpt               00406924 f libc:cvt.obj
+ 0001:000059f8       .._cropzeros               004069f8 f libc:cvt.obj
+ 0001:00005ab8       .._positive                00406ab8 f libc:cvt.obj
+ 0001:00005ad8       .._fassign                 00406ad8 f libc:cvt.obj
+ 0001:00005b8c       .._cftoe                   00406b8c f libc:cvt.obj
+ 0001:00005ddc       .._cftof                   00406ddc f libc:cvt.obj
+ 0001:00005f6c       .._cftog                   00406f6c f libc:cvt.obj
+ 0001:000060e8       .._cfltcvt                 004070e8 f libc:cvt.obj
+ 0001:000061a4       ..?_set_new_handler@@YAP6AHI@ZP6AHI@Z@Z 004071a4 f libc:handler.obj
+ 0001:000061b8       ..?_query_new_handler@@YAP6AHI@ZXZ 004071b8 f libc:handler.obj
+ 0001:000061c4       .._callnewh                004071c4 f libc:handler.obj
+ 0001:00006230       .._isctype                 00407230 f libc:isctype.obj
+ 0001:00006300       .._tolower                 00407300 f libc:tolower.obj
+ 0001:00006308       ..tolower                  00407308 f libc:tolower.obj
+ 0001:0000647c       .._ZeroTail                0040747c f libc:intrncvt.obj
+ 0001:00006518       .._IncMan                  00407518 f libc:intrncvt.obj
+ 0001:000065c8       .._RoundMan                004075c8 f libc:intrncvt.obj
+ 0001:000066b0       .._CopyMan                 004076b0 f libc:intrncvt.obj
+ 0001:000066cc       .._FillZeroMan             004076cc f libc:intrncvt.obj
+ 0001:000066e0       .._IsZeroMan               004076e0 f libc:intrncvt.obj
+ 0001:0000671c       .._ShrMan                  0040771c f libc:intrncvt.obj
+ 0001:000067ec       .._ld12cvt                 004077ec f libc:intrncvt.obj
+ 0001:00006a14       .._ld12tod                 00407a14 f libc:intrncvt.obj
+ 0001:00006a3c       .._ld12tof                 00407a3c f libc:intrncvt.obj
+ 0001:00006a64       .._ld12told                00407a64 f libc:intrncvt.obj
+ 0001:00006b48       .._atodbl                  00407b48 f libc:intrncvt.obj
+ 0001:00006ba0       .._atoldbl                 00407ba0 f libc:intrncvt.obj
+ 0001:00006bf8       .._atoflt                  00407bf8 f libc:intrncvt.obj
+ 0001:00006c50       .._fptostr                 00407c50 f libc:_fptostr.obj
+ 0001:00006d24       .._fltout                  00407d24 f libc:cfout.obj
+ 0001:00006e14       ..__dtold                  00407e14 f libc:cfout.obj
+ 0001:00006ef0       .._fptrap                  00407ef0 f libc:crt0fp.obj
+ 0001:00006f18       ..__crtGetStringTypeW      00407f18 f libc:aw_str.obj
+ 0001:000071f4       ..__crtGetStringTypeA      004081f4 f libc:aw_str.obj
+ 0001:0000742c       ..__crtLCMapStringW        0040842c f libc:aw_map.obj
+ 0001:00007848       ..__crtLCMapStringA        00408848 f libc:aw_map.obj
+ 0001:00007c7c       ..__addl                   00408c7c f libc:mantold.obj
+ 0001:00007ca0       ..__add_12                 00408ca0 f libc:mantold.obj
+ 0001:00007d38       ..__shl_12                 00408d38 f libc:mantold.obj
+ 0001:00007d70       ..__shr_12                 00408d70 f libc:mantold.obj
+ 0001:00007da8       ..__mtold12                00408da8 f libc:mantold.obj
+ 0001:00007ed8       ..__strgtold12             00408ed8 f libc:strgtold.obj
+ 0001:00008a44       ..__STRINGTOLD             00409a44 f libc:strgtold.obj
+ 0001:00008aa8       ..$I10_OUTPUT              00409aa8 f libc:x10fout.obj
+ 0001:00009034       ..calloc                   0040a034 f libc:calloc.obj
+ 0001:000090e8       ..__ld12mul                0040a0e8 f libc:tenpow.obj
+ 0001:00009528       ..__multtenpow12           0040a528 f libc:tenpow.obj
+ 0001:00009628       ..GlobalAlloc              0040a628 f kernel32:KERNEL32.dll
+ 0001:00009640       ..GlobalLock               0040a640 f kernel32:KERNEL32.dll
+ 0001:00009658       ..GlobalFree               0040a658 f kernel32:KERNEL32.dll
+ 0001:00009670       ..GlobalHandle             0040a670 f kernel32:KERNEL32.dll
+ 0001:00009688       ..GlobalUnlock             0040a688 f kernel32:KERNEL32.dll
+ 0001:000096a0       ..MultiByteToWideChar      0040a6a0 f kernel32:KERNEL32.dll
+ 0001:000096b8       ..GetModuleHandleA         0040a6b8 f kernel32:KERNEL32.dll
+ 0001:000096d0       ..GetStartupInfoA          0040a6d0 f kernel32:KERNEL32.dll
+ 0001:000096e8       ..GetCommandLineA          0040a6e8 f kernel32:KERNEL32.dll
+ 0001:00009700       ..GetVersion               0040a700 f kernel32:KERNEL32.dll
+ 0001:00009718       ..ExitProcess              0040a718 f kernel32:KERNEL32.dll
+ 0001:00009730       ..GetCurrentProcess        0040a730 f kernel32:KERNEL32.dll
+ 0001:00009748       ..TerminateProcess         0040a748 f kernel32:KERNEL32.dll
+ 0001:00009760       ..RtlUnwind                0040a760 f kernel32:KERNEL32.dll
+ 0001:00009778       ..UnhandledExceptionFilter 0040a778 f kernel32:KERNEL32.dll
+ 0001:00009790       ..GetModuleFileNameA       0040a790 f kernel32:KERNEL32.dll
+ 0001:000097a8       ..FreeEnvironmentStringsA  0040a7a8 f kernel32:KERNEL32.dll
+ 0001:000097c0       ..FreeEnvironmentStringsW  0040a7c0 f kernel32:KERNEL32.dll
+ 0001:000097d8       ..GetEnvironmentStrings    0040a7d8 f kernel32:KERNEL32.dll
+ 0001:000097f0       ..GetEnvironmentStringsW   0040a7f0 f kernel32:KERNEL32.dll
+ 0001:00009808       ..WideCharToMultiByte      0040a808 f kernel32:KERNEL32.dll
+ 0001:00009820       ..GetCPInfo                0040a820 f kernel32:KERNEL32.dll
+ 0001:00009838       ..GetACP                   0040a838 f kernel32:KERNEL32.dll
+ 0001:00009850       ..GetOEMCP                 0040a850 f kernel32:KERNEL32.dll
+ 0001:00009868       ..SetHandleCount           0040a868 f kernel32:KERNEL32.dll
+ 0001:00009880       ..GetStdHandle             0040a880 f kernel32:KERNEL32.dll
+ 0001:00009898       ..GetFileType              0040a898 f kernel32:KERNEL32.dll
+ 0001:000098b0       ..HeapCreate               0040a8b0 f kernel32:KERNEL32.dll
+ 0001:000098c8       ..HeapDestroy              0040a8c8 f kernel32:KERNEL32.dll
+ 0001:000098e0       ..WriteFile                0040a8e0 f kernel32:KERNEL32.dll
+ 0001:000098f8       ..HeapFree                 0040a8f8 f kernel32:KERNEL32.dll
+ 0001:00009910       ..HeapAlloc                0040a910 f kernel32:KERNEL32.dll
+ 0001:00009928       ..GetProcAddress           0040a928 f kernel32:KERNEL32.dll
+ 0001:00009940       ..LoadLibraryA             0040a940 f kernel32:KERNEL32.dll
+ 0001:00009958       ..GetStringTypeA           0040a958 f kernel32:KERNEL32.dll
+ 0001:00009970       ..GetStringTypeW           0040a970 f kernel32:KERNEL32.dll
+ 0001:00009988       ..LCMapStringA             0040a988 f kernel32:KERNEL32.dll
+ 0001:000099a0       ..LCMapStringW             0040a9a0 f kernel32:KERNEL32.dll
+ 0001:000099b8       ..EndDialog                0040a9b8 f user32:USER32.dll
+ 0001:000099d0       ..WaitMessage              0040a9d0 f user32:USER32.dll
+ 0001:000099e8       ..DispatchMessageA         0040a9e8 f user32:USER32.dll
+ 0001:00009a00       ..TranslateMessage         0040aa00 f user32:USER32.dll
+ 0001:00009a18       ..TranslateAcceleratorA    0040aa18 f user32:USER32.dll
+ 0001:00009a30       ..PeekMessageA             0040aa30 f user32:USER32.dll
+ 0001:00009a48       ..ShowWindow               0040aa48 f user32:USER32.dll
+ 0001:00009a60       ..CreateWindowExA          0040aa60 f user32:USER32.dll
+ 0001:00009a78       ..RegisterClassA           0040aa78 f user32:USER32.dll
+ 0001:00009a90       ..LoadIconA                0040aa90 f user32:USER32.dll
+ 0001:00009aa8       ..LoadCursorA              0040aaa8 f user32:USER32.dll
+ 0001:00009ac0       ..LoadAcceleratorsA        0040aac0 f user32:USER32.dll
+ 0001:00009ad8       ..MessageBoxA              0040aad8 f user32:USER32.dll
+ 0001:00009af0       ..MessageBeep              0040aaf0 f user32:USER32.dll
+ 0001:00009b08       ..LoadStringA              0040ab08 f user32:USER32.dll
+ 0001:00009b20       ..DefWindowProcA           0040ab20 f user32:USER32.dll
+ 0001:00009b38       ..PostQuitMessage          0040ab38 f user32:USER32.dll
+ 0001:00009b50       ..SendMessageA             0040ab50 f user32:USER32.dll
+ 0001:00009b68       ..InvalidateRect           0040ab68 f user32:USER32.dll
+ 0001:00009b80       ..PostMessageA             0040ab80 f user32:USER32.dll
+ 0001:00009b98       ..DialogBoxParamA          0040ab98 f user32:USER32.dll
+ 0001:00009bb0       ..MoveWindow               0040abb0 f user32:USER32.dll
+ 0001:00009bc8       ..IsIconic                 0040abc8 f user32:USER32.dll
+ 0001:00009be0       ..ScreenToClient           0040abe0 f user32:USER32.dll
+ 0001:00009bf8       ..ClientToScreen           0040abf8 f user32:USER32.dll
+ 0001:00009c10       ..SetWindowPos             0040ac10 f user32:USER32.dll
+ 0001:00009c28       ..GetWindowLongA           0040ac28 f user32:USER32.dll
+ 0001:00009c40       ..AdjustWindowRect         0040ac40 f user32:USER32.dll
+ 0001:00009c58       ..GetWindowRect            0040ac58 f user32:USER32.dll
+ 0001:00009c70       ..SetStretchBltMode        0040ac70 f gdi32:GDI32.dll
+ 0001:00009c88       ..GetOpenFileNameA         0040ac88 f comdlg32:comdlg32.dll
+ 0001:00009ca0       ..mciSendCommandA          0040aca0 f winmm:WINMM.dll
+ 0001:00009cb8       ..DefDriverProc            0040acb8 f winmm:WINMM.dll
+ 0001:00009cd0       ..timeGetTime              0040acd0 f winmm:WINMM.dll
+ 0001:00009ce8       ..VideoForWindowsVersion   0040ace8 f vfw32:MSVFW32.dll
+ 0001:00009d00       ..MCIWndCreateA            0040ad00 f vfw32:MSVFW32.dll
+ 0001:00009d18       ..DrawDibGetPalette        0040ad18 f vfw32:MSVFW32.dll
+ 0001:00009d30       ..DrawDibRealize           0040ad30 f vfw32:MSVFW32.dll
+ 0001:00009d48       ..DrawDibOpen              0040ad48 f vfw32:MSVFW32.dll
+ 0001:00009d60       ..DrawDibClose             0040ad60 f vfw32:MSVFW32.dll
+ 0001:00009d78       ..ICClose                  0040ad78 f vfw32:MSVFW32.dll
+ 0001:00009d90       ..ICGetDisplayFormat       0040ad90 f vfw32:MSVFW32.dll
+ 0001:00009da8       ..DrawDibBegin             0040ada8 f vfw32:MSVFW32.dll
+ 0001:00009dc0       ..DrawDibDraw              0040adc0 f vfw32:MSVFW32.dll
+ 0001:00009dd8       ..DrawDibChangePalette     0040add8 f vfw32:MSVFW32.dll
+ 0002:00000058       AppAbout                   0040b058   mcipuzzl.obj
+ 0002:00000060       WinMain                    0040b060   mcipuzzl.obj
+ 0002:00000068       AppWndProc                 0040b068   mcipuzzl.obj
+ 0002:00000070       ICAVIDrawProc              0040b070   puzzproc.obj
+ 0002:00000078       InitPuzzle                 0040b078   puzzle.obj
+ 0002:00000080       ClickPuzzle                0040b080   puzzle.obj
+ 0002:00000088       MixPicture                 0040b088   puzzle.obj
+ 0002:00000090       srand                      0040b090   libc:rand.obj
+ 0002:00000098       rand                       0040b098   libc:rand.obj
+ 0002:000000a0       memmove                    0040b0a0   libc:memcpyp.obj
+ 0002:000000a8       memcpy                     0040b0a8   libc:memcpyp.obj
+ 0002:000000b0       WinMainCRTStartup          0040b0b0   libc:wincrt0.obj
+ 0002:000000b8       _amsg_exit                 0040b0b8   libc:wincrt0.obj
+ 0002:000000c0       _cinit                     0040b0c0   libc:crt0dat.obj
+ 0002:000000c8       exit                       0040b0c8   libc:crt0dat.obj
+ 0002:000000d0       _exit                      0040b0d0   libc:crt0dat.obj
+ 0002:000000d8       _cexit                     0040b0d8   libc:crt0dat.obj
+ 0002:000000e0       _c_exit                    0040b0e0   libc:crt0dat.obj
+ 0002:000000e8       __C_specific_handler       0040b0e8   libc:chandler.obj
+ 0002:000000f0       _XcptFilter                0040b0f0   libc:winxfltr.obj
+ 0002:000000f8       _ismbbkalnum               0040b0f8   libc:ismbbyte.obj
+ 0002:00000100       _ismbbkprint               0040b100   libc:ismbbyte.obj
+ 0002:00000108       _ismbbkpunct               0040b108   libc:ismbbyte.obj
+ 0002:00000110       _ismbbalnum                0040b110   libc:ismbbyte.obj
+ 0002:00000118       _ismbbalpha                0040b118   libc:ismbbyte.obj
+ 0002:00000120       _ismbbgraph                0040b120   libc:ismbbyte.obj
+ 0002:00000128       _ismbbprint                0040b128   libc:ismbbyte.obj
+ 0002:00000130       _ismbbpunct                0040b130   libc:ismbbyte.obj
+ 0002:00000138       _ismbblead                 0040b138   libc:ismbbyte.obj
+ 0002:00000140       _ismbbtrail                0040b140   libc:ismbbyte.obj
+ 0002:00000148       _ismbbkana                 0040b148   libc:ismbbyte.obj
+ 0002:00000150       _setenvp                   0040b150   libc:stdenvp.obj
+ 0002:00000158       _setargv                   0040b158   libc:stdargv.obj
+ 0002:00000160       __crtGetEnvironmentStringsW 0040b160   libc:aw_env.obj
+ 0002:00000168       __crtGetEnvironmentStringsA 0040b168   libc:aw_env.obj
+ 0002:00000170       _setmbcp                   0040b170   libc:mbctype.obj
+ 0002:00000178       _getmbcp                   0040b178   libc:mbctype.obj
+ 0002:00000180       __initmbctable             0040b180   libc:mbctype.obj
+ 0002:00000188       _ioinit                    0040b188   libc:ioinit.obj
+ 0002:00000190       _ioterm                    0040b190   libc:ioinit.obj
+ 0002:00000198       _heap_init                 0040b198   libc:heapinit.obj
+ 0002:000001a0       _heap_term                 0040b1a0   libc:heapinit.obj
+ 0002:000001a8       ??_C@_0P@GGKG@runtime?5error?5?$AA@ 0040b1a8   libc:crt0msg.obj
+ 0002:000001b8       ??_C@_02PIMC@?$AN?6?$AA@   0040b1b8   libc:crt0msg.obj
+ 0002:000001c0       ??_C@_0O@DELO@TLOSS?5error?$AN?6?$AA@ 0040b1c0   libc:crt0msg.obj
+ 0002:000001d0       ??_C@_0N@OMLL@SING?5error?$AN?6?$AA@ 0040b1d0   libc:crt0msg.obj
+ 0002:000001e0       ??_C@_0P@OJAK@DOMAIN?5error?$AN?6?$AA@ 0040b1e0   libc:crt0msg.obj
+ 0002:000001f0       ??_C@_0DF@ECGN@R6027?$AN?6?9?5not?5enough?5space?5for?5lo@ 0040b1f0   libc:crt0msg.obj
+ 0002:00000228       ??_C@_0DF@FKAC@R6026?$AN?6?9?5not?5enough?5space?5for?5st@ 0040b228   libc:crt0msg.obj
+ 0002:00000260       ??_C@_0CG@DPMN@R6025?$AN?6?9?5pure?5virtual?5function?5c@ 0040b260   libc:crt0msg.obj
+ 0002:00000288       ??_C@_0DF@CKIP@R6024?$AN?6?9?5not?5enough?5space?5for?5_o@ 0040b288   libc:crt0msg.obj
+ 0002:000002c0       ??_C@_0CJ@GGOE@R6019?$AN?6?9?5unable?5to?5open?5console?5@ 0040b2c0   libc:crt0msg.obj
+ 0002:000002f0       ??_C@_0CB@LBOB@R6018?$AN?6?9?5unexpected?5heap?5error?$AN?6@ 0040b2f0   libc:crt0msg.obj
+ 0002:00000318       ??_C@_0CN@FPEG@R6017?$AN?6?9?5unexpected?5multithread?5@ 0040b318   libc:crt0msg.obj
+ 0002:00000348       ??_C@_0CM@OBIC@R6016?$AN?6?9?5not?5enough?5space?5for?5th@ 0040b348   libc:crt0msg.obj
+ 0002:00000378       ??_C@_0CB@HPAL@?$AN?6abnormal?5program?5termination?$AN?6@ 0040b378   libc:crt0msg.obj
+ 0002:000003a0       ??_C@_0CM@JOOB@R6009?$AN?6?9?5not?5enough?5space?5for?5en@ 0040b3a0   libc:crt0msg.obj
+ 0002:000003d0       ??_C@_0CK@OIBL@R6008?$AN?6?9?5not?5enough?5space?5for?5ar@ 0040b3d0   libc:crt0msg.obj
+ 0002:00000400       ??_C@_0CF@LKPB@R6002?$AN?6?9?5floating?5point?5not?5load@ 0040b400   libc:crt0msg.obj
+ 0002:00000428       _FF_MSGBANNER              0040b428   libc:crt0msg.obj
+ 0002:00000430       _NMSG_WRITE                0040b430   libc:crt0msg.obj
+ 0002:00000438       ??_C@_0CF@JPDF@Microsoft?5Visual?5C?$CL?$CL?5Runtime?5Lib@ 0040b438   libc:crt0msg.obj
+ 0002:00000460       ??_C@_02JJJH@?6?6?$AA@     0040b460   libc:crt0msg.obj
+ 0002:00000468       ??_C@_0BK@DEOK@Runtime?5Error?$CB?6?6Program?3?5?$AA@ 0040b468   libc:crt0msg.obj
+ 0002:00000488       ??_C@_03NAME@?4?4?4?$AA@   0040b488   libc:crt0msg.obj
+ 0002:00000490       ??_C@_0BH@NNCD@?$DMprogram?5name?5unknown?$DO?$AA@ 0040b490   libc:crt0msg.obj
+ 0002:000004a8       _GET_RTERRMSG              0040b4a8   libc:crt0msg.obj
+ 0002:000004b0       _fpclear                   0040b4b0   libc:fpinit.obj
+ 0002:000004b8       _fpmath                    0040b4b8   libc:fpinit.obj
+ 0002:000004c0       _cfltcvt_init              0040b4c0   libc:fpinit.obj
+ 0002:000004c8       __setfflag                 0040b4c8   libc:fpinit.obj
+ 0002:000004d0       free                       0040b4d0   libc:free.obj
+ 0002:000004d8       malloc                     0040b4d8   libc:malloc.obj
+ 0002:000004e0       _nh_malloc                 0040b4e0   libc:malloc.obj
+ 0002:000004e8       _heap_alloc                0040b4e8   libc:malloc.obj
+ 0002:000004f0       wcslen                     0040b4f0   libc:wcslen.obj
+ 0002:000004f8       __crtMessageBoxA           0040b4f8   libc:crtmbox.obj
+ 0002:00000500       ??_C@_0BD@NJFP@GetLastActivePopup?$AA@ 0040b500   libc:crtmbox.obj
+ 0002:00000518       ??_C@_0BA@GILI@GetActiveWindow?$AA@ 0040b518   libc:crtmbox.obj
+ 0002:00000528       ??_C@_0M@PKCK@MessageBoxA?$AA@ 0040b528   libc:crtmbox.obj
+ 0002:00000538       ??_C@_0L@HKL@user32?4dll?$AA@ 0040b538   libc:crtmbox.obj
+ 0002:00000544       strncpy                    0040b544   libc:strncpy.obj
+ 0002:0000054c       _forcdecpt                 0040b54c   libc:cvt.obj
+ 0002:00000554       _cropzeros                 0040b554   libc:cvt.obj
+ 0002:00000568       _positive                  0040b568   libc:cvt.obj
+ 0002:00000570       _fassign                   0040b570   libc:cvt.obj
+ 0002:00000578       _cftoe                     0040b578   libc:cvt.obj
+ 0002:00000580       ??_C@_05OFLO@e?$CL000?$AA@ 0040b580   libc:cvt.obj
+ 0002:00000588       _cftof                     0040b588   libc:cvt.obj
+ 0002:00000590       _cftog                     0040b590   libc:cvt.obj
+ 0002:00000598       _cfltcvt                   0040b598   libc:cvt.obj
+ 0002:000005a0       ?_set_new_handler@@YAP6AHI@ZP6AHI@Z@Z 0040b5a0   libc:handler.obj
+ 0002:000005a8       ?_query_new_handler@@YAP6AHI@ZXZ 0040b5a8   libc:handler.obj
+ 0002:000005b0       _callnewh                  0040b5b0   libc:handler.obj
+ 0002:000005b8       _isctype                   0040b5b8   libc:isctype.obj
+ 0002:000005c0       _tolower                   0040b5c0   libc:tolower.obj
+ 0002:000005c8       tolower                    0040b5c8   libc:tolower.obj
+ 0002:000005d0       _ZeroTail                  0040b5d0   libc:intrncvt.obj
+ 0002:000005d8       _IncMan                    0040b5d8   libc:intrncvt.obj
+ 0002:000005e0       _RoundMan                  0040b5e0   libc:intrncvt.obj
+ 0002:000005e8       _CopyMan                   0040b5e8   libc:intrncvt.obj
+ 0002:000005f0       _FillZeroMan               0040b5f0   libc:intrncvt.obj
+ 0002:000005f8       _IsZeroMan                 0040b5f8   libc:intrncvt.obj
+ 0002:00000600       _ShrMan                    0040b600   libc:intrncvt.obj
+ 0002:00000608       _ld12cvt                   0040b608   libc:intrncvt.obj
+ 0002:00000610       _ld12tod                   0040b610   libc:intrncvt.obj
+ 0002:00000618       _ld12tof                   0040b618   libc:intrncvt.obj
+ 0002:00000620       _ld12told                  0040b620   libc:intrncvt.obj
+ 0002:00000628       _atodbl                    0040b628   libc:intrncvt.obj
+ 0002:00000630       _atoldbl                   0040b630   libc:intrncvt.obj
+ 0002:00000638       _atoflt                    0040b638   libc:intrncvt.obj
+ 0002:00000640       _fptostr                   0040b640   libc:_fptostr.obj
+ 0002:00000648       _fltout                    0040b648   libc:cfout.obj
+ 0002:00000650       __dtold                    0040b650   libc:cfout.obj
+ 0002:00000658       _fptrap                    0040b658   libc:crt0fp.obj
+ 0002:00000660       __crtGetStringTypeW        0040b660   libc:aw_str.obj
+ 0002:00000668       ??_C@_01A@?$AA?$AA@        0040b668   libc:aw_str.obj
+ 0002:00000670       ??_C@_13A@?$AA?$AA?$AA?$AA?$AA?$AA?$AA?$AA@ 0040b670   libc:aw_str.obj
+ 0002:00000674       __crtGetStringTypeA        0040b674   libc:aw_str.obj
+ 0002:0000067c       __crtLCMapStringW          0040b67c   libc:aw_map.obj
+ 0002:00000684       __crtLCMapStringA          0040b684   libc:aw_map.obj
+ 0002:0000068c       __addl                     0040b68c   libc:mantold.obj
+ 0002:00000694       __add_12                   0040b694   libc:mantold.obj
+ 0002:0000069c       __shl_12                   0040b69c   libc:mantold.obj
+ 0002:000006a4       __shr_12                   0040b6a4   libc:mantold.obj
+ 0002:000006ac       __mtold12                  0040b6ac   libc:mantold.obj
+ 0002:000006b4       __strgtold12               0040b6b4   libc:strgtold.obj
+ 0002:000006bc       __STRINGTOLD               0040b6bc   libc:strgtold.obj
+ 0002:000006c4       $I10_OUTPUT                0040b6c4   libc:x10fout.obj
+ 0002:000006d0       ??_C@_06PAPI@1?$CDQNAN?$AA@ 0040b6d0   libc:x10fout.obj
+ 0002:000006d8       ??_C@_05BGNL@1?$CDINF?$AA@ 0040b6d8   libc:x10fout.obj
+ 0002:000006e0       ??_C@_05EDPF@1?$CDIND?$AA@ 0040b6e0   libc:x10fout.obj
+ 0002:000006e8       ??_C@_06LKFM@1?$CDSNAN?$AA@ 0040b6e8   libc:x10fout.obj
+ 0002:000006f0       calloc                     0040b6f0   libc:calloc.obj
+ 0002:000006f8       __ld12mul                  0040b6f8   libc:tenpow.obj
+ 0002:00000700       __multtenpow12             0040b700   libc:tenpow.obj
+ 0002:00000708       GlobalAlloc                0040b708   kernel32:KERNEL32.dll
+ 0002:00000710       GlobalLock                 0040b710   kernel32:KERNEL32.dll
+ 0002:00000718       GlobalFree                 0040b718   kernel32:KERNEL32.dll
+ 0002:00000720       GlobalHandle               0040b720   kernel32:KERNEL32.dll
+ 0002:00000728       GlobalUnlock               0040b728   kernel32:KERNEL32.dll
+ 0002:00000730       MultiByteToWideChar        0040b730   kernel32:KERNEL32.dll
+ 0002:00000738       GetModuleHandleA           0040b738   kernel32:KERNEL32.dll
+ 0002:00000740       GetStartupInfoA            0040b740   kernel32:KERNEL32.dll
+ 0002:00000748       GetCommandLineA            0040b748   kernel32:KERNEL32.dll
+ 0002:00000750       GetVersion                 0040b750   kernel32:KERNEL32.dll
+ 0002:00000758       ExitProcess                0040b758   kernel32:KERNEL32.dll
+ 0002:00000760       GetCurrentProcess          0040b760   kernel32:KERNEL32.dll
+ 0002:00000768       TerminateProcess           0040b768   kernel32:KERNEL32.dll
+ 0002:00000770       RtlUnwind                  0040b770   kernel32:KERNEL32.dll
+ 0002:00000778       UnhandledExceptionFilter   0040b778   kernel32:KERNEL32.dll
+ 0002:00000780       GetModuleFileNameA         0040b780   kernel32:KERNEL32.dll
+ 0002:00000788       FreeEnvironmentStringsA    0040b788   kernel32:KERNEL32.dll
+ 0002:00000790       FreeEnvironmentStringsW    0040b790   kernel32:KERNEL32.dll
+ 0002:00000798       GetEnvironmentStrings      0040b798   kernel32:KERNEL32.dll
+ 0002:000007a0       GetEnvironmentStringsW     0040b7a0   kernel32:KERNEL32.dll
+ 0002:000007a8       WideCharToMultiByte        0040b7a8   kernel32:KERNEL32.dll
+ 0002:000007b0       GetCPInfo                  0040b7b0   kernel32:KERNEL32.dll
+ 0002:000007b8       GetACP                     0040b7b8   kernel32:KERNEL32.dll
+ 0002:000007c0       GetOEMCP                   0040b7c0   kernel32:KERNEL32.dll
+ 0002:000007c8       SetHandleCount             0040b7c8   kernel32:KERNEL32.dll
+ 0002:000007d0       GetStdHandle               0040b7d0   kernel32:KERNEL32.dll
+ 0002:000007d8       GetFileType                0040b7d8   kernel32:KERNEL32.dll
+ 0002:000007e0       HeapCreate                 0040b7e0   kernel32:KERNEL32.dll
+ 0002:000007e8       HeapDestroy                0040b7e8   kernel32:KERNEL32.dll
+ 0002:000007f0       WriteFile                  0040b7f0   kernel32:KERNEL32.dll
+ 0002:000007f8       HeapFree                   0040b7f8   kernel32:KERNEL32.dll
+ 0002:00000800       HeapAlloc                  0040b800   kernel32:KERNEL32.dll
+ 0002:00000808       GetProcAddress             0040b808   kernel32:KERNEL32.dll
+ 0002:00000810       LoadLibraryA               0040b810   kernel32:KERNEL32.dll
+ 0002:00000818       GetStringTypeA             0040b818   kernel32:KERNEL32.dll
+ 0002:00000820       GetStringTypeW             0040b820   kernel32:KERNEL32.dll
+ 0002:00000828       LCMapStringA               0040b828   kernel32:KERNEL32.dll
+ 0002:00000830       LCMapStringW               0040b830   kernel32:KERNEL32.dll
+ 0002:00000838       EndDialog                  0040b838   user32:USER32.dll
+ 0002:00000840       WaitMessage                0040b840   user32:USER32.dll
+ 0002:00000848       DispatchMessageA           0040b848   user32:USER32.dll
+ 0002:00000850       TranslateMessage           0040b850   user32:USER32.dll
+ 0002:00000858       TranslateAcceleratorA      0040b858   user32:USER32.dll
+ 0002:00000860       PeekMessageA               0040b860   user32:USER32.dll
+ 0002:00000868       ShowWindow                 0040b868   user32:USER32.dll
+ 0002:00000870       CreateWindowExA            0040b870   user32:USER32.dll
+ 0002:00000878       RegisterClassA             0040b878   user32:USER32.dll
+ 0002:00000880       LoadIconA                  0040b880   user32:USER32.dll
+ 0002:00000888       LoadCursorA                0040b888   user32:USER32.dll
+ 0002:00000890       LoadAcceleratorsA          0040b890   user32:USER32.dll
+ 0002:00000898       MessageBoxA                0040b898   user32:USER32.dll
+ 0002:000008a0       MessageBeep                0040b8a0   user32:USER32.dll
+ 0002:000008a8       LoadStringA                0040b8a8   user32:USER32.dll
+ 0002:000008b0       DefWindowProcA             0040b8b0   user32:USER32.dll
+ 0002:000008b8       PostQuitMessage            0040b8b8   user32:USER32.dll
+ 0002:000008c0       SendMessageA               0040b8c0   user32:USER32.dll
+ 0002:000008c8       InvalidateRect             0040b8c8   user32:USER32.dll
+ 0002:000008d0       PostMessageA               0040b8d0   user32:USER32.dll
+ 0002:000008d8       DialogBoxParamA            0040b8d8   user32:USER32.dll
+ 0002:000008e0       MoveWindow                 0040b8e0   user32:USER32.dll
+ 0002:000008e8       IsIconic                   0040b8e8   user32:USER32.dll
+ 0002:000008f0       ScreenToClient             0040b8f0   user32:USER32.dll
+ 0002:000008f8       ClientToScreen             0040b8f8   user32:USER32.dll
+ 0002:00000900       SetWindowPos               0040b900   user32:USER32.dll
+ 0002:00000908       GetWindowLongA             0040b908   user32:USER32.dll
+ 0002:00000910       AdjustWindowRect           0040b910   user32:USER32.dll
+ 0002:00000918       GetWindowRect              0040b918   user32:USER32.dll
+ 0002:00000920       SetStretchBltMode          0040b920   gdi32:GDI32.dll
+ 0002:00000928       GetOpenFileNameA           0040b928   comdlg32:comdlg32.dll
+ 0002:00000930       mciSendCommandA            0040b930   winmm:WINMM.dll
+ 0002:00000938       DefDriverProc              0040b938   winmm:WINMM.dll
+ 0002:00000940       timeGetTime                0040b940   winmm:WINMM.dll
+ 0002:00000948       VideoForWindowsVersion     0040b948   vfw32:MSVFW32.dll
+ 0002:00000950       MCIWndCreateA              0040b950   vfw32:MSVFW32.dll
+ 0002:00000958       DrawDibGetPalette          0040b958   vfw32:MSVFW32.dll
+ 0002:00000960       DrawDibRealize             0040b960   vfw32:MSVFW32.dll
+ 0002:00000968       DrawDibOpen                0040b968   vfw32:MSVFW32.dll
+ 0002:00000970       DrawDibClose               0040b970   vfw32:MSVFW32.dll
+ 0002:00000978       ICClose                    0040b978   vfw32:MSVFW32.dll
+ 0002:00000980       ICGetDisplayFormat         0040b980   vfw32:MSVFW32.dll
+ 0002:00000988       DrawDibBegin               0040b988   vfw32:MSVFW32.dll
+ 0002:00000990       DrawDibDraw                0040b990   vfw32:MSVFW32.dll
+ 0002:00000998       DrawDibChangePalette       0040b998   vfw32:MSVFW32.dll
+ 0003:00000000       __xc_a                     0040c000   libc:crt0init.obj
+ 0003:00000008       __xc_z                     0040c008   libc:crt0init.obj
+ 0003:00000010       __xi_a                     0040c010   libc:crt0init.obj
+ 0003:00000018       __xi_z                     0040c018   libc:crt0init.obj
+ 0003:00000020       __xp_a                     0040c020   libc:crt0init.obj
+ 0003:00000028       __xp_z                     0040c028   libc:crt0init.obj
+ 0003:00000030       __xt_a                     0040c030   libc:crt0init.obj
+ 0003:00000038       __xt_z                     0040c038   libc:crt0init.obj
+ 0003:000000c0       _aenvptr                   0040c0c0   libc:wincrt0.obj
+ 0003:000000c4       _wenvptr                   0040c0c4   libc:wincrt0.obj
+ 0003:000000c8       _aexit_rtn                 0040c0c8   libc:wincrt0.obj
+ 0003:000000cc       __error_mode               0040c0cc   libc:wincrt0.obj
+ 0003:000000d0       __app_type                 0040c0d0   libc:wincrt0.obj
+ 0003:000000d8       errno                      0040c0d8   libc:crt0dat.obj
+ 0003:000000dc       _doserrno                  0040c0dc   libc:crt0dat.obj
+ 0003:000000e0       _umaskval                  0040c0e0   libc:crt0dat.obj
+ 0003:000000e4       _osver                     0040c0e4   libc:crt0dat.obj
+ 0003:000000e8       _winver                    0040c0e8   libc:crt0dat.obj
+ 0003:000000ec       _winmajor                  0040c0ec   libc:crt0dat.obj
+ 0003:000000f0       _winminor                  0040c0f0   libc:crt0dat.obj
+ 0003:000000f4       __argc                     0040c0f4   libc:crt0dat.obj
+ 0003:000000f8       __argv                     0040c0f8   libc:crt0dat.obj
+ 0003:000000fc       __wargv                    0040c0fc   libc:crt0dat.obj
+ 0003:00000100       _environ                   0040c100   libc:crt0dat.obj
+ 0003:00000104       __initenv                  0040c104   libc:crt0dat.obj
+ 0003:00000108       _wenviron                  0040c108   libc:crt0dat.obj
+ 0003:0000010c       __winitenv                 0040c10c   libc:crt0dat.obj
+ 0003:00000110       _pgmptr                    0040c110   libc:crt0dat.obj
+ 0003:00000114       _wpgmptr                   0040c114   libc:crt0dat.obj
+ 0003:00000118       _exitflag                  0040c118   libc:crt0dat.obj
+ 0003:0000011c       _C_Termination_Done        0040c11c   libc:crt0dat.obj
+ 0003:00000120       _C_Exit_Done               0040c120   libc:crt0dat.obj
+ 0003:00000128       _XcptActTab                0040c128   libc:winxfltr.obj
+ 0003:000001a0       _First_FPE_Indx            0040c1a0   libc:winxfltr.obj
+ 0003:000001a4       _Num_FPE                   0040c1a4   libc:winxfltr.obj
+ 0003:000001a8       _XcptActTabCount           0040c1a8   libc:winxfltr.obj
+ 0003:000001ac       _fpecode                   0040c1ac   libc:winxfltr.obj
+ 0003:000001b0       _pxcptinfoptrs             0040c1b0   libc:winxfltr.obj
+ 0003:000001c0       _mbctype                   0040c1c0   libc:mbctype.obj
+ 0003:000002c4       __mbcodepage               0040c2c4   libc:mbctype.obj
+ 0003:000002c8       __mblcid                   0040c2c8   libc:mbctype.obj
+ 0003:000002d0       __mbulinfo                 0040c2d0   libc:mbctype.obj
+ 0003:000003d8       __badioinfo                0040c3d8   libc:ioinit.obj
+ 0003:000003e0       _amblksiz                  0040c3e0   libc:heapinit.obj
+ 0003:00000470       _adbgmsg                   0040c470   libc:crt0msg.obj
+ 0003:00000478       _fltused                   0040c478   libc:fpinit.obj
+ 0003:0000047c       _ldused                    0040c47c   libc:fpinit.obj
+ 0003:00000480       __fastflag                 0040c480   libc:fpinit.obj
+ 0003:00000484       _FPinit                    0040c484   libc:fpinit.obj
+ 0003:00000488       _FPmtinit                  0040c488   libc:fpinit.obj
+ 0003:0000048c       _FPmtterm                  0040c48c   libc:fpinit.obj
+ 0003:00000490       __NLG_Destination          0040c490   libc:exsup.obj
+ 0003:000004a0       _pctype                    0040c4a0   libc:ctype.obj
+ 0003:000004a4       _pwctype                   0040c4a4   libc:ctype.obj
+ 0003:000004a8       _ctype                     0040c4a8   libc:ctype.obj
+ 0003:000006b0       __lc_handle                0040c6b0   libc:nlsdata2.obj
+ 0003:000006c8       __lc_codepage              0040c6c8   libc:nlsdata2.obj
+ 0003:000006f0       _cfltcvt_tab               0040c6f0   libc:cmiscdat.obj
+ 0003:00000708       _newmode                   0040c708   libc:_newmode.obj
+ 0003:00000710       __mb_cur_max               0040c710   libc:nlsdata1.obj
+ 0003:00000714       __decimal_point            0040c714   libc:nlsdata1.obj
+ 0003:00000718       __decimal_point_length     0040c718   libc:nlsdata1.obj
+ 0003:00000760       _pow10pos                  0040c760   libc:constpow.obj
+ 0003:000008c0       _pow10neg                  0040c8c0   libc:constpow.obj
+ 0003:00000c48       ?_pnhHeap@@3P6AHI@ZA       0040cc48   libc:handler.obj
+ 0003:00000c80       gPuzzle                    0040cc80   <common>
+ 0003:00000cc8       _crtheap                   0040ccc8   <common>
+ 0003:00000cd0       __pioinfo                  0040ccd0   <common>
+ 0003:00000dd0       _nhandle                   0040cdd0   <common>
+ 0003:00000dd4       __onexitend                0040cdd4   <common>
+ 0003:00000dd8       __onexitbegin              0040cdd8   <common>
+ 0003:00000ddc       _acmdln                    0040cddc   <common>
+ 0005:00000000       __IMPORT_DESCRIPTOR_KERNEL32 0040f000   kernel32:KERNEL32.dll
+ 0005:00000014       __IMPORT_DESCRIPTOR_USER32 0040f014   user32:USER32.dll
+ 0005:00000028       __IMPORT_DESCRIPTOR_GDI32  0040f028   gdi32:GDI32.dll
+ 0005:0000003c       __IMPORT_DESCRIPTOR_comdlg32 0040f03c   comdlg32:comdlg32.dll
+ 0005:00000050       __IMPORT_DESCRIPTOR_WINMM  0040f050   winmm:WINMM.dll
+ 0005:00000064       __IMPORT_DESCRIPTOR_MSVFW32 0040f064   vfw32:MSVFW32.dll
+ 0005:00000078       __NULL_IMPORT_DESCRIPTOR   0040f078   kernel32:KERNEL32.dll
+ 0005:00000484       __imp_SetStretchBltMode    0040f484   gdi32:GDI32.dll
+ 0005:00000488       \177GDI32_NULL_THUNK_DATA  0040f488   gdi32:GDI32.dll
+ 0005:0000048c       __imp_GlobalHandle         0040f48c   kernel32:KERNEL32.dll
+ 0005:00000490       __imp_GlobalFree           0040f490   kernel32:KERNEL32.dll
+ 0005:00000494       __imp_GlobalLock           0040f494   kernel32:KERNEL32.dll
+ 0005:00000498       __imp_GlobalUnlock         0040f498   kernel32:KERNEL32.dll
+ 0005:0000049c       __imp_GetModuleHandleA     0040f49c   kernel32:KERNEL32.dll
+ 0005:000004a0       __imp_GetStartupInfoA      0040f4a0   kernel32:KERNEL32.dll
+ 0005:000004a4       __imp_GetCommandLineA      0040f4a4   kernel32:KERNEL32.dll
+ 0005:000004a8       __imp_MultiByteToWideChar  0040f4a8   kernel32:KERNEL32.dll
+ 0005:000004ac       __imp_GetVersion           0040f4ac   kernel32:KERNEL32.dll
+ 0005:000004b0       __imp_GetCurrentProcess    0040f4b0   kernel32:KERNEL32.dll
+ 0005:000004b4       __imp_TerminateProcess     0040f4b4   kernel32:KERNEL32.dll
+ 0005:000004b8       __imp_RtlUnwind            0040f4b8   kernel32:KERNEL32.dll
+ 0005:000004bc       __imp_UnhandledExceptionFilter 0040f4bc   kernel32:KERNEL32.dll
+ 0005:000004c0       __imp_GetModuleFileNameA   0040f4c0   kernel32:KERNEL32.dll
+ 0005:000004c4       __imp_FreeEnvironmentStringsA 0040f4c4   kernel32:KERNEL32.dll
+ 0005:000004c8       __imp_FreeEnvironmentStringsW 0040f4c8   kernel32:KERNEL32.dll
+ 0005:000004cc       __imp_GetEnvironmentStrings 0040f4cc   kernel32:KERNEL32.dll
+ 0005:000004d0       __imp_ExitProcess          0040f4d0   kernel32:KERNEL32.dll
+ 0005:000004d4       __imp_GetEnvironmentStringsW 0040f4d4   kernel32:KERNEL32.dll
+ 0005:000004d8       __imp_GlobalAlloc          0040f4d8   kernel32:KERNEL32.dll
+ 0005:000004dc       __imp_GetACP               0040f4dc   kernel32:KERNEL32.dll
+ 0005:000004e0       __imp_GetOEMCP             0040f4e0   kernel32:KERNEL32.dll
+ 0005:000004e4       __imp_SetHandleCount       0040f4e4   kernel32:KERNEL32.dll
+ 0005:000004e8       __imp_GetStdHandle         0040f4e8   kernel32:KERNEL32.dll
+ 0005:000004ec       __imp_GetFileType          0040f4ec   kernel32:KERNEL32.dll
+ 0005:000004f0       __imp_HeapCreate           0040f4f0   kernel32:KERNEL32.dll
+ 0005:000004f4       __imp_HeapDestroy          0040f4f4   kernel32:KERNEL32.dll
+ 0005:000004f8       __imp_WriteFile            0040f4f8   kernel32:KERNEL32.dll
+ 0005:000004fc       __imp_HeapFree             0040f4fc   kernel32:KERNEL32.dll
+ 0005:00000500       __imp_HeapAlloc            0040f500   kernel32:KERNEL32.dll
+ 0005:00000504       __imp_GetProcAddress       0040f504   kernel32:KERNEL32.dll
+ 0005:00000508       __imp_LoadLibraryA         0040f508   kernel32:KERNEL32.dll
+ 0005:0000050c       __imp_GetStringTypeA       0040f50c   kernel32:KERNEL32.dll
+ 0005:00000510       __imp_GetStringTypeW       0040f510   kernel32:KERNEL32.dll
+ 0005:00000514       __imp_LCMapStringA         0040f514   kernel32:KERNEL32.dll
+ 0005:00000518       __imp_LCMapStringW         0040f518   kernel32:KERNEL32.dll
+ 0005:0000051c       __imp_WideCharToMultiByte  0040f51c   kernel32:KERNEL32.dll
+ 0005:00000520       __imp_GetCPInfo            0040f520   kernel32:KERNEL32.dll
+ 0005:00000524       \177KERNEL32_NULL_THUNK_DATA 0040f524   kernel32:KERNEL32.dll
+ 0005:00000528       __imp_DrawDibRealize       0040f528   vfw32:MSVFW32.dll
+ 0005:0000052c       __imp_DrawDibClose         0040f52c   vfw32:MSVFW32.dll
+ 0005:00000530       __imp_DrawDibOpen          0040f530   vfw32:MSVFW32.dll
+ 0005:00000534       __imp_DrawDibGetPalette    0040f534   vfw32:MSVFW32.dll
+ 0005:00000538       __imp_MCIWndCreateA        0040f538   vfw32:MSVFW32.dll
+ 0005:0000053c       __imp_VideoForWindowsVersion 0040f53c   vfw32:MSVFW32.dll
+ 0005:00000540       __imp_ICClose              0040f540   vfw32:MSVFW32.dll
+ 0005:00000544       __imp_ICGetDisplayFormat   0040f544   vfw32:MSVFW32.dll
+ 0005:00000548       __imp_DrawDibBegin         0040f548   vfw32:MSVFW32.dll
+ 0005:0000054c       __imp_DrawDibDraw          0040f54c   vfw32:MSVFW32.dll
+ 0005:00000550       __imp_DrawDibChangePalette 0040f550   vfw32:MSVFW32.dll
+ 0005:00000554       \177MSVFW32_NULL_THUNK_DATA 0040f554   vfw32:MSVFW32.dll
+ 0005:00000558       __imp_DefWindowProcA       0040f558   user32:USER32.dll
+ 0005:0000055c       __imp_PostQuitMessage      0040f55c   user32:USER32.dll
+ 0005:00000560       __imp_LoadStringA          0040f560   user32:USER32.dll
+ 0005:00000564       __imp_SendMessageA         0040f564   user32:USER32.dll
+ 0005:00000568       __imp_InvalidateRect       0040f568   user32:USER32.dll
+ 0005:0000056c       __imp_PostMessageA         0040f56c   user32:USER32.dll
+ 0005:00000570       __imp_DialogBoxParamA      0040f570   user32:USER32.dll
+ 0005:00000574       __imp_MoveWindow           0040f574   user32:USER32.dll
+ 0005:00000578       __imp_MessageBoxA          0040f578   user32:USER32.dll
+ 0005:0000057c       __imp_MessageBeep          0040f57c   user32:USER32.dll
+ 0005:00000580       __imp_ClientToScreen       0040f580   user32:USER32.dll
+ 0005:00000584       __imp_SetWindowPos         0040f584   user32:USER32.dll
+ 0005:00000588       __imp_GetWindowLongA       0040f588   user32:USER32.dll
+ 0005:0000058c       __imp_AdjustWindowRect     0040f58c   user32:USER32.dll
+ 0005:00000590       __imp_GetWindowRect        0040f590   user32:USER32.dll
+ 0005:00000594       __imp_TranslateMessage     0040f594   user32:USER32.dll
+ 0005:00000598       __imp_EndDialog            0040f598   user32:USER32.dll
+ 0005:0000059c       __imp_LoadAcceleratorsA    0040f59c   user32:USER32.dll
+ 0005:000005a0       __imp_LoadCursorA          0040f5a0   user32:USER32.dll
+ 0005:000005a4       __imp_LoadIconA            0040f5a4   user32:USER32.dll
+ 0005:000005a8       __imp_RegisterClassA       0040f5a8   user32:USER32.dll
+ 0005:000005ac       __imp_CreateWindowExA      0040f5ac   user32:USER32.dll
+ 0005:000005b0       __imp_ShowWindow           0040f5b0   user32:USER32.dll
+ 0005:000005b4       __imp_TranslateAcceleratorA 0040f5b4   user32:USER32.dll
+ 0005:000005b8       __imp_IsIconic             0040f5b8   user32:USER32.dll
+ 0005:000005bc       __imp_ScreenToClient       0040f5bc   user32:USER32.dll
+ 0005:000005c0       __imp_WaitMessage          0040f5c0   user32:USER32.dll
+ 0005:000005c4       __imp_DispatchMessageA     0040f5c4   user32:USER32.dll
+ 0005:000005c8       __imp_PeekMessageA         0040f5c8   user32:USER32.dll
+ 0005:000005cc       \177USER32_NULL_THUNK_DATA 0040f5cc   user32:USER32.dll
+ 0005:000005d0       __imp_timeGetTime          0040f5d0   winmm:WINMM.dll
+ 0005:000005d4       __imp_DefDriverProc        0040f5d4   winmm:WINMM.dll
+ 0005:000005d8       __imp_mciSendCommandA      0040f5d8   winmm:WINMM.dll
+ 0005:000005dc       \177WINMM_NULL_THUNK_DATA  0040f5dc   winmm:WINMM.dll
+ 0005:000005e0       __imp_GetOpenFileNameA     0040f5e0   comdlg32:comdlg32.dll
+ 0005:000005e4       \177comdlg32_NULL_THUNK_DATA 0040f5e4   comdlg32:comdlg32.dll
+ 0006:00000000       __C_ExecuteExceptionFilter 00410000   libc:jmpuwind.obj
+ 0006:00000008       __C_ExecuteTerminationHandler 00410008   libc:jmpuwind.obj
+ 0006:00000010       __jump_unwind              00410010   libc:jmpuwind.obj
+ 0005:000081f0       .toc                       004171f0   <linker-defined>
+
+ entry point at        0002:000000b0
+
+ Static symbols
+
+ 0001:00001908       ..AVIDrawOpen              00402908 f puzzproc.obj
+ 0001:00001a1c       ..AVIDrawClose             00402a1c f puzzproc.obj
+ 0001:00001b98       ..AVIDrawGetInfo           00402b98 f puzzproc.obj
+ 0001:00001cec       ..AVIDrawQuery             00402cec f puzzproc.obj
+ 0001:00001d54       ..AVIDrawSuggestFormat     00402d54 f puzzproc.obj
+ 0001:00001e58       ..AVIDrawBegin             00402e58 f puzzproc.obj
+ 0001:00002120       ..AVIDraw                  00403120 f puzzproc.obj
+ 0001:000022fc       ..AVIDrawChangePalette     004032fc f puzzproc.obj
+ 0001:00002418       ..AVIDrawEnd               00403418 f puzzproc.obj
+ 0001:00000244       ..AppInit                  00401244 f mcipuzzl.obj
+ 0001:00000880       ..MCI_OnCommand            00401880 f mcipuzzl.obj
+ 0001:00000e60       ..MCI_OnSize               00401e60 f mcipuzzl.obj
+ 0001:00000f00       ..MCI_OnParentNotify       00401f00 f mcipuzzl.obj
+ 0001:0000112c       ..Handle_NotifyMedia       0040212c f mcipuzzl.obj
+ 0001:00001300       ..Handle_NotifySize        00402300 f mcipuzzl.obj
+ 0001:00001478       ..FormatFilterString       00402478 f mcipuzzl.obj
+ 0001:000077f8       ..wcsncnt                  004087f8 f libc:aw_map.obj
+ 0001:00007c30       ..strncnt                  00408c30 f libc:aw_map.obj
+ 0001:00006080       .._cftoe_g                 00407080 f libc:cvt.obj
+ 0001:000060b4       .._cftof_g                 004070b4 f libc:cvt.obj
+ 0001:00006144       .._shift                   00407144 f libc:cvt.obj
+ 0001:00004a50       ..getSystemCP              00405a50 f libc:mbctype.obj
+ 0001:00004b14       ..CPtoLCID                 00405b14 f libc:mbctype.obj
+ 0001:00004bdc       ..setSBCS                  00405bdc f libc:mbctype.obj
+ 0001:00003c28       ..parse_cmdline            00404c28 f libc:stdargv.obj
+ 0001:0000397c       ..x_ismbbtype              0040497c f libc:ismbbyte.obj
+ 0001:00003748       ..xcptlookup               00404748 f libc:winxfltr.obj
+ 0001:00003140       ..doexit                   00404140 f libc:crt0dat.obj
+ 0001:00003270       .._initterm                00404270 f libc:crt0dat.obj
+
+ Offset   Rva+Base   Publics by TOC Offset
+
+  8000    0040f1f0   __imp_timeGetTime
+  8004    0040f1f4   __imp_DefDriverProc
+  8008    0040f1f8   __imp_GlobalAlloc
+  800c    0040f1fc   __imp_GlobalLock
+  8010    0040f200   __imp_GlobalUnlock
+  8014    0040f204   __imp_GlobalHandle
+  8018    0040f208   __imp_GlobalFree
+  801c    0040f20c   __imp_MultiByteToWideChar
+  8024    0040f214   __imp_SetStretchBltMode
+  8028    0040f218   gPuzzle
+  802c    0040f21c   __imp_EndDialog
+  8030    0040f220   __imp_PeekMessageA
+  8038    0040f228   __imp_TranslateAcceleratorA
+  803c    0040f22c   __imp_TranslateMessage
+  8040    0040f230   __imp_DispatchMessageA
+  8044    0040f234   __imp_WaitMessage
+  8048    0040f238   __imp_LoadStringA
+  804c    0040f23c   __imp_MessageBeep
+  8050    0040f240   __imp_MessageBoxA
+  8058    0040f248   __imp_LoadAcceleratorsA
+  805c    0040f24c   __imp_LoadCursorA
+  8060    0040f250   __imp_LoadIconA
+  8064    0040f254   AppWndProc
+  8068    0040f258   __imp_RegisterClassA
+  806c    0040f25c   __imp_CreateWindowExA
+  8070    0040f260   __imp_ShowWindow
+  8074    0040f264   __imp_SendMessageA
+  8078    0040f268   __imp_PostQuitMessage
+  807c    0040f26c   __imp_DefWindowProcA
+  8080    0040f270   __imp_DialogBoxParamA
+  8084    0040f274   AppAbout
+  8088    0040f278   __imp_PostMessageA
+  808c    0040f27c   __imp_InvalidateRect
+  8090    0040f280   __imp_IsIconic
+  8094    0040f284   __imp_MoveWindow
+  8098    0040f288   __imp_ClientToScreen
+  809c    0040f28c   __imp_ScreenToClient
+  80a0    0040f290   ICAVIDrawProc
+  80a4    0040f294   __imp_mciSendCommandA
+  80a8    0040f298   __imp_GetWindowRect
+  80ac    0040f29c   __imp_AdjustWindowRect
+  80b0    0040f2a0   __imp_GetWindowLongA
+  80b4    0040f2a4   __imp_SetWindowPos
+  80b8    0040f2a8   _pow10pos
+  80bc    0040f2ac   _pow10neg
+  80c0    0040f2b0   _crtheap
+  80c4    0040f2b4   _newmode
+  80c8    0040f2b8   __imp_HeapAlloc
+  80cc    0040f2bc   ??_C@_06LKFM@1?$CDSNAN?$AA@
+  80d0    0040f2c0   ??_C@_05EDPF@1?$CDIND?$AA@
+  80d4    0040f2c4   ??_C@_05BGNL@1?$CDINF?$AA@
+  80d8    0040f2c8   ??_C@_06PAPI@1?$CDQNAN?$AA@
+  80dc    0040f2cc   __decimal_point
+  80e0    0040f2d0   __mb_cur_max
+  80e4    0040f2d4   _pctype
+  80ec    0040f2dc   __imp_LCMapStringW
+  80f0    0040f2e0   ??_C@_13A@?$AA?$AA?$AA?$AA?$AA?$AA?$AA?$AA@
+  80f4    0040f2e4   __imp_LCMapStringA
+  80f8    0040f2e8   ??_C@_01A@?$AA?$AA@
+  80fc    0040f2ec   __lc_codepage
+  8100    0040f2f0   __imp_WideCharToMultiByte
+  8108    0040f2f8   __imp_GetStringTypeW
+  810c    0040f2fc   __imp_GetStringTypeA
+  8110    0040f300   __lc_handle
+  811c    0040f30c   ?_pnhHeap@@3P6AHI@ZA
+  812c    0040f31c   ??_C@_05OFLO@e?$CL000?$AA@
+  8134    0040f324   ??_C@_0L@HKL@user32?4dll?$AA@
+  8138    0040f328   __imp_LoadLibraryA
+  813c    0040f32c   ??_C@_0M@PKCK@MessageBoxA?$AA@
+  8140    0040f330   __imp_GetProcAddress
+  8144    0040f334   ??_C@_0BA@GILI@GetActiveWindow?$AA@
+  8148    0040f338   ??_C@_0BD@NJFP@GetLastActivePopup?$AA@
+  814c    0040f33c   __imp_HeapFree
+  8150    0040f340   __NLG_Destination
+  8154    0040f344   _cfltcvt_tab
+  8158    0040f348   _cfltcvt
+  815c    0040f34c   _cropzeros
+  8160    0040f350   _fassign
+  8164    0040f354   _forcdecpt
+  8168    0040f358   _positive
+  816c    0040f35c   __fastflag
+  8170    0040f360   __error_mode
+  8174    0040f364   __app_type
+  8178    0040f368   _adbgmsg
+  8180    0040f370   __imp_GetModuleFileNameA
+  8184    0040f374   ??_C@_0BH@NNCD@?$DMprogram?5name?5unknown?$DO?$AA@
+  8188    0040f378   ??_C@_03NAME@?4?4?4?$AA@
+  818c    0040f37c   ??_C@_0BK@DEOK@Runtime?5Error?$CB?6?6Program?3?5?$AA@
+  8190    0040f380   ??_C@_02JJJH@?6?6?$AA@
+  8194    0040f384   ??_C@_0CF@JPDF@Microsoft?5Visual?5C?$CL?$CL?5Runtime?5Lib@
+  8198    0040f388   __pioinfo
+  819c    0040f38c   __imp_GetStdHandle
+  81a0    0040f390   __imp_WriteFile
+  81a4    0040f394   __imp_HeapCreate
+  81a8    0040f398   __imp_HeapDestroy
+  81ac    0040f39c   _nhandle
+  81b0    0040f3a0   __imp_GetStartupInfoA
+  81b4    0040f3a4   __imp_GetFileType
+  81b8    0040f3a8   __imp_SetHandleCount
+  81bc    0040f3ac   __mbcodepage
+  81c4    0040f3b4   _mbctype
+  81c8    0040f3b8   __mbulinfo
+  81cc    0040f3bc   __mblcid
+  81d0    0040f3c0   __imp_GetCPInfo
+  81d4    0040f3c4   __imp_GetOEMCP
+  81d8    0040f3c8   __imp_GetACP
+  81e0    0040f3d0   __imp_GetEnvironmentStringsW
+  81e4    0040f3d4   __imp_GetEnvironmentStrings
+  81e8    0040f3d8   __imp_FreeEnvironmentStringsW
+  81ec    0040f3dc   __imp_FreeEnvironmentStringsA
+  81f4    0040f3e4   _acmdln
+  81f8    0040f3e8   _pgmptr
+  81fc    0040f3ec   __argc
+  8200    0040f3f0   __argv
+  8204    0040f3f4   _aenvptr
+  8208    0040f3f8   _environ
+  820c    0040f3fc   _ctype
+  8210    0040f400   _pxcptinfoptrs
+  8214    0040f404   _Num_FPE
+  8218    0040f408   _First_FPE_Indx
+  821c    0040f40c   _XcptActTab
+  8220    0040f410   _fpecode
+  8224    0040f414   __imp_UnhandledExceptionFilter
+  8228    0040f418   _XcptActTabCount
+  822c    0040f41c   __imp_RtlUnwind
+  8230    0040f420   __xi_a
+  8234    0040f424   __xi_z
+  8238    0040f428   __xc_a
+  823c    0040f42c   __xc_z
+  8240    0040f430   _C_Exit_Done
+  8244    0040f434   __imp_TerminateProcess
+  8248    0040f438   __imp_GetCurrentProcess
+  824c    0040f43c   _C_Termination_Done
+  8250    0040f440   _exitflag
+  8254    0040f444   __onexitbegin
+  8258    0040f448   __onexitend
+  825c    0040f44c   __xp_a
+  8260    0040f450   __xp_z
+  8264    0040f454   __xt_a
+  8268    0040f458   __xt_z
+  826c    0040f45c   __imp_ExitProcess
+  8270    0040f460   __imp_GetVersion
+  8274    0040f464   _osver
+  8278    0040f468   _winminor
+  827c    0040f46c   _winmajor
+  8280    0040f470   _winver
+  8284    0040f474   __imp_GetCommandLineA
+  8288    0040f478   __imp_GetModuleHandleA
+  828c    0040f47c   _aexit_rtn
+

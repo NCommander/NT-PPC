@@ -1,0 +1,286 @@
+ lnkassis
+
+ Timestamp is 6417344e (Sun Mar 19 11:11:58 2023)
+
+ Preferred load address is 77000000
+
+ Start         Length     Name                   Class
+ 0001:00000000 000024a0H .text                   CODE
+ 0002:00000000 00000488H .rdata                  DATA
+ 0002:00000490 0000006bH .edata                  DATA
+ 0003:00000000 00000004H .CRT$XCA                DATA
+ 0003:00000008 00000004H .CRT$XCZ                DATA
+ 0003:00000010 00000004H .CRT$XIA                DATA
+ 0003:00000018 00000004H .CRT$XIZ                DATA
+ 0003:00000020 00000014H .data                   DATA
+ 0003:00000034 0000000cH .bss                    DATA
+ 0004:00000000 000004b0H .pdata                  DATA
+ 0005:00000000 0000003cH .idata$2                DATA
+ 0005:0000003c 00000014H .idata$3                DATA
+ 0005:00000050 0000005cH .idata$4                DATA
+ 0005:000000ac 00000080H .idata$4toc             DATA
+ 0005:0000012c 0000005cH .idata$5                DATA
+ 0005:00000188 00000152H .idata$6                DATA
+ 0006:00000000 00000058H .rsrc$01                DATA
+ 0006:00000060 000005a0H .rsrc$02                DATA
+
+  Address         Publics by Value              Rva+Base   Lib:Object
+
+ 0001:00000000       ..??0CLinks@@QAA@P6AXXZ@Z  77001000 f lnkassis.obj
+ 0001:00000068       ..??1CLinks@@QAA@XZ        77001068 f lnkassis.obj
+ 0001:00000098       ..?QueryInterface@CLinks@@UAAJABU_GUID@@PAPAX@Z 77001098 f lnkassis.obj
+ 0001:00000158       ..?AddRef@CLinks@@UAAKXZ   77001158 f lnkassis.obj
+ 0001:0000019c       ..?Release@CLinks@@UAAKXZ  7700119c f lnkassis.obj
+ 0001:00000258       ..?GetNextLink@CLinks@@UAAKK@Z 77001258 f lnkassis.obj
+ 0001:0000028c       ..?SetLinkUpdateOptions@CLinks@@UAAJKK@Z 7700128c f lnkassis.obj
+ 0001:0000031c       ..?GetLinkUpdateOptions@CLinks@@UAAJKPAK@Z 7700131c f lnkassis.obj
+ 0001:000003ac       ..?SetLinkSource@CLinks@@UAAJKPADKPAKH@Z 770013ac f lnkassis.obj
+ 0001:00000640       ..GetFirstMoniker          77001640 f lnkassis.obj
+ 0001:000007d4       ..?GetLenFilePrefixOfMoniker@@YAKPAUIMoniker@@@Z 770017d4 f lnkassis.obj
+ 0001:00000a5c       ..?GetLinkSource@CLinks@@UAAJKPAPADPAK00PAH2@Z 77001a5c f lnkassis.obj
+ 0001:00001050       ..?OpenLinkSource@CLinks@@UAAJK@Z 77002050 f lnkassis.obj
+ 0001:00001084       ..?UpdateLink@CLinks@@UAAJKHH@Z 77002084 f lnkassis.obj
+ 0001:000011c8       ..?CancelLink@CLinks@@UAAJK@Z 770021c8 f lnkassis.obj
+ 0001:00001258       ..?FValidateLinkSource@CLinks@@IAAHPAGPAKPAPAUIMoniker@@PAU_GUID@@@Z 77002258 f lnkassis.obj
+ 0001:0000144c       ..?FCreateNewSourceMoniker@CLinks@@IAAHPAGKPAPAUIMoniker@@@Z 7700244c f lnkassis.obj
+ 0001:00001668       ..??0IOleUILinkContainerA@@QAA@XZ 77002668 f lnkassis.obj
+ 0001:000016b0       ..??0IUnknown@@QAA@XZ      770026b0 f lnkassis.obj
+ 0001:000016f0       ..??8@YAHABU_GUID@@0@Z     770026f0 f lnkassis.obj
+ 0001:0000174c       ..??_GCLinks@@QAAPAXI@Z    7700274c f lnkassis.obj
+ 0001:000017a8       ..??9@YAHABU_GUID@@0@Z     770027a8 f lnkassis.obj
+ 0001:000017fc       ..DllMain                  770027fc f dllassis.obj
+ 0001:00001834       ..DllGetClassObject        77002834 f dllassis.obj
+ 0001:00001964       ..DllCanUnloadNow          77002964 f dllassis.obj
+ 0001:000019c4       ..?ObjectDestroyed@@YAXXZ  770029c4 f dllassis.obj
+ 0001:000019f8       ..??0CLinksClassFactory@@QAA@XZ 770029f8 f dllassis.obj
+ 0001:00001a4c       ..??1CLinksClassFactory@@QAA@XZ 77002a4c f dllassis.obj
+ 0001:00001a7c       ..?QueryInterface@CLinksClassFactory@@UAAJABU_GUID@@PAPAX@Z 77002a7c f dllassis.obj
+ 0001:00001b54       ..?AddRef@CLinksClassFactory@@UAAKXZ 77002b54 f dllassis.obj
+ 0001:00001b98       ..?Release@CLinksClassFactory@@UAAKXZ 77002b98 f dllassis.obj
+ 0001:00001c18       ..?CreateInstance@CLinksClassFactory@@UAAJPAUIUnknown@@ABU_GUID@@PAPAX@Z 77002c18 f dllassis.obj
+ 0001:00001d60       ..?LockServer@CLinksClassFactory@@UAAJH@Z 77002d60 f dllassis.obj
+ 0001:00001dcc       ..??0IClassFactory@@QAA@XZ 77002dcc f dllassis.obj
+ 0001:00001e14       ..??_GCLinksClassFactory@@QAAPAXI@Z 77002e14 f dllassis.obj
+ 0001:00001e70       ..CoGetMalloc              77002e70 f ole32:ole32.dll
+ 0001:00001e88       ..CreateBindCtx            77002e88 f ole32:ole32.dll
+ 0001:00001ea0       ..MkParseDisplayName       77002ea0 f ole32:ole32.dll
+ 0001:00001eb8       ..CreateGenericComposite   77002eb8 f ole32:ole32.dll
+ 0001:00001ed0       ..CreateItemMoniker        77002ed0 f ole32:ole32.dll
+ 0001:00001ee8       ..CreateFileMoniker        77002ee8 f ole32:ole32.dll
+ 0001:00001f00       .._CRT_INIT                77002f00 f msvcrt:crtdll.obj
+ 0001:0000207c       .._DllMainCRTStartup       7700307c f msvcrt:crtdll.obj
+ 0001:000021d0       .._purecall                770031d0 f msvcrt:MSVCRT40.dll
+ 0001:000021e8       ..memcmp                   770031e8 f msvcrt:MSVCRT40.dll
+ 0001:00002200       ..??3@YAXPAX@Z             77003200 f msvcrt:MSVCRT40.dll
+ 0001:00002218       ..wcslen                   77003218 f msvcrt:MSVCRT40.dll
+ 0001:00002230       ..wcscpy                   77003230 f msvcrt:MSVCRT40.dll
+ 0001:00002248       ..wcsncpy                  77003248 f msvcrt:MSVCRT40.dll
+ 0001:00002260       ..??2@YAPAXI@Z             77003260 f msvcrt:MSVCRT40.dll
+ 0001:00002278       ..__restgpr_All            77003278 f msvcrt:restgpr.obj
+ 0001:000022ac       ..__restgpr_14             770032ac   msvcrt:restgpr.obj
+ 0001:000022b0       ..__restgpr_15             770032b0   msvcrt:restgpr.obj
+ 0001:000022b4       ..__restgpr_16             770032b4   msvcrt:restgpr.obj
+ 0001:000022b8       ..__restgpr_17             770032b8   msvcrt:restgpr.obj
+ 0001:000022bc       ..__restgpr_18             770032bc   msvcrt:restgpr.obj
+ 0001:000022c0       ..__restgpr_19             770032c0   msvcrt:restgpr.obj
+ 0001:000022c4       ..__restgpr_20             770032c4   msvcrt:restgpr.obj
+ 0001:000022c8       ..__restgpr_21             770032c8   msvcrt:restgpr.obj
+ 0001:000022cc       ..__restgpr_22             770032cc   msvcrt:restgpr.obj
+ 0001:000022d0       ..__restgpr_23             770032d0   msvcrt:restgpr.obj
+ 0001:000022d4       ..__restgpr_24             770032d4   msvcrt:restgpr.obj
+ 0001:000022d8       ..__restgpr_25             770032d8   msvcrt:restgpr.obj
+ 0001:000022dc       ..__restgpr_26             770032dc   msvcrt:restgpr.obj
+ 0001:000022e0       ..__restgpr_27             770032e0   msvcrt:restgpr.obj
+ 0001:000022e4       ..__restgpr_28             770032e4   msvcrt:restgpr.obj
+ 0001:000022e8       ..__restgpr_29             770032e8   msvcrt:restgpr.obj
+ 0001:000022ec       ..__restgpr_30             770032ec   msvcrt:restgpr.obj
+ 0001:000022f0       ..__restgpr_31             770032f0   msvcrt:restgpr.obj
+ 0001:000022f8       ..free                     770032f8 f msvcrt:MSVCRT40.dll
+ 0001:00002310       .._initterm                77003310 f msvcrt:MSVCRT40.dll
+ 0001:00002328       .._onexit                  77003328 f msvcrt:atonexit.obj
+ 0001:00002390       ..atexit                   77003390 f msvcrt:atonexit.obj
+ 0001:000023c0       ..malloc                   770033c0 f msvcrt:MSVCRT40.dll
+ 0001:000023d8       ..__savegpr_All            770033d8 f msvcrt:savegpr.obj
+ 0001:0000240c       ..__savegpr_14             7700340c   msvcrt:savegpr.obj
+ 0001:00002410       ..__savegpr_15             77003410   msvcrt:savegpr.obj
+ 0001:00002414       ..__savegpr_16             77003414   msvcrt:savegpr.obj
+ 0001:00002418       ..__savegpr_17             77003418   msvcrt:savegpr.obj
+ 0001:0000241c       ..__savegpr_18             7700341c   msvcrt:savegpr.obj
+ 0001:00002420       ..__savegpr_19             77003420   msvcrt:savegpr.obj
+ 0001:00002424       ..__savegpr_20             77003424   msvcrt:savegpr.obj
+ 0001:00002428       ..__savegpr_21             77003428   msvcrt:savegpr.obj
+ 0001:0000242c       ..__savegpr_22             7700342c   msvcrt:savegpr.obj
+ 0001:00002430       ..__savegpr_23             77003430   msvcrt:savegpr.obj
+ 0001:00002434       ..__savegpr_24             77003434   msvcrt:savegpr.obj
+ 0001:00002438       ..__savegpr_25             77003438   msvcrt:savegpr.obj
+ 0001:0000243c       ..__savegpr_26             7700343c   msvcrt:savegpr.obj
+ 0001:00002440       ..__savegpr_27             77003440   msvcrt:savegpr.obj
+ 0001:00002444       ..__savegpr_28             77003444   msvcrt:savegpr.obj
+ 0001:00002448       ..__savegpr_29             77003448   msvcrt:savegpr.obj
+ 0001:0000244c       ..__savegpr_30             7700344c   msvcrt:savegpr.obj
+ 0001:00002450       ..__savegpr_31             77003450   msvcrt:savegpr.obj
+ 0001:00002458       ..__dllonexit              77003458 f msvcrt:MSVCRT40.dll
+ 0001:00002470       ..MultiByteToWideChar      77003470 f kernel32:KERNEL32.dll
+ 0001:00002488       ..WideCharToMultiByte      77003488 f kernel32:KERNEL32.dll
+ 0002:000000a8       ??0CLinks@@QAA@P6AXXZ@Z    770040a8   lnkassis.obj
+ 0002:000000b0       ?QueryInterface@CLinks@@UAAJABU_GUID@@PAPAX@Z 770040b0   lnkassis.obj
+ 0002:000000b8       ?AddRef@CLinks@@UAAKXZ     770040b8   lnkassis.obj
+ 0002:000000c0       ?Release@CLinks@@UAAKXZ    770040c0   lnkassis.obj
+ 0002:000000c8       ?GetNextLink@CLinks@@UAAKK@Z 770040c8   lnkassis.obj
+ 0002:000000d0       ?SetLinkUpdateOptions@CLinks@@UAAJKK@Z 770040d0   lnkassis.obj
+ 0002:000000d8       ?GetLinkUpdateOptions@CLinks@@UAAJKPAK@Z 770040d8   lnkassis.obj
+ 0002:000000e0       ?SetLinkSource@CLinks@@UAAJKPADKPAKH@Z 770040e0   lnkassis.obj
+ 0002:000000e8       ?GetLinkSource@CLinks@@UAAJKPAPADPAK00PAH2@Z 770040e8   lnkassis.obj
+ 0002:000000f0       ?OpenLinkSource@CLinks@@UAAJK@Z 770040f0   lnkassis.obj
+ 0002:000000f8       ?UpdateLink@CLinks@@UAAJKHH@Z 770040f8   lnkassis.obj
+ 0002:00000100       ?CancelLink@CLinks@@UAAJK@Z 77004100   lnkassis.obj
+ 0002:00000108       ??1CLinks@@QAA@XZ          77004108   lnkassis.obj
+ 0002:00000110       GetFirstMoniker            77004110   lnkassis.obj
+ 0002:00000118       ?GetLenFilePrefixOfMoniker@@YAKPAUIMoniker@@@Z 77004118   lnkassis.obj
+ 0002:00000120       ?FValidateLinkSource@CLinks@@IAAHPAGPAKPAPAUIMoniker@@PAU_GUID@@@Z 77004120   lnkassis.obj
+ 0002:00000128       ?FCreateNewSourceMoniker@CLinks@@IAAHPAGKPAPAUIMoniker@@@Z 77004128   lnkassis.obj
+ 0002:00000130       ??_7CLinks@@6B@            77004130   lnkassis.obj
+ 0002:0000015c       ??0IOleUILinkContainerA@@QAA@XZ 7700415c   lnkassis.obj
+ 0002:00000168       ??_7IOleUILinkContainerA@@6B@ 77004168   lnkassis.obj
+ 0002:00000194       ??0IUnknown@@QAA@XZ        77004194   lnkassis.obj
+ 0002:000001a0       ??_7IUnknown@@6B@          770041a0   lnkassis.obj
+ 0002:000001ac       ??8@YAHABU_GUID@@0@Z       770041ac   lnkassis.obj
+ 0002:000001b4       ??_GCLinks@@QAAPAXI@Z      770041b4   lnkassis.obj
+ 0002:000001bc       ??9@YAHABU_GUID@@0@Z       770041bc   lnkassis.obj
+ 0002:000001c8       CLSID_Koala                770041c8   dllassis.obj
+ 0002:000001d8       CLSID_Polyline4            770041d8   dllassis.obj
+ 0002:000001e8       IID_IPolyline4             770041e8   dllassis.obj
+ 0002:000001f8       IID_IPolylineAdviseSink4   770041f8   dllassis.obj
+ 0002:00000208       CLSID_PatronPages          77004208   dllassis.obj
+ 0002:00000218       CLSID_Cosmo2Figure         77004218   dllassis.obj
+ 0002:00000228       CLSID_Polyline5            77004228   dllassis.obj
+ 0002:00000238       IID_IPolyline5             77004238   dllassis.obj
+ 0002:00000248       IID_IPolylineAdviseSink5   77004248   dllassis.obj
+ 0002:00000258       CLSID_DataObjectSmall      77004258   dllassis.obj
+ 0002:00000268       CLSID_DataObjectMedium     77004268   dllassis.obj
+ 0002:00000278       CLSID_DataObjectLarge      77004278   dllassis.obj
+ 0002:00000288       CLSID_Polyline6            77004288   dllassis.obj
+ 0002:00000298       IID_IPolyline6             77004298   dllassis.obj
+ 0002:000002a8       IID_IPolylineAdviseSink6   770042a8   dllassis.obj
+ 0002:000002b8       CLSID_DataTransferObject   770042b8   dllassis.obj
+ 0002:000002c8       CLSID_Polyline11           770042c8   dllassis.obj
+ 0002:000002d8       CLSID_LinksAssistant       770042d8   dllassis.obj
+ 0002:000002e8       IID_IOleUILinkContainer    770042e8   dllassis.obj
+ 0002:000002f8       DllMain                    770042f8   dllassis.obj
+ 0002:00000300       DllGetClassObject          77004300   dllassis.obj
+ 0002:00000308       DllCanUnloadNow            77004308   dllassis.obj
+ 0002:00000310       ?ObjectDestroyed@@YAXXZ    77004310   dllassis.obj
+ 0002:00000318       ??0CLinksClassFactory@@QAA@XZ 77004318   dllassis.obj
+ 0002:00000320       ?QueryInterface@CLinksClassFactory@@UAAJABU_GUID@@PAPAX@Z 77004320   dllassis.obj
+ 0002:00000328       ?AddRef@CLinksClassFactory@@UAAKXZ 77004328   dllassis.obj
+ 0002:00000330       ?Release@CLinksClassFactory@@UAAKXZ 77004330   dllassis.obj
+ 0002:00000338       ?CreateInstance@CLinksClassFactory@@UAAJPAUIUnknown@@ABU_GUID@@PAPAX@Z 77004338   dllassis.obj
+ 0002:00000340       ?LockServer@CLinksClassFactory@@UAAJH@Z 77004340   dllassis.obj
+ 0002:00000348       ??1CLinksClassFactory@@QAA@XZ 77004348   dllassis.obj
+ 0002:00000350       ??_7CLinksClassFactory@@6B@ 77004350   dllassis.obj
+ 0002:00000364       ??0IClassFactory@@QAA@XZ   77004364   dllassis.obj
+ 0002:00000370       ??_7IClassFactory@@6B@     77004370   dllassis.obj
+ 0002:00000384       ??_GCLinksClassFactory@@QAAPAXI@Z 77004384   dllassis.obj
+ 0002:00000390       CoGetMalloc                77004390   ole32:ole32.dll
+ 0002:00000398       CreateBindCtx              77004398   ole32:ole32.dll
+ 0002:000003a0       MkParseDisplayName         770043a0   ole32:ole32.dll
+ 0002:000003a8       CreateGenericComposite     770043a8   ole32:ole32.dll
+ 0002:000003b0       CreateItemMoniker          770043b0   ole32:ole32.dll
+ 0002:000003b8       CreateFileMoniker          770043b8   ole32:ole32.dll
+ 0002:000003c0       IID_IUnknown               770043c0   uuid:unknwn_i_guid0.obj
+ 0002:000003d0       GUID_NULL                  770043d0   uuid:cguid_i_guid0.obj
+ 0002:000003e0       IID_IOleObject             770043e0   uuid:oleidl_i_guid7.obj
+ 0002:000003f0       IID_IClassFactory          770043f0   uuid:unknwn_i_guid1.obj
+ 0002:00000400       _CRT_INIT                  77004400   msvcrt:crtdll.obj
+ 0002:00000408       _DllMainCRTStartup         77004408   msvcrt:crtdll.obj
+ 0002:00000410       _purecall                  77004410   msvcrt:MSVCRT40.dll
+ 0002:00000418       memcmp                     77004418   msvcrt:MSVCRT40.dll
+ 0002:00000420       ??3@YAXPAX@Z               77004420   msvcrt:MSVCRT40.dll
+ 0002:00000428       wcslen                     77004428   msvcrt:MSVCRT40.dll
+ 0002:00000430       wcscpy                     77004430   msvcrt:MSVCRT40.dll
+ 0002:00000438       wcsncpy                    77004438   msvcrt:MSVCRT40.dll
+ 0002:00000440       ??2@YAPAXI@Z               77004440   msvcrt:MSVCRT40.dll
+ 0002:00000448       free                       77004448   msvcrt:MSVCRT40.dll
+ 0002:00000450       _initterm                  77004450   msvcrt:MSVCRT40.dll
+ 0002:00000458       _onexit                    77004458   msvcrt:atonexit.obj
+ 0002:00000460       atexit                     77004460   msvcrt:atonexit.obj
+ 0002:00000468       malloc                     77004468   msvcrt:MSVCRT40.dll
+ 0002:00000470       __dllonexit                77004470   msvcrt:MSVCRT40.dll
+ 0002:00000478       MultiByteToWideChar        77004478   kernel32:KERNEL32.dll
+ 0002:00000480       WideCharToMultiByte        77004480   kernel32:KERNEL32.dll
+ 0003:00000000       __xc_a                     77005000   msvcrt:cinitexe.obj
+ 0003:00000008       __xc_z                     77005008   msvcrt:cinitexe.obj
+ 0003:00000010       __xi_a                     77005010   msvcrt:cinitexe.obj
+ 0003:00000018       __xi_z                     77005018   msvcrt:cinitexe.obj
+ 0003:00000028       ?g_cObj@@3KA               77005028   dllassis.obj
+ 0003:0000002c       ?g_cLock@@3KA              7700502c   dllassis.obj
+ 0003:00000034       __onexitend                77005034   <common>
+ 0003:00000038       __onexitbegin              77005038   <common>
+ 0003:0000003c       _pRawDllMain               7700503c   <common>
+ 0005:00000000       __IMPORT_DESCRIPTOR_ole32  77007000   ole32:ole32.dll
+ 0005:00000014       __IMPORT_DESCRIPTOR_MSVCRT40 77007014   msvcrt:MSVCRT40.dll
+ 0005:00000028       __IMPORT_DESCRIPTOR_KERNEL32 77007028   kernel32:KERNEL32.dll
+ 0005:0000003c       __NULL_IMPORT_DESCRIPTOR   7700703c   ole32:ole32.dll
+ 0005:0000012c       __imp_WideCharToMultiByte  7700712c   kernel32:KERNEL32.dll
+ 0005:00000130       __imp_MultiByteToWideChar  77007130   kernel32:KERNEL32.dll
+ 0005:00000134       \177KERNEL32_NULL_THUNK_DATA 77007134   kernel32:KERNEL32.dll
+ 0005:00000138       __imp_wcscpy               77007138   msvcrt:MSVCRT40.dll
+ 0005:0000013c       __imp_??2@YAPAXI@Z         7700713c   msvcrt:MSVCRT40.dll
+ 0005:00000140       __imp_free                 77007140   msvcrt:MSVCRT40.dll
+ 0005:00000144       __imp_wcsncpy              77007144   msvcrt:MSVCRT40.dll
+ 0005:00000148       __imp__purecall            77007148   msvcrt:MSVCRT40.dll
+ 0005:0000014c       __imp_memcmp               7700714c   msvcrt:MSVCRT40.dll
+ 0005:00000150       __imp_??3@YAXPAX@Z         77007150   msvcrt:MSVCRT40.dll
+ 0005:00000154       __imp_wcslen               77007154   msvcrt:MSVCRT40.dll
+ 0005:00000158       __imp___dllonexit          77007158   msvcrt:MSVCRT40.dll
+ 0005:0000015c       __imp_malloc               7700715c   msvcrt:MSVCRT40.dll
+ 0005:00000160       __imp__initterm            77007160   msvcrt:MSVCRT40.dll
+ 0005:00000164       __imp__onexit              77007164   msvcrt:MSVCRT40.dll
+ 0005:00000168       \177MSVCRT40_NULL_THUNK_DATA 77007168   msvcrt:MSVCRT40.dll
+ 0005:0000016c       __imp_CreateItemMoniker    7700716c   ole32:ole32.dll
+ 0005:00000170       __imp_CoGetMalloc          77007170   ole32:ole32.dll
+ 0005:00000174       __imp_CreateFileMoniker    77007174   ole32:ole32.dll
+ 0005:00000178       __imp_CreateGenericComposite 77007178   ole32:ole32.dll
+ 0005:0000017c       __imp_MkParseDisplayName   7700717c   ole32:ole32.dll
+ 0005:00000180       __imp_CreateBindCtx        77007180   ole32:ole32.dll
+ 0005:00000184       \177ole32_NULL_THUNK_DATA  77007184   ole32:ole32.dll
+ 0005:000080ac       .toc                       7700f0ac   <linker-defined>
+
+ entry point at        0002:00000408
+
+ Static symbols
+
+
+ Offset   Rva+Base   Publics by TOC Offset
+
+  8000    770070ac   CLSID_LinksAssistant
+  8004    770070b0   IID_IUnknown
+  8008    770070b4   IID_IClassFactory
+  800c    770070b8   ?g_cObj@@3KA
+  8010    770070bc   ?g_cLock@@3KA
+  8014    770070c0   ??_7CLinksClassFactory@@6B@
+  8018    770070c4   ?ObjectDestroyed@@YAXXZ
+  801c    770070c8   ??_7IClassFactory@@6B@
+  8020    770070cc   ??_7CLinks@@6B@
+  8024    770070d0   IID_IOleUILinkContainer
+  8028    770070d4   GUID_NULL
+  802c    770070d8   __imp_MultiByteToWideChar
+  8030    770070dc   __imp_CreateBindCtx
+  8034    770070e0   __imp_CoGetMalloc
+  8038    770070e4   IID_IOleObject
+  803c    770070e8   __imp_WideCharToMultiByte
+  8040    770070ec   __imp_MkParseDisplayName
+  8044    770070f0   __imp_CreateFileMoniker
+  8048    770070f4   __imp_CreateItemMoniker
+  8050    770070fc   __imp_CreateGenericComposite
+  8054    77007100   ??_7IOleUILinkContainerA@@6B@
+  8058    77007104   ??_7IUnknown@@6B@
+  805c    77007108   __onexitbegin
+  8060    7700710c   __imp__onexit
+  8064    77007110   __onexitend
+  806c    77007118   __imp_malloc
+  8070    7700711c   __xc_a
+  8074    77007120   __xc_z
+  8078    77007124   __imp_free
+  807c    77007128   _pRawDllMain
+

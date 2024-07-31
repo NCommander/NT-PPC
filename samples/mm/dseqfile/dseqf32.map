@@ -1,0 +1,351 @@
+ dseqf32
+
+ Timestamp is 6417400e (Sun Mar 19 12:02:06 2023)
+
+ Preferred load address is 10000000
+
+ Start         Length     Name                   Class
+ 0001:00000000 000040d8H .text                   CODE
+ 0002:00000000 0000000cH .bss                    DATA
+ 0003:00000000 00000648H .rdata                  DATA
+ 0003:00000650 0000006aH .edata                  DATA
+ 0004:00000000 0000003cH .data                   DATA
+ 0005:00000000 00000834H .pdata                  DATA
+ 0006:00000000 00000064H .idata$2                DATA
+ 0006:00000064 00000014H .idata$3                DATA
+ 0006:00000078 00000078H .idata$4                DATA
+ 0006:000000f0 000000b4H .idata$4toc             DATA
+ 0006:000001a4 00000078H .idata$5                DATA
+ 0006:0000021c 0000018eH .idata$6                DATA
+ 0007:00000000 000000a0H .rsrc$01                DATA
+ 0007:000000a0 00000600H .rsrc$02                DATA
+
+  Address         Publics by Value              Rva+Base   Lib:Object
+
+ 0001:00000000       ..?Create@CAVIFile@@SAJPAUIUnknown@@ABU_GUID@@PAPAX@Z 10001000 f dseqf.obj
+ 0001:000000fc       ..??0CAVIFile@@AAA@PAUIUnknown@@PAPAU1@@Z 100010fc f dseqf.obj
+ 0001:000001d0       ..??0CUnknownImpl@CAVIFile@@QAA@PAV1@@Z 100011d0 f dseqf.obj
+ 0001:00000238       ..?QueryInterface@CUnknownImpl@CAVIFile@@UAAJABU_GUID@@PAPAX@Z 10001238 f dseqf.obj
+ 0001:000003a0       ..?AddRef@CUnknownImpl@CAVIFile@@UAAKXZ 100013a0 f dseqf.obj
+ 0001:000003f8       ..??0CF@CAVIFile@@QAA@PAV1@@Z 100013f8 f dseqf.obj
+ 0001:00000454       ..??1CF@CAVIFile@@QAA@XZ   10001454 f dseqf.obj
+ 0001:00000484       ..?QueryInterface@CF@CAVIFile@@UAAJABU_GUID@@PAPAX@Z 10001484 f dseqf.obj
+ 0001:00000500       ..?AddRef@CF@CAVIFile@@UAAKXZ 10001500 f dseqf.obj
+ 0001:0000056c       ..?Release@CF@CAVIFile@@UAAKXZ 1000156c f dseqf.obj
+ 0001:000005d8       ..??0CS@CAVIFile@@QAA@PAV1@@Z 100015d8 f dseqf.obj
+ 0001:00000634       ..??1CS@CAVIFile@@QAA@XZ   10001634 f dseqf.obj
+ 0001:00000664       ..?QueryInterface@CS@CAVIFile@@UAAJABU_GUID@@PAPAX@Z 10001664 f dseqf.obj
+ 0001:000006e0       ..?AddRef@CS@CAVIFile@@UAAKXZ 100016e0 f dseqf.obj
+ 0001:0000074c       ..?Release@CS@CAVIFile@@UAAKXZ 1000174c f dseqf.obj
+ 0001:000007b8       ..??0CPersistFileImpl@CAVIFile@@QAA@PAV1@@Z 100017b8 f dseqf.obj
+ 0001:00000814       ..?QueryInterface@CPersistFileImpl@CAVIFile@@UAAJABU_GUID@@PAPAX@Z 10001814 f dseqf.obj
+ 0001:00000890       ..?AddRef@CPersistFileImpl@CAVIFile@@UAAKXZ 10001890 f dseqf.obj
+ 0001:000008fc       ..?Release@CPersistFileImpl@CAVIFile@@UAAKXZ 100018fc f dseqf.obj
+ 0001:00000968       ..?GetClassID@CPersistFileImpl@CAVIFile@@UAAJPAU_GUID@@@Z 10001968 f dseqf.obj
+ 0001:000009c4       ..?IsDirty@CPersistFileImpl@CAVIFile@@UAAJXZ 100019c4 f dseqf.obj
+ 0001:00000a14       ..?FileName@@YAPADPBD@Z    10001a14 f dseqf.obj
+ 0001:00000b14       ..?Load@CPersistFileImpl@CAVIFile@@UAAJPBGK@Z 10001b14 f dseqf.obj
+ 0001:00001428       ..?Save@CPersistFileImpl@CAVIFile@@UAAJPBGH@Z 10002428 f dseqf.obj
+ 0001:00001464       ..?SaveCompleted@CPersistFileImpl@CAVIFile@@UAAJPBG@Z 10002464 f dseqf.obj
+ 0001:00001498       ..?GetCurFile@CPersistFileImpl@CAVIFile@@UAAJPAPAG@Z 10002498 f dseqf.obj
+ 0001:000014d0       ..?GetStream@CF@CAVIFile@@UAAJPAPAUIAVIStream@@KJ@Z 100024d0 f dseqf.obj
+ 0001:000015c0       ..?CreateStream@CF@CAVIFile@@UAAJPAPAUIAVIStream@@PAU_AVISTREAMINFOW@@@Z 100025c0 f dseqf.obj
+ 0001:000016e4       ..?WriteData@CF@CAVIFile@@UAAJKPAXJ@Z 100026e4 f dseqf.obj
+ 0001:00001730       ..?ReadData@CF@CAVIFile@@UAAJKPAXPAJ@Z 10002730 f dseqf.obj
+ 0001:0000177c       ..?EndRecord@CF@CAVIFile@@UAAJXZ 1000277c f dseqf.obj
+ 0001:000017ac       ..?Info@CF@CAVIFile@@UAAJPAU_AVIFILEINFOW@@J@Z 100027ac f dseqf.obj
+ 0001:00001840       ..?Create@CS@CAVIFile@@UAAJJJ@Z 10002840 f dseqf.obj
+ 0001:0000187c       ..?FindSample@CS@CAVIFile@@UAAJJJ@Z 1000287c f dseqf.obj
+ 0001:000018ec       ..?LoadFrame@CAVIFile@@QAAJJ@Z 100028ec f dseqf.obj
+ 0001:000020c0       ..?ReadFormat@CS@CAVIFile@@UAAJJPAXPAJ@Z 100030c0 f dseqf.obj
+ 0001:000021d0       ..?Info@CS@CAVIFile@@UAAJPAU_AVISTREAMINFOW@@J@Z 100031d0 f dseqf.obj
+ 0001:00002264       ..?Release@CUnknownImpl@CAVIFile@@UAAKXZ 10003264 f dseqf.obj
+ 0001:00002494       ..?Read@CS@CAVIFile@@UAAJJJPAXJPAJ1@Z 10003494 f dseqf.obj
+ 0001:00002680       ..?SetFormat@CS@CAVIFile@@UAAJJPAXJ@Z 10003680 f dseqf.obj
+ 0001:00002800       ..?WriteFrame@CAVIFile@@QAAJJPAXJ@Z 10003800 f dseqf.obj
+ 0001:00002ac0       ..?Write@CS@CAVIFile@@UAAJJJPAXJKPAJ1@Z 10003ac0 f dseqf.obj
+ 0001:00002cdc       ..?DeleteStream@CF@CAVIFile@@UAAJKJ@Z 10003cdc f dseqf.obj
+ 0001:00002d18       ..?SetInfo@CS@CAVIFile@@UAAJPAU_AVISTREAMINFOW@@J@Z 10003d18 f dseqf.obj
+ 0001:00002d54       ..?Delete@CS@CAVIFile@@UAAJJJ@Z 10003d54 f dseqf.obj
+ 0001:00002d9c       ..?ReadData@CS@CAVIFile@@UAAJKPAXPAJ@Z 10003d9c f dseqf.obj
+ 0001:00002de8       ..?WriteData@CS@CAVIFile@@UAAJKPAXJ@Z 10003de8 f dseqf.obj
+ 0001:00002e34       ..??0CMarshalImpl@CAVIFile@@QAA@PAV1@@Z 10003e34 f dseqf.obj
+ 0001:00002e90       ..?QueryInterface@CMarshalImpl@CAVIFile@@UAAJABU_GUID@@PAPAX@Z 10003e90 f dseqf.obj
+ 0001:00002f0c       ..?AddRef@CMarshalImpl@CAVIFile@@UAAKXZ 10003f0c f dseqf.obj
+ 0001:00002f78       ..?Release@CMarshalImpl@CAVIFile@@UAAKXZ 10003f78 f dseqf.obj
+ 0001:00002fe4       ..?GetUnmarshalClass@CMarshalImpl@CAVIFile@@UAAJABU_GUID@@PAXK1KPAU3@@Z 10003fe4 f dseqf.obj
+ 0001:00003144       ..?GetMarshalSizeMax@CMarshalImpl@CAVIFile@@UAAJABU_GUID@@PAXK1KPAK@Z 10004144 f dseqf.obj
+ 0001:00003298       ..?MarshalInterface@CMarshalImpl@CAVIFile@@UAAJPAUIStream@@ABU_GUID@@PAXK2K@Z 10004298 f dseqf.obj
+ 0001:000034a8       ..?UnmarshalInterface@CMarshalImpl@CAVIFile@@UAAJPAUIStream@@ABU_GUID@@PAPAX@Z 100044a8 f dseqf.obj
+ 0001:000034f0       ..?ReleaseMarshalData@CMarshalImpl@CAVIFile@@UAAJPAUIStream@@@Z 100044f0 f dseqf.obj
+ 0001:000035a8       ..?DisconnectObject@CMarshalImpl@CAVIFile@@UAAJK@Z 100045a8 f dseqf.obj
+ 0001:000035e4       ..??_GCAVIFile@@QAAPAXI@Z  100045e4 f dseqf.obj
+ 0001:00003640       ..??1CAVIFile@@QAA@XZ      10004640 f dseqf.obj
+ 0001:00003688       ..??0IUnknown@@QAA@XZ      10004688 f dseqf.obj
+ 0001:000036c8       ..??8@YAHABU_GUID@@0@Z     100046c8 f dseqf.obj
+ 0001:00003724       ..??0IAVIFile@@QAA@XZ      10004724 f dseqf.obj
+ 0001:0000376c       ..??0IAVIStream@@QAA@XZ    1000476c f dseqf.obj
+ 0001:000037b4       ..??0IPersistFile@@QAA@XZ  100047b4 f dseqf.obj
+ 0001:000037fc       ..??0IPersist@@QAA@XZ      100047fc f dseqf.obj
+ 0001:00003844       ..??0IMarshal@@QAA@XZ      10004844 f dseqf.obj
+ 0001:0000388c       ..??9@YAHABU_GUID@@0@Z     1000488c f dseqf.obj
+ 0001:000038e0       ..DllMain                  100048e0 f factory.obj
+ 0001:00003990       ..WEP                      10004990 f factory.obj
+ 0001:000039c0       ..DllCanUnloadNow          100049c0 f factory.obj
+ 0001:00003a18       ..DllGetClassObject        10004a18 f factory.obj
+ 0001:00003a68       ..?Create@CAVIFileCF@@SAJABU_GUID@@0PAPAX@Z 10004a68 f factory.obj
+ 0001:00003b54       ..??0CAVIFileCF@@AAA@ABU_GUID@@PAPAUIUnknown@@@Z 10004b54 f factory.obj
+ 0001:00003bf0       ..?QueryInterface@CAVIFileCF@@EAAJABU_GUID@@PAPAX@Z 10004bf0 f factory.obj
+ 0001:00003cb8       ..?AddRef@CAVIFileCF@@EAAKXZ 10004cb8 f factory.obj
+ 0001:00003cfc       ..?Release@CAVIFileCF@@EAAKXZ 10004cfc f factory.obj
+ 0001:00003d70       ..?CreateInstance@CAVIFileCF@@EAAJPAUIUnknown@@ABU_GUID@@PAPAX@Z 10004d70 f factory.obj
+ 0001:00003df8       ..?LockServer@CAVIFileCF@@EAAJH@Z 10004df8 f factory.obj
+ 0001:00003e38       ..??0IClassFactory@@QAA@XZ 10004e38 f factory.obj
+ 0001:00003e80       ..CoGetStandardMarshal     10004e80 f ole32:ole32.dll
+ 0001:00003e98       ..??2@YAPAXI@Z             10004e98 f msvcrt:MSVCRT40.dll
+ 0001:00003eb0       ..??3@YAXPAX@Z             10004eb0 f msvcrt:MSVCRT40.dll
+ 0001:00003ec8       .._purecall                10004ec8 f msvcrt:MSVCRT40.dll
+ 0001:00003ee0       ..memcmp                   10004ee0 f msvcrt:MSVCRT40.dll
+ 0001:00003ef8       ..memset                   10004ef8 f msvcrt:MSVCRT40.dll
+ 0001:00003f10       ..lstrlenA                 10004f10 f kernel32:KERNEL32.dll
+ 0001:00003f28       ..OpenFile                 10004f28 f kernel32:KERNEL32.dll
+ 0001:00003f40       ..SetErrorMode             10004f40 f kernel32:KERNEL32.dll
+ 0001:00003f58       ..RtlMoveMemory            10004f58 f kernel32:KERNEL32.dll
+ 0001:00003f70       ..GlobalAlloc              10004f70 f kernel32:KERNEL32.dll
+ 0001:00003f88       ..GlobalLock               10004f88 f kernel32:KERNEL32.dll
+ 0001:00003fa0       ..GlobalFree               10004fa0 f kernel32:KERNEL32.dll
+ 0001:00003fb8       ..GlobalHandle             10004fb8 f kernel32:KERNEL32.dll
+ 0001:00003fd0       ..GlobalUnlock             10004fd0 f kernel32:KERNEL32.dll
+ 0001:00003fe8       ..CharPrevA                10004fe8 f user32:USER32.dll
+ 0001:00004000       ..SetRect                  10005000 f user32:USER32.dll
+ 0001:00004018       ..wsprintfW                10005018 f user32:USER32.dll
+ 0001:00004030       ..LoadStringA              10005030 f user32:USER32.dll
+ 0001:00004048       ..wsprintfA                10005048 f user32:USER32.dll
+ 0001:00004060       ..mmioClose                10005060 f winmm:WINMM.dll
+ 0001:00004078       ..mmioRead                 10005078 f winmm:WINMM.dll
+ 0001:00004090       ..mmioOpenA                10005090 f winmm:WINMM.dll
+ 0001:000040a8       ..mmioFlush                100050a8 f winmm:WINMM.dll
+ 0001:000040c0       ..mmioWrite                100050c0 f winmm:WINMM.dll
+ 0002:00000000       ?uUseCount@@3IA            10006000   dseqf.obj
+ 0002:00000004       ?fLocked@@3HA              10006004   dseqf.obj
+ 0003:00000088       ?Create@CAVIFile@@SAJPAUIUnknown@@ABU_GUID@@PAPAX@Z 10007088   dseqf.obj
+ 0003:00000090       ??0CAVIFile@@AAA@PAUIUnknown@@PAPAU1@@Z 10007090   dseqf.obj
+ 0003:00000098       ??0CUnknownImpl@CAVIFile@@QAA@PAV1@@Z 10007098   dseqf.obj
+ 0003:000000a0       ?QueryInterface@CUnknownImpl@CAVIFile@@UAAJABU_GUID@@PAPAX@Z 100070a0   dseqf.obj
+ 0003:000000a8       ?AddRef@CUnknownImpl@CAVIFile@@UAAKXZ 100070a8   dseqf.obj
+ 0003:000000b0       ?Release@CUnknownImpl@CAVIFile@@UAAKXZ 100070b0   dseqf.obj
+ 0003:000000b8       ??0CF@CAVIFile@@QAA@PAV1@@Z 100070b8   dseqf.obj
+ 0003:000000c0       ?QueryInterface@CF@CAVIFile@@UAAJABU_GUID@@PAPAX@Z 100070c0   dseqf.obj
+ 0003:000000c8       ?AddRef@CF@CAVIFile@@UAAKXZ 100070c8   dseqf.obj
+ 0003:000000d0       ?Release@CF@CAVIFile@@UAAKXZ 100070d0   dseqf.obj
+ 0003:000000d8       ?Info@CF@CAVIFile@@UAAJPAU_AVIFILEINFOW@@J@Z 100070d8   dseqf.obj
+ 0003:000000e0       ?GetStream@CF@CAVIFile@@UAAJPAPAUIAVIStream@@KJ@Z 100070e0   dseqf.obj
+ 0003:000000e8       ?CreateStream@CF@CAVIFile@@UAAJPAPAUIAVIStream@@PAU_AVISTREAMINFOW@@@Z 100070e8   dseqf.obj
+ 0003:000000f0       ?WriteData@CF@CAVIFile@@UAAJKPAXJ@Z 100070f0   dseqf.obj
+ 0003:000000f8       ?ReadData@CF@CAVIFile@@UAAJKPAXPAJ@Z 100070f8   dseqf.obj
+ 0003:00000100       ?EndRecord@CF@CAVIFile@@UAAJXZ 10007100   dseqf.obj
+ 0003:00000108       ?DeleteStream@CF@CAVIFile@@UAAJKJ@Z 10007108   dseqf.obj
+ 0003:00000110       ??1CF@CAVIFile@@QAA@XZ     10007110   dseqf.obj
+ 0003:00000118       ??0CS@CAVIFile@@QAA@PAV1@@Z 10007118   dseqf.obj
+ 0003:00000120       ?QueryInterface@CS@CAVIFile@@UAAJABU_GUID@@PAPAX@Z 10007120   dseqf.obj
+ 0003:00000128       ?AddRef@CS@CAVIFile@@UAAKXZ 10007128   dseqf.obj
+ 0003:00000130       ?Release@CS@CAVIFile@@UAAKXZ 10007130   dseqf.obj
+ 0003:00000138       ?Create@CS@CAVIFile@@UAAJJJ@Z 10007138   dseqf.obj
+ 0003:00000140       ?Info@CS@CAVIFile@@UAAJPAU_AVISTREAMINFOW@@J@Z 10007140   dseqf.obj
+ 0003:00000148       ?FindSample@CS@CAVIFile@@UAAJJJ@Z 10007148   dseqf.obj
+ 0003:00000150       ?ReadFormat@CS@CAVIFile@@UAAJJPAXPAJ@Z 10007150   dseqf.obj
+ 0003:00000158       ?SetFormat@CS@CAVIFile@@UAAJJPAXJ@Z 10007158   dseqf.obj
+ 0003:00000160       ?Read@CS@CAVIFile@@UAAJJJPAXJPAJ1@Z 10007160   dseqf.obj
+ 0003:00000168       ?Write@CS@CAVIFile@@UAAJJJPAXJKPAJ1@Z 10007168   dseqf.obj
+ 0003:00000170       ?Delete@CS@CAVIFile@@UAAJJJ@Z 10007170   dseqf.obj
+ 0003:00000178       ?ReadData@CS@CAVIFile@@UAAJKPAXPAJ@Z 10007178   dseqf.obj
+ 0003:00000180       ?WriteData@CS@CAVIFile@@UAAJKPAXJ@Z 10007180   dseqf.obj
+ 0003:00000188       ?SetInfo@CS@CAVIFile@@UAAJPAU_AVISTREAMINFOW@@J@Z 10007188   dseqf.obj
+ 0003:00000190       ??1CS@CAVIFile@@QAA@XZ     10007190   dseqf.obj
+ 0003:00000198       ??0CPersistFileImpl@CAVIFile@@QAA@PAV1@@Z 10007198   dseqf.obj
+ 0003:000001a0       ?QueryInterface@CPersistFileImpl@CAVIFile@@UAAJABU_GUID@@PAPAX@Z 100071a0   dseqf.obj
+ 0003:000001a8       ?AddRef@CPersistFileImpl@CAVIFile@@UAAKXZ 100071a8   dseqf.obj
+ 0003:000001b0       ?Release@CPersistFileImpl@CAVIFile@@UAAKXZ 100071b0   dseqf.obj
+ 0003:000001b8       ?GetClassID@CPersistFileImpl@CAVIFile@@UAAJPAU_GUID@@@Z 100071b8   dseqf.obj
+ 0003:000001c0       ?IsDirty@CPersistFileImpl@CAVIFile@@UAAJXZ 100071c0   dseqf.obj
+ 0003:000001c8       ?Load@CPersistFileImpl@CAVIFile@@UAAJPBGK@Z 100071c8   dseqf.obj
+ 0003:000001d0       ?Save@CPersistFileImpl@CAVIFile@@UAAJPBGH@Z 100071d0   dseqf.obj
+ 0003:000001d8       ?SaveCompleted@CPersistFileImpl@CAVIFile@@UAAJPBG@Z 100071d8   dseqf.obj
+ 0003:000001e0       ?GetCurFile@CPersistFileImpl@CAVIFile@@UAAJPAPAG@Z 100071e0   dseqf.obj
+ 0003:000001e8       ?FileName@@YAPADPBD@Z      100071e8   dseqf.obj
+ 0003:000001f0       ?LoadFrame@CAVIFile@@QAAJJ@Z 100071f0   dseqf.obj
+ 0003:000001f8       ?WriteFrame@CAVIFile@@QAAJJPAXJ@Z 100071f8   dseqf.obj
+ 0003:00000200       ??0CMarshalImpl@CAVIFile@@QAA@PAV1@@Z 10007200   dseqf.obj
+ 0003:00000208       ?QueryInterface@CMarshalImpl@CAVIFile@@UAAJABU_GUID@@PAPAX@Z 10007208   dseqf.obj
+ 0003:00000210       ?AddRef@CMarshalImpl@CAVIFile@@UAAKXZ 10007210   dseqf.obj
+ 0003:00000218       ?Release@CMarshalImpl@CAVIFile@@UAAKXZ 10007218   dseqf.obj
+ 0003:00000220       ?GetUnmarshalClass@CMarshalImpl@CAVIFile@@UAAJABU_GUID@@PAXK1KPAU3@@Z 10007220   dseqf.obj
+ 0003:00000228       ?GetMarshalSizeMax@CMarshalImpl@CAVIFile@@UAAJABU_GUID@@PAXK1KPAK@Z 10007228   dseqf.obj
+ 0003:00000230       ?MarshalInterface@CMarshalImpl@CAVIFile@@UAAJPAUIStream@@ABU_GUID@@PAXK2K@Z 10007230   dseqf.obj
+ 0003:00000238       ?UnmarshalInterface@CMarshalImpl@CAVIFile@@UAAJPAUIStream@@ABU_GUID@@PAPAX@Z 10007238   dseqf.obj
+ 0003:00000240       ?ReleaseMarshalData@CMarshalImpl@CAVIFile@@UAAJPAUIStream@@@Z 10007240   dseqf.obj
+ 0003:00000248       ?DisconnectObject@CMarshalImpl@CAVIFile@@UAAJK@Z 10007248   dseqf.obj
+ 0003:00000250       ??_GCAVIFile@@QAAPAXI@Z    10007250   dseqf.obj
+ 0003:00000258       ??1CAVIFile@@QAA@XZ        10007258   dseqf.obj
+ 0003:00000260       ??_7CUnknownImpl@CAVIFile@@6B@ 10007260   dseqf.obj
+ 0003:0000026c       ??0IUnknown@@QAA@XZ        1000726c   dseqf.obj
+ 0003:00000278       ??_7IUnknown@@6B@          10007278   dseqf.obj
+ 0003:00000284       ??8@YAHABU_GUID@@0@Z       10007284   dseqf.obj
+ 0003:00000290       ??_7CF@CAVIFile@@6B@       10007290   dseqf.obj
+ 0003:000002b8       ??0IAVIFile@@QAA@XZ        100072b8   dseqf.obj
+ 0003:000002c0       ??_7IAVIFile@@6B@          100072c0   dseqf.obj
+ 0003:000002e8       ??_7CS@CAVIFile@@6B@       100072e8   dseqf.obj
+ 0003:00000320       ??0IAVIStream@@QAA@XZ      10007320   dseqf.obj
+ 0003:00000328       ??_7IAVIStream@@6B@        10007328   dseqf.obj
+ 0003:00000360       ??_7CPersistFileImpl@CAVIFile@@6B@ 10007360   dseqf.obj
+ 0003:00000384       ??0IPersistFile@@QAA@XZ    10007384   dseqf.obj
+ 0003:00000390       ??_7IPersistFile@@6B@      10007390   dseqf.obj
+ 0003:000003b4       ??0IPersist@@QAA@XZ        100073b4   dseqf.obj
+ 0003:000003c0       ??_7IPersist@@6B@          100073c0   dseqf.obj
+ 0003:000003d0       ??_7CMarshalImpl@CAVIFile@@6B@ 100073d0   dseqf.obj
+ 0003:000003f4       ??0IMarshal@@QAA@XZ        100073f4   dseqf.obj
+ 0003:00000400       ??_7IMarshal@@6B@          10007400   dseqf.obj
+ 0003:00000424       ??9@YAHABU_GUID@@0@Z       10007424   dseqf.obj
+ 0003:00000430       IID_IAVIFile               10007430   factory.obj
+ 0003:00000440       IID_IAVIStream             10007440   factory.obj
+ 0003:00000450       IID_IAVIStreaming          10007450   factory.obj
+ 0003:00000460       IID_IGetFrame              10007460   factory.obj
+ 0003:00000470       IID_IAVIEditStream         10007470   factory.obj
+ 0003:00000480       CLSID_AVISimpleUnMarshal   10007480   factory.obj
+ 0003:00000490       CLSID_AVIFile              10007490   factory.obj
+ 0003:000004a0       CLSID_DIBSEQFileReader     100074a0   factory.obj
+ 0003:000004b0       DllMain                    100074b0   factory.obj
+ 0003:000004b8       WEP                        100074b8   factory.obj
+ 0003:000004c0       DllCanUnloadNow            100074c0   factory.obj
+ 0003:000004c8       DllGetClassObject          100074c8   factory.obj
+ 0003:000004d0       ?Create@CAVIFileCF@@SAJABU_GUID@@0PAPAX@Z 100074d0   factory.obj
+ 0003:000004d8       ??0CAVIFileCF@@AAA@ABU_GUID@@PAPAUIUnknown@@@Z 100074d8   factory.obj
+ 0003:000004e0       ?QueryInterface@CAVIFileCF@@EAAJABU_GUID@@PAPAX@Z 100074e0   factory.obj
+ 0003:000004e8       ?AddRef@CAVIFileCF@@EAAKXZ 100074e8   factory.obj
+ 0003:000004f0       ?Release@CAVIFileCF@@EAAKXZ 100074f0   factory.obj
+ 0003:000004f8       ?CreateInstance@CAVIFileCF@@EAAJPAUIUnknown@@ABU_GUID@@PAPAX@Z 100074f8   factory.obj
+ 0003:00000500       ?LockServer@CAVIFileCF@@EAAJH@Z 10007500   factory.obj
+ 0003:00000508       ??_7CAVIFileCF@@6B@        10007508   factory.obj
+ 0003:0000051c       ??0IClassFactory@@QAA@XZ   1000751c   factory.obj
+ 0003:00000528       ??_7IClassFactory@@6B@     10007528   factory.obj
+ 0003:00000540       CoGetStandardMarshal       10007540   ole32:ole32.dll
+ 0003:00000548       IID_IMarshal               10007548   uuid:objidl_i_guid0.obj
+ 0003:00000558       IID_IPersistFile           10007558   uuid:objidl_i_guid20.obj
+ 0003:00000568       IID_IUnknown               10007568   uuid:unknwn_i_guid0.obj
+ 0003:00000578       IID_IClassFactory          10007578   uuid:unknwn_i_guid1.obj
+ 0003:00000588       ??2@YAPAXI@Z               10007588   msvcrt:MSVCRT40.dll
+ 0003:00000590       ??3@YAXPAX@Z               10007590   msvcrt:MSVCRT40.dll
+ 0003:00000598       _purecall                  10007598   msvcrt:MSVCRT40.dll
+ 0003:000005a0       memcmp                     100075a0   msvcrt:MSVCRT40.dll
+ 0003:000005a8       memset                     100075a8   msvcrt:MSVCRT40.dll
+ 0003:000005b0       lstrlenA                   100075b0   kernel32:KERNEL32.dll
+ 0003:000005b8       OpenFile                   100075b8   kernel32:KERNEL32.dll
+ 0003:000005c0       SetErrorMode               100075c0   kernel32:KERNEL32.dll
+ 0003:000005c8       RtlMoveMemory              100075c8   kernel32:KERNEL32.dll
+ 0003:000005d0       GlobalAlloc                100075d0   kernel32:KERNEL32.dll
+ 0003:000005d8       GlobalLock                 100075d8   kernel32:KERNEL32.dll
+ 0003:000005e0       GlobalFree                 100075e0   kernel32:KERNEL32.dll
+ 0003:000005e8       GlobalHandle               100075e8   kernel32:KERNEL32.dll
+ 0003:000005f0       GlobalUnlock               100075f0   kernel32:KERNEL32.dll
+ 0003:000005f8       CharPrevA                  100075f8   user32:USER32.dll
+ 0003:00000600       SetRect                    10007600   user32:USER32.dll
+ 0003:00000608       wsprintfW                  10007608   user32:USER32.dll
+ 0003:00000610       LoadStringA                10007610   user32:USER32.dll
+ 0003:00000618       wsprintfA                  10007618   user32:USER32.dll
+ 0003:00000620       mmioClose                  10007620   winmm:WINMM.dll
+ 0003:00000628       mmioRead                   10007628   winmm:WINMM.dll
+ 0003:00000630       mmioOpenA                  10007630   winmm:WINMM.dll
+ 0003:00000638       mmioFlush                  10007638   winmm:WINMM.dll
+ 0003:00000640       mmioWrite                  10007640   winmm:WINMM.dll
+ 0004:00000038       ?ghModule@@3PAXA           10008038   factory.obj
+ 0006:00000000       __IMPORT_DESCRIPTOR_ole32  1000a000   ole32:ole32.dll
+ 0006:00000014       __IMPORT_DESCRIPTOR_MSVCRT40 1000a014   msvcrt:MSVCRT40.dll
+ 0006:00000028       __IMPORT_DESCRIPTOR_KERNEL32 1000a028   kernel32:KERNEL32.dll
+ 0006:0000003c       __IMPORT_DESCRIPTOR_USER32 1000a03c   user32:USER32.dll
+ 0006:00000050       __IMPORT_DESCRIPTOR_WINMM  1000a050   winmm:WINMM.dll
+ 0006:00000064       __NULL_IMPORT_DESCRIPTOR   1000a064   ole32:ole32.dll
+ 0006:000001a4       __imp_GlobalHandle         1000a1a4   kernel32:KERNEL32.dll
+ 0006:000001a8       __imp_GlobalFree           1000a1a8   kernel32:KERNEL32.dll
+ 0006:000001ac       __imp_GlobalAlloc          1000a1ac   kernel32:KERNEL32.dll
+ 0006:000001b0       __imp_GlobalLock           1000a1b0   kernel32:KERNEL32.dll
+ 0006:000001b4       __imp_OpenFile             1000a1b4   kernel32:KERNEL32.dll
+ 0006:000001b8       __imp_GlobalUnlock         1000a1b8   kernel32:KERNEL32.dll
+ 0006:000001bc       __imp_RtlMoveMemory        1000a1bc   kernel32:KERNEL32.dll
+ 0006:000001c0       __imp_lstrlenA             1000a1c0   kernel32:KERNEL32.dll
+ 0006:000001c4       __imp_SetErrorMode         1000a1c4   kernel32:KERNEL32.dll
+ 0006:000001c8       \177KERNEL32_NULL_THUNK_DATA 1000a1c8   kernel32:KERNEL32.dll
+ 0006:000001cc       __imp_memcmp               1000a1cc   msvcrt:MSVCRT40.dll
+ 0006:000001d0       __imp__purecall            1000a1d0   msvcrt:MSVCRT40.dll
+ 0006:000001d4       __imp_memset               1000a1d4   msvcrt:MSVCRT40.dll
+ 0006:000001d8       __imp_??3@YAXPAX@Z         1000a1d8   msvcrt:MSVCRT40.dll
+ 0006:000001dc       __imp_??2@YAPAXI@Z         1000a1dc   msvcrt:MSVCRT40.dll
+ 0006:000001e0       \177MSVCRT40_NULL_THUNK_DATA 1000a1e0   msvcrt:MSVCRT40.dll
+ 0006:000001e4       __imp_CharPrevA            1000a1e4   user32:USER32.dll
+ 0006:000001e8       __imp_SetRect              1000a1e8   user32:USER32.dll
+ 0006:000001ec       __imp_wsprintfW            1000a1ec   user32:USER32.dll
+ 0006:000001f0       __imp_LoadStringA          1000a1f0   user32:USER32.dll
+ 0006:000001f4       __imp_wsprintfA            1000a1f4   user32:USER32.dll
+ 0006:000001f8       \177USER32_NULL_THUNK_DATA 1000a1f8   user32:USER32.dll
+ 0006:000001fc       __imp_mmioWrite            1000a1fc   winmm:WINMM.dll
+ 0006:00000200       __imp_mmioClose            1000a200   winmm:WINMM.dll
+ 0006:00000204       __imp_mmioRead             1000a204   winmm:WINMM.dll
+ 0006:00000208       __imp_mmioOpenA            1000a208   winmm:WINMM.dll
+ 0006:0000020c       __imp_mmioFlush            1000a20c   winmm:WINMM.dll
+ 0006:00000210       \177WINMM_NULL_THUNK_DATA  1000a210   winmm:WINMM.dll
+ 0006:00000214       __imp_CoGetStandardMarshal 1000a214   ole32:ole32.dll
+ 0006:00000218       \177ole32_NULL_THUNK_DATA  1000a218   ole32:ole32.dll
+ 0006:000080f0       .toc                       100120f0   <linker-defined>
+
+ entry point at        0000:00000000
+
+ Static symbols
+
+ 0001:000010f0       ..?dseqParseFileName@@YAKPAD0PAK@Z 100020f0 f dseqf.obj
+
+ Offset   Rva+Base   Publics by TOC Offset
+
+  8000    1000a0f0   ?ghModule@@3PAXA
+  8004    1000a0f4   ?fLocked@@3HA
+  8008    1000a0f8   ?uUseCount@@3IA
+  800c    1000a0fc   ??_7CAVIFileCF@@6B@
+  8010    1000a100   IID_IUnknown
+  8014    1000a104   IID_IClassFactory
+  8018    1000a108   CLSID_DIBSEQFileReader
+  801c    1000a10c   ??_7IClassFactory@@6B@
+  8020    1000a110   ??_7CUnknownImpl@CAVIFile@@6B@
+  8024    1000a114   IID_IAVIFile
+  8028    1000a118   IID_IAVIStream
+  802c    1000a11c   IID_IPersistFile
+  8030    1000a120   IID_IMarshal
+  8034    1000a124   ??_7CF@CAVIFile@@6B@
+  8038    1000a128   ??_7CS@CAVIFile@@6B@
+  803c    1000a12c   ??_7CPersistFileImpl@CAVIFile@@6B@
+  8040    1000a130   __imp_lstrlenA
+  8044    1000a134   __imp_CharPrevA
+  8048    1000a138   __imp_wsprintfA
+  8050    1000a140   __imp_LoadStringA
+  8054    1000a144   __imp_wsprintfW
+  8058    1000a148   __imp_SetErrorMode
+  805c    1000a14c   __imp_OpenFile
+  8060    1000a150   __imp_SetRect
+  8064    1000a154   __imp_RtlMoveMemory
+  8068    1000a158   __imp_mmioOpenA
+  806c    1000a15c   __imp_mmioRead
+  8070    1000a160   __imp_GlobalUnlock
+  8074    1000a164   __imp_GlobalHandle
+  8078    1000a168   __imp_GlobalFree
+  807c    1000a16c   __imp_GlobalAlloc
+  8080    1000a170   __imp_GlobalLock
+  8084    1000a174   __imp_mmioClose
+  8088    1000a178   __imp_mmioWrite
+  808c    1000a17c   __imp_mmioFlush
+  8090    1000a180   ??_7CMarshalImpl@CAVIFile@@6B@
+  8094    1000a184   __imp_CoGetStandardMarshal
+  8098    1000a188   CLSID_AVISimpleUnMarshal
+  809c    1000a18c   ??_7IUnknown@@6B@
+  80a0    1000a190   ??_7IAVIFile@@6B@
+  80a4    1000a194   ??_7IAVIStream@@6B@
+  80a8    1000a198   ??_7IPersistFile@@6B@
+  80ac    1000a19c   ??_7IPersist@@6B@
+  80b0    1000a1a0   ??_7IMarshal@@6B@
+

@@ -1,0 +1,366 @@
+ plasma
+
+ Timestamp is 64172e53 (Sun Mar 19 10:46:27 2023)
+
+ Preferred load address is 10000000
+
+ Start         Length     Name                   Class
+ 0001:00000000 0000319cH .text                   CODE
+ 0002:00000000 000004a0H .rdata                  DATA
+ 0002:000004a0 00000069H .edata                  DATA
+ 0003:00000000 00000004H .CRT$XCA                DATA
+ 0003:00000008 00000004H .CRT$XCZ                DATA
+ 0003:00000010 00000004H .CRT$XIA                DATA
+ 0003:00000018 00000004H .CRT$XIZ                DATA
+ 0003:00000020 0000003cH .data                   DATA
+ 0003:00000060 00000018H .bss                    DATA
+ 0004:00000000 00000730H .pdata                  DATA
+ 0005:00000000 0000003cH .idata$2                DATA
+ 0005:0000003c 00000014H .idata$3                DATA
+ 0005:00000050 0000008cH .idata$4                DATA
+ 0005:000000dc 000000c8H .idata$4toc             DATA
+ 0005:000001a4 0000008cH .idata$5                DATA
+ 0005:00000230 000001d6H .idata$6                DATA
+ 0006:00000000 000000e8H .rsrc$01                DATA
+ 0006:000000f0 000008d4H .rsrc$02                DATA
+
+  Address         Publics by Value              Rva+Base   Lib:Object
+
+ 0001:00000000       ..DllMain                  10001000 f plasma.obj
+ 0001:000000bc       ..DllGetClassObject        100010bc f plasma.obj
+ 0001:000001ec       ..DllCanUnloadNow          100011ec f plasma.obj
+ 0001:00000244       ..??0CPlasmaCF@@QAA@XZ     10001244 f plasma.obj
+ 0001:00000298       ..??1CPlasmaCF@@QAA@XZ     10001298 f plasma.obj
+ 0001:000002c8       ..?QueryInterface@CPlasmaCF@@UAAJABU_GUID@@PAPAX@Z 100012c8 f plasma.obj
+ 0001:00000388       ..?AddRef@CPlasmaCF@@UAAKXZ 10001388 f plasma.obj
+ 0001:000003cc       ..?Release@CPlasmaCF@@UAAKXZ 100013cc f plasma.obj
+ 0001:00000448       ..?CreateInstance@CPlasmaCF@@UAAJPAUIUnknown@@ABU_GUID@@PAPAX@Z 10001448 f plasma.obj
+ 0001:000005ac       ..?LockServer@CPlasmaCF@@UAAJH@Z 100015ac f plasma.obj
+ 0001:00000618       ..?IsEqualGUID@@YAHABU_GUID@@0@Z 10001618 f plasma.obj
+ 0001:00000674       ..??0IClassFactory@@QAA@XZ 10001674 f plasma.obj
+ 0001:000006bc       ..??0IUnknown@@QAA@XZ      100016bc f plasma.obj
+ 0001:000006fc       ..??_GCPlasmaCF@@QAAPAXI@Z 100016fc f plasma.obj
+ 0001:00000758       ..?StartGraphicsThread@@YAKPAK@Z 10001758 f plasmaob.obj
+ 0001:0000078c       ..?QueryInterface@CPlasma@@UAAJABU_GUID@@PAPAX@Z 1000178c f plasmaob.obj
+ 0001:00000904       ..?AddRef@CPlasma@@UAAKXZ  10001904 f plasmaob.obj
+ 0001:00000948       ..?Release@CPlasma@@UAAKXZ 10001948 f plasmaob.obj
+ 0001:00000a04       ..?GetClassID@CPlasma@@UAAJPAU_GUID@@@Z 10001a04 f plasmaob.obj
+ 0001:00000a50       ..?IsDirty@CPlasma@@UAAJXZ 10001a50 f plasmaob.obj
+ 0001:00000a9c       ..?Load@CPlasma@@UAAJPAUIStream@@@Z 10001a9c f plasmaob.obj
+ 0001:00000b60       ..?Save@CPlasma@@UAAJPAUIStream@@H@Z 10001b60 f plasmaob.obj
+ 0001:00000c34       ..?GetSizeMax@CPlasma@@UAAJPAT_ULARGE_INTEGER@@@Z 10001c34 f plasmaob.obj
+ 0001:00000c84       ..?Init@CPlasma@@UAAJPAUIFractalHost@@@Z 10001c84 f plasmaob.obj
+ 0001:00000cc4       ..?SetDefaults@CPlasma@@UAAJXZ 10001cc4 f plasmaob.obj
+ 0001:00000d44       ..?SetProperties@CPlasma@@UAAJPAX@Z 10001d44 f plasmaob.obj
+ 0001:00000dbc       ..?GetExtent@CPlasma@@UAAJPAN000@Z 10001dbc f plasmaob.obj
+ 0001:00000e3c       ..?SetExtent@CPlasma@@UAAJNNNN@Z 10001e3c f plasmaob.obj
+ 0001:00000f08       ..?SetGraphSize@CPlasma@@UAAJII@Z 10001f08 f plasmaob.obj
+ 0001:00001000       ..?Start@CPlasma@@UAAJXZ   10002000 f plasmaob.obj
+ 0001:00001064       ..?Stop@CPlasma@@UAAJXZ    10002064 f plasmaob.obj
+ 0001:000010c8       ..?Initialize@CPlasma@@QAAHXZ 100020c8 f plasmaob.obj
+ 0001:00001200       ..?GraphicsThread@CPlasma@@QAAKXZ 10002200 f plasmaob.obj
+ 0001:0000143c       ..?Subdivide@CPlasma@@QAAXHHHH@Z 1000243c f plasmaob.obj
+ 0001:00001dbc       ..??0CPlasma@@QAA@XZ       10002dbc f plasmaob.obj
+ 0001:00001eb0       ..??1CPlasma@@UAA@XZ       10002eb0 f plasmaob.obj
+ 0001:00002024       ..?DialogProc@CPlasma@@UAAHPAXIIJ@Z 10003024 f plasmaob.obj
+ 0001:0000238c       ..?Normalize@@YAXAAH@Z     1000338c f plasmaob.obj
+ 0001:00002410       ..??_GCPlasma@@UAAPAXI@Z   10003410 f plasmaob.obj
+ 0001:00002478       ..??0IFractalEngine@@QAA@XZ 10003478 f plasmaob.obj
+ 0001:000024c0       ..??0IPersistStream@@QAA@XZ 100034c0 f plasmaob.obj
+ 0001:00002508       ..??0CHlprDialog@@QAA@XZ   10003508 f plasmaob.obj
+ 0001:00002548       ..??_GCHlprDialog@@UAAPAXI@Z 10003548 f plasmaob.obj
+ 0001:000025a4       ..??1CHlprDialog@@UAA@XZ   100035a4 f plasmaob.obj
+ 0001:000025d4       ..??0IPersist@@QAA@XZ      100035d4 f plasmaob.obj
+ 0001:0000261c       ..?QueryInterface@CPlasma@@W3AAJABU_GUID@@PAPAX@Z 1000361c f plasmaob.obj
+ 0001:00002624       ..?AddRef@CPlasma@@W3AAKXZ 10003624 f plasmaob.obj
+ 0001:0000262c       ..?Release@CPlasma@@W3AAKXZ 1000362c f plasmaob.obj
+ 0001:00002634       .._CRT_INIT                10003634 f msvcrt:crtdll.obj
+ 0001:000027b0       .._DllMainCRTStartup       100037b0 f msvcrt:crtdll.obj
+ 0001:00002904       ..??2@YAPAXI@Z             10003904 f msvcrt:MSVCRT40.dll
+ 0001:0000291c       ..memcmp                   1000391c f msvcrt:MSVCRT40.dll
+ 0001:00002934       .._purecall                10003934 f msvcrt:MSVCRT40.dll
+ 0001:0000294c       ..??3@YAXPAX@Z             1000394c f msvcrt:MSVCRT40.dll
+ 0001:00002964       ..memcpy                   10003964 f msvcrt:MSVCRT40.dll
+ 0001:0000297c       ..rand                     1000397c f msvcrt:MSVCRT40.dll
+ 0001:00002994       ..srand                    10003994 f msvcrt:MSVCRT40.dll
+ 0001:000029b0       ..__dtou                   100039b0 f msvcrt:dtou.obj
+ 0001:000029e8       ..__itod                   100039e8 f msvcrt:itod.obj
+ 0001:00002a14       ..sqrt                     10003a14 f msvcrt:MSVCRT40.dll
+ 0001:00002a2c       ..sscanf                   10003a2c f msvcrt:MSVCRT40.dll
+ 0001:00002a44       ..sprintf                  10003a44 f msvcrt:MSVCRT40.dll
+ 0001:00002a60       ..__restgpr_All            10003a60 f msvcrt:restgpr.obj
+ 0001:00002a94       ..__restgpr_14             10003a94   msvcrt:restgpr.obj
+ 0001:00002a98       ..__restgpr_15             10003a98   msvcrt:restgpr.obj
+ 0001:00002a9c       ..__restgpr_16             10003a9c   msvcrt:restgpr.obj
+ 0001:00002aa0       ..__restgpr_17             10003aa0   msvcrt:restgpr.obj
+ 0001:00002aa4       ..__restgpr_18             10003aa4   msvcrt:restgpr.obj
+ 0001:00002aa8       ..__restgpr_19             10003aa8   msvcrt:restgpr.obj
+ 0001:00002aac       ..__restgpr_20             10003aac   msvcrt:restgpr.obj
+ 0001:00002ab0       ..__restgpr_21             10003ab0   msvcrt:restgpr.obj
+ 0001:00002ab4       ..__restgpr_22             10003ab4   msvcrt:restgpr.obj
+ 0001:00002ab8       ..__restgpr_23             10003ab8   msvcrt:restgpr.obj
+ 0001:00002abc       ..__restgpr_24             10003abc   msvcrt:restgpr.obj
+ 0001:00002ac0       ..__restgpr_25             10003ac0   msvcrt:restgpr.obj
+ 0001:00002ac4       ..__restgpr_26             10003ac4   msvcrt:restgpr.obj
+ 0001:00002ac8       ..__restgpr_27             10003ac8   msvcrt:restgpr.obj
+ 0001:00002acc       ..__restgpr_28             10003acc   msvcrt:restgpr.obj
+ 0001:00002ad0       ..__restgpr_29             10003ad0   msvcrt:restgpr.obj
+ 0001:00002ad4       ..__restgpr_30             10003ad4   msvcrt:restgpr.obj
+ 0001:00002ad8       ..__restgpr_31             10003ad8   msvcrt:restgpr.obj
+ 0001:00002ae0       ..free                     10003ae0 f msvcrt:MSVCRT40.dll
+ 0001:00002af8       .._initterm                10003af8 f msvcrt:MSVCRT40.dll
+ 0001:00002b10       .._onexit                  10003b10 f msvcrt:atonexit.obj
+ 0001:00002b78       ..atexit                   10003b78 f msvcrt:atonexit.obj
+ 0001:00002ba8       ..malloc                   10003ba8 f msvcrt:MSVCRT40.dll
+ 0001:00002bc0       ..__savegpr_All            10003bc0 f msvcrt:savegpr.obj
+ 0001:00002bf4       ..__savegpr_14             10003bf4   msvcrt:savegpr.obj
+ 0001:00002bf8       ..__savegpr_15             10003bf8   msvcrt:savegpr.obj
+ 0001:00002bfc       ..__savegpr_16             10003bfc   msvcrt:savegpr.obj
+ 0001:00002c00       ..__savegpr_17             10003c00   msvcrt:savegpr.obj
+ 0001:00002c04       ..__savegpr_18             10003c04   msvcrt:savegpr.obj
+ 0001:00002c08       ..__savegpr_19             10003c08   msvcrt:savegpr.obj
+ 0001:00002c0c       ..__savegpr_20             10003c0c   msvcrt:savegpr.obj
+ 0001:00002c10       ..__savegpr_21             10003c10   msvcrt:savegpr.obj
+ 0001:00002c14       ..__savegpr_22             10003c14   msvcrt:savegpr.obj
+ 0001:00002c18       ..__savegpr_23             10003c18   msvcrt:savegpr.obj
+ 0001:00002c1c       ..__savegpr_24             10003c1c   msvcrt:savegpr.obj
+ 0001:00002c20       ..__savegpr_25             10003c20   msvcrt:savegpr.obj
+ 0001:00002c24       ..__savegpr_26             10003c24   msvcrt:savegpr.obj
+ 0001:00002c28       ..__savegpr_27             10003c28   msvcrt:savegpr.obj
+ 0001:00002c2c       ..__savegpr_28             10003c2c   msvcrt:savegpr.obj
+ 0001:00002c30       ..__savegpr_29             10003c30   msvcrt:savegpr.obj
+ 0001:00002c34       ..__savegpr_30             10003c34   msvcrt:savegpr.obj
+ 0001:00002c38       ..__savegpr_31             10003c38   msvcrt:savegpr.obj
+ 0001:00002c40       ..__dllonexit              10003c40 f msvcrt:MSVCRT40.dll
+ 0001:00002c58       ..WaitForSingleObject      10003c58 f kernel32:KERNEL32.dll
+ 0001:00002c70       ..SetEvent                 10003c70 f kernel32:KERNEL32.dll
+ 0001:00002c88       ..ResetEvent               10003c88 f kernel32:KERNEL32.dll
+ 0001:00002ca0       ..CreateThread             10003ca0 f kernel32:KERNEL32.dll
+ 0001:00002cb8       ..CreateEventA             10003cb8 f kernel32:KERNEL32.dll
+ 0001:00002cd0       ..GetTickCount             10003cd0 f kernel32:KERNEL32.dll
+ 0001:00002ce8       ..TerminateThread          10003ce8 f kernel32:KERNEL32.dll
+ 0001:00002d00       ..CloseHandle              10003d00 f kernel32:KERNEL32.dll
+ 0001:00002d18       ..MessageBoxA              10003d18 f user32:USER32.dll
+ 0001:00002d30       ..LoadStringA              10003d30 f user32:USER32.dll
+ 0001:00002d48       ..EndDialog                10003d48 f user32:USER32.dll
+ 0001:00002d60       ..GetDlgItemTextA          10003d60 f user32:USER32.dll
+ 0001:00002d78       ..SetDlgItemTextA          10003d78 f user32:USER32.dll
+ 0001:00002d90       ..SizeDouble               10003d90 f winhlprs:strmhelp.obj
+ 0001:00002dbc       ..WriteDouble              10003dbc f winhlprs:strmhelp.obj
+ 0001:00002e7c       ..ReadDouble               10003e7c f winhlprs:strmhelp.obj
+ 0001:00002f90       ..?ShowDialog@CHlprDialog@@UAAHPAXPBD0@Z 10003f90 f winhlprs:cdialog.obj
+ 0001:00003018       ..DialogProc               10004018 f winhlprs:cdialog.obj
+ 0001:0000313c       ..strlen                   1000413c f msvcrt:MSVCRT40.dll
+ 0001:00003154       ..DialogBoxParamA          10004154 f user32:USER32.dll
+ 0001:0000316c       ..GetWindowLongA           1000416c f user32:USER32.dll
+ 0001:00003184       ..SetWindowLongA           10004184 f user32:USER32.dll
+ 0002:00000058       DllMain                    10005058   plasma.obj
+ 0002:00000060       DllGetClassObject          10005060   plasma.obj
+ 0002:00000068       DllCanUnloadNow            10005068   plasma.obj
+ 0002:00000070       ??0CPlasmaCF@@QAA@XZ       10005070   plasma.obj
+ 0002:00000078       ?QueryInterface@CPlasmaCF@@UAAJABU_GUID@@PAPAX@Z 10005078   plasma.obj
+ 0002:00000080       ?AddRef@CPlasmaCF@@UAAKXZ  10005080   plasma.obj
+ 0002:00000088       ?Release@CPlasmaCF@@UAAKXZ 10005088   plasma.obj
+ 0002:00000090       ?CreateInstance@CPlasmaCF@@UAAJPAUIUnknown@@ABU_GUID@@PAPAX@Z 10005090   plasma.obj
+ 0002:00000098       ?LockServer@CPlasmaCF@@UAAJH@Z 10005098   plasma.obj
+ 0002:000000a0       ??1CPlasmaCF@@QAA@XZ       100050a0   plasma.obj
+ 0002:000000a8       ?IsEqualGUID@@YAHABU_GUID@@0@Z 100050a8   plasma.obj
+ 0002:000000b0       ??_7CPlasmaCF@@6B@         100050b0   plasma.obj
+ 0002:000000c4       ??0IClassFactory@@QAA@XZ   100050c4   plasma.obj
+ 0002:000000d0       ??_7IClassFactory@@6B@     100050d0   plasma.obj
+ 0002:000000e4       ??0IUnknown@@QAA@XZ        100050e4   plasma.obj
+ 0002:000000f0       ??_7IUnknown@@6B@          100050f0   plasma.obj
+ 0002:000000fc       ??_GCPlasmaCF@@QAAPAXI@Z   100050fc   plasma.obj
+ 0002:00000108       ?StartGraphicsThread@@YAKPAK@Z 10005108   plasmaob.obj
+ 0002:00000110       ?QueryInterface@CPlasma@@UAAJABU_GUID@@PAPAX@Z 10005110   plasmaob.obj
+ 0002:00000118       ?AddRef@CPlasma@@UAAKXZ    10005118   plasmaob.obj
+ 0002:00000120       ?Release@CPlasma@@UAAKXZ   10005120   plasmaob.obj
+ 0002:00000128       ?GetClassID@CPlasma@@UAAJPAU_GUID@@@Z 10005128   plasmaob.obj
+ 0002:00000130       ?IsDirty@CPlasma@@UAAJXZ   10005130   plasmaob.obj
+ 0002:00000138       ?Load@CPlasma@@UAAJPAUIStream@@@Z 10005138   plasmaob.obj
+ 0002:00000140       ?Save@CPlasma@@UAAJPAUIStream@@H@Z 10005140   plasmaob.obj
+ 0002:00000148       ?GetSizeMax@CPlasma@@UAAJPAT_ULARGE_INTEGER@@@Z 10005148   plasmaob.obj
+ 0002:00000150       ?Init@CPlasma@@UAAJPAUIFractalHost@@@Z 10005150   plasmaob.obj
+ 0002:00000158       ?SetDefaults@CPlasma@@UAAJXZ 10005158   plasmaob.obj
+ 0002:00000168       ?SetProperties@CPlasma@@UAAJPAX@Z 10005168   plasmaob.obj
+ 0002:00000170       ?GetExtent@CPlasma@@UAAJPAN000@Z 10005170   plasmaob.obj
+ 0002:00000188       ?SetExtent@CPlasma@@UAAJNNNN@Z 10005188   plasmaob.obj
+ 0002:00000190       ?SetGraphSize@CPlasma@@UAAJII@Z 10005190   plasmaob.obj
+ 0002:00000198       ?Start@CPlasma@@UAAJXZ     10005198   plasmaob.obj
+ 0002:000001a0       ?Stop@CPlasma@@UAAJXZ      100051a0   plasmaob.obj
+ 0002:000001a8       ?Initialize@CPlasma@@QAAHXZ 100051a8   plasmaob.obj
+ 0002:000001b0       ?GraphicsThread@CPlasma@@QAAKXZ 100051b0   plasmaob.obj
+ 0002:000001b8       ?Subdivide@CPlasma@@QAAXHHHH@Z 100051b8   plasmaob.obj
+ 0002:000001c0       ??0CPlasma@@QAA@XZ         100051c0   plasmaob.obj
+ 0002:000001c8       ?DialogProc@CPlasma@@UAAHPAXIIJ@Z 100051c8   plasmaob.obj
+ 0002:000001d0       ??1CPlasma@@UAA@XZ         100051d0   plasmaob.obj
+ 0002:000001e8       ?Normalize@@YAXAAH@Z       100051e8   plasmaob.obj
+ 0002:000001f0       ??_GCPlasma@@UAAPAXI@Z     100051f0   plasmaob.obj
+ 0002:000001f0       ??_ECPlasma@@UAAPAXI@Z     100051f0   plasmaob.obj
+ 0002:000001f8       ?Release@CPlasma@@W3AAKXZ  100051f8   plasmaob.obj
+ 0002:00000200       ?AddRef@CPlasma@@W3AAKXZ   10005200   plasmaob.obj
+ 0002:00000208       ?QueryInterface@CPlasma@@W3AAJABU_GUID@@PAPAX@Z 10005208   plasmaob.obj
+ 0002:00000210       ??_7CPlasma@@6BCHlprDialog@@@ 10005210   plasmaob.obj
+ 0002:00000220       ??_7CPlasma@@6BIPersistStream@@@ 10005220   plasmaob.obj
+ 0002:00000240       ??_7CPlasma@@6BIFractalEngine@@@ 10005240   plasmaob.obj
+ 0002:0000026c       ??0IFractalEngine@@QAA@XZ  1000526c   plasmaob.obj
+ 0002:00000278       ??_7IFractalEngine@@6B@    10005278   plasmaob.obj
+ 0002:000002a4       ??0IPersistStream@@QAA@XZ  100052a4   plasmaob.obj
+ 0002:000002b0       ??_7IPersistStream@@6B@    100052b0   plasmaob.obj
+ 0002:000002d0       ??_GCHlprDialog@@UAAPAXI@Z 100052d0   plasmaob.obj
+ 0002:000002d0       ??_ECHlprDialog@@UAAPAXI@Z 100052d0   plasmaob.obj
+ 0002:000002d8       ??0CHlprDialog@@QAA@XZ     100052d8   plasmaob.obj
+ 0002:000002e0       ??_7CHlprDialog@@6B@       100052e0   plasmaob.obj
+ 0002:000002ec       ??1CHlprDialog@@UAA@XZ     100052ec   plasmaob.obj
+ 0002:000002f4       ??0IPersist@@QAA@XZ        100052f4   plasmaob.obj
+ 0002:00000300       ??_7IPersist@@6B@          10005300   plasmaob.obj
+ 0002:00000310       IID_IClassFactory          10005310   uuid:unknwn_i_guid1.obj
+ 0002:00000320       IID_IUnknown               10005320   uuid:unknwn_i_guid0.obj
+ 0002:00000330       IID_IPersistStream         10005330   uuid:objidl_i_guid12.obj
+ 0002:00000340       IID_IPersist               10005340   uuid:objidl_i_guid11.obj
+ 0002:00000350       _CRT_INIT                  10005350   msvcrt:crtdll.obj
+ 0002:00000358       _DllMainCRTStartup         10005358   msvcrt:crtdll.obj
+ 0002:00000360       ??2@YAPAXI@Z               10005360   msvcrt:MSVCRT40.dll
+ 0002:00000368       memcmp                     10005368   msvcrt:MSVCRT40.dll
+ 0002:00000370       _purecall                  10005370   msvcrt:MSVCRT40.dll
+ 0002:00000378       ??3@YAXPAX@Z               10005378   msvcrt:MSVCRT40.dll
+ 0002:00000380       memcpy                     10005380   msvcrt:MSVCRT40.dll
+ 0002:00000388       rand                       10005388   msvcrt:MSVCRT40.dll
+ 0002:00000390       srand                      10005390   msvcrt:MSVCRT40.dll
+ 0002:00000398       sqrt                       10005398   msvcrt:MSVCRT40.dll
+ 0002:000003a0       sscanf                     100053a0   msvcrt:MSVCRT40.dll
+ 0002:000003a8       sprintf                    100053a8   msvcrt:MSVCRT40.dll
+ 0002:000003b0       free                       100053b0   msvcrt:MSVCRT40.dll
+ 0002:000003b8       _initterm                  100053b8   msvcrt:MSVCRT40.dll
+ 0002:000003c0       _onexit                    100053c0   msvcrt:atonexit.obj
+ 0002:000003c8       atexit                     100053c8   msvcrt:atonexit.obj
+ 0002:000003d0       malloc                     100053d0   msvcrt:MSVCRT40.dll
+ 0002:000003d8       __dllonexit                100053d8   msvcrt:MSVCRT40.dll
+ 0002:000003e0       WaitForSingleObject        100053e0   kernel32:KERNEL32.dll
+ 0002:000003e8       SetEvent                   100053e8   kernel32:KERNEL32.dll
+ 0002:000003f0       ResetEvent                 100053f0   kernel32:KERNEL32.dll
+ 0002:000003f8       CreateThread               100053f8   kernel32:KERNEL32.dll
+ 0002:00000400       CreateEventA               10005400   kernel32:KERNEL32.dll
+ 0002:00000408       GetTickCount               10005408   kernel32:KERNEL32.dll
+ 0002:00000410       TerminateThread            10005410   kernel32:KERNEL32.dll
+ 0002:00000418       CloseHandle                10005418   kernel32:KERNEL32.dll
+ 0002:00000420       MessageBoxA                10005420   user32:USER32.dll
+ 0002:00000428       LoadStringA                10005428   user32:USER32.dll
+ 0002:00000430       EndDialog                  10005430   user32:USER32.dll
+ 0002:00000438       GetDlgItemTextA            10005438   user32:USER32.dll
+ 0002:00000440       SetDlgItemTextA            10005440   user32:USER32.dll
+ 0002:00000448       IID_IFractalEngine         10005448   fguids:frcngn_i.obj
+ 0002:00000458       SizeDouble                 10005458   winhlprs:strmhelp.obj
+ 0002:00000460       WriteDouble                10005460   winhlprs:strmhelp.obj
+ 0002:00000468       ReadDouble                 10005468   winhlprs:strmhelp.obj
+ 0002:00000470       ?ShowDialog@CHlprDialog@@UAAHPAXPBD0@Z 10005470   winhlprs:cdialog.obj
+ 0002:00000478       DialogProc                 10005478   winhlprs:cdialog.obj
+ 0002:00000480       strlen                     10005480   msvcrt:MSVCRT40.dll
+ 0002:00000488       DialogBoxParamA            10005488   user32:USER32.dll
+ 0002:00000490       GetWindowLongA             10005490   user32:USER32.dll
+ 0002:00000498       SetWindowLongA             10005498   user32:USER32.dll
+ 0003:00000000       __xc_a                     10006000   msvcrt:cinitexe.obj
+ 0003:00000008       __xc_z                     10006008   msvcrt:cinitexe.obj
+ 0003:00000010       __xi_a                     10006010   msvcrt:cinitexe.obj
+ 0003:00000018       __xi_z                     10006018   msvcrt:cinitexe.obj
+ 0003:00000040       ?CLSID_PLASMA@@3U_GUID@@A  10006040   fguids:plasmcid.obj
+ 0003:00000060       ?ghinst@@3PAXA             10006060   plasma.obj
+ 0003:00000064       ?gcRef@@3KA                10006064   plasma.obj
+ 0003:00000068       ?gcLock@@3KA               10006068   plasma.obj
+ 0003:0000006c       __onexitend                1000606c   <common>
+ 0003:00000070       __onexitbegin              10006070   <common>
+ 0003:00000074       _pRawDllMain               10006074   <common>
+ 0005:00000000       __IMPORT_DESCRIPTOR_MSVCRT40 10008000   msvcrt:MSVCRT40.dll
+ 0005:00000014       __IMPORT_DESCRIPTOR_KERNEL32 10008014   kernel32:KERNEL32.dll
+ 0005:00000028       __IMPORT_DESCRIPTOR_USER32 10008028   user32:USER32.dll
+ 0005:0000003c       __NULL_IMPORT_DESCRIPTOR   1000803c   msvcrt:MSVCRT40.dll
+ 0005:000001a4       __imp_SetEvent             100081a4   kernel32:KERNEL32.dll
+ 0005:000001a8       __imp_ResetEvent           100081a8   kernel32:KERNEL32.dll
+ 0005:000001ac       __imp_CloseHandle          100081ac   kernel32:KERNEL32.dll
+ 0005:000001b0       __imp_TerminateThread      100081b0   kernel32:KERNEL32.dll
+ 0005:000001b4       __imp_CreateEventA         100081b4   kernel32:KERNEL32.dll
+ 0005:000001b8       __imp_CreateThread         100081b8   kernel32:KERNEL32.dll
+ 0005:000001bc       __imp_GetTickCount         100081bc   kernel32:KERNEL32.dll
+ 0005:000001c0       __imp_WaitForSingleObject  100081c0   kernel32:KERNEL32.dll
+ 0005:000001c4       \177KERNEL32_NULL_THUNK_DATA 100081c4   kernel32:KERNEL32.dll
+ 0005:000001c8       __imp_free                 100081c8   msvcrt:MSVCRT40.dll
+ 0005:000001cc       __imp__initterm            100081cc   msvcrt:MSVCRT40.dll
+ 0005:000001d0       __imp_srand                100081d0   msvcrt:MSVCRT40.dll
+ 0005:000001d4       __imp_sscanf               100081d4   msvcrt:MSVCRT40.dll
+ 0005:000001d8       __imp__onexit              100081d8   msvcrt:MSVCRT40.dll
+ 0005:000001dc       __imp_sprintf              100081dc   msvcrt:MSVCRT40.dll
+ 0005:000001e0       __imp_sqrt                 100081e0   msvcrt:MSVCRT40.dll
+ 0005:000001e4       __imp_??2@YAPAXI@Z         100081e4   msvcrt:MSVCRT40.dll
+ 0005:000001e8       __imp__purecall            100081e8   msvcrt:MSVCRT40.dll
+ 0005:000001ec       __imp_??3@YAXPAX@Z         100081ec   msvcrt:MSVCRT40.dll
+ 0005:000001f0       __imp_rand                 100081f0   msvcrt:MSVCRT40.dll
+ 0005:000001f4       __imp_memcpy               100081f4   msvcrt:MSVCRT40.dll
+ 0005:000001f8       __imp_malloc               100081f8   msvcrt:MSVCRT40.dll
+ 0005:000001fc       __imp___dllonexit          100081fc   msvcrt:MSVCRT40.dll
+ 0005:00000200       __imp_memcmp               10008200   msvcrt:MSVCRT40.dll
+ 0005:00000204       __imp_strlen               10008204   msvcrt:MSVCRT40.dll
+ 0005:00000208       \177MSVCRT40_NULL_THUNK_DATA 10008208   msvcrt:MSVCRT40.dll
+ 0005:0000020c       __imp_EndDialog            1000820c   user32:USER32.dll
+ 0005:00000210       __imp_GetDlgItemTextA      10008210   user32:USER32.dll
+ 0005:00000214       __imp_SetDlgItemTextA      10008214   user32:USER32.dll
+ 0005:00000218       __imp_MessageBoxA          10008218   user32:USER32.dll
+ 0005:0000021c       __imp_LoadStringA          1000821c   user32:USER32.dll
+ 0005:00000220       __imp_DialogBoxParamA      10008220   user32:USER32.dll
+ 0005:00000224       __imp_GetWindowLongA       10008224   user32:USER32.dll
+ 0005:00000228       __imp_SetWindowLongA       10008228   user32:USER32.dll
+ 0005:0000022c       \177USER32_NULL_THUNK_DATA 1000822c   user32:USER32.dll
+ 0005:000080dc       .toc                       100100dc   <linker-defined>
+
+ entry point at        0002:00000358
+
+ Static symbols
+
+
+ Offset   Rva+Base   Publics by TOC Offset
+
+  8000    100080dc   IID_IFractalEngine
+  8004    100080e0   IID_IPersist
+  8008    100080e4   IID_IPersistStream
+  800c    100080e8   IID_IUnknown
+  8010    100080ec   ?gcRef@@3KA
+  8014    100080f0   ?CLSID_PLASMA@@3U_GUID@@A
+  8018    100080f4   __imp_WaitForSingleObject
+  8020    100080fc   __imp_SetEvent
+  8024    10008100   ?ghinst@@3PAXA
+  8028    10008104   __imp_ResetEvent
+  802c    10008108   __imp_CreateEventA
+  8030    1000810c   ?StartGraphicsThread@@YAKPAK@Z
+  8034    10008110   __imp_CreateThread
+  8038    10008114   __imp_GetTickCount
+  803c    10008118   ??_7CPlasma@@6BIFractalEngine@@@
+  8040    1000811c   ??_7CPlasma@@6BIPersistStream@@@
+  8044    10008120   ??_7CPlasma@@6BCHlprDialog@@@
+  8048    10008124   __imp_CloseHandle
+  804c    10008128   __imp_TerminateThread
+  8054    10008130   __imp_SetDlgItemTextA
+  8058    10008134   __imp_GetDlgItemTextA
+  805c    10008138   __imp_EndDialog
+  8060    1000813c   __imp_LoadStringA
+  8064    10008140   __imp_MessageBoxA
+  8068    10008144   ??_7IFractalEngine@@6B@
+  806c    10008148   ??_7IPersistStream@@6B@
+  8070    1000814c   ??_7CHlprDialog@@6B@
+  8074    10008150   ??_7IPersist@@6B@
+  8078    10008154   ?gcLock@@3KA
+  807c    10008158   IID_IClassFactory
+  8080    1000815c   ??_7CPlasmaCF@@6B@
+  8084    10008160   ??_7IClassFactory@@6B@
+  8088    10008164   ??_7IUnknown@@6B@
+  808c    10008168   __onexitbegin
+  8090    1000816c   __imp__onexit
+  8094    10008170   __onexitend
+  80a0    1000817c   __imp_malloc
+  80a4    10008180   __xc_a
+  80a8    10008184   __xc_z
+  80ac    10008188   __imp_free
+  80b0    1000818c   _pRawDllMain
+  80b4    10008190   __imp_DialogBoxParamA
+  80b8    10008194   DialogProc
+  80bc    10008198   __imp_SetWindowLongA
+  80c0    1000819c   __imp_GetWindowLongA
+

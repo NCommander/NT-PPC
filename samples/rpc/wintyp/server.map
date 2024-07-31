@@ -1,0 +1,268 @@
+ server
+
+ Timestamp is 64173c18 (Sun Mar 19 11:45:12 2023)
+
+ Preferred load address is 00400000
+
+ Start         Length     Name                   Class
+ 0001:00000000 00001bf0H .text                   CODE
+ 0002:00000000 000002f0H .rdata                  DATA
+ 0002:000002f0 00000050H .xdata                  DATA
+ 0002:00000340 00000000H .edata                  DATA
+ 0003:00000000 00000004H .CRT$XCA                DATA
+ 0003:00000008 00000004H .CRT$XCZ                DATA
+ 0003:00000010 00000004H .CRT$XIA                DATA
+ 0003:00000018 00000004H .CRT$XIZ                DATA
+ 0003:00000020 0000034cH .data                   DATA
+ 0003:0000036c 00000008H .bss                    DATA
+ 0004:00000000 00000474H .pdata                  DATA
+ 0005:00000000 00000050H .idata$2                DATA
+ 0005:00000050 00000014H .idata$3                DATA
+ 0005:00000064 000000a8H .idata$4                DATA
+ 0005:0000010c 0000007cH .idata$4toc             DATA
+ 0005:00000188 000000a8H .idata$5                DATA
+ 0005:00000230 000002baH .idata$6                DATA
+
+  Address         Publics by Value              Rva+Base   Lib:Object
+
+ 0001:00000000       ..Usage                    00401000 f server.obj
+ 0001:000000e0       ..main                     004010e0 f server.obj
+ 0001:00000550       ..CleanUpServer            00401550 f server.obj
+ 0001:00000630       ..MIDL_user_allocate       00401630 f server.obj
+ 0001:00000680       ..MIDL_user_free           00401680 f server.obj
+ 0001:000006d8       ..wintyp_sample_ChangeBitmapRemote 004016d8 f wintyp_s.obj
+ 0001:00000920       ..wintyp_sample_ShutDown   00401920 f wintyp_s.obj
+ 0001:000009a8       ..ChangeBitmapRemote       004019a8 f remote.obj
+ 0001:00000df0       ..FindEdges                00401df0 f remote.obj
+ 0001:000012a0       ..FlipImage                004022a0 f remote.obj
+ 0001:0000135c       ..Get2DPointer             0040235c f remote.obj
+ 0001:0000145c       ..ShutDown                 0040245c f remote.obj
+ 0001:00001534       ..RpcServerListen          00402534 f rpcrt4:RPCRT4.dll
+ 0001:0000154c       ..RpcServerUseProtseqEpA   0040254c f rpcrt4:RPCRT4.dll
+ 0001:00001564       ..RpcServerRegisterIf      00402564 f rpcrt4:RPCRT4.dll
+ 0001:0000157c       ..RpcServerUnregisterIf    0040257c f rpcrt4:RPCRT4.dll
+ 0001:00001594       ..NdrPointerFree           00402594 f rpcrt4:RPCRT4.dll
+ 0001:000015ac       ..NdrUserMarshalMarshall   004025ac f rpcrt4:RPCRT4.dll
+ 0001:000015c4       ..RpcRaiseException        004025c4 f rpcrt4:RPCRT4.dll
+ 0001:000015dc       ..I_RpcGetBuffer           004025dc f rpcrt4:RPCRT4.dll
+ 0001:000015f4       ..NdrUserMarshalBufferSize 004025f4 f rpcrt4:RPCRT4.dll
+ 0001:0000160c       ..NdrUserMarshalUnmarshall 0040260c f rpcrt4:RPCRT4.dll
+ 0001:00001624       ..NdrConvert               00402624 f rpcrt4:RPCRT4.dll
+ 0001:0000163c       ..NdrServerInitializeNew   0040263c f rpcrt4:RPCRT4.dll
+ 0001:00001654       ..RpcMgmtStopServerListening 00402654 f rpcrt4:RPCRT4.dll
+ 0001:0000166c       ..exit                     0040266c f msvcrt:MSVCRT40.dll
+ 0001:00001684       ..printf                   00402684 f msvcrt:MSVCRT40.dll
+ 0001:0000169c       ..__C_specific_handler     0040269c f msvcrt:MSVCRT40.dll
+ 0001:000016b8       ..__restgpr_All            004026b8 f msvcrt:restgpr.obj
+ 0001:000016ec       ..__restgpr_14             004026ec   msvcrt:restgpr.obj
+ 0001:000016f0       ..__restgpr_15             004026f0   msvcrt:restgpr.obj
+ 0001:000016f4       ..__restgpr_16             004026f4   msvcrt:restgpr.obj
+ 0001:000016f8       ..__restgpr_17             004026f8   msvcrt:restgpr.obj
+ 0001:000016fc       ..__restgpr_18             004026fc   msvcrt:restgpr.obj
+ 0001:00001700       ..__restgpr_19             00402700   msvcrt:restgpr.obj
+ 0001:00001704       ..__restgpr_20             00402704   msvcrt:restgpr.obj
+ 0001:00001708       ..__restgpr_21             00402708   msvcrt:restgpr.obj
+ 0001:0000170c       ..__restgpr_22             0040270c   msvcrt:restgpr.obj
+ 0001:00001710       ..__restgpr_23             00402710   msvcrt:restgpr.obj
+ 0001:00001714       ..__restgpr_24             00402714   msvcrt:restgpr.obj
+ 0001:00001718       ..__restgpr_25             00402718   msvcrt:restgpr.obj
+ 0001:0000171c       ..__restgpr_26             0040271c   msvcrt:restgpr.obj
+ 0001:00001720       ..__restgpr_27             00402720   msvcrt:restgpr.obj
+ 0001:00001724       ..__restgpr_28             00402724   msvcrt:restgpr.obj
+ 0001:00001728       ..__restgpr_29             00402728   msvcrt:restgpr.obj
+ 0001:0000172c       ..__restgpr_30             0040272c   msvcrt:restgpr.obj
+ 0001:00001730       ..__restgpr_31             00402730   msvcrt:restgpr.obj
+ 0001:00001738       ..strcmp                   00402738 f msvcrt:MSVCRT40.dll
+ 0001:00001750       ..malloc                   00402750 f msvcrt:MSVCRT40.dll
+ 0001:00001768       ..free                     00402768 f msvcrt:MSVCRT40.dll
+ 0001:00001780       ..__savegpr_All            00402780 f msvcrt:savegpr.obj
+ 0001:000017b4       ..__savegpr_14             004027b4   msvcrt:savegpr.obj
+ 0001:000017b8       ..__savegpr_15             004027b8   msvcrt:savegpr.obj
+ 0001:000017bc       ..__savegpr_16             004027bc   msvcrt:savegpr.obj
+ 0001:000017c0       ..__savegpr_17             004027c0   msvcrt:savegpr.obj
+ 0001:000017c4       ..__savegpr_18             004027c4   msvcrt:savegpr.obj
+ 0001:000017c8       ..__savegpr_19             004027c8   msvcrt:savegpr.obj
+ 0001:000017cc       ..__savegpr_20             004027cc   msvcrt:savegpr.obj
+ 0001:000017d0       ..__savegpr_21             004027d0   msvcrt:savegpr.obj
+ 0001:000017d4       ..__savegpr_22             004027d4   msvcrt:savegpr.obj
+ 0001:000017d8       ..__savegpr_23             004027d8   msvcrt:savegpr.obj
+ 0001:000017dc       ..__savegpr_24             004027dc   msvcrt:savegpr.obj
+ 0001:000017e0       ..__savegpr_25             004027e0   msvcrt:savegpr.obj
+ 0001:000017e4       ..__savegpr_26             004027e4   msvcrt:savegpr.obj
+ 0001:000017e8       ..__savegpr_27             004027e8   msvcrt:savegpr.obj
+ 0001:000017ec       ..__savegpr_28             004027ec   msvcrt:savegpr.obj
+ 0001:000017f0       ..__savegpr_29             004027f0   msvcrt:savegpr.obj
+ 0001:000017f4       ..__savegpr_30             004027f4   msvcrt:savegpr.obj
+ 0001:000017f8       ..__savegpr_31             004027f8   msvcrt:savegpr.obj
+ 0001:00001800       ..abs                      00402800 f msvcrt:MSVCRT40.dll
+ 0001:00001818       ..mainCRTStartup           00402818 f msvcrt:crtexe.obj
+ 0001:000019fc       .._matherr                 004029fc f msvcrt:merr.obj
+ 0001:00001a04       .._exit                    00402a04 f msvcrt:MSVCRT40.dll
+ 0001:00001a1c       .._XcptFilter              00402a1c f msvcrt:MSVCRT40.dll
+ 0001:00001a34       ..__getmainargs            00402a34 f msvcrt:MSVCRT40.dll
+ 0001:00001a4c       .._initterm                00402a4c f msvcrt:MSVCRT40.dll
+ 0001:00001a64       ..__setusermatherr         00402a64 f msvcrt:MSVCRT40.dll
+ 0001:00001a7c       .._setargv                 00402a7c f msvcrt:dllargv.obj
+ 0001:00001a80       .._onexit                  00402a80 f msvcrt:atonexit.obj
+ 0001:00001ae8       ..atexit                   00402ae8 f msvcrt:atonexit.obj
+ 0001:00001b18       ..__set_app_type           00402b18 f msvcrt:MSVCRT40.dll
+ 0001:00001b30       ..__dllonexit              00402b30 f msvcrt:MSVCRT40.dll
+ 0001:00001b48       ..HBITMAP_UserFree         00402b48 f ole32:ole32.dll
+ 0001:00001b60       ..HBITMAP_UserUnmarshal    00402b60 f ole32:ole32.dll
+ 0001:00001b78       ..HBITMAP_UserMarshal      00402b78 f ole32:ole32.dll
+ 0001:00001b90       ..HBITMAP_UserSize         00402b90 f ole32:ole32.dll
+ 0001:00001ba8       ..SetBitmapBits            00402ba8 f gdi32:GDI32.dll
+ 0001:00001bc0       ..GetBitmapBits            00402bc0 f gdi32:GDI32.dll
+ 0001:00001bd8       ..GetObjectA               00402bd8 f gdi32:GDI32.dll
+ 0002:00000058       Usage                      00403058   server.obj
+ 0002:00000060       main                       00403060   server.obj
+ 0002:00000068       CleanUpServer              00403068   server.obj
+ 0002:00000070       MIDL_user_allocate         00403070   server.obj
+ 0002:00000078       MIDL_user_free             00403078   server.obj
+ 0002:00000180       wintyp_sample_ChangeBitmapRemote 00403180   wintyp_s.obj
+ 0002:00000188       wintyp_sample_ShutDown     00403188   wintyp_s.obj
+ 0002:00000190       ChangeBitmapRemote         00403190   remote.obj
+ 0002:00000198       FindEdges                  00403198   remote.obj
+ 0002:000001a0       FlipImage                  004031a0   remote.obj
+ 0002:000001a8       Get2DPointer               004031a8   remote.obj
+ 0002:000001b0       ShutDown                   004031b0   remote.obj
+ 0002:000001b8       RpcServerListen            004031b8   rpcrt4:RPCRT4.dll
+ 0002:000001c0       RpcServerUseProtseqEpA     004031c0   rpcrt4:RPCRT4.dll
+ 0002:000001c8       RpcServerRegisterIf        004031c8   rpcrt4:RPCRT4.dll
+ 0002:000001d0       RpcServerUnregisterIf      004031d0   rpcrt4:RPCRT4.dll
+ 0002:000001d8       NdrPointerFree             004031d8   rpcrt4:RPCRT4.dll
+ 0002:000001e0       NdrUserMarshalMarshall     004031e0   rpcrt4:RPCRT4.dll
+ 0002:000001e8       RpcRaiseException          004031e8   rpcrt4:RPCRT4.dll
+ 0002:000001f0       I_RpcGetBuffer             004031f0   rpcrt4:RPCRT4.dll
+ 0002:000001f8       NdrUserMarshalBufferSize   004031f8   rpcrt4:RPCRT4.dll
+ 0002:00000200       NdrUserMarshalUnmarshall   00403200   rpcrt4:RPCRT4.dll
+ 0002:00000208       NdrConvert                 00403208   rpcrt4:RPCRT4.dll
+ 0002:00000210       NdrServerInitializeNew     00403210   rpcrt4:RPCRT4.dll
+ 0002:00000218       RpcMgmtStopServerListening 00403218   rpcrt4:RPCRT4.dll
+ 0002:00000220       exit                       00403220   msvcrt:MSVCRT40.dll
+ 0002:00000228       printf                     00403228   msvcrt:MSVCRT40.dll
+ 0002:00000230       __C_specific_handler       00403230   msvcrt:MSVCRT40.dll
+ 0002:00000238       strcmp                     00403238   msvcrt:MSVCRT40.dll
+ 0002:00000240       malloc                     00403240   msvcrt:MSVCRT40.dll
+ 0002:00000248       free                       00403248   msvcrt:MSVCRT40.dll
+ 0002:00000250       abs                        00403250   msvcrt:MSVCRT40.dll
+ 0002:00000258       mainCRTStartup             00403258   msvcrt:crtexe.obj
+ 0002:00000260       _matherr                   00403260   msvcrt:merr.obj
+ 0002:00000268       _exit                      00403268   msvcrt:MSVCRT40.dll
+ 0002:00000270       _XcptFilter                00403270   msvcrt:MSVCRT40.dll
+ 0002:00000278       __getmainargs              00403278   msvcrt:MSVCRT40.dll
+ 0002:00000280       _initterm                  00403280   msvcrt:MSVCRT40.dll
+ 0002:00000288       __setusermatherr           00403288   msvcrt:MSVCRT40.dll
+ 0002:00000290       _setargv                   00403290   msvcrt:dllargv.obj
+ 0002:00000298       _onexit                    00403298   msvcrt:atonexit.obj
+ 0002:000002a0       atexit                     004032a0   msvcrt:atonexit.obj
+ 0002:000002a8       __set_app_type             004032a8   msvcrt:MSVCRT40.dll
+ 0002:000002b0       __dllonexit                004032b0   msvcrt:MSVCRT40.dll
+ 0002:000002b8       HBITMAP_UserFree           004032b8   ole32:ole32.dll
+ 0002:000002c0       HBITMAP_UserUnmarshal      004032c0   ole32:ole32.dll
+ 0002:000002c8       HBITMAP_UserMarshal        004032c8   ole32:ole32.dll
+ 0002:000002d0       HBITMAP_UserSize           004032d0   ole32:ole32.dll
+ 0002:000002d8       SetBitmapBits              004032d8   gdi32:GDI32.dll
+ 0002:000002e0       GetBitmapBits              004032e0   gdi32:GDI32.dll
+ 0002:000002e8       GetObjectA                 004032e8   gdi32:GDI32.dll
+ 0003:00000000       __xc_a                     00404000   msvcrt:cinitexe.obj
+ 0003:00000008       __xc_z                     00404008   msvcrt:cinitexe.obj
+ 0003:00000010       __xi_a                     00404010   msvcrt:cinitexe.obj
+ 0003:00000018       __xi_z                     00404018   msvcrt:cinitexe.obj
+ 0003:00000220       wintyp_sample_v1_0_s_ifspec 00404220   wintyp_s.obj
+ 0003:00000238       wintyp_sample_v1_0_DispatchTable 00404238   wintyp_s.obj
+ 0003:00000348       __defaultmatherr           00404348   msvcrt:merr.obj
+ 0003:00000350       _dowildcard                00404350   msvcrt:wildcard.obj
+ 0003:00000358       _newmode                   00404358   msvcrt:_newmode.obj
+ 0003:00000360       _commode                   00404360   msvcrt:xncommod.obj
+ 0003:00000368       _fmode                     00404368   msvcrt:xtxtmode.obj
+ 0003:0000036c       __onexitend                0040436c   <common>
+ 0003:00000370       __onexitbegin              00404370   <common>
+ 0005:00000000       __IMPORT_DESCRIPTOR_RPCRT4 00406000   rpcrt4:RPCRT4.dll
+ 0005:00000014       __IMPORT_DESCRIPTOR_MSVCRT40 00406014   msvcrt:MSVCRT40.dll
+ 0005:00000028       __IMPORT_DESCRIPTOR_ole32  00406028   ole32:ole32.dll
+ 0005:0000003c       __IMPORT_DESCRIPTOR_GDI32  0040603c   gdi32:GDI32.dll
+ 0005:00000050       __NULL_IMPORT_DESCRIPTOR   00406050   rpcrt4:RPCRT4.dll
+ 0005:00000188       __imp_GetObjectA           00406188   gdi32:GDI32.dll
+ 0005:0000018c       __imp_GetBitmapBits        0040618c   gdi32:GDI32.dll
+ 0005:00000190       __imp_SetBitmapBits        00406190   gdi32:GDI32.dll
+ 0005:00000194       \177GDI32_NULL_THUNK_DATA  00406194   gdi32:GDI32.dll
+ 0005:00000198       __imp__exit                00406198   msvcrt:MSVCRT40.dll
+ 0005:0000019c       __imp___initenv            0040619c   msvcrt:MSVCRT40.dll
+ 0005:000001a0       __imp___getmainargs        004061a0   msvcrt:MSVCRT40.dll
+ 0005:000001a4       __imp_free                 004061a4   msvcrt:MSVCRT40.dll
+ 0005:000001a8       __imp_abs                  004061a8   msvcrt:MSVCRT40.dll
+ 0005:000001ac       __imp__onexit              004061ac   msvcrt:MSVCRT40.dll
+ 0005:000001b0       __imp___dllonexit          004061b0   msvcrt:MSVCRT40.dll
+ 0005:000001b4       __imp___set_app_type       004061b4   msvcrt:MSVCRT40.dll
+ 0005:000001b8       __imp__fmode               004061b8   msvcrt:MSVCRT40.dll
+ 0005:000001bc       __imp_exit                 004061bc   msvcrt:MSVCRT40.dll
+ 0005:000001c0       __imp_printf               004061c0   msvcrt:MSVCRT40.dll
+ 0005:000001c4       __imp___C_specific_handler 004061c4   msvcrt:MSVCRT40.dll
+ 0005:000001c8       __imp_strcmp               004061c8   msvcrt:MSVCRT40.dll
+ 0005:000001cc       __imp_malloc               004061cc   msvcrt:MSVCRT40.dll
+ 0005:000001d0       __imp___setusermatherr     004061d0   msvcrt:MSVCRT40.dll
+ 0005:000001d4       __imp__commode             004061d4   msvcrt:MSVCRT40.dll
+ 0005:000001d8       __imp__XcptFilter          004061d8   msvcrt:MSVCRT40.dll
+ 0005:000001dc       __imp__initterm            004061dc   msvcrt:MSVCRT40.dll
+ 0005:000001e0       \177MSVCRT40_NULL_THUNK_DATA 004061e0   msvcrt:MSVCRT40.dll
+ 0005:000001e4       __imp_I_RpcGetBuffer       004061e4   rpcrt4:RPCRT4.dll
+ 0005:000001e8       __imp_NdrUserMarshalMarshall 004061e8   rpcrt4:RPCRT4.dll
+ 0005:000001ec       __imp_RpcServerListen      004061ec   rpcrt4:RPCRT4.dll
+ 0005:000001f0       __imp_RpcMgmtStopServerListening 004061f0   rpcrt4:RPCRT4.dll
+ 0005:000001f4       __imp_NdrServerInitializeNew 004061f4   rpcrt4:RPCRT4.dll
+ 0005:000001f8       __imp_NdrConvert           004061f8   rpcrt4:RPCRT4.dll
+ 0005:000001fc       __imp_NdrUserMarshalUnmarshall 004061fc   rpcrt4:RPCRT4.dll
+ 0005:00000200       __imp_NdrUserMarshalBufferSize 00406200   rpcrt4:RPCRT4.dll
+ 0005:00000204       __imp_RpcRaiseException    00406204   rpcrt4:RPCRT4.dll
+ 0005:00000208       __imp_RpcServerRegisterIf  00406208   rpcrt4:RPCRT4.dll
+ 0005:0000020c       __imp_RpcServerUnregisterIf 0040620c   rpcrt4:RPCRT4.dll
+ 0005:00000210       __imp_NdrPointerFree       00406210   rpcrt4:RPCRT4.dll
+ 0005:00000214       __imp_RpcServerUseProtseqEpA 00406214   rpcrt4:RPCRT4.dll
+ 0005:00000218       \177RPCRT4_NULL_THUNK_DATA 00406218   rpcrt4:RPCRT4.dll
+ 0005:0000021c       __imp_HBITMAP_UserFree     0040621c   ole32:ole32.dll
+ 0005:00000220       __imp_HBITMAP_UserSize     00406220   ole32:ole32.dll
+ 0005:00000224       __imp_HBITMAP_UserMarshal  00406224   ole32:ole32.dll
+ 0005:00000228       __imp_HBITMAP_UserUnmarshal 00406228   ole32:ole32.dll
+ 0005:0000022c       \177ole32_NULL_THUNK_DATA  0040622c   ole32:ole32.dll
+ 0005:0000810c       .toc                       0040e10c   <linker-defined>
+
+ entry point at        0002:00000258
+
+ Static symbols
+
+ 0001:000008d0       $L22866                    004018d0 f wintyp_s.obj
+ 0001:00000998       $L22885                    00401998 f wintyp_s.obj
+ 0001:0000052c       $L23041                    0040152c f server.obj
+
+ Offset   Rva+Base   Publics by TOC Offset
+
+  8000    0040610c   __imp_printf
+  8008    00406114   __imp_GetObjectA
+  800c    00406118   __imp_malloc
+  8010    0040611c   __imp_GetBitmapBits
+  8014    00406120   __imp_SetBitmapBits
+  8018    00406124   __imp_free
+  801c    00406128   __imp_exit
+  8028    00406134   wintyp_sample_v1_0_s_ifspec
+  802c    00406138   __onexitbegin
+  8030    0040613c   __imp__onexit
+  8034    00406140   __onexitend
+  8038    00406144   __imp___set_app_type
+  803c    00406148   __imp__fmode
+  8040    0040614c   _fmode
+  8044    00406150   __imp__commode
+  8048    00406154   _commode
+  804c    00406158   __defaultmatherr
+  8050    0040615c   __imp___setusermatherr
+  8054    00406160   _matherr
+  8058    00406164   __xi_a
+  805c    00406168   __xi_z
+  8060    0040616c   _newmode
+  8064    00406170   _dowildcard
+  8068    00406174   __imp___getmainargs
+  806c    00406178   __xc_a
+  8070    0040617c   __xc_z
+  8074    00406180   __imp___initenv
+  8078    00406184   __imp__exit
+

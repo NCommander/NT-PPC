@@ -1,0 +1,269 @@
+ bttncur
+
+ Timestamp is 64172c9c (Sun Mar 19 10:39:08 2023)
+
+ Preferred load address is 76000000
+
+ Start         Length     Name                   Class
+ 0001:00000000 00002a18H .text                   CODE
+ 0002:00000000 00000218H .rdata                  DATA
+ 0002:00000220 000000b6H .edata                  DATA
+ 0003:00000000 00000004H .CRT$XCA                DATA
+ 0003:00000008 00000004H .CRT$XCZ                DATA
+ 0003:00000010 00000004H .CRT$XIA                DATA
+ 0003:00000018 00000004H .CRT$XIZ                DATA
+ 0003:00000020 00000094H .data                   DATA
+ 0003:000000b8 00000094H .bss                    DATA
+ 0004:00000000 000003fcH .pdata                  DATA
+ 0005:00000000 00000050H .idata$2                DATA
+ 0005:00000050 00000014H .idata$3                DATA
+ 0005:00000064 0000008cH .idata$4                DATA
+ 0005:000000f0 000000bcH .idata$4toc             DATA
+ 0005:000001ac 0000008cH .idata$5                DATA
+ 0005:00000238 000001f2H .idata$6                DATA
+ 0006:00000000 000006d0H .rsrc$01                DATA
+ 0006:000006d0 00002bf4H .rsrc$02                DATA
+
+  Address         Publics by Value              Rva+Base   Lib:Object
+
+ 0001:00000000       ..xxxLibMain               76001000 f bttncur.obj
+ 0001:00000160       ..DllMain                  76001160 f bttncur.obj
+ 0001:00000238       ..WEP                      76001238 f bttncur.obj
+ 0001:000002cc       ..UIToolConfigureForDisplay 760012cc f bttncur.obj
+ 0001:00000b84       ..UIToolButtonDraw         76001b84 f bttncur.obj
+ 0001:00000c08       ..UIToolButtonDrawTDD      76001c08 f bttncur.obj
+ 0001:000021c8       ..CursorsCache             760031c8 f cursors.obj
+ 0001:00002258       ..CursorsFree              76003258 f cursors.obj
+ 0001:00002278       ..UICursorLoad             76003278 f cursors.obj
+ 0001:000022e0       .._CRT_INIT                760032e0 f msvcrt:crtdll.obj
+ 0001:0000245c       .._DllMainCRTStartup       7600345c f msvcrt:crtdll.obj
+ 0001:000025b0       ..__restgpr_All            760035b0 f msvcrt:restgpr.obj
+ 0001:000025e4       ..__restgpr_14             760035e4   msvcrt:restgpr.obj
+ 0001:000025e8       ..__restgpr_15             760035e8   msvcrt:restgpr.obj
+ 0001:000025ec       ..__restgpr_16             760035ec   msvcrt:restgpr.obj
+ 0001:000025f0       ..__restgpr_17             760035f0   msvcrt:restgpr.obj
+ 0001:000025f4       ..__restgpr_18             760035f4   msvcrt:restgpr.obj
+ 0001:000025f8       ..__restgpr_19             760035f8   msvcrt:restgpr.obj
+ 0001:000025fc       ..__restgpr_20             760035fc   msvcrt:restgpr.obj
+ 0001:00002600       ..__restgpr_21             76003600   msvcrt:restgpr.obj
+ 0001:00002604       ..__restgpr_22             76003604   msvcrt:restgpr.obj
+ 0001:00002608       ..__restgpr_23             76003608   msvcrt:restgpr.obj
+ 0001:0000260c       ..__restgpr_24             7600360c   msvcrt:restgpr.obj
+ 0001:00002610       ..__restgpr_25             76003610   msvcrt:restgpr.obj
+ 0001:00002614       ..__restgpr_26             76003614   msvcrt:restgpr.obj
+ 0001:00002618       ..__restgpr_27             76003618   msvcrt:restgpr.obj
+ 0001:0000261c       ..__restgpr_28             7600361c   msvcrt:restgpr.obj
+ 0001:00002620       ..__restgpr_29             76003620   msvcrt:restgpr.obj
+ 0001:00002624       ..__restgpr_30             76003624   msvcrt:restgpr.obj
+ 0001:00002628       ..__restgpr_31             76003628   msvcrt:restgpr.obj
+ 0001:00002630       ..free                     76003630 f msvcrt:MSVCRT40.dll
+ 0001:00002648       .._initterm                76003648 f msvcrt:MSVCRT40.dll
+ 0001:00002660       .._onexit                  76003660 f msvcrt:atonexit.obj
+ 0001:000026c8       ..atexit                   760036c8 f msvcrt:atonexit.obj
+ 0001:000026f8       ..malloc                   760036f8 f msvcrt:MSVCRT40.dll
+ 0001:00002710       ..__savegpr_All            76003710 f msvcrt:savegpr.obj
+ 0001:00002744       ..__savegpr_14             76003744   msvcrt:savegpr.obj
+ 0001:00002748       ..__savegpr_15             76003748   msvcrt:savegpr.obj
+ 0001:0000274c       ..__savegpr_16             7600374c   msvcrt:savegpr.obj
+ 0001:00002750       ..__savegpr_17             76003750   msvcrt:savegpr.obj
+ 0001:00002754       ..__savegpr_18             76003754   msvcrt:savegpr.obj
+ 0001:00002758       ..__savegpr_19             76003758   msvcrt:savegpr.obj
+ 0001:0000275c       ..__savegpr_20             7600375c   msvcrt:savegpr.obj
+ 0001:00002760       ..__savegpr_21             76003760   msvcrt:savegpr.obj
+ 0001:00002764       ..__savegpr_22             76003764   msvcrt:savegpr.obj
+ 0001:00002768       ..__savegpr_23             76003768   msvcrt:savegpr.obj
+ 0001:0000276c       ..__savegpr_24             7600376c   msvcrt:savegpr.obj
+ 0001:00002770       ..__savegpr_25             76003770   msvcrt:savegpr.obj
+ 0001:00002774       ..__savegpr_26             76003774   msvcrt:savegpr.obj
+ 0001:00002778       ..__savegpr_27             76003778   msvcrt:savegpr.obj
+ 0001:0000277c       ..__savegpr_28             7600377c   msvcrt:savegpr.obj
+ 0001:00002780       ..__savegpr_29             76003780   msvcrt:savegpr.obj
+ 0001:00002784       ..__savegpr_30             76003784   msvcrt:savegpr.obj
+ 0001:00002788       ..__savegpr_31             76003788   msvcrt:savegpr.obj
+ 0001:00002790       ..__dllonexit              76003790 f msvcrt:MSVCRT40.dll
+ 0001:000027a8       ..OutputDebugStringA       760037a8 f kernel32:KERNEL32.dll
+ 0001:000027c0       ..IsBadWritePtr            760037c0 f kernel32:KERNEL32.dll
+ 0001:000027d8       ..GetVersion               760037d8 f kernel32:KERNEL32.dll
+ 0001:000027f0       ..LoadBitmapA              760037f0 f user32:USER32.dll
+ 0001:00002808       ..ReleaseDC                76003808 f user32:USER32.dll
+ 0001:00002820       ..GetDC                    76003820 f user32:USER32.dll
+ 0001:00002838       ..GetSysColor              76003838 f user32:USER32.dll
+ 0001:00002850       ..SetRect                  76003850 f user32:USER32.dll
+ 0001:00002868       ..LoadCursorA              76003868 f user32:USER32.dll
+ 0001:00002880       ..GetDeviceCaps            76003880 f gdi32:GDI32.dll
+ 0001:00002898       ..CreateCompatibleDC       76003898 f gdi32:GDI32.dll
+ 0001:000028b0       ..DeleteObject             760038b0 f gdi32:GDI32.dll
+ 0001:000028c8       ..DeleteDC                 760038c8 f gdi32:GDI32.dll
+ 0001:000028e0       ..CreatePatternBrush       760038e0 f gdi32:GDI32.dll
+ 0001:000028f8       ..CreateDIBitmap           760038f8 f gdi32:GDI32.dll
+ 0001:00002910       ..RestoreDC                76003910 f gdi32:GDI32.dll
+ 0001:00002928       ..CreateSolidBrush         76003928 f gdi32:GDI32.dll
+ 0001:00002940       ..CreateCompatibleBitmap   76003940 f gdi32:GDI32.dll
+ 0001:00002958       ..SetBkColor               76003958 f gdi32:GDI32.dll
+ 0001:00002970       ..SetTextColor             76003970 f gdi32:GDI32.dll
+ 0001:00002988       ..BitBlt                   76003988 f gdi32:GDI32.dll
+ 0001:000029a0       ..SaveDC                   760039a0 f gdi32:GDI32.dll
+ 0001:000029b8       ..SelectObject             760039b8 f gdi32:GDI32.dll
+ 0001:000029d0       ..CreateBitmap             760039d0 f gdi32:GDI32.dll
+ 0001:000029e8       ..ExtTextOutA              760039e8 f gdi32:GDI32.dll
+ 0001:00002a00       ..PatBlt                   76003a00 f gdi32:GDI32.dll
+ 0002:000000b0       crStandard                 760040b0   bttncur.obj
+ 0002:000000c0       xxxLibMain                 760040c0   bttncur.obj
+ 0002:000000c8       DllMain                    760040c8   bttncur.obj
+ 0002:000000d0       WEP                        760040d0   bttncur.obj
+ 0002:000000d8       UIToolConfigureForDisplay  760040d8   bttncur.obj
+ 0002:000000e0       UIToolButtonDraw           760040e0   bttncur.obj
+ 0002:000000e8       UIToolButtonDrawTDD        760040e8   bttncur.obj
+ 0002:000000f0       CursorsCache               760040f0   cursors.obj
+ 0002:000000f8       CursorsFree                760040f8   cursors.obj
+ 0002:00000100       UICursorLoad               76004100   cursors.obj
+ 0002:00000108       _CRT_INIT                  76004108   msvcrt:crtdll.obj
+ 0002:00000110       _DllMainCRTStartup         76004110   msvcrt:crtdll.obj
+ 0002:00000118       free                       76004118   msvcrt:MSVCRT40.dll
+ 0002:00000120       _initterm                  76004120   msvcrt:MSVCRT40.dll
+ 0002:00000128       _onexit                    76004128   msvcrt:atonexit.obj
+ 0002:00000130       atexit                     76004130   msvcrt:atonexit.obj
+ 0002:00000138       malloc                     76004138   msvcrt:MSVCRT40.dll
+ 0002:00000140       __dllonexit                76004140   msvcrt:MSVCRT40.dll
+ 0002:00000148       OutputDebugStringA         76004148   kernel32:KERNEL32.dll
+ 0002:00000150       IsBadWritePtr              76004150   kernel32:KERNEL32.dll
+ 0002:00000158       GetVersion                 76004158   kernel32:KERNEL32.dll
+ 0002:00000160       LoadBitmapA                76004160   user32:USER32.dll
+ 0002:00000168       ReleaseDC                  76004168   user32:USER32.dll
+ 0002:00000170       GetDC                      76004170   user32:USER32.dll
+ 0002:00000178       GetSysColor                76004178   user32:USER32.dll
+ 0002:00000180       SetRect                    76004180   user32:USER32.dll
+ 0002:00000188       LoadCursorA                76004188   user32:USER32.dll
+ 0002:00000190       GetDeviceCaps              76004190   gdi32:GDI32.dll
+ 0002:00000198       CreateCompatibleDC         76004198   gdi32:GDI32.dll
+ 0002:000001a0       DeleteObject               760041a0   gdi32:GDI32.dll
+ 0002:000001a8       DeleteDC                   760041a8   gdi32:GDI32.dll
+ 0002:000001b0       CreatePatternBrush         760041b0   gdi32:GDI32.dll
+ 0002:000001b8       CreateDIBitmap             760041b8   gdi32:GDI32.dll
+ 0002:000001c0       RestoreDC                  760041c0   gdi32:GDI32.dll
+ 0002:000001c8       CreateSolidBrush           760041c8   gdi32:GDI32.dll
+ 0002:000001d0       CreateCompatibleBitmap     760041d0   gdi32:GDI32.dll
+ 0002:000001d8       SetBkColor                 760041d8   gdi32:GDI32.dll
+ 0002:000001e0       SetTextColor               760041e0   gdi32:GDI32.dll
+ 0002:000001e8       BitBlt                     760041e8   gdi32:GDI32.dll
+ 0002:000001f0       SaveDC                     760041f0   gdi32:GDI32.dll
+ 0002:000001f8       SelectObject               760041f8   gdi32:GDI32.dll
+ 0002:00000200       CreateBitmap               76004200   gdi32:GDI32.dll
+ 0002:00000208       ExtTextOutA                76004208   gdi32:GDI32.dll
+ 0002:00000210       PatBlt                     76004210   gdi32:GDI32.dll
+ 0003:00000000       __xc_a                     76005000   msvcrt:cinitexe.obj
+ 0003:00000008       __xc_z                     76005008   msvcrt:cinitexe.obj
+ 0003:00000010       __xi_a                     76005010   msvcrt:cinitexe.obj
+ 0003:00000018       __xi_z                     76005018   msvcrt:cinitexe.obj
+ 0003:00000020       cInstances                 76005020   bttncur.obj
+ 0003:00000024       hDCGlyphs                  76005024   bttncur.obj
+ 0003:00000028       hDCMono                    76005028   bttncur.obj
+ 0003:0000002c       hBrushDither               7600502c   bttncur.obj
+ 0003:00000030       mpButtonType               76005030   bttncur.obj
+ 0003:000000d0       rgHCursors                 760050d0   <common>
+ 0003:00000110       tdd                        76005110   <common>
+ 0003:00000130       rghBmpStandardImages       76005130   <common>
+ 0003:0000013c       ghInst                     7600513c   <common>
+ 0003:00000140       __onexitend                76005140   <common>
+ 0003:00000144       __onexitbegin              76005144   <common>
+ 0003:00000148       _pRawDllMain               76005148   <common>
+ 0005:00000000       __IMPORT_DESCRIPTOR_MSVCRT40 76007000   msvcrt:MSVCRT40.dll
+ 0005:00000014       __IMPORT_DESCRIPTOR_KERNEL32 76007014   kernel32:KERNEL32.dll
+ 0005:00000028       __IMPORT_DESCRIPTOR_USER32 76007028   user32:USER32.dll
+ 0005:0000003c       __IMPORT_DESCRIPTOR_GDI32  7600703c   gdi32:GDI32.dll
+ 0005:00000050       __NULL_IMPORT_DESCRIPTOR   76007050   msvcrt:MSVCRT40.dll
+ 0005:000001ac       __imp_GetDeviceCaps        760071ac   gdi32:GDI32.dll
+ 0005:000001b0       __imp_CreateCompatibleDC   760071b0   gdi32:GDI32.dll
+ 0005:000001b4       __imp_SelectObject         760071b4   gdi32:GDI32.dll
+ 0005:000001b8       __imp_SaveDC               760071b8   gdi32:GDI32.dll
+ 0005:000001bc       __imp_SetTextColor         760071bc   gdi32:GDI32.dll
+ 0005:000001c0       __imp_SetBkColor           760071c0   gdi32:GDI32.dll
+ 0005:000001c4       __imp_CreateBitmap         760071c4   gdi32:GDI32.dll
+ 0005:000001c8       __imp_CreateCompatibleBitmap 760071c8   gdi32:GDI32.dll
+ 0005:000001cc       __imp_CreatePatternBrush   760071cc   gdi32:GDI32.dll
+ 0005:000001d0       __imp_DeleteDC             760071d0   gdi32:GDI32.dll
+ 0005:000001d4       __imp_PatBlt               760071d4   gdi32:GDI32.dll
+ 0005:000001d8       __imp_ExtTextOutA          760071d8   gdi32:GDI32.dll
+ 0005:000001dc       __imp_DeleteObject         760071dc   gdi32:GDI32.dll
+ 0005:000001e0       __imp_CreateSolidBrush     760071e0   gdi32:GDI32.dll
+ 0005:000001e4       __imp_BitBlt               760071e4   gdi32:GDI32.dll
+ 0005:000001e8       __imp_RestoreDC            760071e8   gdi32:GDI32.dll
+ 0005:000001ec       __imp_CreateDIBitmap       760071ec   gdi32:GDI32.dll
+ 0005:000001f0       \177GDI32_NULL_THUNK_DATA  760071f0   gdi32:GDI32.dll
+ 0005:000001f4       __imp_GetVersion           760071f4   kernel32:KERNEL32.dll
+ 0005:000001f8       __imp_IsBadWritePtr        760071f8   kernel32:KERNEL32.dll
+ 0005:000001fc       __imp_OutputDebugStringA   760071fc   kernel32:KERNEL32.dll
+ 0005:00000200       \177KERNEL32_NULL_THUNK_DATA 76007200   kernel32:KERNEL32.dll
+ 0005:00000204       __imp_free                 76007204   msvcrt:MSVCRT40.dll
+ 0005:00000208       __imp_malloc               76007208   msvcrt:MSVCRT40.dll
+ 0005:0000020c       __imp__onexit              7600720c   msvcrt:MSVCRT40.dll
+ 0005:00000210       __imp___dllonexit          76007210   msvcrt:MSVCRT40.dll
+ 0005:00000214       __imp__initterm            76007214   msvcrt:MSVCRT40.dll
+ 0005:00000218       \177MSVCRT40_NULL_THUNK_DATA 76007218   msvcrt:MSVCRT40.dll
+ 0005:0000021c       __imp_LoadCursorA          7600721c   user32:USER32.dll
+ 0005:00000220       __imp_SetRect              76007220   user32:USER32.dll
+ 0005:00000224       __imp_GetSysColor          76007224   user32:USER32.dll
+ 0005:00000228       __imp_GetDC                76007228   user32:USER32.dll
+ 0005:0000022c       __imp_ReleaseDC            7600722c   user32:USER32.dll
+ 0005:00000230       __imp_LoadBitmapA          76007230   user32:USER32.dll
+ 0005:00000234       \177USER32_NULL_THUNK_DATA 76007234   user32:USER32.dll
+ 0005:000080f0       .toc                       7600f0f0   <linker-defined>
+
+ entry point at        0002:00000110
+
+ Static symbols
+
+ 0001:00000510       ..ToolButtonInit           76001510 f bttncur.obj
+ 0001:0000067c       ..ToolButtonFree           7600167c f bttncur.obj
+ 0001:0000080c       ..HBrushDitherCreate       7600180c f bttncur.obj
+ 0001:000019f4       ..DrawBlankButton          760029f4 f bttncur.obj
+ 0001:00001e6c       ..PatB                     76002e6c f bttncur.obj
+ 0001:00001f6c       ..MaskCreate               76002f6c f bttncur.obj
+
+ Offset   Rva+Base   Publics by TOC Offset
+
+  8000    760070f0   __imp_LoadCursorA
+  8004    760070f4   rgHCursors
+  8008    760070f8   ghInst
+  800c    760070fc   tdd
+  8010    76007100   __imp_LoadBitmapA
+  8014    76007104   rghBmpStandardImages
+  8018    76007108   __imp_OutputDebugStringA
+  8020    76007110   cInstances
+  8024    76007114   __imp_IsBadWritePtr
+  8028    76007118   __imp_GetDC
+  802c    7600711c   __imp_GetDeviceCaps
+  8030    76007120   __imp_ReleaseDC
+  8034    76007124   __imp_CreateCompatibleDC
+  8038    76007128   hDCGlyphs
+  803c    7600712c   hDCMono
+  8040    76007130   __imp_GetVersion
+  8044    76007134   __imp_GetSysColor
+  8048    76007138   crStandard
+  804c    7600713c   hBrushDither
+  8050    76007140   __imp_DeleteDC
+  8054    76007144   __imp_DeleteObject
+  8058    76007148   __imp_CreateDIBitmap
+  805c    7600714c   __imp_CreatePatternBrush
+  8060    76007150   mpButtonType
+  8064    76007154   __imp_CreateBitmap
+  8068    76007158   __imp_SelectObject
+  806c    7600715c   __imp_SaveDC
+  8074    76007164   __imp_BitBlt
+  8078    76007168   __imp_SetTextColor
+  807c    7600716c   __imp_SetBkColor
+  8080    76007170   __imp_CreateCompatibleBitmap
+  8084    76007174   __imp_CreateSolidBrush
+  8088    76007178   __imp_RestoreDC
+  808c    7600717c   __imp_SetRect
+  8090    76007180   __imp_ExtTextOutA
+  8094    76007184   __imp_PatBlt
+  8098    76007188   __onexitbegin
+  809c    7600718c   __imp__onexit
+  80a0    76007190   __onexitend
+  80a8    76007198   __imp_malloc
+  80ac    7600719c   __xc_a
+  80b0    760071a0   __xc_z
+  80b4    760071a4   __imp_free
+  80b8    760071a8   _pRawDllMain
+

@@ -1,0 +1,372 @@
+ wavef32
+
+ Timestamp is 64174099 (Sun Mar 19 12:04:25 2023)
+
+ Preferred load address is 10000000
+
+ Start         Length     Name                   Class
+ 0001:00000000 0000465cH .text                   CODE
+ 0002:00000000 00000410H .rdata                  DATA
+ 0002:00000410 0000006aH .edata                  DATA
+ 0003:00000000 00000004H .CRT$XCA                DATA
+ 0003:00000008 00000004H .CRT$XCZ                DATA
+ 0003:00000010 00000004H .CRT$XIA                DATA
+ 0003:00000018 00000004H .CRT$XIZ                DATA
+ 0003:00000020 000000bcH .data                   DATA
+ 0003:000000dc 000001e0H .bss                    DATA
+ 0004:00000000 0000076cH .pdata                  DATA
+ 0005:00000000 00000050H .idata$2                DATA
+ 0005:00000050 00000014H .idata$3                DATA
+ 0005:00000064 00000088H .idata$4                DATA
+ 0005:000000ec 000000bcH .idata$4toc             DATA
+ 0005:000001a8 00000088H .idata$5                DATA
+ 0005:00000230 000001caH .idata$6                DATA
+ 0006:00000000 000000a0H .rsrc$01                DATA
+ 0006:000000a0 000005e0H .rsrc$02                DATA
+
+  Address         Publics by Value              Rva+Base   Lib:Object
+
+ 0001:00000000       ..LoadUnicodeString        10001000 f wavefile.obj
+ 0001:000000c8       ..WaveFileCreate           100010c8 f wavefile.obj
+ 0001:000002f0       ..WaveUnknownQueryInterface 100012f0 f wavefile.obj
+ 0001:00000448       ..WaveUnknownAddRef        10001448 f wavefile.obj
+ 0001:000004bc       ..WaveUnknownRelease       100014bc f wavefile.obj
+ 0001:00000ce0       ..WaveFileQueryInterface   10001ce0 f wavefile.obj
+ 0001:00000d70       ..WaveFileAddRef           10001d70 f wavefile.obj
+ 0001:00000df0       ..WaveFileRelease          10001df0 f wavefile.obj
+ 0001:00000e70       ..WavePersistQueryInterface 10001e70 f wavefile.obj
+ 0001:00000f00       ..WavePersistAddRef        10001f00 f wavefile.obj
+ 0001:00000f80       ..WavePersistRelease       10001f80 f wavefile.obj
+ 0001:00001000       ..WaveStreamQueryInterface 10002000 f wavefile.obj
+ 0001:0000108c       ..WaveStreamAddRef         1000208c f wavefile.obj
+ 0001:00001108       ..WaveStreamRelease        10002108 f wavefile.obj
+ 0001:00001184       ..FileName                 10002184 f wavefile.obj
+ 0001:00001284       ..WaveFileOpen             10002284 f wavefile.obj
+ 0001:00001ab8       ..WaveFileGetStream        10002ab8 f wavefile.obj
+ 0001:00001bc0       ..WaveFileDeleteStream     10002bc0 f wavefile.obj
+ 0001:00001d28       ..WaveFileSave             10002d28 f wavefile.obj
+ 0001:00001d68       ..WaveFileCreateStream     10002d68 f wavefile.obj
+ 0001:00001e54       ..WaveFileWriteData        10002e54 f wavefile.obj
+ 0001:00001ec8       ..WaveFileReadData         10002ec8 f wavefile.obj
+ 0001:00001f3c       ..WaveFileEndRecord        10002f3c f wavefile.obj
+ 0001:00001f6c       ..WaveFileInfo             10002f6c f wavefile.obj
+ 0001:00002010       ..WaveStreamCreate         10003010 f wavefile.obj
+ 0001:0000204c       ..WaveStreamFindSample     1000304c f wavefile.obj
+ 0001:000020c8       ..WaveStreamReadFormat     100030c8 f wavefile.obj
+ 0001:000021e4       ..WaveStreamInfo           100031e4 f wavefile.obj
+ 0001:00002284       ..WaveStreamSetInfo        10003284 f wavefile.obj
+ 0001:000022c0       ..WaveStreamRead           100032c0 f wavefile.obj
+ 0001:00002610       ..WaveStreamSetFormat      10003610 f wavefile.obj
+ 0001:0000283c       ..WaveStreamWrite          1000383c f wavefile.obj
+ 0001:00002a9c       ..WaveStreamDelete         10003a9c f wavefile.obj
+ 0001:00002ad8       ..WaveStreamReadData       10003ad8 f wavefile.obj
+ 0001:00002b18       ..WaveStreamWriteData      10003b18 f wavefile.obj
+ 0001:00002b58       ..WaveFileReserved         10003b58 f wavefile.obj
+ 0001:00002b8c       ..WaveStreamReserved       10003b8c f wavefile.obj
+ 0001:00002bc0       ..WavePersistGetClassID    10003bc0 f wavefile.obj
+ 0001:00002c48       ..WavePersistIsDirty       10003c48 f wavefile.obj
+ 0001:00002cb0       ..WavePersistLoad          10003cb0 f wavefile.obj
+ 0001:00002d68       ..WavePersistSave          10003d68 f wavefile.obj
+ 0001:00002dc0       ..WavePersistSaveCompleted 10003dc0 f wavefile.obj
+ 0001:00002e10       ..WavePersistGetCurFile    10003e10 f wavefile.obj
+ 0001:00002e64       ..MulDiv32                 10003e64 f wavefile.obj
+ 0001:00002ee8       ..DllMain                  10003ee8 f factory1.obj
+ 0001:00002f98       ..WEP                      10003f98 f factory1.obj
+ 0001:00002fc8       ..DllCanUnloadNow          10003fc8 f factory1.obj
+ 0001:00003020       ..WaveFactoryCreate        10004020 f factory1.obj
+ 0001:000031ac       ..DllGetClassObject        100041ac f factory1.obj
+ 0001:000031fc       ..WaveFactoryQueryInterface 100041fc f factory1.obj
+ 0001:000032ac       ..WaveFactoryAddRef        100042ac f factory1.obj
+ 0001:000032f8       ..WaveFactoryRelease       100042f8 f factory1.obj
+ 0001:000033e4       ..WaveFactoryCreateInstance 100043e4 f factory1.obj
+ 0001:00003430       ..WaveFactoryLockServer    10004430 f factory1.obj
+ 0001:0000349c       ..ReadExtra                1000449c f extra.obj
+ 0001:000035f4       ..WriteExtra               100045f4 f extra.obj
+ 0001:00003830       ..ReadIntoExtra            10004830 f extra.obj
+ 0001:00003b64       ..FindChunkAndKeepExtras   10004b64 f extra.obj
+ 0001:00003d9c       .._CRT_INIT                10004d9c f msvcrt:crtdll.obj
+ 0001:00003f18       .._DllMainCRTStartup       10004f18 f msvcrt:crtdll.obj
+ 0001:0000406c       ..memcmp                   1000506c f msvcrt:MSVCRT40.dll
+ 0001:00004084       ..memset                   10005084 f msvcrt:MSVCRT40.dll
+ 0001:000040a0       ..__i64div                 100050a0 f msvcrt:i64div.obj
+ 0001:00004100       ..__restgpr_All            10005100 f msvcrt:restgpr.obj
+ 0001:00004134       ..__restgpr_14             10005134   msvcrt:restgpr.obj
+ 0001:00004138       ..__restgpr_15             10005138   msvcrt:restgpr.obj
+ 0001:0000413c       ..__restgpr_16             1000513c   msvcrt:restgpr.obj
+ 0001:00004140       ..__restgpr_17             10005140   msvcrt:restgpr.obj
+ 0001:00004144       ..__restgpr_18             10005144   msvcrt:restgpr.obj
+ 0001:00004148       ..__restgpr_19             10005148   msvcrt:restgpr.obj
+ 0001:0000414c       ..__restgpr_20             1000514c   msvcrt:restgpr.obj
+ 0001:00004150       ..__restgpr_21             10005150   msvcrt:restgpr.obj
+ 0001:00004154       ..__restgpr_22             10005154   msvcrt:restgpr.obj
+ 0001:00004158       ..__restgpr_23             10005158   msvcrt:restgpr.obj
+ 0001:0000415c       ..__restgpr_24             1000515c   msvcrt:restgpr.obj
+ 0001:00004160       ..__restgpr_25             10005160   msvcrt:restgpr.obj
+ 0001:00004164       ..__restgpr_26             10005164   msvcrt:restgpr.obj
+ 0001:00004168       ..__restgpr_27             10005168   msvcrt:restgpr.obj
+ 0001:0000416c       ..__restgpr_28             1000516c   msvcrt:restgpr.obj
+ 0001:00004170       ..__restgpr_29             10005170   msvcrt:restgpr.obj
+ 0001:00004174       ..__restgpr_30             10005174   msvcrt:restgpr.obj
+ 0001:00004178       ..__restgpr_31             10005178   msvcrt:restgpr.obj
+ 0001:00004180       ..free                     10005180 f msvcrt:MSVCRT40.dll
+ 0001:00004198       .._initterm                10005198 f msvcrt:MSVCRT40.dll
+ 0001:000041b0       .._onexit                  100051b0 f msvcrt:atonexit.obj
+ 0001:00004218       ..atexit                   10005218 f msvcrt:atonexit.obj
+ 0001:00004248       ..malloc                   10005248 f msvcrt:MSVCRT40.dll
+ 0001:00004260       ..__savegpr_All            10005260 f msvcrt:savegpr.obj
+ 0001:00004294       ..__savegpr_14             10005294   msvcrt:savegpr.obj
+ 0001:00004298       ..__savegpr_15             10005298   msvcrt:savegpr.obj
+ 0001:0000429c       ..__savegpr_16             1000529c   msvcrt:savegpr.obj
+ 0001:000042a0       ..__savegpr_17             100052a0   msvcrt:savegpr.obj
+ 0001:000042a4       ..__savegpr_18             100052a4   msvcrt:savegpr.obj
+ 0001:000042a8       ..__savegpr_19             100052a8   msvcrt:savegpr.obj
+ 0001:000042ac       ..__savegpr_20             100052ac   msvcrt:savegpr.obj
+ 0001:000042b0       ..__savegpr_21             100052b0   msvcrt:savegpr.obj
+ 0001:000042b4       ..__savegpr_22             100052b4   msvcrt:savegpr.obj
+ 0001:000042b8       ..__savegpr_23             100052b8   msvcrt:savegpr.obj
+ 0001:000042bc       ..__savegpr_24             100052bc   msvcrt:savegpr.obj
+ 0001:000042c0       ..__savegpr_25             100052c0   msvcrt:savegpr.obj
+ 0001:000042c4       ..__savegpr_26             100052c4   msvcrt:savegpr.obj
+ 0001:000042c8       ..__savegpr_27             100052c8   msvcrt:savegpr.obj
+ 0001:000042cc       ..__savegpr_28             100052cc   msvcrt:savegpr.obj
+ 0001:000042d0       ..__savegpr_29             100052d0   msvcrt:savegpr.obj
+ 0001:000042d4       ..__savegpr_30             100052d4   msvcrt:savegpr.obj
+ 0001:000042d8       ..__savegpr_31             100052d8   msvcrt:savegpr.obj
+ 0001:000042e0       ..__u64div                 100052e0 f msvcrt:u64div.obj
+ 0001:0000441c       ..__dllonexit              1000541c f msvcrt:MSVCRT40.dll
+ 0001:00004434       ..MultiByteToWideChar      10005434 f kernel32:KERNEL32.dll
+ 0001:0000444c       ..GlobalFree               1000544c f kernel32:KERNEL32.dll
+ 0001:00004464       ..GlobalHandle             10005464 f kernel32:KERNEL32.dll
+ 0001:0000447c       ..GlobalUnlock             1000547c f kernel32:KERNEL32.dll
+ 0001:00004494       ..GlobalAlloc              10005494 f kernel32:KERNEL32.dll
+ 0001:000044ac       ..GlobalLock               100054ac f kernel32:KERNEL32.dll
+ 0001:000044c4       ..lstrlenA                 100054c4 f kernel32:KERNEL32.dll
+ 0001:000044dc       ..SetErrorMode             100054dc f kernel32:KERNEL32.dll
+ 0001:000044f4       ..RtlMoveMemory            100054f4 f kernel32:KERNEL32.dll
+ 0001:0000450c       ..WideCharToMultiByte      1000550c f kernel32:KERNEL32.dll
+ 0001:00004524       ..GlobalReAlloc            10005524 f kernel32:KERNEL32.dll
+ 0001:0000453c       ..LoadStringA              1000553c f user32:USER32.dll
+ 0001:00004554       ..CharPrevA                10005554 f user32:USER32.dll
+ 0001:0000456c       ..wsprintfA                1000556c f user32:USER32.dll
+ 0001:00004584       ..mmioClose                10005584 f winmm:WINMM.dll
+ 0001:0000459c       ..mmioFlush                1000559c f winmm:WINMM.dll
+ 0001:000045b4       ..mmioAscend               100055b4 f winmm:WINMM.dll
+ 0001:000045cc       ..mmioWrite                100055cc f winmm:WINMM.dll
+ 0001:000045e4       ..mmioCreateChunk          100055e4 f winmm:WINMM.dll
+ 0001:000045fc       ..mmioSeek                 100055fc f winmm:WINMM.dll
+ 0001:00004614       ..mmioRead                 10005614 f winmm:WINMM.dll
+ 0001:0000462c       ..mmioDescend              1000562c f winmm:WINMM.dll
+ 0001:00004644       ..mmioOpenA                10005644 f winmm:WINMM.dll
+ 0002:00000088       WaveUnknownQueryInterface  10006088   wavefile.obj
+ 0002:00000090       WaveUnknownAddRef          10006090   wavefile.obj
+ 0002:00000098       WaveUnknownRelease         10006098   wavefile.obj
+ 0002:000000a0       WaveFileQueryInterface     100060a0   wavefile.obj
+ 0002:000000a8       WaveFileAddRef             100060a8   wavefile.obj
+ 0002:000000b0       WaveFileRelease            100060b0   wavefile.obj
+ 0002:000000b8       WaveFileInfo               100060b8   wavefile.obj
+ 0002:000000c0       WaveFileGetStream          100060c0   wavefile.obj
+ 0002:000000c8       WaveFileCreateStream       100060c8   wavefile.obj
+ 0002:000000d0       WaveFileWriteData          100060d0   wavefile.obj
+ 0002:000000d8       WaveFileReadData           100060d8   wavefile.obj
+ 0002:000000e0       WaveFileEndRecord          100060e0   wavefile.obj
+ 0002:000000e8       WaveFileDeleteStream       100060e8   wavefile.obj
+ 0002:000000f0       WavePersistQueryInterface  100060f0   wavefile.obj
+ 0002:000000f8       WavePersistAddRef          100060f8   wavefile.obj
+ 0002:00000100       WavePersistRelease         10006100   wavefile.obj
+ 0002:00000108       WavePersistGetClassID      10006108   wavefile.obj
+ 0002:00000110       WavePersistIsDirty         10006110   wavefile.obj
+ 0002:00000118       WavePersistLoad            10006118   wavefile.obj
+ 0002:00000120       WavePersistSave            10006120   wavefile.obj
+ 0002:00000128       WavePersistSaveCompleted   10006128   wavefile.obj
+ 0002:00000130       WavePersistGetCurFile      10006130   wavefile.obj
+ 0002:00000138       WaveStreamQueryInterface   10006138   wavefile.obj
+ 0002:00000140       WaveStreamAddRef           10006140   wavefile.obj
+ 0002:00000148       WaveStreamRelease          10006148   wavefile.obj
+ 0002:00000150       WaveStreamCreate           10006150   wavefile.obj
+ 0002:00000158       WaveStreamInfo             10006158   wavefile.obj
+ 0002:00000160       WaveStreamFindSample       10006160   wavefile.obj
+ 0002:00000168       WaveStreamReadFormat       10006168   wavefile.obj
+ 0002:00000170       WaveStreamSetFormat        10006170   wavefile.obj
+ 0002:00000178       WaveStreamRead             10006178   wavefile.obj
+ 0002:00000180       WaveStreamWrite            10006180   wavefile.obj
+ 0002:00000188       WaveStreamDelete           10006188   wavefile.obj
+ 0002:00000190       WaveStreamReadData         10006190   wavefile.obj
+ 0002:00000198       WaveStreamWriteData        10006198   wavefile.obj
+ 0002:000001a0       WaveStreamSetInfo          100061a0   wavefile.obj
+ 0002:000001a8       LoadUnicodeString          100061a8   wavefile.obj
+ 0002:000001b0       WaveFileCreate             100061b0   wavefile.obj
+ 0002:000001b8       FileName                   100061b8   wavefile.obj
+ 0002:000001c0       WaveFileOpen               100061c0   wavefile.obj
+ 0002:000001c8       WaveFileSave               100061c8   wavefile.obj
+ 0002:000001d0       WaveFileReserved           100061d0   wavefile.obj
+ 0002:000001d8       WaveStreamReserved         100061d8   wavefile.obj
+ 0002:000001e0       MulDiv32                   100061e0   wavefile.obj
+ 0002:000001e8       IID_IAVIFile               100061e8   factory1.obj
+ 0002:000001f8       IID_IAVIStream             100061f8   factory1.obj
+ 0002:00000208       IID_IAVIStreaming          10006208   factory1.obj
+ 0002:00000218       IID_IGetFrame              10006218   factory1.obj
+ 0002:00000228       IID_IAVIEditStream         10006228   factory1.obj
+ 0002:00000238       CLSID_AVISimpleUnMarshal   10006238   factory1.obj
+ 0002:00000248       CLSID_AVIFile              10006248   factory1.obj
+ 0002:00000258       CLSID_AVIWaveFileReader    10006258   factory1.obj
+ 0002:00000268       WaveFactoryQueryInterface  10006268   factory1.obj
+ 0002:00000270       WaveFactoryAddRef          10006270   factory1.obj
+ 0002:00000278       WaveFactoryRelease         10006278   factory1.obj
+ 0002:00000280       WaveFactoryCreateInstance  10006280   factory1.obj
+ 0002:00000288       WaveFactoryLockServer      10006288   factory1.obj
+ 0002:00000290       DllMain                    10006290   factory1.obj
+ 0002:00000298       WEP                        10006298   factory1.obj
+ 0002:000002a0       DllCanUnloadNow            100062a0   factory1.obj
+ 0002:000002a8       WaveFactoryCreate          100062a8   factory1.obj
+ 0002:000002b0       DllGetClassObject          100062b0   factory1.obj
+ 0002:000002b8       ReadExtra                  100062b8   extra.obj
+ 0002:000002c0       WriteExtra                 100062c0   extra.obj
+ 0002:000002c8       ReadIntoExtra              100062c8   extra.obj
+ 0002:000002d0       FindChunkAndKeepExtras     100062d0   extra.obj
+ 0002:000002d8       IID_IPersistFile           100062d8   uuid:objidl_i_guid20.obj
+ 0002:000002e8       IID_IUnknown               100062e8   uuid:unknwn_i_guid0.obj
+ 0002:000002f8       IID_IClassFactory          100062f8   uuid:unknwn_i_guid1.obj
+ 0002:00000308       _CRT_INIT                  10006308   msvcrt:crtdll.obj
+ 0002:00000310       _DllMainCRTStartup         10006310   msvcrt:crtdll.obj
+ 0002:00000318       memcmp                     10006318   msvcrt:MSVCRT40.dll
+ 0002:00000320       memset                     10006320   msvcrt:MSVCRT40.dll
+ 0002:00000328       free                       10006328   msvcrt:MSVCRT40.dll
+ 0002:00000330       _initterm                  10006330   msvcrt:MSVCRT40.dll
+ 0002:00000338       _onexit                    10006338   msvcrt:atonexit.obj
+ 0002:00000340       atexit                     10006340   msvcrt:atonexit.obj
+ 0002:00000348       malloc                     10006348   msvcrt:MSVCRT40.dll
+ 0002:00000350       __dllonexit                10006350   msvcrt:MSVCRT40.dll
+ 0002:00000358       MultiByteToWideChar        10006358   kernel32:KERNEL32.dll
+ 0002:00000360       GlobalFree                 10006360   kernel32:KERNEL32.dll
+ 0002:00000368       GlobalHandle               10006368   kernel32:KERNEL32.dll
+ 0002:00000370       GlobalUnlock               10006370   kernel32:KERNEL32.dll
+ 0002:00000378       GlobalAlloc                10006378   kernel32:KERNEL32.dll
+ 0002:00000380       GlobalLock                 10006380   kernel32:KERNEL32.dll
+ 0002:00000388       lstrlenA                   10006388   kernel32:KERNEL32.dll
+ 0002:00000390       SetErrorMode               10006390   kernel32:KERNEL32.dll
+ 0002:00000398       RtlMoveMemory              10006398   kernel32:KERNEL32.dll
+ 0002:000003a0       WideCharToMultiByte        100063a0   kernel32:KERNEL32.dll
+ 0002:000003a8       GlobalReAlloc              100063a8   kernel32:KERNEL32.dll
+ 0002:000003b0       LoadStringA                100063b0   user32:USER32.dll
+ 0002:000003b8       CharPrevA                  100063b8   user32:USER32.dll
+ 0002:000003c0       wsprintfA                  100063c0   user32:USER32.dll
+ 0002:000003c8       mmioClose                  100063c8   winmm:WINMM.dll
+ 0002:000003d0       mmioFlush                  100063d0   winmm:WINMM.dll
+ 0002:000003d8       mmioAscend                 100063d8   winmm:WINMM.dll
+ 0002:000003e0       mmioWrite                  100063e0   winmm:WINMM.dll
+ 0002:000003e8       mmioCreateChunk            100063e8   winmm:WINMM.dll
+ 0002:000003f0       mmioSeek                   100063f0   winmm:WINMM.dll
+ 0002:000003f8       mmioRead                   100063f8   winmm:WINMM.dll
+ 0002:00000400       mmioDescend                10006400   winmm:WINMM.dll
+ 0002:00000408       mmioOpenA                  10006408   winmm:WINMM.dll
+ 0003:00000000       __xc_a                     10007000   msvcrt:cinitexe.obj
+ 0003:00000008       __xc_z                     10007008   msvcrt:cinitexe.obj
+ 0003:00000010       __xi_a                     10007010   msvcrt:cinitexe.obj
+ 0003:00000018       __xi_z                     10007018   msvcrt:cinitexe.obj
+ 0003:00000020       UnknownVtbl                10007020   wavefile.obj
+ 0003:00000030       FileVtbl                   10007030   wavefile.obj
+ 0003:00000058       PersistVtbl                10007058   wavefile.obj
+ 0003:00000080       StreamVtbl                 10007080   wavefile.obj
+ 0003:000000b8       ghModule                   100070b8   factory1.obj
+ 0003:000000c0       WaveFactoryVtbl            100070c0   factory1.obj
+ 0003:000000dc       uUseCount                  100070dc   <common>
+ 0003:000000e0       uLockCount                 100070e0   <common>
+ 0003:000000f0       ws                         100070f0   <common>
+ 0003:000002b0       __onexitend                100072b0   <common>
+ 0003:000002b4       __onexitbegin              100072b4   <common>
+ 0003:000002b8       _pRawDllMain               100072b8   <common>
+ 0005:00000000       __IMPORT_DESCRIPTOR_MSVCRT40 10009000   msvcrt:MSVCRT40.dll
+ 0005:00000014       __IMPORT_DESCRIPTOR_KERNEL32 10009014   kernel32:KERNEL32.dll
+ 0005:00000028       __IMPORT_DESCRIPTOR_USER32 10009028   user32:USER32.dll
+ 0005:0000003c       __IMPORT_DESCRIPTOR_WINMM  1000903c   winmm:WINMM.dll
+ 0005:00000050       __NULL_IMPORT_DESCRIPTOR   10009050   msvcrt:MSVCRT40.dll
+ 0005:000001a8       __imp_WideCharToMultiByte  100091a8   kernel32:KERNEL32.dll
+ 0005:000001ac       __imp_GlobalHandle         100091ac   kernel32:KERNEL32.dll
+ 0005:000001b0       __imp_GlobalUnlock         100091b0   kernel32:KERNEL32.dll
+ 0005:000001b4       __imp_GlobalFree           100091b4   kernel32:KERNEL32.dll
+ 0005:000001b8       __imp_RtlMoveMemory        100091b8   kernel32:KERNEL32.dll
+ 0005:000001bc       __imp_GlobalLock           100091bc   kernel32:KERNEL32.dll
+ 0005:000001c0       __imp_MultiByteToWideChar  100091c0   kernel32:KERNEL32.dll
+ 0005:000001c4       __imp_SetErrorMode         100091c4   kernel32:KERNEL32.dll
+ 0005:000001c8       __imp_GlobalAlloc          100091c8   kernel32:KERNEL32.dll
+ 0005:000001cc       __imp_GlobalReAlloc        100091cc   kernel32:KERNEL32.dll
+ 0005:000001d0       __imp_lstrlenA             100091d0   kernel32:KERNEL32.dll
+ 0005:000001d4       \177KERNEL32_NULL_THUNK_DATA 100091d4   kernel32:KERNEL32.dll
+ 0005:000001d8       __imp__onexit              100091d8   msvcrt:MSVCRT40.dll
+ 0005:000001dc       __imp___dllonexit          100091dc   msvcrt:MSVCRT40.dll
+ 0005:000001e0       __imp_free                 100091e0   msvcrt:MSVCRT40.dll
+ 0005:000001e4       __imp_malloc               100091e4   msvcrt:MSVCRT40.dll
+ 0005:000001e8       __imp_memset               100091e8   msvcrt:MSVCRT40.dll
+ 0005:000001ec       __imp__initterm            100091ec   msvcrt:MSVCRT40.dll
+ 0005:000001f0       __imp_memcmp               100091f0   msvcrt:MSVCRT40.dll
+ 0005:000001f4       \177MSVCRT40_NULL_THUNK_DATA 100091f4   msvcrt:MSVCRT40.dll
+ 0005:000001f8       __imp_CharPrevA            100091f8   user32:USER32.dll
+ 0005:000001fc       __imp_wsprintfA            100091fc   user32:USER32.dll
+ 0005:00000200       __imp_LoadStringA          10009200   user32:USER32.dll
+ 0005:00000204       \177USER32_NULL_THUNK_DATA 10009204   user32:USER32.dll
+ 0005:00000208       __imp_mmioFlush            10009208   winmm:WINMM.dll
+ 0005:0000020c       __imp_mmioAscend           1000920c   winmm:WINMM.dll
+ 0005:00000210       __imp_mmioClose            10009210   winmm:WINMM.dll
+ 0005:00000214       __imp_mmioWrite            10009214   winmm:WINMM.dll
+ 0005:00000218       __imp_mmioCreateChunk      10009218   winmm:WINMM.dll
+ 0005:0000021c       __imp_mmioSeek             1000921c   winmm:WINMM.dll
+ 0005:00000220       __imp_mmioRead             10009220   winmm:WINMM.dll
+ 0005:00000224       __imp_mmioDescend          10009224   winmm:WINMM.dll
+ 0005:00000228       __imp_mmioOpenA            10009228   winmm:WINMM.dll
+ 0005:0000022c       \177WINMM_NULL_THUNK_DATA  1000922c   winmm:WINMM.dll
+ 0005:000080ec       .toc                       100110ec   <linker-defined>
+
+ entry point at        0002:00000310
+
+ Static symbols
+
+
+ Offset   Rva+Base   Publics by TOC Offset
+
+  8000    100090ec   __imp_RtlMoveMemory
+  8004    100090f0   __imp_GlobalUnlock
+  8008    100090f4   __imp_GlobalHandle
+  800c    100090f8   __imp_GlobalReAlloc
+  8010    100090fc   __imp_GlobalLock
+  8014    10009100   __imp_GlobalAlloc
+  8018    10009104   __imp_mmioSeek
+  801c    10009108   __imp_mmioRead
+  8020    1000910c   __imp_mmioDescend
+  8024    10009110   ghModule
+  8028    10009114   uLockCount
+  802c    10009118   uUseCount
+  8030    1000911c   WaveFactoryVtbl
+  8034    10009120   __imp_GlobalFree
+  8038    10009124   IID_IUnknown
+  803c    10009128   IID_IClassFactory
+  8040    1000912c   __imp_LoadStringA
+  8044    10009130   __imp_MultiByteToWideChar
+  8048    10009134   FileVtbl
+  804c    10009138   StreamVtbl
+  8050    1000913c   UnknownVtbl
+  8054    10009140   PersistVtbl
+  8058    10009144   ws
+  805c    10009148   IID_IAVIFile
+  8060    1000914c   IID_IAVIStream
+  8064    10009150   IID_IPersistFile
+  8068    10009154   __imp_mmioCreateChunk
+  806c    10009158   __imp_mmioWrite
+  8070    1000915c   __imp_mmioAscend
+  8074    10009160   __imp_mmioFlush
+  8078    10009164   __imp_mmioClose
+  807c    10009168   __imp_lstrlenA
+  8080    1000916c   __imp_CharPrevA
+  8084    10009170   __imp_SetErrorMode
+  8088    10009174   __imp_mmioOpenA
+  808c    10009178   __imp_wsprintfA
+  8090    1000917c   CLSID_AVIWaveFileReader
+  8094    10009180   __imp_WideCharToMultiByte
+  8098    10009184   __onexitbegin
+  809c    10009188   __imp__onexit
+  80a0    1000918c   __onexitend
+  80a8    10009194   __imp_malloc
+  80ac    10009198   __xc_a
+  80b0    1000919c   __xc_z
+  80b4    100091a0   __imp_free
+  80b8    100091a4   _pRawDllMain
+

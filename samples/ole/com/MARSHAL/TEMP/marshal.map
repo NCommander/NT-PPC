@@ -1,0 +1,667 @@
+ marshal
+
+ Timestamp is 64172ade (Sun Mar 19 10:31:42 2023)
+
+ Preferred load address is 1c000000
+
+ Start         Length     Name                   Class
+ 0001:00000000 00005c68H .text                   CODE
+ 0002:00000000 00001b78H .orpc                   CODE
+ 0003:00000000 000007f0H .rdata                  DATA
+ 0003:000007f0 000001c0H .xdata                  DATA
+ 0003:000009b0 000000beH .edata                  DATA
+ 0004:00000000 00000004H .CRT$XCA                DATA
+ 0004:00000008 00000004H .CRT$XCZ                DATA
+ 0004:00000010 00000004H .CRT$XIA                DATA
+ 0004:00000018 00000004H .CRT$XIZ                DATA
+ 0004:00000020 000003d4H .data                   DATA
+ 0004:000003f4 0000000cH .bss                    DATA
+ 0005:00000000 00000fb4H .pdata                  DATA
+ 0006:00000000 000000a0H .idata$2                DATA
+ 0006:000000a0 00000014H .idata$3                DATA
+ 0006:000000b4 000001a4H .idata$4                DATA
+ 0006:00000258 0000014cH .idata$4toc             DATA
+ 0006:000003a4 000001a4H .idata$5                DATA
+ 0006:00000548 0000074eH .idata$6                DATA
+ 0007:00000000 000000f8H .rsrc$01                DATA
+ 0007:00000100 00000658H .rsrc$02                DATA
+
+  Address         Publics by Value              Rva+Base   Lib:Object
+
+ 0001:00000000       ..?UnicodeOk@@YAHXZ        1c001000 f marshal.obj
+ 0001:000000bc       ..DllMain                  1c0010bc f marshal.obj
+ 0001:00000170       ..?SetRegKeyValue@@YAHPAD00@Z 1c001170 f marshal.obj
+ 0001:00000360       ..DllRegisterServer        1c001360 f marshal.obj
+ 0001:00000814       ..DllUnregisterServer      1c001814 f marshal.obj
+ 0001:000010d4       ..GetProxyDllInfo          1c0020d4 f dlldata.obj
+ 0001:0000114c       ..DllGetClassObject        1c00214c f dlldata.obj
+ 0001:000011f0       ..DllCanUnloadNow          1c0021f0 f dlldata.obj
+ 0001:00001228       ..CStdStubBuffer_Release   1c002228 f dlldata.obj
+ 0001:00001268       .._purecall                1c002268 f dlldata.obj
+ 0001:00001284       .._CRT_INIT                1c002284 f msvcrt:crtdll.obj
+ 0001:00001400       .._DllMainCRTStartup       1c002400 f msvcrt:crtdll.obj
+ 0001:00001554       ..__C_specific_handler     1c002554 f msvcrt:MSVCRT40.dll
+ 0001:00001570       ..__restgpr_All            1c002570 f msvcrt:restgpr.obj
+ 0001:000015a4       ..__restgpr_14             1c0025a4   msvcrt:restgpr.obj
+ 0001:000015a8       ..__restgpr_15             1c0025a8   msvcrt:restgpr.obj
+ 0001:000015ac       ..__restgpr_16             1c0025ac   msvcrt:restgpr.obj
+ 0001:000015b0       ..__restgpr_17             1c0025b0   msvcrt:restgpr.obj
+ 0001:000015b4       ..__restgpr_18             1c0025b4   msvcrt:restgpr.obj
+ 0001:000015b8       ..__restgpr_19             1c0025b8   msvcrt:restgpr.obj
+ 0001:000015bc       ..__restgpr_20             1c0025bc   msvcrt:restgpr.obj
+ 0001:000015c0       ..__restgpr_21             1c0025c0   msvcrt:restgpr.obj
+ 0001:000015c4       ..__restgpr_22             1c0025c4   msvcrt:restgpr.obj
+ 0001:000015c8       ..__restgpr_23             1c0025c8   msvcrt:restgpr.obj
+ 0001:000015cc       ..__restgpr_24             1c0025cc   msvcrt:restgpr.obj
+ 0001:000015d0       ..__restgpr_25             1c0025d0   msvcrt:restgpr.obj
+ 0001:000015d4       ..__restgpr_26             1c0025d4   msvcrt:restgpr.obj
+ 0001:000015d8       ..__restgpr_27             1c0025d8   msvcrt:restgpr.obj
+ 0001:000015dc       ..__restgpr_28             1c0025dc   msvcrt:restgpr.obj
+ 0001:000015e0       ..__restgpr_29             1c0025e0   msvcrt:restgpr.obj
+ 0001:000015e4       ..__restgpr_30             1c0025e4   msvcrt:restgpr.obj
+ 0001:000015e8       ..__restgpr_31             1c0025e8   msvcrt:restgpr.obj
+ 0001:000015f0       ..memcmp                   1c0025f0 f msvcrt:MSVCRT40.dll
+ 0001:00001608       ..free                     1c002608 f msvcrt:MSVCRT40.dll
+ 0001:00001620       .._initterm                1c002620 f msvcrt:MSVCRT40.dll
+ 0001:00001638       .._onexit                  1c002638 f msvcrt:atonexit.obj
+ 0001:000016a0       ..atexit                   1c0026a0 f msvcrt:atonexit.obj
+ 0001:000016d0       ..malloc                   1c0026d0 f msvcrt:MSVCRT40.dll
+ 0001:000016e8       ..__savegpr_All            1c0026e8 f msvcrt:savegpr.obj
+ 0001:0000171c       ..__savegpr_14             1c00271c   msvcrt:savegpr.obj
+ 0001:00001720       ..__savegpr_15             1c002720   msvcrt:savegpr.obj
+ 0001:00001724       ..__savegpr_16             1c002724   msvcrt:savegpr.obj
+ 0001:00001728       ..__savegpr_17             1c002728   msvcrt:savegpr.obj
+ 0001:0000172c       ..__savegpr_18             1c00272c   msvcrt:savegpr.obj
+ 0001:00001730       ..__savegpr_19             1c002730   msvcrt:savegpr.obj
+ 0001:00001734       ..__savegpr_20             1c002734   msvcrt:savegpr.obj
+ 0001:00001738       ..__savegpr_21             1c002738   msvcrt:savegpr.obj
+ 0001:0000173c       ..__savegpr_22             1c00273c   msvcrt:savegpr.obj
+ 0001:00001740       ..__savegpr_23             1c002740   msvcrt:savegpr.obj
+ 0001:00001744       ..__savegpr_24             1c002744   msvcrt:savegpr.obj
+ 0001:00001748       ..__savegpr_25             1c002748   msvcrt:savegpr.obj
+ 0001:0000174c       ..__savegpr_26             1c00274c   msvcrt:savegpr.obj
+ 0001:00001750       ..__savegpr_27             1c002750   msvcrt:savegpr.obj
+ 0001:00001754       ..__savegpr_28             1c002754   msvcrt:savegpr.obj
+ 0001:00001758       ..__savegpr_29             1c002758   msvcrt:savegpr.obj
+ 0001:0000175c       ..__savegpr_30             1c00275c   msvcrt:savegpr.obj
+ 0001:00001760       ..__savegpr_31             1c002760   msvcrt:savegpr.obj
+ 0001:00001768       ..__dllonexit              1c002768 f msvcrt:MSVCRT40.dll
+ 0001:00001780       ..GetLastError             1c002780 f kernel32:KERNEL32.dll
+ 0001:00001798       ..lstrlenA                 1c002798 f kernel32:KERNEL32.dll
+ 0001:000017b0       ..lstrcatA                 1c0027b0 f kernel32:KERNEL32.dll
+ 0001:000017c8       ..lstrcpyA                 1c0027c8 f kernel32:KERNEL32.dll
+ 0001:000017e0       ..GetModuleFileNameA       1c0027e0 f kernel32:KERNEL32.dll
+ 0001:000017f8       ..GetUserNameA             1c0027f8 f advapi32:ADVAPI32.dll
+ 0001:00001810       ..RegCloseKey              1c002810 f advapi32:ADVAPI32.dll
+ 0001:00001828       ..RegSetValueExA           1c002828 f advapi32:ADVAPI32.dll
+ 0001:00001840       ..RegCreateKeyExA          1c002840 f advapi32:ADVAPI32.dll
+ 0001:00001858       ..RegDeleteKeyA            1c002858 f advapi32:ADVAPI32.dll
+ 0001:00001870       ..?UcToAnsi@@YAJPAGPADH@Z  1c002870 f apputil:apputil.obj
+ 0001:00001980       ..A_StringFromGUID2        1c002980 f apputil:apputil.obj
+ 0001:00001b34       ..A_WriteFmtUserTypeStg    1c002b34 f apputil:apputil.obj
+ 0001:00001c04       ..A_StgIsStorageFile       1c002c04 f apputil:apputil.obj
+ 0001:00001cc0       ..A_StgCreateDocfile       1c002cc0 f apputil:apputil.obj
+ 0001:00001db0       ..A_StgOpenStorage         1c002db0 f apputil:apputil.obj
+ 0001:00001eb0       ..?lRandom@@YAKXZ          1c002eb0 f apputil:apputil.obj
+ 0001:00001f08       ..?CreateColorScalePalette@@YAPAXPAXH@Z 1c002f08 f apputil:apputil.obj
+ 0001:00002360       ..?PaintWindow@@YAXPAXH@Z  1c003360 f apputil:apputil.obj
+ 0001:00002984       ..?FileExist@@YAHPAD@Z     1c003984 f apputil:apputil.obj
+ 0001:00002a44       ..?MakeFamilyPath@@YAHPAXPAD1@Z 1c003a44 f apputil:apputil.obj
+ 0001:00002bc4       ..?CmdExec@@YAHPAD@Z       1c003bc4 f apputil:apputil.obj
+ 0001:00002ce0       ..?ReadMe@@YAXPAX0@Z       1c003ce0 f apputil:apputil.obj
+ 0001:00002e44       ..?ReadMeFile@@YAXPAXPAD@Z 1c003e44 f apputil:apputil.obj
+ 0001:00002f84       ..?ReadSource@@YAXPAXPAUtagOFNA@@@Z 1c003f84 f apputil:apputil.obj
+ 0001:0000310c       ..?OutputDebugFmt@@YAXPADZZ 1c00410c f apputil:apputil.obj
+ 0001:000031bc       ..?GetErrorMsg@@YAHJPADI@Z 1c0041bc f apputil:apputil.obj
+ 0001:000032e0       ..WindowProc               1c0042e0 f apputil:apputil.obj
+ 0001:000034e0       ..?Create@CVirWindow@@QAAPAXPAD0KHHHHPAX11@Z 1c0044e0 f apputil:apputil.obj
+ 0001:000035a8       ..DialogProc               1c0045a8 f apputil:apputil.obj
+ 0001:000036e0       ..?ShowDialog@CVirDialog@@UAAHPAXPAD0@Z 1c0046e0 f apputil:apputil.obj
+ 0001:00003774       ..?DialogProc@CAboutBox@@UAAHPAXIIJ@Z 1c004774 f apputil:apputil.obj
+ 0001:000038f4       ..?Init@CMsgBox@@QAAHPAX0@Z 1c0048f4 f apputil:apputil.obj
+ 0001:00003944       ..?Error@CMsgBox@@QAAHPAD@Z 1c004944 f apputil:apputil.obj
+ 0001:000039c8       ..?ErrorID@CMsgBox@@QAAHI@Z 1c0049c8 f apputil:apputil.obj
+ 0001:00003a9c       ..?Note@CMsgBox@@QAAHPAD@Z 1c004a9c f apputil:apputil.obj
+ 0001:00003b20       ..?NoteID@CMsgBox@@QAAHI@Z 1c004b20 f apputil:apputil.obj
+ 0001:00003bf4       ..?NoteFmt@CMsgBox@@QAAHPADZZ 1c004bf4 f apputil:apputil.obj
+ 0001:00003cdc       ..?NoteFmtID@CMsgBox@@QAAHIZZ 1c004cdc f apputil:apputil.obj
+ 0001:00003e08       ..?Create@CMsgLog@@QAAHPAX0H@Z 1c004e08 f apputil:apputil.obj
+ 0001:00003fe0       ..?Logging@CMsgLog@@QAAHH@Z 1c004fe0 f apputil:apputil.obj
+ 0001:0000402c       ..?Msg@CMsgLog@@QAAHPAD@Z  1c00502c f apputil:apputil.obj
+ 0001:00004190       ..?MsgFmt@CMsgLog@@QAAHPADZZ 1c005190 f apputil:apputil.obj
+ 0001:00004350       ..?MsgID@CMsgLog@@QAAHH@Z  1c005350 f apputil:apputil.obj
+ 0001:000043f0       ..?MsgFmtID@CMsgLog@@QAAHHZZ 1c0053f0 f apputil:apputil.obj
+ 0001:000044ec       ..?Resize@CMsgLog@@QAAHHH@Z 1c0054ec f apputil:apputil.obj
+ 0001:00004588       ..?Clear@CMsgLog@@QAAHXZ   1c005588 f apputil:apputil.obj
+ 0001:000045f8       ..?Copy@CMsgLog@@QAAHXZ    1c0055f8 f apputil:apputil.obj
+ 0001:00004970       ..?CreateServerLog@CSendLog@@QAAHPAX0H@Z 1c005970 f apputil:apputil.obj
+ 0001:00004b14       ..?SetClient@CSendLog@@QAAHPAX00@Z 1c005b14 f apputil:apputil.obj
+ 0001:00004ba0       ..?LogToServer@CSendLog@@QAAHH@Z 1c005ba0 f apputil:apputil.obj
+ 0001:00004bec       ..?Msg@CSendLog@@QAAHPAD@Z 1c005bec f apputil:apputil.obj
+ 0001:00004e0c       ..?MsgFmt@CSendLog@@QAAHPADZZ 1c005e0c f apputil:apputil.obj
+ 0001:00004ec8       ..?MsgID@CSendLog@@QAAHH@Z 1c005ec8 f apputil:apputil.obj
+ 0001:00004f68       ..?MsgFmtID@CSendLog@@QAAHHZZ 1c005f68 f apputil:apputil.obj
+ 0001:00005064       ..?Resize@CSendLog@@QAAHHH@Z 1c006064 f apputil:apputil.obj
+ 0001:00005100       ..?Clear@CSendLog@@QAAHXZ  1c006100 f apputil:apputil.obj
+ 0001:00005170       ..?Copy@CSendLog@@QAAHXZ   1c006170 f apputil:apputil.obj
+ 0001:000054e8       ..NdrOleFree               1c0064e8 f rpcrt4:RPCRT4.dll
+ 0001:00005500       ..NdrOleAllocate           1c006500 f rpcrt4:RPCRT4.dll
+ 0001:00005518       ..CStdStubBuffer_DebugServerRelease 1c006518 f rpcrt4:RPCRT4.dll
+ 0001:00005530       ..CStdStubBuffer_DebugServerQueryInterface 1c006530 f rpcrt4:RPCRT4.dll
+ 0001:00005548       ..CStdStubBuffer_CountRefs 1c006548 f rpcrt4:RPCRT4.dll
+ 0001:00005560       ..CStdStubBuffer_IsIIDSupported 1c006560 f rpcrt4:RPCRT4.dll
+ 0001:00005578       ..CStdStubBuffer_Invoke    1c006578 f rpcrt4:RPCRT4.dll
+ 0001:00005590       ..CStdStubBuffer_Disconnect 1c006590 f rpcrt4:RPCRT4.dll
+ 0001:000055a8       ..CStdStubBuffer_Connect   1c0065a8 f rpcrt4:RPCRT4.dll
+ 0001:000055c0       ..CStdStubBuffer_AddRef    1c0065c0 f rpcrt4:RPCRT4.dll
+ 0001:000055d8       ..CStdStubBuffer_QueryInterface 1c0065d8 f rpcrt4:RPCRT4.dll
+ 0001:000055f0       ..IUnknown_Release_Proxy   1c0065f0 f rpcrt4:RPCRT4.dll
+ 0001:00005608       ..IUnknown_AddRef_Proxy    1c006608 f rpcrt4:RPCRT4.dll
+ 0001:00005620       ..IUnknown_QueryInterface_Proxy 1c006620 f rpcrt4:RPCRT4.dll
+ 0001:00005638       ..NdrProxyErrorHandler     1c006638 f rpcrt4:RPCRT4.dll
+ 0001:00005650       ..NdrProxyFreeBuffer       1c006650 f rpcrt4:RPCRT4.dll
+ 0001:00005668       ..NdrConvert               1c006668 f rpcrt4:RPCRT4.dll
+ 0001:00005680       ..NdrProxySendReceive      1c006680 f rpcrt4:RPCRT4.dll
+ 0001:00005698       ..NdrProxyGetBuffer        1c006698 f rpcrt4:RPCRT4.dll
+ 0001:000056b0       ..NdrProxyInitialize       1c0066b0 f rpcrt4:RPCRT4.dll
+ 0001:000056c8       ..NdrStubGetBuffer         1c0066c8 f rpcrt4:RPCRT4.dll
+ 0001:000056e0       ..NdrStubInitialize        1c0066e0 f rpcrt4:RPCRT4.dll
+ 0001:000056f8       ..NdrDllGetClassObject     1c0066f8 f rpcrt4:RPCRT4.dll
+ 0001:00005710       ..NdrDllCanUnloadNow       1c006710 f rpcrt4:RPCRT4.dll
+ 0001:00005728       ..NdrCStdStubBuffer_Release 1c006728 f rpcrt4:RPCRT4.dll
+ 0001:00005740       ..CoTaskMemFree            1c006740 f ole32:ole32.dll
+ 0001:00005758       ..StringFromGUID2          1c006758 f ole32:ole32.dll
+ 0001:00005770       ..CoGetMalloc              1c006770 f ole32:ole32.dll
+ 0001:00005788       ..WriteFmtUserTypeStg      1c006788 f ole32:ole32.dll
+ 0001:000057a0       ..StgIsStorageFile         1c0067a0 f ole32:ole32.dll
+ 0001:000057b8       ..StgCreateDocfile         1c0067b8 f ole32:ole32.dll
+ 0001:000057d0       ..StgOpenStorage           1c0067d0 f ole32:ole32.dll
+ 0001:000057e8       .._splitpath               1c0067e8 f msvcrt:MSVCRT40.dll
+ 0001:00005800       ..memset                   1c006800 f msvcrt:MSVCRT40.dll
+ 0001:00005818       ..WideCharToMultiByte      1c006818 f kernel32:KERNEL32.dll
+ 0001:00005830       ..MultiByteToWideChar      1c006830 f kernel32:KERNEL32.dll
+ 0001:00005848       ..GlobalFree               1c006848 f kernel32:KERNEL32.dll
+ 0001:00005860       ..GlobalUnlock             1c006860 f kernel32:KERNEL32.dll
+ 0001:00005878       ..GlobalLock               1c006878 f kernel32:KERNEL32.dll
+ 0001:00005890       ..GlobalAlloc              1c006890 f kernel32:KERNEL32.dll
+ 0001:000058a8       ..CloseHandle              1c0068a8 f kernel32:KERNEL32.dll
+ 0001:000058c0       ..CreateFileA              1c0068c0 f kernel32:KERNEL32.dll
+ 0001:000058d8       ..CreateProcessA           1c0068d8 f kernel32:KERNEL32.dll
+ 0001:000058f0       ..OutputDebugStringA       1c0068f0 f kernel32:KERNEL32.dll
+ 0001:00005908       ..FormatMessageA           1c006908 f kernel32:KERNEL32.dll
+ 0001:00005920       ..EndPaint                 1c006920 f user32:USER32.dll
+ 0001:00005938       ..FillRect                 1c006938 f user32:USER32.dll
+ 0001:00005950       ..SetRect                  1c006950 f user32:USER32.dll
+ 0001:00005968       ..GetClientRect            1c006968 f user32:USER32.dll
+ 0001:00005980       ..BeginPaint               1c006980 f user32:USER32.dll
+ 0001:00005998       ..MessageBoxA              1c006998 f user32:USER32.dll
+ 0001:000059b0       ..wvsprintfA               1c0069b0 f user32:USER32.dll
+ 0001:000059c8       ..DefWindowProcA           1c0069c8 f user32:USER32.dll
+ 0001:000059e0       ..SetWindowLongA           1c0069e0 f user32:USER32.dll
+ 0001:000059f8       ..GetWindowLongA           1c0069f8 f user32:USER32.dll
+ 0001:00005a10       ..CreateWindowExA          1c006a10 f user32:USER32.dll
+ 0001:00005a28       ..DialogBoxParamA          1c006a28 f user32:USER32.dll
+ 0001:00005a40       ..InvalidateRect           1c006a40 f user32:USER32.dll
+ 0001:00005a58       ..EndDialog                1c006a58 f user32:USER32.dll
+ 0001:00005a70       ..GetDlgItem               1c006a70 f user32:USER32.dll
+ 0001:00005a88       ..SetFocus                 1c006a88 f user32:USER32.dll
+ 0001:00005aa0       ..LoadStringA              1c006aa0 f user32:USER32.dll
+ 0001:00005ab8       ..IsWindow                 1c006ab8 f user32:USER32.dll
+ 0001:00005ad0       ..SendMessageA             1c006ad0 f user32:USER32.dll
+ 0001:00005ae8       ..MoveWindow               1c006ae8 f user32:USER32.dll
+ 0001:00005b00       ..CloseClipboard           1c006b00 f user32:USER32.dll
+ 0001:00005b18       ..SetClipboardData         1c006b18 f user32:USER32.dll
+ 0001:00005b30       ..EmptyClipboard           1c006b30 f user32:USER32.dll
+ 0001:00005b48       ..OpenClipboard            1c006b48 f user32:USER32.dll
+ 0001:00005b60       ..CreatePalette            1c006b60 f gdi32:GDI32.dll
+ 0001:00005b78       ..GetDeviceCaps            1c006b78 f gdi32:GDI32.dll
+ 0001:00005b90       ..DeleteObject             1c006b90 f gdi32:GDI32.dll
+ 0001:00005ba8       ..CreateSolidBrush         1c006ba8 f gdi32:GDI32.dll
+ 0001:00005bc0       ..SetViewportOrgEx         1c006bc0 f gdi32:GDI32.dll
+ 0001:00005bd8       ..SetViewportExtEx         1c006bd8 f gdi32:GDI32.dll
+ 0001:00005bf0       ..SetWindowExtEx           1c006bf0 f gdi32:GDI32.dll
+ 0001:00005c08       ..RealizePalette           1c006c08 f gdi32:GDI32.dll
+ 0001:00005c20       ..SelectPalette            1c006c20 f gdi32:GDI32.dll
+ 0001:00005c38       ..SetMapMode               1c006c38 f gdi32:GDI32.dll
+ 0001:00005c50       ..GetOpenFileNameA         1c006c50 f comdlg32:comdlg32.dll
+ 0002:00000000       ..ICar_Shift_Proxy         1c007000 f micars_p.obj
+ 0002:000001c8       ..ICar_Shift_Stub          1c0071c8 f micars_p.obj
+ 0002:00000348       ..ICar_Clutch_Proxy        1c007348 f micars_p.obj
+ 0002:00000510       ..ICar_Clutch_Stub         1c007510 f micars_p.obj
+ 0002:00000690       ..ICar_Speed_Proxy         1c007690 f micars_p.obj
+ 0002:00000858       ..ICar_Speed_Stub          1c007858 f micars_p.obj
+ 0002:000009d8       ..ICar_Steer_Proxy         1c0079d8 f micars_p.obj
+ 0002:00000ba0       ..ICar_Steer_Stub          1c007ba0 f micars_p.obj
+ 0002:00000d20       ..IUtility_Offroad_Proxy   1c007d20 f micars_p.obj
+ 0002:00000ee8       ..IUtility_Offroad_Stub    1c007ee8 f micars_p.obj
+ 0002:00001068       ..IUtility_Winch_Proxy     1c008068 f micars_p.obj
+ 0002:00001230       ..IUtility_Winch_Stub      1c008230 f micars_p.obj
+ 0002:000013b0       ..ICruise_Engage_Proxy     1c0083b0 f micars_p.obj
+ 0002:00001574       ..ICruise_Engage_Stub      1c008574 f micars_p.obj
+ 0002:000016f4       ..ICruise_Adjust_Proxy     1c0086f4 f micars_p.obj
+ 0002:000018b8       ..ICruise_Adjust_Stub      1c0088b8 f micars_p.obj
+ 0002:00001a38       .._micars_IID_Lookup       1c008a38 f micars_p.obj
+ 0003:00000058       ?UnicodeOk@@YAHXZ          1c009058   marshal.obj
+ 0003:00000060       DllMain                    1c009060   marshal.obj
+ 0003:00000068       ?SetRegKeyValue@@YAHPAD00@Z 1c009068   marshal.obj
+ 0003:00000070       DllRegisterServer          1c009070   marshal.obj
+ 0003:00000078       DllUnregisterServer        1c009078   marshal.obj
+ 0003:00000080       _ICarProxyVtbl             1c009080   micars_p.obj
+ 0003:000000b0       _ICarStubVtbl              1c0090b0   micars_p.obj
+ 0003:000000e8       _IUtilityProxyVtbl         1c0090e8   micars_p.obj
+ 0003:00000108       _IUtilityStubVtbl          1c009108   micars_p.obj
+ 0003:00000190       _ICruiseProxyVtbl          1c009190   micars_p.obj
+ 0003:000001b0       _ICruiseStubVtbl           1c0091b0   micars_p.obj
+ 0003:000001e8       ICar_Shift_Proxy           1c0091e8   micars_p.obj
+ 0003:000001f0       ICar_Clutch_Proxy          1c0091f0   micars_p.obj
+ 0003:000001f8       ICar_Speed_Proxy           1c0091f8   micars_p.obj
+ 0003:00000200       ICar_Steer_Proxy           1c009200   micars_p.obj
+ 0003:00000208       ICar_Shift_Stub            1c009208   micars_p.obj
+ 0003:00000210       ICar_Clutch_Stub           1c009210   micars_p.obj
+ 0003:00000218       ICar_Speed_Stub            1c009218   micars_p.obj
+ 0003:00000220       ICar_Steer_Stub            1c009220   micars_p.obj
+ 0003:00000228       IUtility_Offroad_Proxy     1c009228   micars_p.obj
+ 0003:00000230       IUtility_Winch_Proxy       1c009230   micars_p.obj
+ 0003:00000238       IUtility_Offroad_Stub      1c009238   micars_p.obj
+ 0003:00000240       IUtility_Winch_Stub        1c009240   micars_p.obj
+ 0003:00000248       ICruise_Engage_Proxy       1c009248   micars_p.obj
+ 0003:00000250       ICruise_Adjust_Proxy       1c009250   micars_p.obj
+ 0003:00000258       ICruise_Engage_Stub        1c009258   micars_p.obj
+ 0003:00000260       ICruise_Adjust_Stub        1c009260   micars_p.obj
+ 0003:00000268       _micars_IID_Lookup         1c009268   micars_p.obj
+ 0003:00000280       _micars_ProxyVtblList      1c009280   micars_p.obj
+ 0003:00000290       _micars_StubVtblList       1c009290   micars_p.obj
+ 0003:000002a0       _micars_InterfaceNamesList 1c0092a0   micars_p.obj
+ 0003:000002b0       micars_ProxyFileInfo       1c0092b0   micars_p.obj
+ 0003:000002f8       IID_ICar                   1c0092f8   micars_i.obj
+ 0003:00000308       IID_IUtility               1c009308   micars_i.obj
+ 0003:00000318       IID_ICruise                1c009318   micars_i.obj
+ 0003:00000328       GetProxyDllInfo            1c009328   dlldata.obj
+ 0003:00000330       DllGetClassObject          1c009330   dlldata.obj
+ 0003:00000338       DllCanUnloadNow            1c009338   dlldata.obj
+ 0003:00000340       CStdStubBuffer_Release     1c009340   dlldata.obj
+ 0003:00000348       _purecall                  1c009348   dlldata.obj
+ 0003:00000350       _CRT_INIT                  1c009350   msvcrt:crtdll.obj
+ 0003:00000358       _DllMainCRTStartup         1c009358   msvcrt:crtdll.obj
+ 0003:00000360       __C_specific_handler       1c009360   msvcrt:MSVCRT40.dll
+ 0003:00000368       memcmp                     1c009368   msvcrt:MSVCRT40.dll
+ 0003:00000370       free                       1c009370   msvcrt:MSVCRT40.dll
+ 0003:00000378       _initterm                  1c009378   msvcrt:MSVCRT40.dll
+ 0003:00000380       _onexit                    1c009380   msvcrt:atonexit.obj
+ 0003:00000388       atexit                     1c009388   msvcrt:atonexit.obj
+ 0003:00000390       malloc                     1c009390   msvcrt:MSVCRT40.dll
+ 0003:00000398       __dllonexit                1c009398   msvcrt:MSVCRT40.dll
+ 0003:000003a0       GetLastError               1c0093a0   kernel32:KERNEL32.dll
+ 0003:000003a8       lstrlenA                   1c0093a8   kernel32:KERNEL32.dll
+ 0003:000003b0       lstrcatA                   1c0093b0   kernel32:KERNEL32.dll
+ 0003:000003b8       lstrcpyA                   1c0093b8   kernel32:KERNEL32.dll
+ 0003:000003c0       GetModuleFileNameA         1c0093c0   kernel32:KERNEL32.dll
+ 0003:000003c8       GetUserNameA               1c0093c8   advapi32:ADVAPI32.dll
+ 0003:000003d0       RegCloseKey                1c0093d0   advapi32:ADVAPI32.dll
+ 0003:000003d8       RegSetValueExA             1c0093d8   advapi32:ADVAPI32.dll
+ 0003:000003e0       RegCreateKeyExA            1c0093e0   advapi32:ADVAPI32.dll
+ 0003:000003e8       RegDeleteKeyA              1c0093e8   advapi32:ADVAPI32.dll
+ 0003:000003f0       ?UcToAnsi@@YAJPAGPADH@Z    1c0093f0   apputil:apputil.obj
+ 0003:000003f8       A_StringFromGUID2          1c0093f8   apputil:apputil.obj
+ 0003:00000400       A_WriteFmtUserTypeStg      1c009400   apputil:apputil.obj
+ 0003:00000408       A_StgIsStorageFile         1c009408   apputil:apputil.obj
+ 0003:00000410       A_StgCreateDocfile         1c009410   apputil:apputil.obj
+ 0003:00000418       A_StgOpenStorage           1c009418   apputil:apputil.obj
+ 0003:00000420       ?lRandom@@YAKXZ            1c009420   apputil:apputil.obj
+ 0003:00000428       ?CreateColorScalePalette@@YAPAXPAXH@Z 1c009428   apputil:apputil.obj
+ 0003:00000430       ?PaintWindow@@YAXPAXH@Z    1c009430   apputil:apputil.obj
+ 0003:00000438       ?FileExist@@YAHPAD@Z       1c009438   apputil:apputil.obj
+ 0003:00000440       ?MakeFamilyPath@@YAHPAXPAD1@Z 1c009440   apputil:apputil.obj
+ 0003:00000448       ?CmdExec@@YAHPAD@Z         1c009448   apputil:apputil.obj
+ 0003:00000450       ?ReadMe@@YAXPAX0@Z         1c009450   apputil:apputil.obj
+ 0003:00000458       ?ReadMeFile@@YAXPAXPAD@Z   1c009458   apputil:apputil.obj
+ 0003:00000460       ?ReadSource@@YAXPAXPAUtagOFNA@@@Z 1c009460   apputil:apputil.obj
+ 0003:00000468       ?OutputDebugFmt@@YAXPADZZ  1c009468   apputil:apputil.obj
+ 0003:00000470       ?GetErrorMsg@@YAHJPADI@Z   1c009470   apputil:apputil.obj
+ 0003:00000478       WindowProc                 1c009478   apputil:apputil.obj
+ 0003:00000480       ?Create@CVirWindow@@QAAPAXPAD0KHHHHPAX11@Z 1c009480   apputil:apputil.obj
+ 0003:00000488       DialogProc                 1c009488   apputil:apputil.obj
+ 0003:00000490       ?ShowDialog@CVirDialog@@UAAHPAXPAD0@Z 1c009490   apputil:apputil.obj
+ 0003:00000498       ?DialogProc@CAboutBox@@UAAHPAXIIJ@Z 1c009498   apputil:apputil.obj
+ 0003:000004a0       ?Init@CMsgBox@@QAAHPAX0@Z  1c0094a0   apputil:apputil.obj
+ 0003:000004a8       ?Error@CMsgBox@@QAAHPAD@Z  1c0094a8   apputil:apputil.obj
+ 0003:000004b0       ?ErrorID@CMsgBox@@QAAHI@Z  1c0094b0   apputil:apputil.obj
+ 0003:000004b8       ?Note@CMsgBox@@QAAHPAD@Z   1c0094b8   apputil:apputil.obj
+ 0003:000004c0       ?NoteID@CMsgBox@@QAAHI@Z   1c0094c0   apputil:apputil.obj
+ 0003:000004c8       ?NoteFmt@CMsgBox@@QAAHPADZZ 1c0094c8   apputil:apputil.obj
+ 0003:000004d0       ?NoteFmtID@CMsgBox@@QAAHIZZ 1c0094d0   apputil:apputil.obj
+ 0003:000004d8       ?Create@CMsgLog@@QAAHPAX0H@Z 1c0094d8   apputil:apputil.obj
+ 0003:000004e0       ?Logging@CMsgLog@@QAAHH@Z  1c0094e0   apputil:apputil.obj
+ 0003:000004e8       ?Msg@CMsgLog@@QAAHPAD@Z    1c0094e8   apputil:apputil.obj
+ 0003:000004f0       ?MsgFmt@CMsgLog@@QAAHPADZZ 1c0094f0   apputil:apputil.obj
+ 0003:000004f8       ?MsgID@CMsgLog@@QAAHH@Z    1c0094f8   apputil:apputil.obj
+ 0003:00000500       ?MsgFmtID@CMsgLog@@QAAHHZZ 1c009500   apputil:apputil.obj
+ 0003:00000508       ?Resize@CMsgLog@@QAAHHH@Z  1c009508   apputil:apputil.obj
+ 0003:00000510       ?Clear@CMsgLog@@QAAHXZ     1c009510   apputil:apputil.obj
+ 0003:00000518       ?Copy@CMsgLog@@QAAHXZ      1c009518   apputil:apputil.obj
+ 0003:00000520       ?CreateServerLog@CSendLog@@QAAHPAX0H@Z 1c009520   apputil:apputil.obj
+ 0003:00000528       ?SetClient@CSendLog@@QAAHPAX00@Z 1c009528   apputil:apputil.obj
+ 0003:00000530       ?LogToServer@CSendLog@@QAAHH@Z 1c009530   apputil:apputil.obj
+ 0003:00000538       ?Msg@CSendLog@@QAAHPAD@Z   1c009538   apputil:apputil.obj
+ 0003:00000540       ?MsgFmt@CSendLog@@QAAHPADZZ 1c009540   apputil:apputil.obj
+ 0003:00000548       ?MsgID@CSendLog@@QAAHH@Z   1c009548   apputil:apputil.obj
+ 0003:00000550       ?MsgFmtID@CSendLog@@QAAHHZZ 1c009550   apputil:apputil.obj
+ 0003:00000558       ?Resize@CSendLog@@QAAHHH@Z 1c009558   apputil:apputil.obj
+ 0003:00000560       ?Clear@CSendLog@@QAAHXZ    1c009560   apputil:apputil.obj
+ 0003:00000568       ?Copy@CSendLog@@QAAHXZ     1c009568   apputil:apputil.obj
+ 0003:00000570       NdrOleFree                 1c009570   rpcrt4:RPCRT4.dll
+ 0003:00000578       NdrOleAllocate             1c009578   rpcrt4:RPCRT4.dll
+ 0003:00000580       CStdStubBuffer_DebugServerRelease 1c009580   rpcrt4:RPCRT4.dll
+ 0003:00000588       CStdStubBuffer_DebugServerQueryInterface 1c009588   rpcrt4:RPCRT4.dll
+ 0003:00000590       CStdStubBuffer_CountRefs   1c009590   rpcrt4:RPCRT4.dll
+ 0003:00000598       CStdStubBuffer_IsIIDSupported 1c009598   rpcrt4:RPCRT4.dll
+ 0003:000005a0       CStdStubBuffer_Invoke      1c0095a0   rpcrt4:RPCRT4.dll
+ 0003:000005a8       CStdStubBuffer_Disconnect  1c0095a8   rpcrt4:RPCRT4.dll
+ 0003:000005b0       CStdStubBuffer_Connect     1c0095b0   rpcrt4:RPCRT4.dll
+ 0003:000005b8       CStdStubBuffer_AddRef      1c0095b8   rpcrt4:RPCRT4.dll
+ 0003:000005c0       CStdStubBuffer_QueryInterface 1c0095c0   rpcrt4:RPCRT4.dll
+ 0003:000005c8       IUnknown_Release_Proxy     1c0095c8   rpcrt4:RPCRT4.dll
+ 0003:000005d0       IUnknown_AddRef_Proxy      1c0095d0   rpcrt4:RPCRT4.dll
+ 0003:000005d8       IUnknown_QueryInterface_Proxy 1c0095d8   rpcrt4:RPCRT4.dll
+ 0003:000005e0       NdrProxyErrorHandler       1c0095e0   rpcrt4:RPCRT4.dll
+ 0003:000005e8       NdrProxyFreeBuffer         1c0095e8   rpcrt4:RPCRT4.dll
+ 0003:000005f0       NdrConvert                 1c0095f0   rpcrt4:RPCRT4.dll
+ 0003:000005f8       NdrProxySendReceive        1c0095f8   rpcrt4:RPCRT4.dll
+ 0003:00000600       NdrProxyGetBuffer          1c009600   rpcrt4:RPCRT4.dll
+ 0003:00000608       NdrProxyInitialize         1c009608   rpcrt4:RPCRT4.dll
+ 0003:00000610       NdrStubGetBuffer           1c009610   rpcrt4:RPCRT4.dll
+ 0003:00000618       NdrStubInitialize          1c009618   rpcrt4:RPCRT4.dll
+ 0003:00000620       NdrDllGetClassObject       1c009620   rpcrt4:RPCRT4.dll
+ 0003:00000628       NdrDllCanUnloadNow         1c009628   rpcrt4:RPCRT4.dll
+ 0003:00000630       NdrCStdStubBuffer_Release  1c009630   rpcrt4:RPCRT4.dll
+ 0003:00000638       CoTaskMemFree              1c009638   ole32:ole32.dll
+ 0003:00000640       StringFromGUID2            1c009640   ole32:ole32.dll
+ 0003:00000648       CoGetMalloc                1c009648   ole32:ole32.dll
+ 0003:00000650       WriteFmtUserTypeStg        1c009650   ole32:ole32.dll
+ 0003:00000658       StgIsStorageFile           1c009658   ole32:ole32.dll
+ 0003:00000660       StgCreateDocfile           1c009660   ole32:ole32.dll
+ 0003:00000668       StgOpenStorage             1c009668   ole32:ole32.dll
+ 0003:00000670       _splitpath                 1c009670   msvcrt:MSVCRT40.dll
+ 0003:00000678       memset                     1c009678   msvcrt:MSVCRT40.dll
+ 0003:00000680       WideCharToMultiByte        1c009680   kernel32:KERNEL32.dll
+ 0003:00000688       MultiByteToWideChar        1c009688   kernel32:KERNEL32.dll
+ 0003:00000690       GlobalFree                 1c009690   kernel32:KERNEL32.dll
+ 0003:00000698       GlobalUnlock               1c009698   kernel32:KERNEL32.dll
+ 0003:000006a0       GlobalLock                 1c0096a0   kernel32:KERNEL32.dll
+ 0003:000006a8       GlobalAlloc                1c0096a8   kernel32:KERNEL32.dll
+ 0003:000006b0       CloseHandle                1c0096b0   kernel32:KERNEL32.dll
+ 0003:000006b8       CreateFileA                1c0096b8   kernel32:KERNEL32.dll
+ 0003:000006c0       CreateProcessA             1c0096c0   kernel32:KERNEL32.dll
+ 0003:000006c8       OutputDebugStringA         1c0096c8   kernel32:KERNEL32.dll
+ 0003:000006d0       FormatMessageA             1c0096d0   kernel32:KERNEL32.dll
+ 0003:000006d8       EndPaint                   1c0096d8   user32:USER32.dll
+ 0003:000006e0       FillRect                   1c0096e0   user32:USER32.dll
+ 0003:000006e8       SetRect                    1c0096e8   user32:USER32.dll
+ 0003:000006f0       GetClientRect              1c0096f0   user32:USER32.dll
+ 0003:000006f8       BeginPaint                 1c0096f8   user32:USER32.dll
+ 0003:00000700       MessageBoxA                1c009700   user32:USER32.dll
+ 0003:00000708       wvsprintfA                 1c009708   user32:USER32.dll
+ 0003:00000710       DefWindowProcA             1c009710   user32:USER32.dll
+ 0003:00000718       SetWindowLongA             1c009718   user32:USER32.dll
+ 0003:00000720       GetWindowLongA             1c009720   user32:USER32.dll
+ 0003:00000728       CreateWindowExA            1c009728   user32:USER32.dll
+ 0003:00000730       DialogBoxParamA            1c009730   user32:USER32.dll
+ 0003:00000738       InvalidateRect             1c009738   user32:USER32.dll
+ 0003:00000740       EndDialog                  1c009740   user32:USER32.dll
+ 0003:00000748       GetDlgItem                 1c009748   user32:USER32.dll
+ 0003:00000750       SetFocus                   1c009750   user32:USER32.dll
+ 0003:00000758       LoadStringA                1c009758   user32:USER32.dll
+ 0003:00000760       IsWindow                   1c009760   user32:USER32.dll
+ 0003:00000768       SendMessageA               1c009768   user32:USER32.dll
+ 0003:00000770       MoveWindow                 1c009770   user32:USER32.dll
+ 0003:00000778       CloseClipboard             1c009778   user32:USER32.dll
+ 0003:00000780       SetClipboardData           1c009780   user32:USER32.dll
+ 0003:00000788       EmptyClipboard             1c009788   user32:USER32.dll
+ 0003:00000790       OpenClipboard              1c009790   user32:USER32.dll
+ 0003:00000798       CreatePalette              1c009798   gdi32:GDI32.dll
+ 0003:000007a0       GetDeviceCaps              1c0097a0   gdi32:GDI32.dll
+ 0003:000007a8       DeleteObject               1c0097a8   gdi32:GDI32.dll
+ 0003:000007b0       CreateSolidBrush           1c0097b0   gdi32:GDI32.dll
+ 0003:000007b8       SetViewportOrgEx           1c0097b8   gdi32:GDI32.dll
+ 0003:000007c0       SetViewportExtEx           1c0097c0   gdi32:GDI32.dll
+ 0003:000007c8       SetWindowExtEx             1c0097c8   gdi32:GDI32.dll
+ 0003:000007d0       RealizePalette             1c0097d0   gdi32:GDI32.dll
+ 0003:000007d8       SelectPalette              1c0097d8   gdi32:GDI32.dll
+ 0003:000007e0       SetMapMode                 1c0097e0   gdi32:GDI32.dll
+ 0003:000007e8       GetOpenFileNameA           1c0097e8   comdlg32:comdlg32.dll
+ 0004:00000000       __xc_a                     1c00a000   msvcrt:cinitexe.obj
+ 0004:00000008       __xc_z                     1c00a008   msvcrt:cinitexe.obj
+ 0004:00000010       __xi_a                     1c00a010   msvcrt:cinitexe.obj
+ 0004:00000018       __xi_z                     1c00a018   msvcrt:cinitexe.obj
+ 0004:00000020       ?g_hDllInst@@3PAXA         1c00a020   marshal.obj
+ 0004:00000238       aProxyFileList             1c00a238   dlldata.obj
+ 0004:00000240       gPFactory                  1c00a240   dlldata.obj
+ 0004:000003f4       __onexitend                1c00a3f4   <common>
+ 0004:000003f8       __onexitbegin              1c00a3f8   <common>
+ 0004:000003fc       _pRawDllMain               1c00a3fc   <common>
+ 0006:00000000       __IMPORT_DESCRIPTOR_MSVCRT40 1c00c000   msvcrt:MSVCRT40.dll
+ 0006:00000014       __IMPORT_DESCRIPTOR_KERNEL32 1c00c014   kernel32:KERNEL32.dll
+ 0006:00000028       __IMPORT_DESCRIPTOR_ADVAPI32 1c00c028   advapi32:ADVAPI32.dll
+ 0006:0000003c       __IMPORT_DESCRIPTOR_RPCRT4 1c00c03c   rpcrt4:RPCRT4.dll
+ 0006:00000050       __IMPORT_DESCRIPTOR_ole32  1c00c050   ole32:ole32.dll
+ 0006:00000064       __IMPORT_DESCRIPTOR_USER32 1c00c064   user32:USER32.dll
+ 0006:00000078       __IMPORT_DESCRIPTOR_GDI32  1c00c078   gdi32:GDI32.dll
+ 0006:0000008c       __IMPORT_DESCRIPTOR_comdlg32 1c00c08c   comdlg32:comdlg32.dll
+ 0006:000000a0       __NULL_IMPORT_DESCRIPTOR   1c00c0a0   msvcrt:MSVCRT40.dll
+ 0006:000003a4       __imp_RegDeleteKeyA        1c00c3a4   advapi32:ADVAPI32.dll
+ 0006:000003a8       __imp_RegCreateKeyExA      1c00c3a8   advapi32:ADVAPI32.dll
+ 0006:000003ac       __imp_RegSetValueExA       1c00c3ac   advapi32:ADVAPI32.dll
+ 0006:000003b0       __imp_RegCloseKey          1c00c3b0   advapi32:ADVAPI32.dll
+ 0006:000003b4       __imp_GetUserNameA         1c00c3b4   advapi32:ADVAPI32.dll
+ 0006:000003b8       \177ADVAPI32_NULL_THUNK_DATA 1c00c3b8   advapi32:ADVAPI32.dll
+ 0006:000003bc       __imp_SetWindowExtEx       1c00c3bc   gdi32:GDI32.dll
+ 0006:000003c0       __imp_GetDeviceCaps        1c00c3c0   gdi32:GDI32.dll
+ 0006:000003c4       __imp_DeleteObject         1c00c3c4   gdi32:GDI32.dll
+ 0006:000003c8       __imp_RealizePalette       1c00c3c8   gdi32:GDI32.dll
+ 0006:000003cc       __imp_SelectPalette        1c00c3cc   gdi32:GDI32.dll
+ 0006:000003d0       __imp_SetViewportOrgEx     1c00c3d0   gdi32:GDI32.dll
+ 0006:000003d4       __imp_CreatePalette        1c00c3d4   gdi32:GDI32.dll
+ 0006:000003d8       __imp_SetMapMode           1c00c3d8   gdi32:GDI32.dll
+ 0006:000003dc       __imp_CreateSolidBrush     1c00c3dc   gdi32:GDI32.dll
+ 0006:000003e0       __imp_SetViewportExtEx     1c00c3e0   gdi32:GDI32.dll
+ 0006:000003e4       \177GDI32_NULL_THUNK_DATA  1c00c3e4   gdi32:GDI32.dll
+ 0006:000003e8       __imp_GetModuleFileNameA   1c00c3e8   kernel32:KERNEL32.dll
+ 0006:000003ec       __imp_lstrcpyA             1c00c3ec   kernel32:KERNEL32.dll
+ 0006:000003f0       __imp_WideCharToMultiByte  1c00c3f0   kernel32:KERNEL32.dll
+ 0006:000003f4       __imp_lstrcatA             1c00c3f4   kernel32:KERNEL32.dll
+ 0006:000003f8       __imp_lstrlenA             1c00c3f8   kernel32:KERNEL32.dll
+ 0006:000003fc       __imp_GetLastError         1c00c3fc   kernel32:KERNEL32.dll
+ 0006:00000400       __imp_MultiByteToWideChar  1c00c400   kernel32:KERNEL32.dll
+ 0006:00000404       __imp_OutputDebugStringA   1c00c404   kernel32:KERNEL32.dll
+ 0006:00000408       __imp_CreateProcessA       1c00c408   kernel32:KERNEL32.dll
+ 0006:0000040c       __imp_GlobalUnlock         1c00c40c   kernel32:KERNEL32.dll
+ 0006:00000410       __imp_GlobalLock           1c00c410   kernel32:KERNEL32.dll
+ 0006:00000414       __imp_CloseHandle          1c00c414   kernel32:KERNEL32.dll
+ 0006:00000418       __imp_FormatMessageA       1c00c418   kernel32:KERNEL32.dll
+ 0006:0000041c       __imp_CreateFileA          1c00c41c   kernel32:KERNEL32.dll
+ 0006:00000420       __imp_GlobalFree           1c00c420   kernel32:KERNEL32.dll
+ 0006:00000424       __imp_GlobalAlloc          1c00c424   kernel32:KERNEL32.dll
+ 0006:00000428       \177KERNEL32_NULL_THUNK_DATA 1c00c428   kernel32:KERNEL32.dll
+ 0006:0000042c       __imp_malloc               1c00c42c   msvcrt:MSVCRT40.dll
+ 0006:00000430       __imp__onexit              1c00c430   msvcrt:MSVCRT40.dll
+ 0006:00000434       __imp___dllonexit          1c00c434   msvcrt:MSVCRT40.dll
+ 0006:00000438       __imp_memcmp               1c00c438   msvcrt:MSVCRT40.dll
+ 0006:0000043c       __imp__initterm            1c00c43c   msvcrt:MSVCRT40.dll
+ 0006:00000440       __imp_free                 1c00c440   msvcrt:MSVCRT40.dll
+ 0006:00000444       __imp___C_specific_handler 1c00c444   msvcrt:MSVCRT40.dll
+ 0006:00000448       __imp_memset               1c00c448   msvcrt:MSVCRT40.dll
+ 0006:0000044c       __imp__splitpath           1c00c44c   msvcrt:MSVCRT40.dll
+ 0006:00000450       \177MSVCRT40_NULL_THUNK_DATA 1c00c450   msvcrt:MSVCRT40.dll
+ 0006:00000454       __imp_CStdStubBuffer_DebugServerQueryInterface 1c00c454   rpcrt4:RPCRT4.dll
+ 0006:00000458       __imp_NdrOleFree           1c00c458   rpcrt4:RPCRT4.dll
+ 0006:0000045c       __imp_NdrOleAllocate       1c00c45c   rpcrt4:RPCRT4.dll
+ 0006:00000460       __imp_NdrDllCanUnloadNow   1c00c460   rpcrt4:RPCRT4.dll
+ 0006:00000464       __imp_NdrCStdStubBuffer_Release 1c00c464   rpcrt4:RPCRT4.dll
+ 0006:00000468       __imp_CStdStubBuffer_CountRefs 1c00c468   rpcrt4:RPCRT4.dll
+ 0006:0000046c       __imp_CStdStubBuffer_IsIIDSupported 1c00c46c   rpcrt4:RPCRT4.dll
+ 0006:00000470       __imp_CStdStubBuffer_Invoke 1c00c470   rpcrt4:RPCRT4.dll
+ 0006:00000474       __imp_CStdStubBuffer_Disconnect 1c00c474   rpcrt4:RPCRT4.dll
+ 0006:00000478       __imp_CStdStubBuffer_DebugServerRelease 1c00c478   rpcrt4:RPCRT4.dll
+ 0006:0000047c       __imp_CStdStubBuffer_AddRef 1c00c47c   rpcrt4:RPCRT4.dll
+ 0006:00000480       __imp_NdrStubInitialize    1c00c480   rpcrt4:RPCRT4.dll
+ 0006:00000484       __imp_NdrStubGetBuffer     1c00c484   rpcrt4:RPCRT4.dll
+ 0006:00000488       __imp_NdrProxyInitialize   1c00c488   rpcrt4:RPCRT4.dll
+ 0006:0000048c       __imp_NdrProxyGetBuffer    1c00c48c   rpcrt4:RPCRT4.dll
+ 0006:00000490       __imp_NdrProxySendReceive  1c00c490   rpcrt4:RPCRT4.dll
+ 0006:00000494       __imp_NdrConvert           1c00c494   rpcrt4:RPCRT4.dll
+ 0006:00000498       __imp_NdrProxyFreeBuffer   1c00c498   rpcrt4:RPCRT4.dll
+ 0006:0000049c       __imp_NdrProxyErrorHandler 1c00c49c   rpcrt4:RPCRT4.dll
+ 0006:000004a0       __imp_IUnknown_QueryInterface_Proxy 1c00c4a0   rpcrt4:RPCRT4.dll
+ 0006:000004a4       __imp_IUnknown_AddRef_Proxy 1c00c4a4   rpcrt4:RPCRT4.dll
+ 0006:000004a8       __imp_IUnknown_Release_Proxy 1c00c4a8   rpcrt4:RPCRT4.dll
+ 0006:000004ac       __imp_CStdStubBuffer_QueryInterface 1c00c4ac   rpcrt4:RPCRT4.dll
+ 0006:000004b0       __imp_CStdStubBuffer_Connect 1c00c4b0   rpcrt4:RPCRT4.dll
+ 0006:000004b4       __imp_NdrDllGetClassObject 1c00c4b4   rpcrt4:RPCRT4.dll
+ 0006:000004b8       \177RPCRT4_NULL_THUNK_DATA 1c00c4b8   rpcrt4:RPCRT4.dll
+ 0006:000004bc       __imp_BeginPaint           1c00c4bc   user32:USER32.dll
+ 0006:000004c0       __imp_MessageBoxA          1c00c4c0   user32:USER32.dll
+ 0006:000004c4       __imp_GetClientRect        1c00c4c4   user32:USER32.dll
+ 0006:000004c8       __imp_EndDialog            1c00c4c8   user32:USER32.dll
+ 0006:000004cc       __imp_DefWindowProcA       1c00c4cc   user32:USER32.dll
+ 0006:000004d0       __imp_SetWindowLongA       1c00c4d0   user32:USER32.dll
+ 0006:000004d4       __imp_GetWindowLongA       1c00c4d4   user32:USER32.dll
+ 0006:000004d8       __imp_CreateWindowExA      1c00c4d8   user32:USER32.dll
+ 0006:000004dc       __imp_DialogBoxParamA      1c00c4dc   user32:USER32.dll
+ 0006:000004e0       __imp_InvalidateRect       1c00c4e0   user32:USER32.dll
+ 0006:000004e4       __imp_SetRect              1c00c4e4   user32:USER32.dll
+ 0006:000004e8       __imp_GetDlgItem           1c00c4e8   user32:USER32.dll
+ 0006:000004ec       __imp_SetFocus             1c00c4ec   user32:USER32.dll
+ 0006:000004f0       __imp_LoadStringA          1c00c4f0   user32:USER32.dll
+ 0006:000004f4       __imp_IsWindow             1c00c4f4   user32:USER32.dll
+ 0006:000004f8       __imp_SendMessageA         1c00c4f8   user32:USER32.dll
+ 0006:000004fc       __imp_MoveWindow           1c00c4fc   user32:USER32.dll
+ 0006:00000500       __imp_CloseClipboard       1c00c500   user32:USER32.dll
+ 0006:00000504       __imp_SetClipboardData     1c00c504   user32:USER32.dll
+ 0006:00000508       __imp_EmptyClipboard       1c00c508   user32:USER32.dll
+ 0006:0000050c       __imp_OpenClipboard        1c00c50c   user32:USER32.dll
+ 0006:00000510       __imp_EndPaint             1c00c510   user32:USER32.dll
+ 0006:00000514       __imp_FillRect             1c00c514   user32:USER32.dll
+ 0006:00000518       __imp_wvsprintfA           1c00c518   user32:USER32.dll
+ 0006:0000051c       \177USER32_NULL_THUNK_DATA 1c00c51c   user32:USER32.dll
+ 0006:00000520       __imp_GetOpenFileNameA     1c00c520   comdlg32:comdlg32.dll
+ 0006:00000524       \177comdlg32_NULL_THUNK_DATA 1c00c524   comdlg32:comdlg32.dll
+ 0006:00000528       __imp_StgIsStorageFile     1c00c528   ole32:ole32.dll
+ 0006:0000052c       __imp_CoGetMalloc          1c00c52c   ole32:ole32.dll
+ 0006:00000530       __imp_StringFromGUID2      1c00c530   ole32:ole32.dll
+ 0006:00000534       __imp_CoTaskMemFree        1c00c534   ole32:ole32.dll
+ 0006:00000538       __imp_StgCreateDocfile     1c00c538   ole32:ole32.dll
+ 0006:0000053c       __imp_WriteFmtUserTypeStg  1c00c53c   ole32:ole32.dll
+ 0006:00000540       __imp_StgOpenStorage       1c00c540   ole32:ole32.dll
+ 0006:00000544       \177ole32_NULL_THUNK_DATA  1c00c544   ole32:ole32.dll
+ 0006:00008258       .toc                       1c014258   <linker-defined>
+
+ entry point at        0003:00000358
+
+ Static symbols
+
+ 0002:00000144       $L22252                    1c007144 f micars_p.obj
+ 0002:00000184       $L22246                    1c007184 f micars_p.obj
+ 0002:00000338       $L22279                    1c007338 f micars_p.obj
+ 0002:0000048c       $L22302                    1c00748c f micars_p.obj
+ 0002:000004cc       $L22296                    1c0074cc f micars_p.obj
+ 0002:00000680       $L22326                    1c007680 f micars_p.obj
+ 0002:000007d4       $L22349                    1c0077d4 f micars_p.obj
+ 0002:00000814       $L22343                    1c007814 f micars_p.obj
+ 0002:000009c8       $L22373                    1c0079c8 f micars_p.obj
+ 0002:00000b1c       $L22396                    1c007b1c f micars_p.obj
+ 0002:00000b5c       $L22390                    1c007b5c f micars_p.obj
+ 0002:00000d10       $L22420                    1c007d10 f micars_p.obj
+ 0002:00000e64       $L22443                    1c007e64 f micars_p.obj
+ 0002:00000ea4       $L22437                    1c007ea4 f micars_p.obj
+ 0002:00001058       $L22467                    1c008058 f micars_p.obj
+ 0002:000011ac       $L22490                    1c0081ac f micars_p.obj
+ 0002:000011ec       $L22484                    1c0081ec f micars_p.obj
+ 0002:000013a0       $L22514                    1c0083a0 f micars_p.obj
+ 0002:000014f0       $L22537                    1c0084f0 f micars_p.obj
+ 0002:00001530       $L22531                    1c008530 f micars_p.obj
+ 0002:000016e4       $L22561                    1c0086e4 f micars_p.obj
+ 0002:00001834       $L22584                    1c008834 f micars_p.obj
+ 0002:00001874       $L22578                    1c008874 f micars_p.obj
+ 0002:00001a28       $L22608                    1c008a28 f micars_p.obj
+
+ Offset   Rva+Base   Publics by TOC Offset
+
+  8000    1c00c258   aProxyFileList
+  8004    1c00c25c   gPFactory
+  8010    1c00c268   _micars_ProxyVtblList
+  8014    1c00c26c   __imp_GetUserNameA
+  8018    1c00c270   __imp_GetLastError
+  801c    1c00c274   ?g_hDllInst@@3PAXA
+  8020    1c00c278   __imp_lstrcpyA
+  8028    1c00c280   __imp_lstrcatA
+  802c    1c00c284   __imp_RegCreateKeyExA
+  8030    1c00c288   __imp_RegSetValueExA
+  8034    1c00c28c   __imp_lstrlenA
+  8038    1c00c290   __imp_RegCloseKey
+  803c    1c00c294   __imp_GetModuleFileNameA
+  8040    1c00c298   IID_ICar
+  8044    1c00c29c   IID_IUtility
+  8048    1c00c2a0   IID_ICruise
+  804c    1c00c2a4   __imp_RegDeleteKeyA
+  8050    1c00c2a8   __onexitbegin
+  8054    1c00c2ac   __imp__onexit
+  8058    1c00c2b0   __onexitend
+  8060    1c00c2b8   __imp_malloc
+  8064    1c00c2bc   __xc_a
+  8068    1c00c2c0   __xc_z
+  806c    1c00c2c4   __imp_free
+  8070    1c00c2c8   _pRawDllMain
+  8074    1c00c2cc   __imp_WideCharToMultiByte
+  8078    1c00c2d0   __imp_CoGetMalloc
+  807c    1c00c2d4   __imp_StringFromGUID2
+  8080    1c00c2d8   __imp_CoTaskMemFree
+  8084    1c00c2dc   __imp_MultiByteToWideChar
+  8088    1c00c2e0   __imp_WriteFmtUserTypeStg
+  808c    1c00c2e4   __imp_StgIsStorageFile
+  8090    1c00c2e8   __imp_StgCreateDocfile
+  8094    1c00c2ec   __imp_StgOpenStorage
+  809c    1c00c2f4   __imp_GetDeviceCaps
+  80a0    1c00c2f8   __imp_GlobalAlloc
+  80a4    1c00c2fc   __imp_GlobalLock
+  80a8    1c00c300   __imp_CreatePalette
+  80ac    1c00c304   __imp_GlobalUnlock
+  80b0    1c00c308   __imp_GlobalFree
+  80b4    1c00c30c   __imp_BeginPaint
+  80b8    1c00c310   __imp_GetClientRect
+  80bc    1c00c314   __imp_SetMapMode
+  80c0    1c00c318   __imp_SelectPalette
+  80c4    1c00c31c   __imp_RealizePalette
+  80c8    1c00c320   __imp_SetWindowExtEx
+  80cc    1c00c324   __imp_SetViewportExtEx
+  80d0    1c00c328   __imp_SetViewportOrgEx
+  80d4    1c00c32c   __imp_CreateSolidBrush
+  80d8    1c00c330   __imp_SetRect
+  80dc    1c00c334   __imp_FillRect
+  80e0    1c00c338   __imp_DeleteObject
+  80e4    1c00c33c   __imp_EndPaint
+  80e8    1c00c340   __imp_CreateFileA
+  80ec    1c00c344   __imp_CloseHandle
+  80f0    1c00c348   __imp_CreateProcessA
+  80f4    1c00c34c   __imp_MessageBoxA
+  80f8    1c00c350   __imp_wvsprintfA
+  80fc    1c00c354   __imp_OutputDebugStringA
+  8100    1c00c358   __imp_FormatMessageA
+  8104    1c00c35c   __imp_GetWindowLongA
+  8108    1c00c360   __imp_SetWindowLongA
+  810c    1c00c364   __imp_DefWindowProcA
+  8110    1c00c368   __imp_CreateWindowExA
+  8114    1c00c36c   __imp_DialogBoxParamA
+  8118    1c00c370   DialogProc
+  811c    1c00c374   __imp_GetDlgItem
+  8120    1c00c378   __imp_SetFocus
+  8124    1c00c37c   __imp_EndDialog
+  8128    1c00c380   __imp_InvalidateRect
+  812c    1c00c384   __imp_LoadStringA
+  8130    1c00c388   __imp_IsWindow
+  8134    1c00c38c   __imp_SendMessageA
+  8138    1c00c390   __imp_MoveWindow
+  813c    1c00c394   __imp_OpenClipboard
+  8140    1c00c398   __imp_EmptyClipboard
+  8144    1c00c39c   __imp_SetClipboardData
+  8148    1c00c3a0   __imp_CloseClipboard
+

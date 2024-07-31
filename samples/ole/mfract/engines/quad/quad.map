@@ -1,0 +1,244 @@
+ quad
+
+ Timestamp is 64172e48 (Sun Mar 19 10:46:16 2023)
+
+ Preferred load address is 10000000
+
+ Start         Length     Name                   Class
+ 0001:00000000 00002968H .text                   CODE
+ 0002:00000000 000002b0H .rdata                  DATA
+ 0002:000002b0 00000067H .edata                  DATA
+ 0003:00000000 00000004H .CRT$XCA                DATA
+ 0003:00000008 00000004H .CRT$XCZ                DATA
+ 0003:00000010 00000004H .CRT$XIA                DATA
+ 0003:00000018 00000004H .CRT$XIZ                DATA
+ 0003:00000020 00000018H .data                   DATA
+ 0003:00000038 00000018H .bss                    DATA
+ 0004:00000000 00000424H .pdata                  DATA
+ 0005:00000000 00000028H .idata$2                DATA
+ 0005:00000028 00000014H .idata$3                DATA
+ 0005:0000003c 00000048H .idata$4                DATA
+ 0005:00000084 00000074H .idata$4toc             DATA
+ 0005:000000f8 00000048H .idata$5                DATA
+ 0005:00000140 000000f8H .idata$6                DATA
+
+  Address         Publics by Value              Rva+Base   Lib:Object
+
+ 0001:00000000       ..DllMain                  10001000 f quad.obj
+ 0001:000000bc       ..DllGetClassObject        100010bc f quad.obj
+ 0001:000001ec       ..DllCanUnloadNow          100011ec f quad.obj
+ 0001:00000244       ..??0CQuadrantEngineCF@@QAA@XZ 10001244 f quad.obj
+ 0001:00000298       ..??1CQuadrantEngineCF@@QAA@XZ 10001298 f quad.obj
+ 0001:000002c8       ..?QueryInterface@CQuadrantEngineCF@@UAAJABU_GUID@@PAPAX@Z 100012c8 f quad.obj
+ 0001:00000388       ..?AddRef@CQuadrantEngineCF@@UAAKXZ 10001388 f quad.obj
+ 0001:000003cc       ..?Release@CQuadrantEngineCF@@UAAKXZ 100013cc f quad.obj
+ 0001:00000448       ..?CreateInstance@CQuadrantEngineCF@@UAAJPAUIUnknown@@ABU_GUID@@PAPAX@Z 10001448 f quad.obj
+ 0001:000005ac       ..?LockServer@CQuadrantEngineCF@@UAAJH@Z 100015ac f quad.obj
+ 0001:00000618       ..?IsEqualGUID@@YAHABU_GUID@@0@Z 10001618 f quad.obj
+ 0001:00000674       ..??0IClassFactory@@QAA@XZ 10001674 f quad.obj
+ 0001:000006bc       ..??0IUnknown@@QAA@XZ      100016bc f quad.obj
+ 0001:000006fc       ..??_GCQuadrantEngineCF@@QAAPAXI@Z 100016fc f quad.obj
+ 0001:00000758       ..?StartGraphicsThread@@YAKPAK@Z 10001758 f quadobj.obj
+ 0001:0000078c       ..?QueryInterface@CQuadrantEngine@@UAAJABU_GUID@@PAPAX@Z 1000178c f quadobj.obj
+ 0001:00000874       ..?AddRef@CQuadrantEngine@@UAAKXZ 10001874 f quadobj.obj
+ 0001:000008b8       ..?Release@CQuadrantEngine@@UAAKXZ 100018b8 f quadobj.obj
+ 0001:00000948       ..?Init@CQuadrantEngine@@UAAJPAUIQuadrantClient@@PAUIFractalHost@@@Z 10001948 f quadobj.obj
+ 0001:00000998       ..?UseBoundingBoxes@CQuadrantEngine@@UAAJH@Z 10001998 f quadobj.obj
+ 0001:000009d8       ..?SetGraphSize@CQuadrantEngine@@UAAJII@Z 100019d8 f quadobj.obj
+ 0001:00000aa4       ..?Start@CQuadrantEngine@@UAAJXZ 10001aa4 f quadobj.obj
+ 0001:00000b08       ..?Stop@CQuadrantEngine@@UAAJXZ 10001b08 f quadobj.obj
+ 0001:00000b6c       ..?Reset@CQuadrantEngine@@UAAJXZ 10001b6c f quadobj.obj
+ 0001:00000bd0       ..?Initialize@CQuadrantEngine@@QAAHXZ 10001bd0 f quadobj.obj
+ 0001:00000d08       ..?GraphicsThread@CQuadrantEngine@@QAAKXZ 10001d08 f quadobj.obj
+ 0001:0000179c       ..?PlotAreaSlowly@CQuadrantEngine@@QAAXHHHH@Z 1000279c f quadobj.obj
+ 0001:00001960       ..?Subdivide@CQuadrantEngine@@QAAXHHHH@Z 10002960 f quadobj.obj
+ 0001:00002100       ..??0CQuadrantEngine@@QAA@XZ 10003100 f quadobj.obj
+ 0001:000021c0       ..??1CQuadrantEngine@@QAA@XZ 100031c0 f quadobj.obj
+ 0001:000022f0       ..??_GCQuadrantEngine@@QAAPAXI@Z 100032f0 f quadobj.obj
+ 0001:0000234c       ..??0IQuadrantEngine@@QAA@XZ 1000334c f quadobj.obj
+ 0001:00002394       .._CRT_INIT                10003394 f msvcrt:crtdll.obj
+ 0001:00002510       .._DllMainCRTStartup       10003510 f msvcrt:crtdll.obj
+ 0001:00002664       ..??2@YAPAXI@Z             10003664 f msvcrt:MSVCRT40.dll
+ 0001:0000267c       ..memcmp                   1000367c f msvcrt:MSVCRT40.dll
+ 0001:00002694       .._purecall                10003694 f msvcrt:MSVCRT40.dll
+ 0001:000026ac       ..??3@YAXPAX@Z             100036ac f msvcrt:MSVCRT40.dll
+ 0001:000026c8       ..__restgpr_All            100036c8 f msvcrt:restgpr.obj
+ 0001:000026fc       ..__restgpr_14             100036fc   msvcrt:restgpr.obj
+ 0001:00002700       ..__restgpr_15             10003700   msvcrt:restgpr.obj
+ 0001:00002704       ..__restgpr_16             10003704   msvcrt:restgpr.obj
+ 0001:00002708       ..__restgpr_17             10003708   msvcrt:restgpr.obj
+ 0001:0000270c       ..__restgpr_18             1000370c   msvcrt:restgpr.obj
+ 0001:00002710       ..__restgpr_19             10003710   msvcrt:restgpr.obj
+ 0001:00002714       ..__restgpr_20             10003714   msvcrt:restgpr.obj
+ 0001:00002718       ..__restgpr_21             10003718   msvcrt:restgpr.obj
+ 0001:0000271c       ..__restgpr_22             1000371c   msvcrt:restgpr.obj
+ 0001:00002720       ..__restgpr_23             10003720   msvcrt:restgpr.obj
+ 0001:00002724       ..__restgpr_24             10003724   msvcrt:restgpr.obj
+ 0001:00002728       ..__restgpr_25             10003728   msvcrt:restgpr.obj
+ 0001:0000272c       ..__restgpr_26             1000372c   msvcrt:restgpr.obj
+ 0001:00002730       ..__restgpr_27             10003730   msvcrt:restgpr.obj
+ 0001:00002734       ..__restgpr_28             10003734   msvcrt:restgpr.obj
+ 0001:00002738       ..__restgpr_29             10003738   msvcrt:restgpr.obj
+ 0001:0000273c       ..__restgpr_30             1000373c   msvcrt:restgpr.obj
+ 0001:00002740       ..__restgpr_31             10003740   msvcrt:restgpr.obj
+ 0001:00002748       ..free                     10003748 f msvcrt:MSVCRT40.dll
+ 0001:00002760       .._initterm                10003760 f msvcrt:MSVCRT40.dll
+ 0001:00002778       .._onexit                  10003778 f msvcrt:atonexit.obj
+ 0001:000027e0       ..atexit                   100037e0 f msvcrt:atonexit.obj
+ 0001:00002810       ..malloc                   10003810 f msvcrt:MSVCRT40.dll
+ 0001:00002828       ..__savegpr_All            10003828 f msvcrt:savegpr.obj
+ 0001:0000285c       ..__savegpr_14             1000385c   msvcrt:savegpr.obj
+ 0001:00002860       ..__savegpr_15             10003860   msvcrt:savegpr.obj
+ 0001:00002864       ..__savegpr_16             10003864   msvcrt:savegpr.obj
+ 0001:00002868       ..__savegpr_17             10003868   msvcrt:savegpr.obj
+ 0001:0000286c       ..__savegpr_18             1000386c   msvcrt:savegpr.obj
+ 0001:00002870       ..__savegpr_19             10003870   msvcrt:savegpr.obj
+ 0001:00002874       ..__savegpr_20             10003874   msvcrt:savegpr.obj
+ 0001:00002878       ..__savegpr_21             10003878   msvcrt:savegpr.obj
+ 0001:0000287c       ..__savegpr_22             1000387c   msvcrt:savegpr.obj
+ 0001:00002880       ..__savegpr_23             10003880   msvcrt:savegpr.obj
+ 0001:00002884       ..__savegpr_24             10003884   msvcrt:savegpr.obj
+ 0001:00002888       ..__savegpr_25             10003888   msvcrt:savegpr.obj
+ 0001:0000288c       ..__savegpr_26             1000388c   msvcrt:savegpr.obj
+ 0001:00002890       ..__savegpr_27             10003890   msvcrt:savegpr.obj
+ 0001:00002894       ..__savegpr_28             10003894   msvcrt:savegpr.obj
+ 0001:00002898       ..__savegpr_29             10003898   msvcrt:savegpr.obj
+ 0001:0000289c       ..__savegpr_30             1000389c   msvcrt:savegpr.obj
+ 0001:000028a0       ..__savegpr_31             100038a0   msvcrt:savegpr.obj
+ 0001:000028a8       ..__dllonexit              100038a8 f msvcrt:MSVCRT40.dll
+ 0001:000028c0       ..SetEvent                 100038c0 f kernel32:KERNEL32.dll
+ 0001:000028d8       ..WaitForSingleObject      100038d8 f kernel32:KERNEL32.dll
+ 0001:000028f0       ..ResetEvent               100038f0 f kernel32:KERNEL32.dll
+ 0001:00002908       ..CreateThread             10003908 f kernel32:KERNEL32.dll
+ 0001:00002920       ..CreateEventA             10003920 f kernel32:KERNEL32.dll
+ 0001:00002938       ..TerminateThread          10003938 f kernel32:KERNEL32.dll
+ 0001:00002950       ..CloseHandle              10003950 f kernel32:KERNEL32.dll
+ 0002:00000058       DllMain                    10004058   quad.obj
+ 0002:00000060       DllGetClassObject          10004060   quad.obj
+ 0002:00000068       DllCanUnloadNow            10004068   quad.obj
+ 0002:00000070       ??0CQuadrantEngineCF@@QAA@XZ 10004070   quad.obj
+ 0002:00000078       ?QueryInterface@CQuadrantEngineCF@@UAAJABU_GUID@@PAPAX@Z 10004078   quad.obj
+ 0002:00000080       ?AddRef@CQuadrantEngineCF@@UAAKXZ 10004080   quad.obj
+ 0002:00000088       ?Release@CQuadrantEngineCF@@UAAKXZ 10004088   quad.obj
+ 0002:00000090       ?CreateInstance@CQuadrantEngineCF@@UAAJPAUIUnknown@@ABU_GUID@@PAPAX@Z 10004090   quad.obj
+ 0002:00000098       ?LockServer@CQuadrantEngineCF@@UAAJH@Z 10004098   quad.obj
+ 0002:000000a0       ??1CQuadrantEngineCF@@QAA@XZ 100040a0   quad.obj
+ 0002:000000a8       ?IsEqualGUID@@YAHABU_GUID@@0@Z 100040a8   quad.obj
+ 0002:000000b0       ??_7CQuadrantEngineCF@@6B@ 100040b0   quad.obj
+ 0002:000000c4       ??0IClassFactory@@QAA@XZ   100040c4   quad.obj
+ 0002:000000d0       ??_7IClassFactory@@6B@     100040d0   quad.obj
+ 0002:000000e4       ??0IUnknown@@QAA@XZ        100040e4   quad.obj
+ 0002:000000f0       ??_7IUnknown@@6B@          100040f0   quad.obj
+ 0002:000000fc       ??_GCQuadrantEngineCF@@QAAPAXI@Z 100040fc   quad.obj
+ 0002:00000108       ?StartGraphicsThread@@YAKPAK@Z 10004108   quadobj.obj
+ 0002:00000110       ?QueryInterface@CQuadrantEngine@@UAAJABU_GUID@@PAPAX@Z 10004110   quadobj.obj
+ 0002:00000118       ?AddRef@CQuadrantEngine@@UAAKXZ 10004118   quadobj.obj
+ 0002:00000120       ?Release@CQuadrantEngine@@UAAKXZ 10004120   quadobj.obj
+ 0002:00000128       ?Init@CQuadrantEngine@@UAAJPAUIQuadrantClient@@PAUIFractalHost@@@Z 10004128   quadobj.obj
+ 0002:00000130       ?UseBoundingBoxes@CQuadrantEngine@@UAAJH@Z 10004130   quadobj.obj
+ 0002:00000138       ?SetGraphSize@CQuadrantEngine@@UAAJII@Z 10004138   quadobj.obj
+ 0002:00000140       ?Start@CQuadrantEngine@@UAAJXZ 10004140   quadobj.obj
+ 0002:00000148       ?Stop@CQuadrantEngine@@UAAJXZ 10004148   quadobj.obj
+ 0002:00000150       ?Reset@CQuadrantEngine@@UAAJXZ 10004150   quadobj.obj
+ 0002:00000158       ?Initialize@CQuadrantEngine@@QAAHXZ 10004158   quadobj.obj
+ 0002:00000160       ?GraphicsThread@CQuadrantEngine@@QAAKXZ 10004160   quadobj.obj
+ 0002:00000168       ?PlotAreaSlowly@CQuadrantEngine@@QAAXHHHH@Z 10004168   quadobj.obj
+ 0002:00000170       ?Subdivide@CQuadrantEngine@@QAAXHHHH@Z 10004170   quadobj.obj
+ 0002:00000178       ??0CQuadrantEngine@@QAA@XZ 10004178   quadobj.obj
+ 0002:00000180       ??1CQuadrantEngine@@QAA@XZ 10004180   quadobj.obj
+ 0002:00000188       ??_GCQuadrantEngine@@QAAPAXI@Z 10004188   quadobj.obj
+ 0002:00000190       ??_7CQuadrantEngine@@6B@   10004190   quadobj.obj
+ 0002:000001b4       ??0IQuadrantEngine@@QAA@XZ 100041b4   quadobj.obj
+ 0002:000001c0       ??_7IQuadrantEngine@@6B@   100041c0   quadobj.obj
+ 0002:000001e8       IID_IClassFactory          100041e8   uuid:unknwn_i_guid1.obj
+ 0002:000001f8       IID_IUnknown               100041f8   uuid:unknwn_i_guid0.obj
+ 0002:00000208       _CRT_INIT                  10004208   msvcrt:crtdll.obj
+ 0002:00000210       _DllMainCRTStartup         10004210   msvcrt:crtdll.obj
+ 0002:00000218       ??2@YAPAXI@Z               10004218   msvcrt:MSVCRT40.dll
+ 0002:00000220       memcmp                     10004220   msvcrt:MSVCRT40.dll
+ 0002:00000228       _purecall                  10004228   msvcrt:MSVCRT40.dll
+ 0002:00000230       ??3@YAXPAX@Z               10004230   msvcrt:MSVCRT40.dll
+ 0002:00000238       free                       10004238   msvcrt:MSVCRT40.dll
+ 0002:00000240       _initterm                  10004240   msvcrt:MSVCRT40.dll
+ 0002:00000248       _onexit                    10004248   msvcrt:atonexit.obj
+ 0002:00000250       atexit                     10004250   msvcrt:atonexit.obj
+ 0002:00000258       malloc                     10004258   msvcrt:MSVCRT40.dll
+ 0002:00000260       __dllonexit                10004260   msvcrt:MSVCRT40.dll
+ 0002:00000268       SetEvent                   10004268   kernel32:KERNEL32.dll
+ 0002:00000270       WaitForSingleObject        10004270   kernel32:KERNEL32.dll
+ 0002:00000278       ResetEvent                 10004278   kernel32:KERNEL32.dll
+ 0002:00000280       CreateThread               10004280   kernel32:KERNEL32.dll
+ 0002:00000288       CreateEventA               10004288   kernel32:KERNEL32.dll
+ 0002:00000290       TerminateThread            10004290   kernel32:KERNEL32.dll
+ 0002:00000298       CloseHandle                10004298   kernel32:KERNEL32.dll
+ 0002:000002a0       IID_IQuadrantEngine        100042a0   fguids:qudngn_i.obj
+ 0003:00000000       __xc_a                     10005000   msvcrt:cinitexe.obj
+ 0003:00000008       __xc_z                     10005008   msvcrt:cinitexe.obj
+ 0003:00000010       __xi_a                     10005010   msvcrt:cinitexe.obj
+ 0003:00000018       __xi_z                     10005018   msvcrt:cinitexe.obj
+ 0003:00000028       ?CLSID_QUADRANTENGINE@@3U_GUID@@A 10005028   fguids:quadcid.obj
+ 0003:00000038       ?ghinst@@3PAXA             10005038   quad.obj
+ 0003:0000003c       ?gcRef@@3KA                1000503c   quad.obj
+ 0003:00000040       ?gcLock@@3KA               10005040   quad.obj
+ 0003:00000044       __onexitend                10005044   <common>
+ 0003:00000048       __onexitbegin              10005048   <common>
+ 0003:0000004c       _pRawDllMain               1000504c   <common>
+ 0005:00000000       __IMPORT_DESCRIPTOR_MSVCRT40 10007000   msvcrt:MSVCRT40.dll
+ 0005:00000014       __IMPORT_DESCRIPTOR_KERNEL32 10007014   kernel32:KERNEL32.dll
+ 0005:00000028       __NULL_IMPORT_DESCRIPTOR   10007028   msvcrt:MSVCRT40.dll
+ 0005:000000f8       __imp_CloseHandle          100070f8   kernel32:KERNEL32.dll
+ 0005:000000fc       __imp_TerminateThread      100070fc   kernel32:KERNEL32.dll
+ 0005:00000100       __imp_CreateEventA         10007100   kernel32:KERNEL32.dll
+ 0005:00000104       __imp_WaitForSingleObject  10007104   kernel32:KERNEL32.dll
+ 0005:00000108       __imp_SetEvent             10007108   kernel32:KERNEL32.dll
+ 0005:0000010c       __imp_CreateThread         1000710c   kernel32:KERNEL32.dll
+ 0005:00000110       __imp_ResetEvent           10007110   kernel32:KERNEL32.dll
+ 0005:00000114       \177KERNEL32_NULL_THUNK_DATA 10007114   kernel32:KERNEL32.dll
+ 0005:00000118       __imp_free                 10007118   msvcrt:MSVCRT40.dll
+ 0005:0000011c       __imp___dllonexit          1000711c   msvcrt:MSVCRT40.dll
+ 0005:00000120       __imp_malloc               10007120   msvcrt:MSVCRT40.dll
+ 0005:00000124       __imp__initterm            10007124   msvcrt:MSVCRT40.dll
+ 0005:00000128       __imp_??3@YAXPAX@Z         10007128   msvcrt:MSVCRT40.dll
+ 0005:0000012c       __imp__purecall            1000712c   msvcrt:MSVCRT40.dll
+ 0005:00000130       __imp_memcmp               10007130   msvcrt:MSVCRT40.dll
+ 0005:00000134       __imp_??2@YAPAXI@Z         10007134   msvcrt:MSVCRT40.dll
+ 0005:00000138       __imp__onexit              10007138   msvcrt:MSVCRT40.dll
+ 0005:0000013c       \177MSVCRT40_NULL_THUNK_DATA 1000713c   msvcrt:MSVCRT40.dll
+ 0005:00008084       .toc                       1000f084   <linker-defined>
+
+ entry point at        0002:00000210
+
+ Static symbols
+
+
+ Offset   Rva+Base   Publics by TOC Offset
+
+  8000    10007084   IID_IQuadrantEngine
+  8004    10007088   IID_IUnknown
+  8008    1000708c   ?gcRef@@3KA
+  800c    10007090   __imp_WaitForSingleObject
+  8010    10007094   __imp_SetEvent
+  8014    10007098   __imp_ResetEvent
+  8018    1000709c   __imp_CreateEventA
+  801c    100070a0   ?StartGraphicsThread@@YAKPAK@Z
+  8020    100070a4   __imp_CreateThread
+  8024    100070a8   ??_7CQuadrantEngine@@6B@
+  8028    100070ac   __imp_CloseHandle
+  802c    100070b0   __imp_TerminateThread
+  8030    100070b4   ??_7IQuadrantEngine@@6B@
+  8034    100070b8   ?ghinst@@3PAXA
+  8038    100070bc   ?gcLock@@3KA
+  803c    100070c0   ?CLSID_QUADRANTENGINE@@3U_GUID@@A
+  8040    100070c4   IID_IClassFactory
+  8044    100070c8   ??_7CQuadrantEngineCF@@6B@
+  8048    100070cc   ??_7IClassFactory@@6B@
+  804c    100070d0   ??_7IUnknown@@6B@
+  8050    100070d4   __onexitbegin
+  8054    100070d8   __imp__onexit
+  8058    100070dc   __onexitend
+  8060    100070e4   __imp_malloc
+  8064    100070e8   __xc_a
+  8068    100070ec   __xc_z
+  806c    100070f0   __imp_free
+  8070    100070f4   _pRawDllMain
+

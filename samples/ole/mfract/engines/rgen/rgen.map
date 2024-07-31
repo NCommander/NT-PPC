@@ -1,0 +1,478 @@
+ rgen
+
+ Timestamp is 64172e64 (Sun Mar 19 10:46:44 2023)
+
+ Preferred load address is 10000000
+
+ Start         Length     Name                   Class
+ 0001:00000000 00005424H .text                   CODE
+ 0002:00000000 00000620H .rdata                  DATA
+ 0002:00000620 00000067H .edata                  DATA
+ 0003:00000000 00000004H .CRT$XCA                DATA
+ 0003:00000008 00000004H .CRT$XCZ                DATA
+ 0003:00000010 00000004H .CRT$XIA                DATA
+ 0003:00000018 00000004H .CRT$XIZ                DATA
+ 0003:00000020 00000044H .data                   DATA
+ 0003:00000068 00000018H .bss                    DATA
+ 0004:00000000 000009c4H .pdata                  DATA
+ 0005:00000000 00000050H .idata$2                DATA
+ 0005:00000050 00000014H .idata$3                DATA
+ 0005:00000064 000000dcH .idata$4                DATA
+ 0005:00000140 00000124H .idata$4toc             DATA
+ 0005:00000264 000000dcH .idata$5                DATA
+ 0005:00000340 000002e8H .idata$6                DATA
+ 0006:00000000 00000178H .rsrc$01                DATA
+ 0006:00000180 00000b24H .rsrc$02                DATA
+
+  Address         Publics by Value              Rva+Base   Lib:Object
+
+ 0001:00000000       ..DllMain                  10001000 f rgen.obj
+ 0001:000001c4       ..DllGetClassObject        100011c4 f rgen.obj
+ 0001:000002f4       ..DllCanUnloadNow          100012f4 f rgen.obj
+ 0001:0000034c       ..??0CRGenCF@@QAA@XZ       1000134c f rgen.obj
+ 0001:000003a0       ..??1CRGenCF@@QAA@XZ       100013a0 f rgen.obj
+ 0001:000003d0       ..?QueryInterface@CRGenCF@@UAAJABU_GUID@@PAPAX@Z 100013d0 f rgen.obj
+ 0001:00000490       ..?AddRef@CRGenCF@@UAAKXZ  10001490 f rgen.obj
+ 0001:000004d4       ..?Release@CRGenCF@@UAAKXZ 100014d4 f rgen.obj
+ 0001:00000550       ..?CreateInstance@CRGenCF@@UAAJPAUIUnknown@@ABU_GUID@@PAPAX@Z 10001550 f rgen.obj
+ 0001:000006b4       ..?LockServer@CRGenCF@@UAAJH@Z 100016b4 f rgen.obj
+ 0001:00000720       ..?IsEqualGUID@@YAHABU_GUID@@0@Z 10001720 f rgen.obj
+ 0001:0000077c       ..??0IClassFactory@@QAA@XZ 1000177c f rgen.obj
+ 0001:000007c4       ..??0IUnknown@@QAA@XZ      100017c4 f rgen.obj
+ 0001:00000804       ..??_GCRGenCF@@QAAPAXI@Z   10001804 f rgen.obj
+ 0001:00000860       ..?StartGraphicsThread@@YAKPAK@Z 10001860 f rgenob.obj
+ 0001:00000894       ..?QueryInterface@CRGen@@UAAJABU_GUID@@PAPAX@Z 10001894 f rgenob.obj
+ 0001:00000a0c       ..?AddRef@CRGen@@UAAKXZ    10001a0c f rgenob.obj
+ 0001:00000a50       ..?Release@CRGen@@UAAKXZ   10001a50 f rgenob.obj
+ 0001:00000b0c       ..?GetClassID@CRGen@@UAAJPAU_GUID@@@Z 10001b0c f rgenob.obj
+ 0001:00000b58       ..?IsDirty@CRGen@@UAAJXZ   10001b58 f rgenob.obj
+ 0001:00000ba4       ..?Load@CRGen@@UAAJPAUIStream@@@Z 10001ba4 f rgenob.obj
+ 0001:00000e80       ..?Save@CRGen@@UAAJPAUIStream@@H@Z 10001e80 f rgenob.obj
+ 0001:00001194       ..?GetSizeMax@CRGen@@UAAJPAT_ULARGE_INTEGER@@@Z 10002194 f rgenob.obj
+ 0001:000011e4       ..?Init@CRGen@@UAAJPAUIFractalHost@@@Z 100021e4 f rgenob.obj
+ 0001:00001224       ..?SetDefaultSegmentList@CRGen@@QAAJXZ 10002224 f rgenob.obj
+ 0001:000013f8       ..?SetDefaults@CRGen@@UAAJXZ 100023f8 f rgenob.obj
+ 0001:000015ec       ..?SetProperties@CRGen@@UAAJPAX@Z 100025ec f rgenob.obj
+ 0001:00001664       ..?GetExtent@CRGen@@UAAJPAN000@Z 10002664 f rgenob.obj
+ 0001:000016e4       ..?SetExtent@CRGen@@UAAJNNNN@Z 100026e4 f rgenob.obj
+ 0001:000017e0       ..?SetGraphSize@CRGen@@UAAJII@Z 100027e0 f rgenob.obj
+ 0001:000018d8       ..?Start@CRGen@@UAAJXZ     100028d8 f rgenob.obj
+ 0001:0000193c       ..?Stop@CRGen@@UAAJXZ      1000293c f rgenob.obj
+ 0001:000019a0       ..?Initialize@CRGen@@QAAHXZ 100029a0 f rgenob.obj
+ 0001:00001ae0       ..?GraphicsThread@CRGen@@QAAKXZ 10002ae0 f rgenob.obj
+ 0001:00001cb0       ..?Recurse@CRGen@@QAAXNNNNI@Z 10002cb0 f rgenob.obj
+ 0001:0000209c       ..??0CRGen@@QAA@XZ         1000309c f rgenob.obj
+ 0001:000021d8       ..??1CRGen@@UAA@XZ         100031d8 f rgenob.obj
+ 0001:0000234c       ..?DialogProc@CRGen@@UAAHPAXIIJ@Z 1000334c f rgenob.obj
+ 0001:000029c4       ..??_GCRGen@@UAAPAXI@Z     100039c4 f rgenob.obj
+ 0001:00002a2c       ..??0IFractalEngine@@QAA@XZ 10003a2c f rgenob.obj
+ 0001:00002a74       ..??0IPersistStream@@QAA@XZ 10003a74 f rgenob.obj
+ 0001:00002abc       ..??0CHlprDialog@@QAA@XZ   10003abc f rgenob.obj
+ 0001:00002afc       ..??_GCHlprDialog@@UAAPAXI@Z 10003afc f rgenob.obj
+ 0001:00002b58       ..??1CHlprDialog@@UAA@XZ   10003b58 f rgenob.obj
+ 0001:00002b88       ..??0IPersist@@QAA@XZ      10003b88 f rgenob.obj
+ 0001:00002bd0       ..??0CGeneratorWindow@@QAA@XZ 10003bd0 f rgenob.obj
+ 0001:00002c18       ..??0CHlprWindow@@QAA@XZ   10003c18 f rgenob.obj
+ 0001:00002c6c       ..??_GCHlprWindow@@UAAPAXI@Z 10003c6c f rgenob.obj
+ 0001:00002cc8       ..??1CHlprWindow@@UAA@XZ   10003cc8 f rgenob.obj
+ 0001:00002cf8       ..??_GCGeneratorWindow@@UAAPAXI@Z 10003cf8 f rgenob.obj
+ 0001:00002d54       ..??1CGeneratorWindow@@UAA@XZ 10003d54 f rgenob.obj
+ 0001:00002d84       ..?QueryInterface@CRGen@@W3AAJABU_GUID@@PAPAX@Z 10003d84 f rgenob.obj
+ 0001:00002d8c       ..?AddRef@CRGen@@W3AAKXZ   10003d8c f rgenob.obj
+ 0001:00002d94       ..?Release@CRGen@@W3AAKXZ  10003d94 f rgenob.obj
+ 0001:00002d9c       ..?CartesianFromPolar@@YAXAAN0NN@Z 10003d9c f polar.obj
+ 0001:00002e04       ..?PolarFromCartesian@@YAXAAN0NN@Z 10003e04 f polar.obj
+ 0001:00002f14       ..?WindowProc@CGeneratorWindow@@UAAJIIJ@Z 10003f14 f genwin.obj
+ 0001:00003f70       ..?InitializePoints@CGeneratorWindow@@QAAXPAN0I@Z 10004f70 f genwin.obj
+ 0001:000041cc       ..?RetrievePoints@CGeneratorWindow@@QAAXPAN0AAI@Z 100051cc f genwin.obj
+ 0001:000043c0       ..?Redraw@CGeneratorWindow@@QAAXXZ 100053c0 f genwin.obj
+ 0001:00004420       .._CRT_INIT                10005420 f msvcrt:crtdll.obj
+ 0001:0000459c       .._DllMainCRTStartup       1000559c f msvcrt:crtdll.obj
+ 0001:000046f0       ..??2@YAPAXI@Z             100056f0 f msvcrt:MSVCRT40.dll
+ 0001:00004708       ..memcmp                   10005708 f msvcrt:MSVCRT40.dll
+ 0001:00004720       .._purecall                10005720 f msvcrt:MSVCRT40.dll
+ 0001:00004738       ..??3@YAXPAX@Z             10005738 f msvcrt:MSVCRT40.dll
+ 0001:00004750       ..memcpy                   10005750 f msvcrt:MSVCRT40.dll
+ 0001:00004768       ..acos                     10005768 f msvcrt:MSVCRT40.dll
+ 0001:00004780       ..__utod                   10005780 f msvcrt:utod.obj
+ 0001:000047a8       ..__restgpr_All            100057a8 f msvcrt:restgpr.obj
+ 0001:000047dc       ..__restgpr_14             100057dc   msvcrt:restgpr.obj
+ 0001:000047e0       ..__restgpr_15             100057e0   msvcrt:restgpr.obj
+ 0001:000047e4       ..__restgpr_16             100057e4   msvcrt:restgpr.obj
+ 0001:000047e8       ..__restgpr_17             100057e8   msvcrt:restgpr.obj
+ 0001:000047ec       ..__restgpr_18             100057ec   msvcrt:restgpr.obj
+ 0001:000047f0       ..__restgpr_19             100057f0   msvcrt:restgpr.obj
+ 0001:000047f4       ..__restgpr_20             100057f4   msvcrt:restgpr.obj
+ 0001:000047f8       ..__restgpr_21             100057f8   msvcrt:restgpr.obj
+ 0001:000047fc       ..__restgpr_22             100057fc   msvcrt:restgpr.obj
+ 0001:00004800       ..__restgpr_23             10005800   msvcrt:restgpr.obj
+ 0001:00004804       ..__restgpr_24             10005804   msvcrt:restgpr.obj
+ 0001:00004808       ..__restgpr_25             10005808   msvcrt:restgpr.obj
+ 0001:0000480c       ..__restgpr_26             1000580c   msvcrt:restgpr.obj
+ 0001:00004810       ..__restgpr_27             10005810   msvcrt:restgpr.obj
+ 0001:00004814       ..__restgpr_28             10005814   msvcrt:restgpr.obj
+ 0001:00004818       ..__restgpr_29             10005818   msvcrt:restgpr.obj
+ 0001:0000481c       ..__restgpr_30             1000581c   msvcrt:restgpr.obj
+ 0001:00004820       ..__restgpr_31             10005820   msvcrt:restgpr.obj
+ 0001:00004828       ..sin                      10005828 f msvcrt:MSVCRT40.dll
+ 0001:00004840       ..cos                      10005840 f msvcrt:MSVCRT40.dll
+ 0001:00004858       ..sqrt                     10005858 f msvcrt:MSVCRT40.dll
+ 0001:00004870       ..__savegpr_All            10005870 f msvcrt:savegpr.obj
+ 0001:000048a4       ..__savegpr_14             100058a4   msvcrt:savegpr.obj
+ 0001:000048a8       ..__savegpr_15             100058a8   msvcrt:savegpr.obj
+ 0001:000048ac       ..__savegpr_16             100058ac   msvcrt:savegpr.obj
+ 0001:000048b0       ..__savegpr_17             100058b0   msvcrt:savegpr.obj
+ 0001:000048b4       ..__savegpr_18             100058b4   msvcrt:savegpr.obj
+ 0001:000048b8       ..__savegpr_19             100058b8   msvcrt:savegpr.obj
+ 0001:000048bc       ..__savegpr_20             100058bc   msvcrt:savegpr.obj
+ 0001:000048c0       ..__savegpr_21             100058c0   msvcrt:savegpr.obj
+ 0001:000048c4       ..__savegpr_22             100058c4   msvcrt:savegpr.obj
+ 0001:000048c8       ..__savegpr_23             100058c8   msvcrt:savegpr.obj
+ 0001:000048cc       ..__savegpr_24             100058cc   msvcrt:savegpr.obj
+ 0001:000048d0       ..__savegpr_25             100058d0   msvcrt:savegpr.obj
+ 0001:000048d4       ..__savegpr_26             100058d4   msvcrt:savegpr.obj
+ 0001:000048d8       ..__savegpr_27             100058d8   msvcrt:savegpr.obj
+ 0001:000048dc       ..__savegpr_28             100058dc   msvcrt:savegpr.obj
+ 0001:000048e0       ..__savegpr_29             100058e0   msvcrt:savegpr.obj
+ 0001:000048e4       ..__savegpr_30             100058e4   msvcrt:savegpr.obj
+ 0001:000048e8       ..__savegpr_31             100058e8   msvcrt:savegpr.obj
+ 0001:000048f0       ..__itod                   100058f0 f msvcrt:itod.obj
+ 0001:0000491c       ..free                     1000591c f msvcrt:MSVCRT40.dll
+ 0001:00004934       .._initterm                10005934 f msvcrt:MSVCRT40.dll
+ 0001:0000494c       .._onexit                  1000594c f msvcrt:atonexit.obj
+ 0001:000049b4       ..atexit                   100059b4 f msvcrt:atonexit.obj
+ 0001:000049e4       ..malloc                   100059e4 f msvcrt:MSVCRT40.dll
+ 0001:000049fc       ..__dllonexit              100059fc f msvcrt:MSVCRT40.dll
+ 0001:00004a14       ..WaitForSingleObject      10005a14 f kernel32:KERNEL32.dll
+ 0001:00004a2c       ..SetEvent                 10005a2c f kernel32:KERNEL32.dll
+ 0001:00004a44       ..ResetEvent               10005a44 f kernel32:KERNEL32.dll
+ 0001:00004a5c       ..CreateThread             10005a5c f kernel32:KERNEL32.dll
+ 0001:00004a74       ..CreateEventA             10005a74 f kernel32:KERNEL32.dll
+ 0001:00004a8c       ..TerminateThread          10005a8c f kernel32:KERNEL32.dll
+ 0001:00004aa4       ..CloseHandle              10005aa4 f kernel32:KERNEL32.dll
+ 0001:00004abc       ..RegisterClassA           10005abc f user32:USER32.dll
+ 0001:00004ad4       ..LoadCursorA              10005ad4 f user32:USER32.dll
+ 0001:00004aec       ..MessageBoxA              10005aec f user32:USER32.dll
+ 0001:00004b04       ..LoadStringA              10005b04 f user32:USER32.dll
+ 0001:00004b1c       ..EndDialog                10005b1c f user32:USER32.dll
+ 0001:00004b34       ..GetDlgItemInt            10005b34 f user32:USER32.dll
+ 0001:00004b4c       ..SetDlgItemInt            10005b4c f user32:USER32.dll
+ 0001:00004b64       ..MapDialogRect            10005b64 f user32:USER32.dll
+ 0001:00004b7c       ..DefWindowProcA           10005b7c f user32:USER32.dll
+ 0001:00004b94       ..EndPaint                 10005b94 f user32:USER32.dll
+ 0001:00004bac       ..BeginPaint               10005bac f user32:USER32.dll
+ 0001:00004bc4       ..ReleaseCapture           10005bc4 f user32:USER32.dll
+ 0001:00004bdc       ..InvalidateRect           10005bdc f user32:USER32.dll
+ 0001:00004bf4       ..SetCapture               10005bf4 f user32:USER32.dll
+ 0001:00004c0c       ..GetStockObject           10005c0c f gdi32:GDI32.dll
+ 0001:00004c24       ..Polyline                 10005c24 f gdi32:GDI32.dll
+ 0001:00004c3c       ..Ellipse                  10005c3c f gdi32:GDI32.dll
+ 0001:00004c54       ..DeleteObject             10005c54 f gdi32:GDI32.dll
+ 0001:00004c6c       ..LineTo                   10005c6c f gdi32:GDI32.dll
+ 0001:00004c84       ..MoveToEx                 10005c84 f gdi32:GDI32.dll
+ 0001:00004c9c       ..SelectObject             10005c9c f gdi32:GDI32.dll
+ 0001:00004cb4       ..CreatePen                10005cb4 f gdi32:GDI32.dll
+ 0001:00004ccc       ..GetClipBox               10005ccc f gdi32:GDI32.dll
+ 0001:00004ce4       ..?Create@CHlprWindow@@QAAPAXPBD0KHHHHPAX11@Z 10005ce4 f winhlprs:cwindow.obj
+ 0001:00004da8       ..WindowProc               10005da8 f winhlprs:cwindow.obj
+ 0001:00004fd0       ..SizeDouble               10005fd0 f winhlprs:strmhelp.obj
+ 0001:00004ffc       ..WriteDouble              10005ffc f winhlprs:strmhelp.obj
+ 0001:000050bc       ..ReadDouble               100060bc f winhlprs:strmhelp.obj
+ 0001:000051d0       ..?ShowDialog@CHlprDialog@@UAAHPAXPBD0@Z 100061d0 f winhlprs:cdialog.obj
+ 0001:00005258       ..DialogProc               10006258 f winhlprs:cdialog.obj
+ 0001:0000537c       ..strlen                   1000637c f msvcrt:MSVCRT40.dll
+ 0001:00005394       ..sprintf                  10006394 f msvcrt:MSVCRT40.dll
+ 0001:000053ac       ..sscanf                   100063ac f msvcrt:MSVCRT40.dll
+ 0001:000053c4       ..CreateWindowExA          100063c4 f user32:USER32.dll
+ 0001:000053dc       ..GetWindowLongA           100063dc f user32:USER32.dll
+ 0001:000053f4       ..SetWindowLongA           100063f4 f user32:USER32.dll
+ 0001:0000540c       ..DialogBoxParamA          1000640c f user32:USER32.dll
+ 0002:00000058       DllMain                    10007058   rgen.obj
+ 0002:00000060       DllGetClassObject          10007060   rgen.obj
+ 0002:00000068       DllCanUnloadNow            10007068   rgen.obj
+ 0002:00000070       ??0CRGenCF@@QAA@XZ         10007070   rgen.obj
+ 0002:00000078       ?QueryInterface@CRGenCF@@UAAJABU_GUID@@PAPAX@Z 10007078   rgen.obj
+ 0002:00000080       ?AddRef@CRGenCF@@UAAKXZ    10007080   rgen.obj
+ 0002:00000088       ?Release@CRGenCF@@UAAKXZ   10007088   rgen.obj
+ 0002:00000090       ?CreateInstance@CRGenCF@@UAAJPAUIUnknown@@ABU_GUID@@PAPAX@Z 10007090   rgen.obj
+ 0002:00000098       ?LockServer@CRGenCF@@UAAJH@Z 10007098   rgen.obj
+ 0002:000000a0       ??1CRGenCF@@QAA@XZ         100070a0   rgen.obj
+ 0002:000000a8       ?IsEqualGUID@@YAHABU_GUID@@0@Z 100070a8   rgen.obj
+ 0002:000000b0       ??_7CRGenCF@@6B@           100070b0   rgen.obj
+ 0002:000000c4       ??0IClassFactory@@QAA@XZ   100070c4   rgen.obj
+ 0002:000000d0       ??_7IClassFactory@@6B@     100070d0   rgen.obj
+ 0002:000000e4       ??0IUnknown@@QAA@XZ        100070e4   rgen.obj
+ 0002:000000f0       ??_7IUnknown@@6B@          100070f0   rgen.obj
+ 0002:000000fc       ??_GCRGenCF@@QAAPAXI@Z     100070fc   rgen.obj
+ 0002:00000108       ?StartGraphicsThread@@YAKPAK@Z 10007108   rgenob.obj
+ 0002:00000110       ?QueryInterface@CRGen@@UAAJABU_GUID@@PAPAX@Z 10007110   rgenob.obj
+ 0002:00000118       ?AddRef@CRGen@@UAAKXZ      10007118   rgenob.obj
+ 0002:00000120       ?Release@CRGen@@UAAKXZ     10007120   rgenob.obj
+ 0002:00000128       ?GetClassID@CRGen@@UAAJPAU_GUID@@@Z 10007128   rgenob.obj
+ 0002:00000130       ?IsDirty@CRGen@@UAAJXZ     10007130   rgenob.obj
+ 0002:00000138       ?Load@CRGen@@UAAJPAUIStream@@@Z 10007138   rgenob.obj
+ 0002:00000140       ?Save@CRGen@@UAAJPAUIStream@@H@Z 10007140   rgenob.obj
+ 0002:00000148       ?GetSizeMax@CRGen@@UAAJPAT_ULARGE_INTEGER@@@Z 10007148   rgenob.obj
+ 0002:00000150       ?Init@CRGen@@UAAJPAUIFractalHost@@@Z 10007150   rgenob.obj
+ 0002:00000158       ?SetDefaultSegmentList@CRGen@@QAAJXZ 10007158   rgenob.obj
+ 0002:00000180       ?SetDefaults@CRGen@@UAAJXZ 10007180   rgenob.obj
+ 0002:00000198       ?SetProperties@CRGen@@UAAJPAX@Z 10007198   rgenob.obj
+ 0002:000001a0       ?GetExtent@CRGen@@UAAJPAN000@Z 100071a0   rgenob.obj
+ 0002:000001a8       ?SetExtent@CRGen@@UAAJNNNN@Z 100071a8   rgenob.obj
+ 0002:000001b0       ?SetGraphSize@CRGen@@UAAJII@Z 100071b0   rgenob.obj
+ 0002:000001b8       ?Start@CRGen@@UAAJXZ       100071b8   rgenob.obj
+ 0002:000001c0       ?Stop@CRGen@@UAAJXZ        100071c0   rgenob.obj
+ 0002:000001c8       ?Initialize@CRGen@@QAAHXZ  100071c8   rgenob.obj
+ 0002:000001d0       ?GraphicsThread@CRGen@@QAAKXZ 100071d0   rgenob.obj
+ 0002:000001e0       ?Recurse@CRGen@@QAAXNNNNI@Z 100071e0   rgenob.obj
+ 0002:000001e8       ??0CRGen@@QAA@XZ           100071e8   rgenob.obj
+ 0002:000001f0       ?DialogProc@CRGen@@UAAHPAXIIJ@Z 100071f0   rgenob.obj
+ 0002:000001f8       ??1CRGen@@UAA@XZ           100071f8   rgenob.obj
+ 0002:00000200       ??_GCRGen@@UAAPAXI@Z       10007200   rgenob.obj
+ 0002:00000200       ??_ECRGen@@UAAPAXI@Z       10007200   rgenob.obj
+ 0002:00000208       ?Release@CRGen@@W3AAKXZ    10007208   rgenob.obj
+ 0002:00000210       ?AddRef@CRGen@@W3AAKXZ     10007210   rgenob.obj
+ 0002:00000218       ?QueryInterface@CRGen@@W3AAJABU_GUID@@PAPAX@Z 10007218   rgenob.obj
+ 0002:00000220       ??_7CRGen@@6BCHlprDialog@@@ 10007220   rgenob.obj
+ 0002:00000230       ??_7CRGen@@6BIPersistStream@@@ 10007230   rgenob.obj
+ 0002:00000250       ??_7CRGen@@6BIFractalEngine@@@ 10007250   rgenob.obj
+ 0002:0000027c       ??0IFractalEngine@@QAA@XZ  1000727c   rgenob.obj
+ 0002:00000288       ??_7IFractalEngine@@6B@    10007288   rgenob.obj
+ 0002:000002b4       ??0IPersistStream@@QAA@XZ  100072b4   rgenob.obj
+ 0002:000002c0       ??_7IPersistStream@@6B@    100072c0   rgenob.obj
+ 0002:000002e0       ??_GCHlprDialog@@UAAPAXI@Z 100072e0   rgenob.obj
+ 0002:000002e0       ??_ECHlprDialog@@UAAPAXI@Z 100072e0   rgenob.obj
+ 0002:000002e8       ??0CHlprDialog@@QAA@XZ     100072e8   rgenob.obj
+ 0002:000002f0       ??_7CHlprDialog@@6B@       100072f0   rgenob.obj
+ 0002:000002fc       ??1CHlprDialog@@UAA@XZ     100072fc   rgenob.obj
+ 0002:00000304       ??0IPersist@@QAA@XZ        10007304   rgenob.obj
+ 0002:00000310       ??_7IPersist@@6B@          10007310   rgenob.obj
+ 0002:00000320       ??_ECGeneratorWindow@@UAAPAXI@Z 10007320   rgenob.obj
+ 0002:00000320       ??_GCGeneratorWindow@@UAAPAXI@Z 10007320   rgenob.obj
+ 0002:00000328       ??0CGeneratorWindow@@QAA@XZ 10007328   rgenob.obj
+ 0002:00000330       ??_7CGeneratorWindow@@6B@  10007330   rgenob.obj
+ 0002:00000338       ??_GCHlprWindow@@UAAPAXI@Z 10007338   rgenob.obj
+ 0002:00000338       ??_ECHlprWindow@@UAAPAXI@Z 10007338   rgenob.obj
+ 0002:00000340       ??0CHlprWindow@@QAA@XZ     10007340   rgenob.obj
+ 0002:00000348       ??_7CHlprWindow@@6B@       10007348   rgenob.obj
+ 0002:00000350       ??1CHlprWindow@@UAA@XZ     10007350   rgenob.obj
+ 0002:00000358       ??1CGeneratorWindow@@UAA@XZ 10007358   rgenob.obj
+ 0002:00000360       ?CartesianFromPolar@@YAXAAN0NN@Z 10007360   polar.obj
+ 0002:00000368       ?PolarFromCartesian@@YAXAAN0NN@Z 10007368   polar.obj
+ 0002:00000380       ?WindowProc@CGeneratorWindow@@UAAJIIJ@Z 10007380   genwin.obj
+ 0002:000003b8       ?InitializePoints@CGeneratorWindow@@QAAXPAN0I@Z 100073b8   genwin.obj
+ 0002:000003d8       ?RetrievePoints@CGeneratorWindow@@QAAXPAN0AAI@Z 100073d8   genwin.obj
+ 0002:000003e0       ?Redraw@CGeneratorWindow@@QAAXXZ 100073e0   genwin.obj
+ 0002:000003e8       IID_IClassFactory          100073e8   uuid:unknwn_i_guid1.obj
+ 0002:000003f8       IID_IUnknown               100073f8   uuid:unknwn_i_guid0.obj
+ 0002:00000408       IID_IPersistStream         10007408   uuid:objidl_i_guid12.obj
+ 0002:00000418       IID_IPersist               10007418   uuid:objidl_i_guid11.obj
+ 0002:00000428       _CRT_INIT                  10007428   msvcrt:crtdll.obj
+ 0002:00000430       _DllMainCRTStartup         10007430   msvcrt:crtdll.obj
+ 0002:00000438       ??2@YAPAXI@Z               10007438   msvcrt:MSVCRT40.dll
+ 0002:00000440       memcmp                     10007440   msvcrt:MSVCRT40.dll
+ 0002:00000448       _purecall                  10007448   msvcrt:MSVCRT40.dll
+ 0002:00000450       ??3@YAXPAX@Z               10007450   msvcrt:MSVCRT40.dll
+ 0002:00000458       memcpy                     10007458   msvcrt:MSVCRT40.dll
+ 0002:00000460       acos                       10007460   msvcrt:MSVCRT40.dll
+ 0002:00000468       sin                        10007468   msvcrt:MSVCRT40.dll
+ 0002:00000470       cos                        10007470   msvcrt:MSVCRT40.dll
+ 0002:00000478       sqrt                       10007478   msvcrt:MSVCRT40.dll
+ 0002:00000480       free                       10007480   msvcrt:MSVCRT40.dll
+ 0002:00000488       _initterm                  10007488   msvcrt:MSVCRT40.dll
+ 0002:00000490       _onexit                    10007490   msvcrt:atonexit.obj
+ 0002:00000498       atexit                     10007498   msvcrt:atonexit.obj
+ 0002:000004a0       malloc                     100074a0   msvcrt:MSVCRT40.dll
+ 0002:000004a8       __dllonexit                100074a8   msvcrt:MSVCRT40.dll
+ 0002:000004b0       WaitForSingleObject        100074b0   kernel32:KERNEL32.dll
+ 0002:000004b8       SetEvent                   100074b8   kernel32:KERNEL32.dll
+ 0002:000004c0       ResetEvent                 100074c0   kernel32:KERNEL32.dll
+ 0002:000004c8       CreateThread               100074c8   kernel32:KERNEL32.dll
+ 0002:000004d0       CreateEventA               100074d0   kernel32:KERNEL32.dll
+ 0002:000004d8       TerminateThread            100074d8   kernel32:KERNEL32.dll
+ 0002:000004e0       CloseHandle                100074e0   kernel32:KERNEL32.dll
+ 0002:000004e8       RegisterClassA             100074e8   user32:USER32.dll
+ 0002:000004f0       LoadCursorA                100074f0   user32:USER32.dll
+ 0002:000004f8       MessageBoxA                100074f8   user32:USER32.dll
+ 0002:00000500       LoadStringA                10007500   user32:USER32.dll
+ 0002:00000508       EndDialog                  10007508   user32:USER32.dll
+ 0002:00000510       GetDlgItemInt              10007510   user32:USER32.dll
+ 0002:00000518       SetDlgItemInt              10007518   user32:USER32.dll
+ 0002:00000520       MapDialogRect              10007520   user32:USER32.dll
+ 0002:00000528       DefWindowProcA             10007528   user32:USER32.dll
+ 0002:00000530       EndPaint                   10007530   user32:USER32.dll
+ 0002:00000538       BeginPaint                 10007538   user32:USER32.dll
+ 0002:00000540       ReleaseCapture             10007540   user32:USER32.dll
+ 0002:00000548       InvalidateRect             10007548   user32:USER32.dll
+ 0002:00000550       SetCapture                 10007550   user32:USER32.dll
+ 0002:00000558       GetStockObject             10007558   gdi32:GDI32.dll
+ 0002:00000560       Polyline                   10007560   gdi32:GDI32.dll
+ 0002:00000568       Ellipse                    10007568   gdi32:GDI32.dll
+ 0002:00000570       DeleteObject               10007570   gdi32:GDI32.dll
+ 0002:00000578       LineTo                     10007578   gdi32:GDI32.dll
+ 0002:00000580       MoveToEx                   10007580   gdi32:GDI32.dll
+ 0002:00000588       SelectObject               10007588   gdi32:GDI32.dll
+ 0002:00000590       CreatePen                  10007590   gdi32:GDI32.dll
+ 0002:00000598       GetClipBox                 10007598   gdi32:GDI32.dll
+ 0002:000005a0       IID_IFractalEngine         100075a0   fguids:frcngn_i.obj
+ 0002:000005b0       ?Create@CHlprWindow@@QAAPAXPBD0KHHHHPAX11@Z 100075b0   winhlprs:cwindow.obj
+ 0002:000005b8       WindowProc                 100075b8   winhlprs:cwindow.obj
+ 0002:000005c0       SizeDouble                 100075c0   winhlprs:strmhelp.obj
+ 0002:000005c8       WriteDouble                100075c8   winhlprs:strmhelp.obj
+ 0002:000005d0       ReadDouble                 100075d0   winhlprs:strmhelp.obj
+ 0002:000005d8       ?ShowDialog@CHlprDialog@@UAAHPAXPBD0@Z 100075d8   winhlprs:cdialog.obj
+ 0002:000005e0       DialogProc                 100075e0   winhlprs:cdialog.obj
+ 0002:000005e8       strlen                     100075e8   msvcrt:MSVCRT40.dll
+ 0002:000005f0       sprintf                    100075f0   msvcrt:MSVCRT40.dll
+ 0002:000005f8       sscanf                     100075f8   msvcrt:MSVCRT40.dll
+ 0002:00000600       CreateWindowExA            10007600   user32:USER32.dll
+ 0002:00000608       GetWindowLongA             10007608   user32:USER32.dll
+ 0002:00000610       SetWindowLongA             10007610   user32:USER32.dll
+ 0002:00000618       DialogBoxParamA            10007618   user32:USER32.dll
+ 0003:00000000       __xc_a                     10008000   msvcrt:cinitexe.obj
+ 0003:00000008       __xc_z                     10008008   msvcrt:cinitexe.obj
+ 0003:00000010       __xi_a                     10008010   msvcrt:cinitexe.obj
+ 0003:00000018       __xi_z                     10008018   msvcrt:cinitexe.obj
+ 0003:00000048       ?CLSID_RGEN@@3U_GUID@@A    10008048   fguids:rgencid.obj
+ 0003:00000068       ?ghinst@@3PAXA             10008068   rgen.obj
+ 0003:0000006c       ?gcRef@@3KA                1000806c   rgen.obj
+ 0003:00000070       ?gcLock@@3KA               10008070   rgen.obj
+ 0003:00000074       __onexitend                10008074   <common>
+ 0003:00000078       __onexitbegin              10008078   <common>
+ 0003:0000007c       _pRawDllMain               1000807c   <common>
+ 0005:00000000       __IMPORT_DESCRIPTOR_MSVCRT40 1000a000   msvcrt:MSVCRT40.dll
+ 0005:00000014       __IMPORT_DESCRIPTOR_KERNEL32 1000a014   kernel32:KERNEL32.dll
+ 0005:00000028       __IMPORT_DESCRIPTOR_USER32 1000a028   user32:USER32.dll
+ 0005:0000003c       __IMPORT_DESCRIPTOR_GDI32  1000a03c   gdi32:GDI32.dll
+ 0005:00000050       __NULL_IMPORT_DESCRIPTOR   1000a050   msvcrt:MSVCRT40.dll
+ 0005:00000264       __imp_MoveToEx             1000a264   gdi32:GDI32.dll
+ 0005:00000268       __imp_Polyline             1000a268   gdi32:GDI32.dll
+ 0005:0000026c       __imp_Ellipse              1000a26c   gdi32:GDI32.dll
+ 0005:00000270       __imp_DeleteObject         1000a270   gdi32:GDI32.dll
+ 0005:00000274       __imp_LineTo               1000a274   gdi32:GDI32.dll
+ 0005:00000278       __imp_GetStockObject       1000a278   gdi32:GDI32.dll
+ 0005:0000027c       __imp_SelectObject         1000a27c   gdi32:GDI32.dll
+ 0005:00000280       __imp_CreatePen            1000a280   gdi32:GDI32.dll
+ 0005:00000284       __imp_GetClipBox           1000a284   gdi32:GDI32.dll
+ 0005:00000288       \177GDI32_NULL_THUNK_DATA  1000a288   gdi32:GDI32.dll
+ 0005:0000028c       __imp_ResetEvent           1000a28c   kernel32:KERNEL32.dll
+ 0005:00000290       __imp_SetEvent             1000a290   kernel32:KERNEL32.dll
+ 0005:00000294       __imp_CreateEventA         1000a294   kernel32:KERNEL32.dll
+ 0005:00000298       __imp_WaitForSingleObject  1000a298   kernel32:KERNEL32.dll
+ 0005:0000029c       __imp_CloseHandle          1000a29c   kernel32:KERNEL32.dll
+ 0005:000002a0       __imp_CreateThread         1000a2a0   kernel32:KERNEL32.dll
+ 0005:000002a4       __imp_TerminateThread      1000a2a4   kernel32:KERNEL32.dll
+ 0005:000002a8       \177KERNEL32_NULL_THUNK_DATA 1000a2a8   kernel32:KERNEL32.dll
+ 0005:000002ac       __imp___dllonexit          1000a2ac   msvcrt:MSVCRT40.dll
+ 0005:000002b0       __imp__onexit              1000a2b0   msvcrt:MSVCRT40.dll
+ 0005:000002b4       __imp__initterm            1000a2b4   msvcrt:MSVCRT40.dll
+ 0005:000002b8       __imp_free                 1000a2b8   msvcrt:MSVCRT40.dll
+ 0005:000002bc       __imp_malloc               1000a2bc   msvcrt:MSVCRT40.dll
+ 0005:000002c0       __imp_strlen               1000a2c0   msvcrt:MSVCRT40.dll
+ 0005:000002c4       __imp_sscanf               1000a2c4   msvcrt:MSVCRT40.dll
+ 0005:000002c8       __imp_sqrt                 1000a2c8   msvcrt:MSVCRT40.dll
+ 0005:000002cc       __imp_??2@YAPAXI@Z         1000a2cc   msvcrt:MSVCRT40.dll
+ 0005:000002d0       __imp_cos                  1000a2d0   msvcrt:MSVCRT40.dll
+ 0005:000002d4       __imp_sin                  1000a2d4   msvcrt:MSVCRT40.dll
+ 0005:000002d8       __imp_acos                 1000a2d8   msvcrt:MSVCRT40.dll
+ 0005:000002dc       __imp_memcpy               1000a2dc   msvcrt:MSVCRT40.dll
+ 0005:000002e0       __imp_??3@YAXPAX@Z         1000a2e0   msvcrt:MSVCRT40.dll
+ 0005:000002e4       __imp__purecall            1000a2e4   msvcrt:MSVCRT40.dll
+ 0005:000002e8       __imp_memcmp               1000a2e8   msvcrt:MSVCRT40.dll
+ 0005:000002ec       __imp_sprintf              1000a2ec   msvcrt:MSVCRT40.dll
+ 0005:000002f0       \177MSVCRT40_NULL_THUNK_DATA 1000a2f0   msvcrt:MSVCRT40.dll
+ 0005:000002f4       __imp_DefWindowProcA       1000a2f4   user32:USER32.dll
+ 0005:000002f8       __imp_InvalidateRect       1000a2f8   user32:USER32.dll
+ 0005:000002fc       __imp_ReleaseCapture       1000a2fc   user32:USER32.dll
+ 0005:00000300       __imp_BeginPaint           1000a300   user32:USER32.dll
+ 0005:00000304       __imp_EndPaint             1000a304   user32:USER32.dll
+ 0005:00000308       __imp_SetCapture           1000a308   user32:USER32.dll
+ 0005:0000030c       __imp_MapDialogRect        1000a30c   user32:USER32.dll
+ 0005:00000310       __imp_SetDlgItemInt        1000a310   user32:USER32.dll
+ 0005:00000314       __imp_GetDlgItemInt        1000a314   user32:USER32.dll
+ 0005:00000318       __imp_LoadStringA          1000a318   user32:USER32.dll
+ 0005:0000031c       __imp_RegisterClassA       1000a31c   user32:USER32.dll
+ 0005:00000320       __imp_LoadCursorA          1000a320   user32:USER32.dll
+ 0005:00000324       __imp_MessageBoxA          1000a324   user32:USER32.dll
+ 0005:00000328       __imp_EndDialog            1000a328   user32:USER32.dll
+ 0005:0000032c       __imp_CreateWindowExA      1000a32c   user32:USER32.dll
+ 0005:00000330       __imp_GetWindowLongA       1000a330   user32:USER32.dll
+ 0005:00000334       __imp_SetWindowLongA       1000a334   user32:USER32.dll
+ 0005:00000338       __imp_DialogBoxParamA      1000a338   user32:USER32.dll
+ 0005:0000033c       \177USER32_NULL_THUNK_DATA 1000a33c   user32:USER32.dll
+ 0005:00008140       .toc                       10012140   <linker-defined>
+
+ entry point at        0002:00000430
+
+ Static symbols
+
+
+ Offset   Rva+Base   Publics by TOC Offset
+
+  8000    1000a140   __imp_SetCapture
+  8008    1000a148   __imp_InvalidateRect
+  800c    1000a14c   __imp_ReleaseCapture
+  8010    1000a150   __imp_BeginPaint
+  8014    1000a154   __imp_GetClipBox
+  8018    1000a158   __imp_CreatePen
+  801c    1000a15c   __imp_SelectObject
+  8020    1000a160   __imp_MoveToEx
+  8024    1000a164   __imp_LineTo
+  8028    1000a168   __imp_DeleteObject
+  802c    1000a16c   __imp_GetStockObject
+  8030    1000a170   __imp_Ellipse
+  8034    1000a174   __imp_Polyline
+  8038    1000a178   __imp_EndPaint
+  803c    1000a17c   __imp_DefWindowProcA
+  8044    1000a184   IID_IFractalEngine
+  8048    1000a188   IID_IPersist
+  804c    1000a18c   IID_IPersistStream
+  8050    1000a190   IID_IUnknown
+  8054    1000a194   ?gcRef@@3KA
+  8058    1000a198   ?CLSID_RGEN@@3U_GUID@@A
+  805c    1000a19c   __imp_WaitForSingleObject
+  8064    1000a1a4   __imp_SetEvent
+  8068    1000a1a8   ?ghinst@@3PAXA
+  806c    1000a1ac   __imp_ResetEvent
+  8070    1000a1b0   __imp_CreateEventA
+  8074    1000a1b4   ?StartGraphicsThread@@YAKPAK@Z
+  8078    1000a1b8   __imp_CreateThread
+  807c    1000a1bc   ??_7CRGen@@6BIFractalEngine@@@
+  8080    1000a1c0   ??_7CRGen@@6BIPersistStream@@@
+  8084    1000a1c4   ??_7CRGen@@6BCHlprDialog@@@
+  8088    1000a1c8   __imp_CloseHandle
+  808c    1000a1cc   __imp_TerminateThread
+  8090    1000a1d0   __imp_MapDialogRect
+  8098    1000a1d8   __imp_SetDlgItemInt
+  809c    1000a1dc   __imp_GetDlgItemInt
+  80a0    1000a1e0   __imp_EndDialog
+  80a4    1000a1e4   __imp_LoadStringA
+  80a8    1000a1e8   __imp_MessageBoxA
+  80ac    1000a1ec   ??_7IFractalEngine@@6B@
+  80b0    1000a1f0   ??_7IPersistStream@@6B@
+  80b4    1000a1f4   ??_7CHlprDialog@@6B@
+  80b8    1000a1f8   ??_7IPersist@@6B@
+  80bc    1000a1fc   ??_7CGeneratorWindow@@6B@
+  80c0    1000a200   ??_7CHlprWindow@@6B@
+  80c4    1000a204   ?gcLock@@3KA
+  80c8    1000a208   WindowProc
+  80cc    1000a20c   __imp_LoadCursorA
+  80d4    1000a214   __imp_RegisterClassA
+  80d8    1000a218   IID_IClassFactory
+  80dc    1000a21c   ??_7CRGenCF@@6B@
+  80e0    1000a220   ??_7IClassFactory@@6B@
+  80e4    1000a224   ??_7IUnknown@@6B@
+  80e8    1000a228   __onexitbegin
+  80ec    1000a22c   __imp__onexit
+  80f0    1000a230   __onexitend
+  80f8    1000a238   __imp_malloc
+  80fc    1000a23c   __xc_a
+  8100    1000a240   __xc_z
+  8104    1000a244   __imp_free
+  8108    1000a248   _pRawDllMain
+  810c    1000a24c   __imp_DialogBoxParamA
+  8110    1000a250   DialogProc
+  8114    1000a254   __imp_SetWindowLongA
+  8118    1000a258   __imp_GetWindowLongA
+  8120    1000a260   __imp_CreateWindowExA
+

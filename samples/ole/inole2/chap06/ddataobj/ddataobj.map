@@ -1,0 +1,435 @@
+ ddataobj
+
+ Timestamp is 641731d8 (Sun Mar 19 11:01:28 2023)
+
+ Preferred load address is 77000000
+
+ Start         Length     Name                   Class
+ 0001:00000000 00003810H .text                   CODE
+ 0002:00000000 00000618H .rdata                  DATA
+ 0002:00000620 0000006bH .edata                  DATA
+ 0003:00000000 00000004H .CRT$XCA                DATA
+ 0003:00000008 00000004H .CRT$XCZ                DATA
+ 0003:00000010 00000004H .CRT$XIA                DATA
+ 0003:00000018 00000004H .CRT$XIZ                DATA
+ 0003:00000020 00000084H .data                   DATA
+ 0003:000000a4 0000000cH .bss                    DATA
+ 0004:00000000 000007f8H .pdata                  DATA
+ 0005:00000000 00000064H .idata$2                DATA
+ 0005:00000064 00000014H .idata$3                DATA
+ 0005:00000078 000000c0H .idata$4                DATA
+ 0005:00000138 00000104H .idata$4toc             DATA
+ 0005:0000023c 000000c0H .idata$5                DATA
+ 0005:000002fc 000002c2H .idata$6                DATA
+ 0006:00000000 000001d8H .rsrc$01                DATA
+ 0006:000001e0 0000927cH .rsrc$02                DATA
+
+  Address         Publics by Value              Rva+Base   Lib:Object
+
+ 0001:00000000       ..DllMain                  77001000 f ddataobj.obj
+ 0001:00000050       ..DllGetClassObject        77001050 f ddataobj.obj
+ 0001:00000228       ..DllCanUnloadNow          77001228 f ddataobj.obj
+ 0001:00000288       ..?ObjectDestroyed@@YAXXZ  77001288 f ddataobj.obj
+ 0001:000002bc       ..??0CDataObjectClassFactory@@QAA@I@Z 770012bc f ddataobj.obj
+ 0001:00000324       ..??1CDataObjectClassFactory@@QAA@XZ 77001324 f ddataobj.obj
+ 0001:00000354       ..?QueryInterface@CDataObjectClassFactory@@UAAJABU_GUID@@PAPAX@Z 77001354 f ddataobj.obj
+ 0001:0000042c       ..?AddRef@CDataObjectClassFactory@@UAAKXZ 7700142c f ddataobj.obj
+ 0001:00000470       ..?Release@CDataObjectClassFactory@@UAAKXZ 77001470 f ddataobj.obj
+ 0001:000004f0       ..?CreateInstance@CDataObjectClassFactory@@UAAJPAUIUnknown@@ABU_GUID@@PAPAX@Z 770014f0 f ddataobj.obj
+ 0001:00000678       ..?LockServer@CDataObjectClassFactory@@UAAJH@Z 77001678 f ddataobj.obj
+ 0001:000006e4       ..??8@YAHABU_GUID@@0@Z     770016e4 f ddataobj.obj
+ 0001:00000740       ..??9@YAHABU_GUID@@0@Z     77001740 f ddataobj.obj
+ 0001:00000794       ..??0IClassFactory@@QAA@XZ 77001794 f ddataobj.obj
+ 0001:000007dc       ..??0IUnknown@@QAA@XZ      770017dc f ddataobj.obj
+ 0001:0000081c       ..??_GCDataObjectClassFactory@@QAAPAXI@Z 7700181c f ddataobj.obj
+ 0001:00000878       ..??_GCDataObject@@QAAPAXI@Z 77001878 f ddataobj.obj
+ 0001:000008d8       ..??0CDataObject@@QAA@PAUIUnknown@@P6AXXZI@Z 770018d8 f dataobj.obj
+ 0001:00000a68       ..??1CDataObject@@QAA@XZ   77001a68 f dataobj.obj
+ 0001:00000be8       ..?FInit@CDataObject@@QAAHXZ 77001be8 f dataobj.obj
+ 0001:00000fd4       ..?QueryInterface@CDataObject@@UAAJABU_GUID@@PAPAX@Z 77001fd4 f dataobj.obj
+ 0001:000010bc       ..?AddRef@CDataObject@@UAAKXZ 770020bc f dataobj.obj
+ 0001:00001100       ..?Release@CDataObject@@UAAKXZ 77002100 f dataobj.obj
+ 0001:000011bc       ..?AdvisorWndProc@@YAJPAUHWND__@@IIJ@Z 770021bc f dataobj.obj
+ 0001:000015b0       ..??_GCImpIDataObject@@QAAPAXI@Z 770025b0 f dataobj.obj
+ 0001:00001610       ..??0CImpIDataObject@@QAA@PAVCDataObject@@PAUIUnknown@@@Z 77002610 f idataobj.obj
+ 0001:0000168c       ..??1CImpIDataObject@@QAA@XZ 7700268c f idataobj.obj
+ 0001:000016bc       ..?QueryInterface@CImpIDataObject@@UAAJABU_GUID@@PAPAX@Z 770026bc f idataobj.obj
+ 0001:00001730       ..?AddRef@CImpIDataObject@@UAAKXZ 77002730 f idataobj.obj
+ 0001:000017a8       ..?Release@CImpIDataObject@@UAAKXZ 770027a8 f idataobj.obj
+ 0001:00001820       ..?GetData@CImpIDataObject@@UAAJPAUtagFORMATETC@@PAUtagSTGMEDIUM@@@Z 77002820 f idataobj.obj
+ 0001:0000196c       ..?GetDataHere@CImpIDataObject@@UAAJPAUtagFORMATETC@@PAUtagSTGMEDIUM@@@Z 7700296c f idataobj.obj
+ 0001:000019a8       ..?QueryGetData@CImpIDataObject@@UAAJPAUtagFORMATETC@@@Z 770029a8 f idataobj.obj
+ 0001:00001aac       ..?GetCanonicalFormatEtc@CImpIDataObject@@UAAJPAUtagFORMATETC@@0@Z 77002aac f idataobj.obj
+ 0001:00001b10       ..?SetData@CImpIDataObject@@UAAJPAUtagFORMATETC@@PAUtagSTGMEDIUM@@H@Z 77002b10 f idataobj.obj
+ 0001:00001b50       ..?EnumFormatEtc@CImpIDataObject@@UAAJKPAPAUIEnumFORMATETC@@@Z 77002b50 f idataobj.obj
+ 0001:00001c8c       ..?DAdvise@CImpIDataObject@@UAAJPAUtagFORMATETC@@KPAUIAdviseSink@@PAK@Z 77002c8c f idataobj.obj
+ 0001:00001d94       ..?DUnadvise@CImpIDataObject@@UAAJK@Z 77002d94 f idataobj.obj
+ 0001:00001e38       ..?EnumDAdvise@CImpIDataObject@@UAAJPAPAUIEnumSTATDATA@@@Z 77002e38 f idataobj.obj
+ 0001:00001edc       ..??0IDataObject@@QAA@XZ   77002edc f idataobj.obj
+ 0001:00001f24       ..??0CEnumFormatEtc@@QAA@PAUIUnknown@@KPAUtagFORMATETC@@@Z 77002f24 f ienumfe.obj
+ 0001:00002054       ..??1CEnumFormatEtc@@QAA@XZ 77003054 f ienumfe.obj
+ 0001:000020a8       ..?QueryInterface@CEnumFormatEtc@@UAAJABU_GUID@@PAPAX@Z 770030a8 f ienumfe.obj
+ 0001:00002180       ..?AddRef@CEnumFormatEtc@@UAAKXZ 77003180 f ienumfe.obj
+ 0001:00002200       ..?Release@CEnumFormatEtc@@UAAKXZ 77003200 f ienumfe.obj
+ 0001:000022b8       ..?Next@CEnumFormatEtc@@UAAJKPAUtagFORMATETC@@PAK@Z 770032b8 f ienumfe.obj
+ 0001:00002424       ..?Skip@CEnumFormatEtc@@UAAJK@Z 77003424 f ienumfe.obj
+ 0001:000024a4       ..?Reset@CEnumFormatEtc@@UAAJXZ 770034a4 f ienumfe.obj
+ 0001:000024e0       ..?Clone@CEnumFormatEtc@@UAAJPAPAUIEnumFORMATETC@@@Z 770034e0 f ienumfe.obj
+ 0001:000025d4       ..??0IEnumFORMATETC@@QAA@XZ 770035d4 f ienumfe.obj
+ 0001:0000261c       ..??_GCEnumFormatEtc@@QAAPAXI@Z 7700361c f ienumfe.obj
+ 0001:00002678       ..?RenderText@CDataObject@@IAAJPAUtagSTGMEDIUM@@@Z 77003678 f render.obj
+ 0001:00002828       ..?RenderBitmap@CDataObject@@IAAJPAUtagSTGMEDIUM@@@Z 77003828 f render.obj
+ 0001:00002be8       ..?RenderMetafilePict@CDataObject@@IAAJPAUtagSTGMEDIUM@@@Z 77003be8 f render.obj
+ 0001:00002fb4       ..CreateDataAdviseHolder   77003fb4 f ole32:ole32.dll
+ 0001:00002fcc       .._CRT_INIT                77003fcc f msvcrt:crtdll.obj
+ 0001:00003148       .._DllMainCRTStartup       77004148 f msvcrt:crtdll.obj
+ 0001:0000329c       ..??2@YAPAXI@Z             7700429c f msvcrt:MSVCRT40.dll
+ 0001:000032b4       ..memcmp                   770042b4 f msvcrt:MSVCRT40.dll
+ 0001:000032cc       .._purecall                770042cc f msvcrt:MSVCRT40.dll
+ 0001:000032e4       ..??3@YAXPAX@Z             770042e4 f msvcrt:MSVCRT40.dll
+ 0001:00003300       ..__restgpr_All            77004300 f msvcrt:restgpr.obj
+ 0001:00003334       ..__restgpr_14             77004334   msvcrt:restgpr.obj
+ 0001:00003338       ..__restgpr_15             77004338   msvcrt:restgpr.obj
+ 0001:0000333c       ..__restgpr_16             7700433c   msvcrt:restgpr.obj
+ 0001:00003340       ..__restgpr_17             77004340   msvcrt:restgpr.obj
+ 0001:00003344       ..__restgpr_18             77004344   msvcrt:restgpr.obj
+ 0001:00003348       ..__restgpr_19             77004348   msvcrt:restgpr.obj
+ 0001:0000334c       ..__restgpr_20             7700434c   msvcrt:restgpr.obj
+ 0001:00003350       ..__restgpr_21             77004350   msvcrt:restgpr.obj
+ 0001:00003354       ..__restgpr_22             77004354   msvcrt:restgpr.obj
+ 0001:00003358       ..__restgpr_23             77004358   msvcrt:restgpr.obj
+ 0001:0000335c       ..__restgpr_24             7700435c   msvcrt:restgpr.obj
+ 0001:00003360       ..__restgpr_25             77004360   msvcrt:restgpr.obj
+ 0001:00003364       ..__restgpr_26             77004364   msvcrt:restgpr.obj
+ 0001:00003368       ..__restgpr_27             77004368   msvcrt:restgpr.obj
+ 0001:0000336c       ..__restgpr_28             7700436c   msvcrt:restgpr.obj
+ 0001:00003370       ..__restgpr_29             77004370   msvcrt:restgpr.obj
+ 0001:00003374       ..__restgpr_30             77004374   msvcrt:restgpr.obj
+ 0001:00003378       ..__restgpr_31             77004378   msvcrt:restgpr.obj
+ 0001:00003380       ..free                     77004380 f msvcrt:MSVCRT40.dll
+ 0001:00003398       .._initterm                77004398 f msvcrt:MSVCRT40.dll
+ 0001:000033b0       .._onexit                  770043b0 f msvcrt:atonexit.obj
+ 0001:00003418       ..atexit                   77004418 f msvcrt:atonexit.obj
+ 0001:00003448       ..malloc                   77004448 f msvcrt:MSVCRT40.dll
+ 0001:00003460       ..__savegpr_All            77004460 f msvcrt:savegpr.obj
+ 0001:00003494       ..__savegpr_14             77004494   msvcrt:savegpr.obj
+ 0001:00003498       ..__savegpr_15             77004498   msvcrt:savegpr.obj
+ 0001:0000349c       ..__savegpr_16             7700449c   msvcrt:savegpr.obj
+ 0001:000034a0       ..__savegpr_17             770044a0   msvcrt:savegpr.obj
+ 0001:000034a4       ..__savegpr_18             770044a4   msvcrt:savegpr.obj
+ 0001:000034a8       ..__savegpr_19             770044a8   msvcrt:savegpr.obj
+ 0001:000034ac       ..__savegpr_20             770044ac   msvcrt:savegpr.obj
+ 0001:000034b0       ..__savegpr_21             770044b0   msvcrt:savegpr.obj
+ 0001:000034b4       ..__savegpr_22             770044b4   msvcrt:savegpr.obj
+ 0001:000034b8       ..__savegpr_23             770044b8   msvcrt:savegpr.obj
+ 0001:000034bc       ..__savegpr_24             770044bc   msvcrt:savegpr.obj
+ 0001:000034c0       ..__savegpr_25             770044c0   msvcrt:savegpr.obj
+ 0001:000034c4       ..__savegpr_26             770044c4   msvcrt:savegpr.obj
+ 0001:000034c8       ..__savegpr_27             770044c8   msvcrt:savegpr.obj
+ 0001:000034cc       ..__savegpr_28             770044cc   msvcrt:savegpr.obj
+ 0001:000034d0       ..__savegpr_29             770044d0   msvcrt:savegpr.obj
+ 0001:000034d4       ..__savegpr_30             770044d4   msvcrt:savegpr.obj
+ 0001:000034d8       ..__savegpr_31             770044d8   msvcrt:savegpr.obj
+ 0001:000034e0       ..__dllonexit              770044e0 f msvcrt:MSVCRT40.dll
+ 0001:000034f8       ..GetTickCount             770044f8 f kernel32:KERNEL32.dll
+ 0001:00003510       ..GlobalUnlock             77004510 f kernel32:KERNEL32.dll
+ 0001:00003528       ..GlobalLock               77004528 f kernel32:KERNEL32.dll
+ 0001:00003540       ..GlobalAlloc              77004540 f kernel32:KERNEL32.dll
+ 0001:00003558       ..DestroyWindow            77004558 f user32:USER32.dll
+ 0001:00003570       ..CreateWindowExA          77004570 f user32:USER32.dll
+ 0001:00003588       ..GetSystemMetrics         77004588 f user32:USER32.dll
+ 0001:000035a0       ..wsprintfA                770045a0 f user32:USER32.dll
+ 0001:000035b8       ..RegisterClassA           770045b8 f user32:USER32.dll
+ 0001:000035d0       ..LoadIconA                770045d0 f user32:USER32.dll
+ 0001:000035e8       ..LoadBitmapA              770045e8 f user32:USER32.dll
+ 0001:00003600       ..MessageBoxA              77004600 f user32:USER32.dll
+ 0001:00003618       ..GetWindowTextA           77004618 f user32:USER32.dll
+ 0001:00003630       ..ShowCursor               77004630 f user32:USER32.dll
+ 0001:00003648       ..SetCursor                77004648 f user32:USER32.dll
+ 0001:00003660       ..LoadCursorA              77004660 f user32:USER32.dll
+ 0001:00003678       ..DefWindowProcA           77004678 f user32:USER32.dll
+ 0001:00003690       ..SetWindowLongA           77004690 f user32:USER32.dll
+ 0001:000036a8       ..GetWindowLongA           770046a8 f user32:USER32.dll
+ 0001:000036c0       ..ReleaseDC                770046c0 f user32:USER32.dll
+ 0001:000036d8       ..GetDC                    770046d8 f user32:USER32.dll
+ 0001:000036f0       ..FillRect                 770046f0 f user32:USER32.dll
+ 0001:00003708       ..SetRect                  77004708 f user32:USER32.dll
+ 0001:00003720       ..DeleteObject             77004720 f gdi32:GDI32.dll
+ 0001:00003738       ..BitBlt                   77004738 f gdi32:GDI32.dll
+ 0001:00003750       ..CreateCompatibleBitmap   77004750 f gdi32:GDI32.dll
+ 0001:00003768       ..SelectObject             77004768 f gdi32:GDI32.dll
+ 0001:00003780       ..DeleteDC                 77004780 f gdi32:GDI32.dll
+ 0001:00003798       ..CreateCompatibleDC       77004798 f gdi32:GDI32.dll
+ 0001:000037b0       ..DeleteMetaFile           770047b0 f gdi32:GDI32.dll
+ 0001:000037c8       ..CloseMetaFile            770047c8 f gdi32:GDI32.dll
+ 0001:000037e0       ..CreateSolidBrush         770047e0 f gdi32:GDI32.dll
+ 0001:000037f8       ..CreateMetaFileA          770047f8 f gdi32:GDI32.dll
+ 0002:00000098       CLSID_Koala                77005098   ddataobj.obj
+ 0002:000000a8       CLSID_Polyline4            770050a8   ddataobj.obj
+ 0002:000000b8       IID_IPolyline4             770050b8   ddataobj.obj
+ 0002:000000c8       IID_IPolylineAdviseSink4   770050c8   ddataobj.obj
+ 0002:000000d8       CLSID_PatronPages          770050d8   ddataobj.obj
+ 0002:000000e8       CLSID_Cosmo2Figure         770050e8   ddataobj.obj
+ 0002:000000f8       CLSID_Polyline5            770050f8   ddataobj.obj
+ 0002:00000108       IID_IPolyline5             77005108   ddataobj.obj
+ 0002:00000118       IID_IPolylineAdviseSink5   77005118   ddataobj.obj
+ 0002:00000128       CLSID_DataObjectSmall      77005128   ddataobj.obj
+ 0002:00000138       CLSID_DataObjectMedium     77005138   ddataobj.obj
+ 0002:00000148       CLSID_DataObjectLarge      77005148   ddataobj.obj
+ 0002:00000158       CLSID_Polyline6            77005158   ddataobj.obj
+ 0002:00000168       IID_IPolyline6             77005168   ddataobj.obj
+ 0002:00000178       IID_IPolylineAdviseSink6   77005178   ddataobj.obj
+ 0002:00000188       CLSID_DataTransferObject   77005188   ddataobj.obj
+ 0002:00000198       CLSID_Polyline11           77005198   ddataobj.obj
+ 0002:000001a8       CLSID_LinksAssistant       770051a8   ddataobj.obj
+ 0002:000001b8       IID_IOleUILinkContainer    770051b8   ddataobj.obj
+ 0002:000001c8       DllMain                    770051c8   ddataobj.obj
+ 0002:000001d0       DllGetClassObject          770051d0   ddataobj.obj
+ 0002:000001d8       DllCanUnloadNow            770051d8   ddataobj.obj
+ 0002:000001e0       ?ObjectDestroyed@@YAXXZ    770051e0   ddataobj.obj
+ 0002:000001e8       ??0CDataObjectClassFactory@@QAA@I@Z 770051e8   ddataobj.obj
+ 0002:000001f0       ?QueryInterface@CDataObjectClassFactory@@UAAJABU_GUID@@PAPAX@Z 770051f0   ddataobj.obj
+ 0002:000001f8       ?AddRef@CDataObjectClassFactory@@UAAKXZ 770051f8   ddataobj.obj
+ 0002:00000200       ?Release@CDataObjectClassFactory@@UAAKXZ 77005200   ddataobj.obj
+ 0002:00000208       ?CreateInstance@CDataObjectClassFactory@@UAAJPAUIUnknown@@ABU_GUID@@PAPAX@Z 77005208   ddataobj.obj
+ 0002:00000210       ?LockServer@CDataObjectClassFactory@@UAAJH@Z 77005210   ddataobj.obj
+ 0002:00000218       ??1CDataObjectClassFactory@@QAA@XZ 77005218   ddataobj.obj
+ 0002:00000220       ??8@YAHABU_GUID@@0@Z       77005220   ddataobj.obj
+ 0002:00000228       ??9@YAHABU_GUID@@0@Z       77005228   ddataobj.obj
+ 0002:00000230       ??_7CDataObjectClassFactory@@6B@ 77005230   ddataobj.obj
+ 0002:00000244       ??0IClassFactory@@QAA@XZ   77005244   ddataobj.obj
+ 0002:00000250       ??_7IClassFactory@@6B@     77005250   ddataobj.obj
+ 0002:00000264       ??0IUnknown@@QAA@XZ        77005264   ddataobj.obj
+ 0002:00000270       ??_7IUnknown@@6B@          77005270   ddataobj.obj
+ 0002:0000027c       ??_GCDataObjectClassFactory@@QAAPAXI@Z 7700527c   ddataobj.obj
+ 0002:00000284       ??_GCDataObject@@QAAPAXI@Z 77005284   ddataobj.obj
+ 0002:00000290       ??0CDataObject@@QAA@PAUIUnknown@@P6AXXZI@Z 77005290   dataobj.obj
+ 0002:00000298       ?QueryInterface@CDataObject@@UAAJABU_GUID@@PAPAX@Z 77005298   dataobj.obj
+ 0002:000002a0       ?AddRef@CDataObject@@UAAKXZ 770052a0   dataobj.obj
+ 0002:000002a8       ?Release@CDataObject@@UAAKXZ 770052a8   dataobj.obj
+ 0002:000002b0       ??1CDataObject@@QAA@XZ     770052b0   dataobj.obj
+ 0002:000002b8       ?FInit@CDataObject@@QAAHXZ 770052b8   dataobj.obj
+ 0002:000002c0       ?AdvisorWndProc@@YAJPAUHWND__@@IIJ@Z 770052c0   dataobj.obj
+ 0002:000002c8       ??_7CDataObject@@6B@       770052c8   dataobj.obj
+ 0002:000002d4       ??_GCImpIDataObject@@QAAPAXI@Z 770052d4   dataobj.obj
+ 0002:000002e0       ??0CImpIDataObject@@QAA@PAVCDataObject@@PAUIUnknown@@@Z 770052e0   idataobj.obj
+ 0002:000002e8       ?QueryInterface@CImpIDataObject@@UAAJABU_GUID@@PAPAX@Z 770052e8   idataobj.obj
+ 0002:000002f0       ?AddRef@CImpIDataObject@@UAAKXZ 770052f0   idataobj.obj
+ 0002:000002f8       ?Release@CImpIDataObject@@UAAKXZ 770052f8   idataobj.obj
+ 0002:00000300       ?GetData@CImpIDataObject@@UAAJPAUtagFORMATETC@@PAUtagSTGMEDIUM@@@Z 77005300   idataobj.obj
+ 0002:00000308       ?GetDataHere@CImpIDataObject@@UAAJPAUtagFORMATETC@@PAUtagSTGMEDIUM@@@Z 77005308   idataobj.obj
+ 0002:00000310       ?QueryGetData@CImpIDataObject@@UAAJPAUtagFORMATETC@@@Z 77005310   idataobj.obj
+ 0002:00000318       ?GetCanonicalFormatEtc@CImpIDataObject@@UAAJPAUtagFORMATETC@@0@Z 77005318   idataobj.obj
+ 0002:00000320       ?SetData@CImpIDataObject@@UAAJPAUtagFORMATETC@@PAUtagSTGMEDIUM@@H@Z 77005320   idataobj.obj
+ 0002:00000328       ?EnumFormatEtc@CImpIDataObject@@UAAJKPAPAUIEnumFORMATETC@@@Z 77005328   idataobj.obj
+ 0002:00000330       ?DAdvise@CImpIDataObject@@UAAJPAUtagFORMATETC@@KPAUIAdviseSink@@PAK@Z 77005330   idataobj.obj
+ 0002:00000338       ?DUnadvise@CImpIDataObject@@UAAJK@Z 77005338   idataobj.obj
+ 0002:00000340       ?EnumDAdvise@CImpIDataObject@@UAAJPAPAUIEnumSTATDATA@@@Z 77005340   idataobj.obj
+ 0002:00000348       ??1CImpIDataObject@@QAA@XZ 77005348   idataobj.obj
+ 0002:00000350       ??_7CImpIDataObject@@6B@   77005350   idataobj.obj
+ 0002:00000380       ??0IDataObject@@QAA@XZ     77005380   idataobj.obj
+ 0002:00000388       ??_7IDataObject@@6B@       77005388   idataobj.obj
+ 0002:000003b8       ??0CEnumFormatEtc@@QAA@PAUIUnknown@@KPAUtagFORMATETC@@@Z 770053b8   ienumfe.obj
+ 0002:000003c0       ?QueryInterface@CEnumFormatEtc@@UAAJABU_GUID@@PAPAX@Z 770053c0   ienumfe.obj
+ 0002:000003c8       ?AddRef@CEnumFormatEtc@@UAAKXZ 770053c8   ienumfe.obj
+ 0002:000003d0       ?Release@CEnumFormatEtc@@UAAKXZ 770053d0   ienumfe.obj
+ 0002:000003d8       ?Next@CEnumFormatEtc@@UAAJKPAUtagFORMATETC@@PAK@Z 770053d8   ienumfe.obj
+ 0002:000003e0       ?Skip@CEnumFormatEtc@@UAAJK@Z 770053e0   ienumfe.obj
+ 0002:000003e8       ?Reset@CEnumFormatEtc@@UAAJXZ 770053e8   ienumfe.obj
+ 0002:000003f0       ?Clone@CEnumFormatEtc@@UAAJPAPAUIEnumFORMATETC@@@Z 770053f0   ienumfe.obj
+ 0002:000003f8       ??1CEnumFormatEtc@@QAA@XZ  770053f8   ienumfe.obj
+ 0002:00000400       ??_7CEnumFormatEtc@@6B@    77005400   ienumfe.obj
+ 0002:0000041c       ??0IEnumFORMATETC@@QAA@XZ  7700541c   ienumfe.obj
+ 0002:00000428       ??_7IEnumFORMATETC@@6B@    77005428   ienumfe.obj
+ 0002:00000444       ??_GCEnumFormatEtc@@QAAPAXI@Z 77005444   ienumfe.obj
+ 0002:00000450       ?RenderText@CDataObject@@IAAJPAUtagSTGMEDIUM@@@Z 77005450   render.obj
+ 0002:00000458       ?RenderBitmap@CDataObject@@IAAJPAUtagSTGMEDIUM@@@Z 77005458   render.obj
+ 0002:00000460       ?RenderMetafilePict@CDataObject@@IAAJPAUtagSTGMEDIUM@@@Z 77005460   render.obj
+ 0002:00000468       CreateDataAdviseHolder     77005468   ole32:ole32.dll
+ 0002:00000470       IID_IClassFactory          77005470   uuid:unknwn_i_guid1.obj
+ 0002:00000480       IID_IUnknown               77005480   uuid:unknwn_i_guid0.obj
+ 0002:00000490       IID_IDataObject            77005490   uuid:objidl_i_guid28.obj
+ 0002:000004a0       IID_IEnumFORMATETC         770054a0   uuid:objidl_i_guid23.obj
+ 0002:000004b0       _CRT_INIT                  770054b0   msvcrt:crtdll.obj
+ 0002:000004b8       _DllMainCRTStartup         770054b8   msvcrt:crtdll.obj
+ 0002:000004c0       ??2@YAPAXI@Z               770054c0   msvcrt:MSVCRT40.dll
+ 0002:000004c8       memcmp                     770054c8   msvcrt:MSVCRT40.dll
+ 0002:000004d0       _purecall                  770054d0   msvcrt:MSVCRT40.dll
+ 0002:000004d8       ??3@YAXPAX@Z               770054d8   msvcrt:MSVCRT40.dll
+ 0002:000004e0       free                       770054e0   msvcrt:MSVCRT40.dll
+ 0002:000004e8       _initterm                  770054e8   msvcrt:MSVCRT40.dll
+ 0002:000004f0       _onexit                    770054f0   msvcrt:atonexit.obj
+ 0002:000004f8       atexit                     770054f8   msvcrt:atonexit.obj
+ 0002:00000500       malloc                     77005500   msvcrt:MSVCRT40.dll
+ 0002:00000508       __dllonexit                77005508   msvcrt:MSVCRT40.dll
+ 0002:00000510       GetTickCount               77005510   kernel32:KERNEL32.dll
+ 0002:00000518       GlobalUnlock               77005518   kernel32:KERNEL32.dll
+ 0002:00000520       GlobalLock                 77005520   kernel32:KERNEL32.dll
+ 0002:00000528       GlobalAlloc                77005528   kernel32:KERNEL32.dll
+ 0002:00000530       DestroyWindow              77005530   user32:USER32.dll
+ 0002:00000538       CreateWindowExA            77005538   user32:USER32.dll
+ 0002:00000540       GetSystemMetrics           77005540   user32:USER32.dll
+ 0002:00000548       wsprintfA                  77005548   user32:USER32.dll
+ 0002:00000550       RegisterClassA             77005550   user32:USER32.dll
+ 0002:00000558       LoadIconA                  77005558   user32:USER32.dll
+ 0002:00000560       LoadBitmapA                77005560   user32:USER32.dll
+ 0002:00000568       MessageBoxA                77005568   user32:USER32.dll
+ 0002:00000570       GetWindowTextA             77005570   user32:USER32.dll
+ 0002:00000578       ShowCursor                 77005578   user32:USER32.dll
+ 0002:00000580       SetCursor                  77005580   user32:USER32.dll
+ 0002:00000588       LoadCursorA                77005588   user32:USER32.dll
+ 0002:00000590       DefWindowProcA             77005590   user32:USER32.dll
+ 0002:00000598       SetWindowLongA             77005598   user32:USER32.dll
+ 0002:000005a0       GetWindowLongA             770055a0   user32:USER32.dll
+ 0002:000005a8       ReleaseDC                  770055a8   user32:USER32.dll
+ 0002:000005b0       GetDC                      770055b0   user32:USER32.dll
+ 0002:000005b8       FillRect                   770055b8   user32:USER32.dll
+ 0002:000005c0       SetRect                    770055c0   user32:USER32.dll
+ 0002:000005c8       DeleteObject               770055c8   gdi32:GDI32.dll
+ 0002:000005d0       BitBlt                     770055d0   gdi32:GDI32.dll
+ 0002:000005d8       CreateCompatibleBitmap     770055d8   gdi32:GDI32.dll
+ 0002:000005e0       SelectObject               770055e0   gdi32:GDI32.dll
+ 0002:000005e8       DeleteDC                   770055e8   gdi32:GDI32.dll
+ 0002:000005f0       CreateCompatibleDC         770055f0   gdi32:GDI32.dll
+ 0002:000005f8       DeleteMetaFile             770055f8   gdi32:GDI32.dll
+ 0002:00000600       CloseMetaFile              77005600   gdi32:GDI32.dll
+ 0002:00000608       CreateSolidBrush           77005608   gdi32:GDI32.dll
+ 0002:00000610       CreateMetaFileA            77005610   gdi32:GDI32.dll
+ 0003:00000000       __xc_a                     77006000   msvcrt:cinitexe.obj
+ 0003:00000008       __xc_z                     77006008   msvcrt:cinitexe.obj
+ 0003:00000010       __xi_a                     77006010   msvcrt:cinitexe.obj
+ 0003:00000018       __xi_z                     77006018   msvcrt:cinitexe.obj
+ 0003:00000020       ?g_cObj@@3KA               77006020   ddataobj.obj
+ 0003:00000024       ?g_cLock@@3KA              77006024   ddataobj.obj
+ 0003:00000028       ?g_hInst@@3PAUHINSTANCE__@@A 77006028   ddataobj.obj
+ 0003:00000030       ?g_dwID@@3KA               77006030   dataobj.obj
+ 0003:000000a4       __onexitend                770060a4   <common>
+ 0003:000000a8       __onexitbegin              770060a8   <common>
+ 0003:000000ac       _pRawDllMain               770060ac   <common>
+ 0005:00000000       __IMPORT_DESCRIPTOR_ole32  77008000   ole32:ole32.dll
+ 0005:00000014       __IMPORT_DESCRIPTOR_MSVCRT40 77008014   msvcrt:MSVCRT40.dll
+ 0005:00000028       __IMPORT_DESCRIPTOR_KERNEL32 77008028   kernel32:KERNEL32.dll
+ 0005:0000003c       __IMPORT_DESCRIPTOR_USER32 7700803c   user32:USER32.dll
+ 0005:00000050       __IMPORT_DESCRIPTOR_GDI32  77008050   gdi32:GDI32.dll
+ 0005:00000064       __NULL_IMPORT_DESCRIPTOR   77008064   ole32:ole32.dll
+ 0005:0000023c       __imp_CreateSolidBrush     7700823c   gdi32:GDI32.dll
+ 0005:00000240       __imp_CloseMetaFile        77008240   gdi32:GDI32.dll
+ 0005:00000244       __imp_CreateMetaFileA      77008244   gdi32:GDI32.dll
+ 0005:00000248       __imp_DeleteMetaFile       77008248   gdi32:GDI32.dll
+ 0005:0000024c       __imp_BitBlt               7700824c   gdi32:GDI32.dll
+ 0005:00000250       __imp_CreateCompatibleBitmap 77008250   gdi32:GDI32.dll
+ 0005:00000254       __imp_SelectObject         77008254   gdi32:GDI32.dll
+ 0005:00000258       __imp_DeleteDC             77008258   gdi32:GDI32.dll
+ 0005:0000025c       __imp_CreateCompatibleDC   7700825c   gdi32:GDI32.dll
+ 0005:00000260       __imp_DeleteObject         77008260   gdi32:GDI32.dll
+ 0005:00000264       \177GDI32_NULL_THUNK_DATA  77008264   gdi32:GDI32.dll
+ 0005:00000268       __imp_GlobalLock           77008268   kernel32:KERNEL32.dll
+ 0005:0000026c       __imp_GetTickCount         7700826c   kernel32:KERNEL32.dll
+ 0005:00000270       __imp_GlobalUnlock         77008270   kernel32:KERNEL32.dll
+ 0005:00000274       __imp_GlobalAlloc          77008274   kernel32:KERNEL32.dll
+ 0005:00000278       \177KERNEL32_NULL_THUNK_DATA 77008278   kernel32:KERNEL32.dll
+ 0005:0000027c       __imp_malloc               7700827c   msvcrt:MSVCRT40.dll
+ 0005:00000280       __imp__onexit              77008280   msvcrt:MSVCRT40.dll
+ 0005:00000284       __imp___dllonexit          77008284   msvcrt:MSVCRT40.dll
+ 0005:00000288       __imp__initterm            77008288   msvcrt:MSVCRT40.dll
+ 0005:0000028c       __imp_free                 7700828c   msvcrt:MSVCRT40.dll
+ 0005:00000290       __imp_??3@YAXPAX@Z         77008290   msvcrt:MSVCRT40.dll
+ 0005:00000294       __imp_memcmp               77008294   msvcrt:MSVCRT40.dll
+ 0005:00000298       __imp__purecall            77008298   msvcrt:MSVCRT40.dll
+ 0005:0000029c       __imp_??2@YAPAXI@Z         7700829c   msvcrt:MSVCRT40.dll
+ 0005:000002a0       \177MSVCRT40_NULL_THUNK_DATA 770082a0   msvcrt:MSVCRT40.dll
+ 0005:000002a4       __imp_FillRect             770082a4   user32:USER32.dll
+ 0005:000002a8       __imp_SetCursor            770082a8   user32:USER32.dll
+ 0005:000002ac       __imp_LoadCursorA          770082ac   user32:USER32.dll
+ 0005:000002b0       __imp_DefWindowProcA       770082b0   user32:USER32.dll
+ 0005:000002b4       __imp_SetWindowLongA       770082b4   user32:USER32.dll
+ 0005:000002b8       __imp_GetWindowLongA       770082b8   user32:USER32.dll
+ 0005:000002bc       __imp_ReleaseDC            770082bc   user32:USER32.dll
+ 0005:000002c0       __imp_GetDC                770082c0   user32:USER32.dll
+ 0005:000002c4       __imp_ShowCursor           770082c4   user32:USER32.dll
+ 0005:000002c8       __imp_SetRect              770082c8   user32:USER32.dll
+ 0005:000002cc       __imp_GetWindowTextA       770082cc   user32:USER32.dll
+ 0005:000002d0       __imp_RegisterClassA       770082d0   user32:USER32.dll
+ 0005:000002d4       __imp_wsprintfA            770082d4   user32:USER32.dll
+ 0005:000002d8       __imp_GetSystemMetrics     770082d8   user32:USER32.dll
+ 0005:000002dc       __imp_CreateWindowExA      770082dc   user32:USER32.dll
+ 0005:000002e0       __imp_DestroyWindow        770082e0   user32:USER32.dll
+ 0005:000002e4       __imp_LoadBitmapA          770082e4   user32:USER32.dll
+ 0005:000002e8       __imp_LoadIconA            770082e8   user32:USER32.dll
+ 0005:000002ec       __imp_MessageBoxA          770082ec   user32:USER32.dll
+ 0005:000002f0       \177USER32_NULL_THUNK_DATA 770082f0   user32:USER32.dll
+ 0005:000002f4       __imp_CreateDataAdviseHolder 770082f4   ole32:ole32.dll
+ 0005:000002f8       \177ole32_NULL_THUNK_DATA  770082f8   ole32:ole32.dll
+ 0005:00008138       .toc                       77010138   <linker-defined>
+
+ entry point at        0002:000004b8
+
+ Static symbols
+
+
+ Offset   Rva+Base   Publics by TOC Offset
+
+  8000    77008138   __imp_GlobalAlloc
+  8004    7700813c   __imp_GlobalLock
+  8008    77008140   __imp_GlobalUnlock
+  800c    77008144   __imp_GetDC
+  8010    77008148   __imp_CreateCompatibleDC
+  8014    7700814c   __imp_ReleaseDC
+  8018    77008150   __imp_DeleteDC
+  801c    77008154   __imp_SelectObject
+  8020    77008158   __imp_CreateCompatibleBitmap
+  8024    7700815c   __imp_BitBlt
+  8028    77008160   __imp_CreateMetaFileA
+  802c    77008164   __imp_CreateSolidBrush
+  8030    77008168   __imp_SetRect
+  8034    7700816c   __imp_FillRect
+  8038    77008170   __imp_DeleteObject
+  803c    77008174   __imp_CloseMetaFile
+  8040    77008178   __imp_DeleteMetaFile
+  8044    7700817c   ??_7CEnumFormatEtc@@6B@
+  8048    77008180   IID_IUnknown
+  804c    77008184   IID_IEnumFORMATETC
+  8050    77008188   ??_7IEnumFORMATETC@@6B@
+  8054    7700818c   ??_7CImpIDataObject@@6B@
+  8058    77008190   __imp_CreateDataAdviseHolder
+  805c    77008194   ??_7IDataObject@@6B@
+  8060    77008198   ??_7CDataObject@@6B@
+  8064    7700819c   __imp_DestroyWindow
+  8068    770081a0   ?g_hInst@@3PAUHINSTANCE__@@A
+  806c    770081a4   __imp_LoadBitmapA
+  8070    770081a8   ?g_dwID@@3KA
+  8074    770081ac   ?AdvisorWndProc@@YAJPAUHWND__@@IIJ@Z
+  8078    770081b0   __imp_LoadIconA
+  8080    770081b8   __imp_RegisterClassA
+  8084    770081bc   __imp_wsprintfA
+  8088    770081c0   __imp_GetSystemMetrics
+  808c    770081c4   __imp_CreateWindowExA
+  8090    770081c8   IID_IDataObject
+  8094    770081cc   __imp_GetWindowLongA
+  8098    770081d0   __imp_SetWindowLongA
+  809c    770081d4   __imp_DefWindowProcA
+  80a0    770081d8   __imp_LoadCursorA
+  80a4    770081dc   __imp_SetCursor
+  80a8    770081e0   __imp_ShowCursor
+  80ac    770081e4   __imp_GetTickCount
+  80b0    770081e8   __imp_GetWindowTextA
+  80b4    770081ec   __imp_MessageBoxA
+  80b8    770081f0   IID_IClassFactory
+  80bc    770081f4   CLSID_DataObjectSmall
+  80c0    770081f8   CLSID_DataObjectMedium
+  80c4    770081fc   CLSID_DataObjectLarge
+  80c8    77008200   ?g_cObj@@3KA
+  80cc    77008204   ?g_cLock@@3KA
+  80d0    77008208   ??_7CDataObjectClassFactory@@6B@
+  80d4    7700820c   ?ObjectDestroyed@@YAXXZ
+  80d8    77008210   ??_7IClassFactory@@6B@
+  80dc    77008214   ??_7IUnknown@@6B@
+  80e0    77008218   __onexitbegin
+  80e4    7700821c   __imp__onexit
+  80e8    77008220   __onexitend
+  80f0    77008228   __imp_malloc
+  80f4    7700822c   __xc_a
+  80f8    77008230   __xc_z
+  80fc    77008234   __imp_free
+  8100    77008238   _pRawDllMain
+

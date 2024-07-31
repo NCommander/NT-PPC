@@ -1,0 +1,350 @@
+ julia
+
+ Timestamp is 64172e3d (Sun Mar 19 10:46:05 2023)
+
+ Preferred load address is 10000000
+
+ Start         Length     Name                   Class
+ 0001:00000000 000030f4H .text                   CODE
+ 0002:00000000 000004c8H .rdata                  DATA
+ 0002:000004d0 00000068H .edata                  DATA
+ 0003:00000000 00000004H .CRT$XCA                DATA
+ 0003:00000008 00000004H .CRT$XCZ                DATA
+ 0003:00000010 00000004H .CRT$XIA                DATA
+ 0003:00000018 00000004H .CRT$XIZ                DATA
+ 0003:00000020 00000084H .data                   DATA
+ 0003:000000a8 00000018H .bss                    DATA
+ 0004:00000000 000006b8H .pdata                  DATA
+ 0005:00000000 0000003cH .idata$2                DATA
+ 0005:0000003c 00000014H .idata$3                DATA
+ 0005:00000050 0000006cH .idata$4                DATA
+ 0005:000000bc 000000c0H .idata$4toc             DATA
+ 0005:0000017c 0000006cH .idata$5                DATA
+ 0005:000001e8 00000176H .idata$6                DATA
+ 0006:00000000 000000e8H .rsrc$01                DATA
+ 0006:000000f0 000009f8H .rsrc$02                DATA
+
+  Address         Publics by Value              Rva+Base   Lib:Object
+
+ 0001:00000000       ..DllMain                  10001000 f julia.obj
+ 0001:000000bc       ..DllGetClassObject        100010bc f julia.obj
+ 0001:000001ec       ..DllCanUnloadNow          100011ec f julia.obj
+ 0001:00000244       ..??0CJuliaCF@@QAA@XZ      10001244 f julia.obj
+ 0001:00000298       ..??1CJuliaCF@@QAA@XZ      10001298 f julia.obj
+ 0001:000002c8       ..?QueryInterface@CJuliaCF@@UAAJABU_GUID@@PAPAX@Z 100012c8 f julia.obj
+ 0001:00000388       ..?AddRef@CJuliaCF@@UAAKXZ 10001388 f julia.obj
+ 0001:000003cc       ..?Release@CJuliaCF@@UAAKXZ 100013cc f julia.obj
+ 0001:00000448       ..?CreateInstance@CJuliaCF@@UAAJPAUIUnknown@@ABU_GUID@@PAPAX@Z 10001448 f julia.obj
+ 0001:000005ac       ..?LockServer@CJuliaCF@@UAAJH@Z 100015ac f julia.obj
+ 0001:00000618       ..?IsEqualGUID@@YAHABU_GUID@@0@Z 10001618 f julia.obj
+ 0001:00000674       ..??0IClassFactory@@QAA@XZ 10001674 f julia.obj
+ 0001:000006bc       ..??0IUnknown@@QAA@XZ      100016bc f julia.obj
+ 0001:000006fc       ..??_GCJuliaCF@@QAAPAXI@Z  100016fc f julia.obj
+ 0001:00000758       ..?QueryInterface@CJulia@@UAAJABU_GUID@@PAPAX@Z 10001758 f juliaob.obj
+ 0001:00000918       ..?AddRef@CJulia@@UAAKXZ   10001918 f juliaob.obj
+ 0001:0000095c       ..?Release@CJulia@@UAAKXZ  1000195c f juliaob.obj
+ 0001:00000a18       ..?GetClassID@CJulia@@UAAJPAU_GUID@@@Z 10001a18 f juliaob.obj
+ 0001:00000a64       ..?IsDirty@CJulia@@UAAJXZ  10001a64 f juliaob.obj
+ 0001:00000ab0       ..?Load@CJulia@@UAAJPAUIStream@@@Z 10001ab0 f juliaob.obj
+ 0001:00000cfc       ..?Save@CJulia@@UAAJPAUIStream@@H@Z 10001cfc f juliaob.obj
+ 0001:00000f58       ..?GetSizeMax@CJulia@@UAAJPAT_ULARGE_INTEGER@@@Z 10001f58 f juliaob.obj
+ 0001:00000fb0       ..?Init@CJulia@@UAAJPAUIFractalHost@@@Z 10001fb0 f juliaob.obj
+ 0001:0000109c       ..?SetDefaults@CJulia@@UAAJXZ 1000209c f juliaob.obj
+ 0001:00001284       ..?SetProperties@CJulia@@UAAJPAX@Z 10002284 f juliaob.obj
+ 0001:000012fc       ..?GetExtent@CJulia@@UAAJPAN000@Z 100022fc f juliaob.obj
+ 0001:0000137c       ..?SetExtent@CJulia@@UAAJNNNN@Z 1000237c f juliaob.obj
+ 0001:00001444       ..?SetGraphSize@CJulia@@UAAJII@Z 10002444 f juliaob.obj
+ 0001:00001504       ..?Start@CJulia@@UAAJXZ    10002504 f juliaob.obj
+ 0001:00001574       ..?Stop@CJulia@@UAAJXZ     10002574 f juliaob.obj
+ 0001:000015e4       ..?ComputePoint@CJulia@@UAAJPAIHH@Z 100025e4 f juliaob.obj
+ 0001:00001890       ..?DoneDrawingGraph@CJulia@@UAAJXZ 10002890 f juliaob.obj
+ 0001:000018cc       ..?Initialize@CJulia@@QAAHXZ 100028cc f juliaob.obj
+ 0001:00001964       ..??0CJulia@@QAA@XZ        10002964 f juliaob.obj
+ 0001:00001acc       ..??1CJulia@@UAA@XZ        10002acc f juliaob.obj
+ 0001:00001b8c       ..?DialogProc@CJulia@@UAAHPAXIIJ@Z 10002b8c f juliaob.obj
+ 0001:000023dc       ..??_GCJulia@@UAAPAXI@Z    100033dc f juliaob.obj
+ 0001:00002444       ..??0IFractalEngine@@QAA@XZ 10003444 f juliaob.obj
+ 0001:0000248c       ..??0IPersistStream@@QAA@XZ 1000348c f juliaob.obj
+ 0001:000024d4       ..??0IQuadrantClient@@QAA@XZ 100034d4 f juliaob.obj
+ 0001:0000251c       ..??0CHlprDialog@@QAA@XZ   1000351c f juliaob.obj
+ 0001:0000255c       ..??_GCHlprDialog@@UAAPAXI@Z 1000355c f juliaob.obj
+ 0001:000025b8       ..??1CHlprDialog@@UAA@XZ   100035b8 f juliaob.obj
+ 0001:000025e8       ..??0IPersist@@QAA@XZ      100035e8 f juliaob.obj
+ 0001:00002630       ..?QueryInterface@CJulia@@W3AAJABU_GUID@@PAPAX@Z 10003630 f juliaob.obj
+ 0001:00002638       ..?AddRef@CJulia@@W3AAKXZ  10003638 f juliaob.obj
+ 0001:00002640       ..?Release@CJulia@@W3AAKXZ 10003640 f juliaob.obj
+ 0001:00002648       ..?QueryInterface@CJulia@@W7AAJABU_GUID@@PAPAX@Z 10003648 f juliaob.obj
+ 0001:00002650       ..?AddRef@CJulia@@W7AAKXZ  10003650 f juliaob.obj
+ 0001:00002658       ..?Release@CJulia@@W7AAKXZ 10003658 f juliaob.obj
+ 0001:00002660       ..CoCreateInstance         10003660 f ole32:ole32.dll
+ 0001:00002678       .._CRT_INIT                10003678 f msvcrt:crtdll.obj
+ 0001:000027f4       .._DllMainCRTStartup       100037f4 f msvcrt:crtdll.obj
+ 0001:00002948       ..??2@YAPAXI@Z             10003948 f msvcrt:MSVCRT40.dll
+ 0001:00002960       ..memcmp                   10003960 f msvcrt:MSVCRT40.dll
+ 0001:00002978       .._purecall                10003978 f msvcrt:MSVCRT40.dll
+ 0001:00002990       ..??3@YAXPAX@Z             10003990 f msvcrt:MSVCRT40.dll
+ 0001:000029a8       ..memcpy                   100039a8 f msvcrt:MSVCRT40.dll
+ 0001:000029c0       ..__utod                   100039c0 f msvcrt:utod.obj
+ 0001:000029e8       ..__itod                   100039e8 f msvcrt:itod.obj
+ 0001:00002a14       ..sscanf                   10003a14 f msvcrt:MSVCRT40.dll
+ 0001:00002a2c       ..sprintf                  10003a2c f msvcrt:MSVCRT40.dll
+ 0001:00002a48       ..__restgpr_All            10003a48 f msvcrt:restgpr.obj
+ 0001:00002a7c       ..__restgpr_14             10003a7c   msvcrt:restgpr.obj
+ 0001:00002a80       ..__restgpr_15             10003a80   msvcrt:restgpr.obj
+ 0001:00002a84       ..__restgpr_16             10003a84   msvcrt:restgpr.obj
+ 0001:00002a88       ..__restgpr_17             10003a88   msvcrt:restgpr.obj
+ 0001:00002a8c       ..__restgpr_18             10003a8c   msvcrt:restgpr.obj
+ 0001:00002a90       ..__restgpr_19             10003a90   msvcrt:restgpr.obj
+ 0001:00002a94       ..__restgpr_20             10003a94   msvcrt:restgpr.obj
+ 0001:00002a98       ..__restgpr_21             10003a98   msvcrt:restgpr.obj
+ 0001:00002a9c       ..__restgpr_22             10003a9c   msvcrt:restgpr.obj
+ 0001:00002aa0       ..__restgpr_23             10003aa0   msvcrt:restgpr.obj
+ 0001:00002aa4       ..__restgpr_24             10003aa4   msvcrt:restgpr.obj
+ 0001:00002aa8       ..__restgpr_25             10003aa8   msvcrt:restgpr.obj
+ 0001:00002aac       ..__restgpr_26             10003aac   msvcrt:restgpr.obj
+ 0001:00002ab0       ..__restgpr_27             10003ab0   msvcrt:restgpr.obj
+ 0001:00002ab4       ..__restgpr_28             10003ab4   msvcrt:restgpr.obj
+ 0001:00002ab8       ..__restgpr_29             10003ab8   msvcrt:restgpr.obj
+ 0001:00002abc       ..__restgpr_30             10003abc   msvcrt:restgpr.obj
+ 0001:00002ac0       ..__restgpr_31             10003ac0   msvcrt:restgpr.obj
+ 0001:00002ac8       ..free                     10003ac8 f msvcrt:MSVCRT40.dll
+ 0001:00002ae0       .._initterm                10003ae0 f msvcrt:MSVCRT40.dll
+ 0001:00002af8       .._onexit                  10003af8 f msvcrt:atonexit.obj
+ 0001:00002b60       ..atexit                   10003b60 f msvcrt:atonexit.obj
+ 0001:00002b90       ..malloc                   10003b90 f msvcrt:MSVCRT40.dll
+ 0001:00002ba8       ..__savegpr_All            10003ba8 f msvcrt:savegpr.obj
+ 0001:00002bdc       ..__savegpr_14             10003bdc   msvcrt:savegpr.obj
+ 0001:00002be0       ..__savegpr_15             10003be0   msvcrt:savegpr.obj
+ 0001:00002be4       ..__savegpr_16             10003be4   msvcrt:savegpr.obj
+ 0001:00002be8       ..__savegpr_17             10003be8   msvcrt:savegpr.obj
+ 0001:00002bec       ..__savegpr_18             10003bec   msvcrt:savegpr.obj
+ 0001:00002bf0       ..__savegpr_19             10003bf0   msvcrt:savegpr.obj
+ 0001:00002bf4       ..__savegpr_20             10003bf4   msvcrt:savegpr.obj
+ 0001:00002bf8       ..__savegpr_21             10003bf8   msvcrt:savegpr.obj
+ 0001:00002bfc       ..__savegpr_22             10003bfc   msvcrt:savegpr.obj
+ 0001:00002c00       ..__savegpr_23             10003c00   msvcrt:savegpr.obj
+ 0001:00002c04       ..__savegpr_24             10003c04   msvcrt:savegpr.obj
+ 0001:00002c08       ..__savegpr_25             10003c08   msvcrt:savegpr.obj
+ 0001:00002c0c       ..__savegpr_26             10003c0c   msvcrt:savegpr.obj
+ 0001:00002c10       ..__savegpr_27             10003c10   msvcrt:savegpr.obj
+ 0001:00002c14       ..__savegpr_28             10003c14   msvcrt:savegpr.obj
+ 0001:00002c18       ..__savegpr_29             10003c18   msvcrt:savegpr.obj
+ 0001:00002c1c       ..__savegpr_30             10003c1c   msvcrt:savegpr.obj
+ 0001:00002c20       ..__savegpr_31             10003c20   msvcrt:savegpr.obj
+ 0001:00002c28       ..__dllonexit              10003c28 f msvcrt:MSVCRT40.dll
+ 0001:00002c40       ..MessageBoxA              10003c40 f user32:USER32.dll
+ 0001:00002c58       ..LoadStringA              10003c58 f user32:USER32.dll
+ 0001:00002c70       ..EndDialog                10003c70 f user32:USER32.dll
+ 0001:00002c88       ..GetDlgItemTextA          10003c88 f user32:USER32.dll
+ 0001:00002ca0       ..IsDlgButtonChecked       10003ca0 f user32:USER32.dll
+ 0001:00002cb8       ..SetDlgItemTextA          10003cb8 f user32:USER32.dll
+ 0001:00002cd0       ..CheckDlgButton           10003cd0 f user32:USER32.dll
+ 0001:00002ce8       ..SizeDouble               10003ce8 f winhlprs:strmhelp.obj
+ 0001:00002d14       ..WriteDouble              10003d14 f winhlprs:strmhelp.obj
+ 0001:00002dd4       ..ReadDouble               10003dd4 f winhlprs:strmhelp.obj
+ 0001:00002ee8       ..?ShowDialog@CHlprDialog@@UAAHPAXPBD0@Z 10003ee8 f winhlprs:cdialog.obj
+ 0001:00002f70       ..DialogProc               10003f70 f winhlprs:cdialog.obj
+ 0001:00003094       ..strlen                   10004094 f msvcrt:MSVCRT40.dll
+ 0001:000030ac       ..DialogBoxParamA          100040ac f user32:USER32.dll
+ 0001:000030c4       ..GetWindowLongA           100040c4 f user32:USER32.dll
+ 0001:000030dc       ..SetWindowLongA           100040dc f user32:USER32.dll
+ 0002:00000058       DllMain                    10005058   julia.obj
+ 0002:00000060       DllGetClassObject          10005060   julia.obj
+ 0002:00000068       DllCanUnloadNow            10005068   julia.obj
+ 0002:00000070       ??0CJuliaCF@@QAA@XZ        10005070   julia.obj
+ 0002:00000078       ?QueryInterface@CJuliaCF@@UAAJABU_GUID@@PAPAX@Z 10005078   julia.obj
+ 0002:00000080       ?AddRef@CJuliaCF@@UAAKXZ   10005080   julia.obj
+ 0002:00000088       ?Release@CJuliaCF@@UAAKXZ  10005088   julia.obj
+ 0002:00000090       ?CreateInstance@CJuliaCF@@UAAJPAUIUnknown@@ABU_GUID@@PAPAX@Z 10005090   julia.obj
+ 0002:00000098       ?LockServer@CJuliaCF@@UAAJH@Z 10005098   julia.obj
+ 0002:000000a0       ??1CJuliaCF@@QAA@XZ        100050a0   julia.obj
+ 0002:000000a8       ?IsEqualGUID@@YAHABU_GUID@@0@Z 100050a8   julia.obj
+ 0002:000000b0       ??_7CJuliaCF@@6B@          100050b0   julia.obj
+ 0002:000000c4       ??0IClassFactory@@QAA@XZ   100050c4   julia.obj
+ 0002:000000d0       ??_7IClassFactory@@6B@     100050d0   julia.obj
+ 0002:000000e4       ??0IUnknown@@QAA@XZ        100050e4   julia.obj
+ 0002:000000f0       ??_7IUnknown@@6B@          100050f0   julia.obj
+ 0002:000000fc       ??_GCJuliaCF@@QAAPAXI@Z    100050fc   julia.obj
+ 0002:00000108       ?QueryInterface@CJulia@@UAAJABU_GUID@@PAPAX@Z 10005108   juliaob.obj
+ 0002:00000110       ?AddRef@CJulia@@UAAKXZ     10005110   juliaob.obj
+ 0002:00000118       ?Release@CJulia@@UAAKXZ    10005118   juliaob.obj
+ 0002:00000120       ?GetClassID@CJulia@@UAAJPAU_GUID@@@Z 10005120   juliaob.obj
+ 0002:00000128       ?IsDirty@CJulia@@UAAJXZ    10005128   juliaob.obj
+ 0002:00000130       ?Load@CJulia@@UAAJPAUIStream@@@Z 10005130   juliaob.obj
+ 0002:00000138       ?Save@CJulia@@UAAJPAUIStream@@H@Z 10005138   juliaob.obj
+ 0002:00000140       ?GetSizeMax@CJulia@@UAAJPAT_ULARGE_INTEGER@@@Z 10005140   juliaob.obj
+ 0002:00000148       ?Init@CJulia@@UAAJPAUIFractalHost@@@Z 10005148   juliaob.obj
+ 0002:00000150       ?SetDefaults@CJulia@@UAAJXZ 10005150   juliaob.obj
+ 0002:00000168       ?SetProperties@CJulia@@UAAJPAX@Z 10005168   juliaob.obj
+ 0002:00000170       ?GetExtent@CJulia@@UAAJPAN000@Z 10005170   juliaob.obj
+ 0002:00000178       ?SetExtent@CJulia@@UAAJNNNN@Z 10005178   juliaob.obj
+ 0002:00000180       ?SetGraphSize@CJulia@@UAAJII@Z 10005180   juliaob.obj
+ 0002:00000188       ?Start@CJulia@@UAAJXZ      10005188   juliaob.obj
+ 0002:00000190       ?Stop@CJulia@@UAAJXZ       10005190   juliaob.obj
+ 0002:00000198       ?ComputePoint@CJulia@@UAAJPAIHH@Z 10005198   juliaob.obj
+ 0002:000001b0       ?DoneDrawingGraph@CJulia@@UAAJXZ 100051b0   juliaob.obj
+ 0002:000001b8       ?Initialize@CJulia@@QAAHXZ 100051b8   juliaob.obj
+ 0002:000001c0       ??0CJulia@@QAA@XZ          100051c0   juliaob.obj
+ 0002:000001d8       ?DialogProc@CJulia@@UAAHPAXIIJ@Z 100051d8   juliaob.obj
+ 0002:000001e0       ??1CJulia@@UAA@XZ          100051e0   juliaob.obj
+ 0002:000001e8       ??_ECJulia@@UAAPAXI@Z      100051e8   juliaob.obj
+ 0002:000001e8       ??_GCJulia@@UAAPAXI@Z      100051e8   juliaob.obj
+ 0002:000001f0       ?Release@CJulia@@W7AAKXZ   100051f0   juliaob.obj
+ 0002:000001f8       ?AddRef@CJulia@@W7AAKXZ    100051f8   juliaob.obj
+ 0002:00000200       ?QueryInterface@CJulia@@W7AAJABU_GUID@@PAPAX@Z 10005200   juliaob.obj
+ 0002:00000208       ?Release@CJulia@@W3AAKXZ   10005208   juliaob.obj
+ 0002:00000210       ?AddRef@CJulia@@W3AAKXZ    10005210   juliaob.obj
+ 0002:00000218       ?QueryInterface@CJulia@@W3AAJABU_GUID@@PAPAX@Z 10005218   juliaob.obj
+ 0002:00000220       ??_7CJulia@@6BCHlprDialog@@@ 10005220   juliaob.obj
+ 0002:00000230       ??_7CJulia@@6BIQuadrantClient@@@ 10005230   juliaob.obj
+ 0002:00000248       ??_7CJulia@@6BIPersistStream@@@ 10005248   juliaob.obj
+ 0002:00000268       ??_7CJulia@@6BIFractalEngine@@@ 10005268   juliaob.obj
+ 0002:00000294       ??0IFractalEngine@@QAA@XZ  10005294   juliaob.obj
+ 0002:000002a0       ??_7IFractalEngine@@6B@    100052a0   juliaob.obj
+ 0002:000002cc       ??0IPersistStream@@QAA@XZ  100052cc   juliaob.obj
+ 0002:000002d8       ??_7IPersistStream@@6B@    100052d8   juliaob.obj
+ 0002:000002f8       ??0IQuadrantClient@@QAA@XZ 100052f8   juliaob.obj
+ 0002:00000300       ??_7IQuadrantClient@@6B@   10005300   juliaob.obj
+ 0002:00000314       ??_ECHlprDialog@@UAAPAXI@Z 10005314   juliaob.obj
+ 0002:00000314       ??_GCHlprDialog@@UAAPAXI@Z 10005314   juliaob.obj
+ 0002:0000031c       ??0CHlprDialog@@QAA@XZ     1000531c   juliaob.obj
+ 0002:00000328       ??_7CHlprDialog@@6B@       10005328   juliaob.obj
+ 0002:00000334       ??1CHlprDialog@@UAA@XZ     10005334   juliaob.obj
+ 0002:0000033c       ??0IPersist@@QAA@XZ        1000533c   juliaob.obj
+ 0002:00000348       ??_7IPersist@@6B@          10005348   juliaob.obj
+ 0002:00000358       CoCreateInstance           10005358   ole32:ole32.dll
+ 0002:00000360       IID_IClassFactory          10005360   uuid:unknwn_i_guid1.obj
+ 0002:00000370       IID_IUnknown               10005370   uuid:unknwn_i_guid0.obj
+ 0002:00000380       IID_IPersistStream         10005380   uuid:objidl_i_guid12.obj
+ 0002:00000390       IID_IPersist               10005390   uuid:objidl_i_guid11.obj
+ 0002:000003a0       _CRT_INIT                  100053a0   msvcrt:crtdll.obj
+ 0002:000003a8       _DllMainCRTStartup         100053a8   msvcrt:crtdll.obj
+ 0002:000003b0       ??2@YAPAXI@Z               100053b0   msvcrt:MSVCRT40.dll
+ 0002:000003b8       memcmp                     100053b8   msvcrt:MSVCRT40.dll
+ 0002:000003c0       _purecall                  100053c0   msvcrt:MSVCRT40.dll
+ 0002:000003c8       ??3@YAXPAX@Z               100053c8   msvcrt:MSVCRT40.dll
+ 0002:000003d0       memcpy                     100053d0   msvcrt:MSVCRT40.dll
+ 0002:000003d8       sscanf                     100053d8   msvcrt:MSVCRT40.dll
+ 0002:000003e0       sprintf                    100053e0   msvcrt:MSVCRT40.dll
+ 0002:000003e8       free                       100053e8   msvcrt:MSVCRT40.dll
+ 0002:000003f0       _initterm                  100053f0   msvcrt:MSVCRT40.dll
+ 0002:000003f8       _onexit                    100053f8   msvcrt:atonexit.obj
+ 0002:00000400       atexit                     10005400   msvcrt:atonexit.obj
+ 0002:00000408       malloc                     10005408   msvcrt:MSVCRT40.dll
+ 0002:00000410       __dllonexit                10005410   msvcrt:MSVCRT40.dll
+ 0002:00000418       MessageBoxA                10005418   user32:USER32.dll
+ 0002:00000420       LoadStringA                10005420   user32:USER32.dll
+ 0002:00000428       EndDialog                  10005428   user32:USER32.dll
+ 0002:00000430       GetDlgItemTextA            10005430   user32:USER32.dll
+ 0002:00000438       IsDlgButtonChecked         10005438   user32:USER32.dll
+ 0002:00000440       SetDlgItemTextA            10005440   user32:USER32.dll
+ 0002:00000448       CheckDlgButton             10005448   user32:USER32.dll
+ 0002:00000450       IID_IQuadrantClient        10005450   fguids:qudcln_i.obj
+ 0002:00000460       IID_IFractalEngine         10005460   fguids:frcngn_i.obj
+ 0002:00000470       IID_IQuadrantEngine        10005470   fguids:qudngn_i.obj
+ 0002:00000480       SizeDouble                 10005480   winhlprs:strmhelp.obj
+ 0002:00000488       WriteDouble                10005488   winhlprs:strmhelp.obj
+ 0002:00000490       ReadDouble                 10005490   winhlprs:strmhelp.obj
+ 0002:00000498       ?ShowDialog@CHlprDialog@@UAAHPAXPBD0@Z 10005498   winhlprs:cdialog.obj
+ 0002:000004a0       DialogProc                 100054a0   winhlprs:cdialog.obj
+ 0002:000004a8       strlen                     100054a8   msvcrt:MSVCRT40.dll
+ 0002:000004b0       DialogBoxParamA            100054b0   user32:USER32.dll
+ 0002:000004b8       GetWindowLongA             100054b8   user32:USER32.dll
+ 0002:000004c0       SetWindowLongA             100054c0   user32:USER32.dll
+ 0003:00000000       __xc_a                     10006000   msvcrt:cinitexe.obj
+ 0003:00000008       __xc_z                     10006008   msvcrt:cinitexe.obj
+ 0003:00000010       __xi_a                     10006010   msvcrt:cinitexe.obj
+ 0003:00000018       __xi_z                     10006018   msvcrt:cinitexe.obj
+ 0003:00000078       ?CLSID_JULIASET@@3U_GUID@@A 10006078   fguids:juliacid.obj
+ 0003:00000088       ?CLSID_QUADRANTENGINE@@3U_GUID@@A 10006088   fguids:quadcid.obj
+ 0003:000000a8       ?ghinst@@3PAXA             100060a8   julia.obj
+ 0003:000000ac       ?gcRef@@3KA                100060ac   julia.obj
+ 0003:000000b0       ?gcLock@@3KA               100060b0   julia.obj
+ 0003:000000b4       __onexitend                100060b4   <common>
+ 0003:000000b8       __onexitbegin              100060b8   <common>
+ 0003:000000bc       _pRawDllMain               100060bc   <common>
+ 0005:00000000       __IMPORT_DESCRIPTOR_ole32  10008000   ole32:ole32.dll
+ 0005:00000014       __IMPORT_DESCRIPTOR_MSVCRT40 10008014   msvcrt:MSVCRT40.dll
+ 0005:00000028       __IMPORT_DESCRIPTOR_USER32 10008028   user32:USER32.dll
+ 0005:0000003c       __NULL_IMPORT_DESCRIPTOR   1000803c   ole32:ole32.dll
+ 0005:0000017c       __imp__onexit              1000817c   msvcrt:MSVCRT40.dll
+ 0005:00000180       __imp_??2@YAPAXI@Z         10008180   msvcrt:MSVCRT40.dll
+ 0005:00000184       __imp_memcmp               10008184   msvcrt:MSVCRT40.dll
+ 0005:00000188       __imp__purecall            10008188   msvcrt:MSVCRT40.dll
+ 0005:0000018c       __imp_??3@YAXPAX@Z         1000818c   msvcrt:MSVCRT40.dll
+ 0005:00000190       __imp_memcpy               10008190   msvcrt:MSVCRT40.dll
+ 0005:00000194       __imp_sscanf               10008194   msvcrt:MSVCRT40.dll
+ 0005:00000198       __imp_sprintf              10008198   msvcrt:MSVCRT40.dll
+ 0005:0000019c       __imp_free                 1000819c   msvcrt:MSVCRT40.dll
+ 0005:000001a0       __imp__initterm            100081a0   msvcrt:MSVCRT40.dll
+ 0005:000001a4       __imp_malloc               100081a4   msvcrt:MSVCRT40.dll
+ 0005:000001a8       __imp___dllonexit          100081a8   msvcrt:MSVCRT40.dll
+ 0005:000001ac       __imp_strlen               100081ac   msvcrt:MSVCRT40.dll
+ 0005:000001b0       \177MSVCRT40_NULL_THUNK_DATA 100081b0   msvcrt:MSVCRT40.dll
+ 0005:000001b4       __imp_SetDlgItemTextA      100081b4   user32:USER32.dll
+ 0005:000001b8       __imp_MessageBoxA          100081b8   user32:USER32.dll
+ 0005:000001bc       __imp_LoadStringA          100081bc   user32:USER32.dll
+ 0005:000001c0       __imp_EndDialog            100081c0   user32:USER32.dll
+ 0005:000001c4       __imp_GetDlgItemTextA      100081c4   user32:USER32.dll
+ 0005:000001c8       __imp_IsDlgButtonChecked   100081c8   user32:USER32.dll
+ 0005:000001cc       __imp_CheckDlgButton       100081cc   user32:USER32.dll
+ 0005:000001d0       __imp_GetWindowLongA       100081d0   user32:USER32.dll
+ 0005:000001d4       __imp_DialogBoxParamA      100081d4   user32:USER32.dll
+ 0005:000001d8       __imp_SetWindowLongA       100081d8   user32:USER32.dll
+ 0005:000001dc       \177USER32_NULL_THUNK_DATA 100081dc   user32:USER32.dll
+ 0005:000001e0       __imp_CoCreateInstance     100081e0   ole32:ole32.dll
+ 0005:000001e4       \177ole32_NULL_THUNK_DATA  100081e4   ole32:ole32.dll
+ 0005:000080bc       .toc                       100100bc   <linker-defined>
+
+ entry point at        0002:000003a8
+
+ Static symbols
+
+
+ Offset   Rva+Base   Publics by TOC Offset
+
+  8000    100080bc   IID_IFractalEngine
+  8004    100080c0   IID_IPersist
+  8008    100080c4   IID_IPersistStream
+  800c    100080c8   IID_IUnknown
+  8010    100080cc   IID_IQuadrantClient
+  8014    100080d0   ?gcRef@@3KA
+  8018    100080d4   ?CLSID_JULIASET@@3U_GUID@@A
+  8020    100080dc   ?ghinst@@3PAXA
+  8024    100080e0   __imp_CoCreateInstance
+  8028    100080e4   ?CLSID_QUADRANTENGINE@@3U_GUID@@A
+  802c    100080e8   IID_IQuadrantEngine
+  8030    100080ec   ??_7CJulia@@6BIFractalEngine@@@
+  8034    100080f0   ??_7CJulia@@6BIPersistStream@@@
+  8038    100080f4   ??_7CJulia@@6BIQuadrantClient@@@
+  803c    100080f8   ??_7CJulia@@6BCHlprDialog@@@
+  8040    100080fc   __imp_CheckDlgButton
+  8048    10008104   __imp_SetDlgItemTextA
+  804c    10008108   __imp_IsDlgButtonChecked
+  8050    1000810c   __imp_GetDlgItemTextA
+  8054    10008110   __imp_EndDialog
+  8058    10008114   __imp_LoadStringA
+  805c    10008118   __imp_MessageBoxA
+  8060    1000811c   ??_7IFractalEngine@@6B@
+  8064    10008120   ??_7IPersistStream@@6B@
+  8068    10008124   ??_7IQuadrantClient@@6B@
+  806c    10008128   ??_7CHlprDialog@@6B@
+  8070    1000812c   ??_7IPersist@@6B@
+  8074    10008130   ?gcLock@@3KA
+  8078    10008134   IID_IClassFactory
+  807c    10008138   ??_7CJuliaCF@@6B@
+  8080    1000813c   ??_7IClassFactory@@6B@
+  8084    10008140   ??_7IUnknown@@6B@
+  8088    10008144   __onexitbegin
+  808c    10008148   __imp__onexit
+  8090    1000814c   __onexitend
+  8098    10008154   __imp_malloc
+  809c    10008158   __xc_a
+  80a0    1000815c   __xc_z
+  80a4    10008160   __imp_free
+  80a8    10008164   _pRawDllMain
+  80ac    10008168   __imp_DialogBoxParamA
+  80b0    1000816c   DialogProc
+  80b4    10008170   __imp_SetWindowLongA
+  80b8    10008174   __imp_GetWindowLongA
+

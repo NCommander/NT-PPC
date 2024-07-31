@@ -1,0 +1,141 @@
+ txtout32
+
+ Timestamp is 6417407a (Sun Mar 19 12:03:54 2023)
+
+ Preferred load address is 10000000
+
+ Start         Length     Name                   Class
+ 0001:00000000 0000112cH .text                   CODE
+ 0002:00000000 00000004H .bss                    DATA
+ 0003:00000000 00000188H .rdata                  DATA
+ 0003:00000190 0000004aH .edata                  DATA
+ 0004:00000000 0000000eH .data                   DATA
+ 0005:00000000 00000280H .pdata                  DATA
+ 0006:00000000 00000064H .idata$2                DATA
+ 0006:00000064 00000014H .idata$3                DATA
+ 0006:00000078 0000004cH .idata$4                DATA
+ 0006:000000c4 00000044H .idata$4toc             DATA
+ 0006:00000108 0000004cH .idata$5                DATA
+ 0006:00000154 00000100H .idata$6                DATA
+ 0007:00000000 000000fcH .rsrc$01                DATA
+ 0007:00000100 00000734H .rsrc$02                DATA
+
+  Address         Publics by Value              Rva+Base   Lib:Object
+
+ 0001:00000000       ..Load                     10001000 f txtout.obj
+ 0001:0000002c       ..Free                     1000102c f txtout.obj
+ 0001:00000048       ..Open                     10001048 f txtout.obj
+ 0001:0000014c       ..Close                    1000114c f txtout.obj
+ 0001:000001bc       ..QueryAbout               100011bc f txtout.obj
+ 0001:000001ec       ..About                    100011ec f txtout.obj
+ 0001:000002d4       ..QueryConfigure           100012d4 f txtout.obj
+ 0001:00000304       ..Configure                10001304 f txtout.obj
+ 0001:00000384       ..GetState                 10001384 f txtout.obj
+ 0001:00000408       ..SetState                 10001408 f txtout.obj
+ 0001:0000048c       ..GetInfo                  1000148c f txtout.obj
+ 0001:00000634       ..DrawQuery                10001634 f txtout.obj
+ 0001:00000668       ..DrawBegin                10001668 f txtout.obj
+ 0001:00000784       ..Draw                     10001784 f txtout.obj
+ 0001:000009bc       ..DrawEnd                  100019bc f txtout.obj
+ 0001:00000a34       ..ConfigureDlgProc         10001a34 f txtout.obj
+ 0001:00000b20       ..DriverProc               10001b20 f drvproc.obj
+ 0001:00000f2c       ..DllMain                  10001f2c f drvproc.obj
+ 0001:00000fdc       ..mbstowcs                 10001fdc f msvcrt:MSVCRT40.dll
+ 0001:00000ff4       ..strlen                   10001ff4 f msvcrt:MSVCRT40.dll
+ 0001:0000100c       ..LocalAlloc               1000200c f kernel32:KERNEL32.dll
+ 0001:00001024       ..LocalFree                10002024 f kernel32:KERNEL32.dll
+ 0001:0000103c       ..RtlMoveMemory            1000203c f kernel32:KERNEL32.dll
+ 0001:00001054       ..MessageBoxA              10002054 f user32:USER32.dll
+ 0001:0000106c       ..LoadStringA              1000206c f user32:USER32.dll
+ 0001:00001084       ..DialogBoxParamA          10002084 f user32:USER32.dll
+ 0001:0000109c       ..SetRect                  1000209c f user32:USER32.dll
+ 0001:000010b4       ..EndDialog                100020b4 f user32:USER32.dll
+ 0001:000010cc       ..GetStockObject           100020cc f gdi32:GDI32.dll
+ 0001:000010e4       ..ExtTextOutA              100020e4 f gdi32:GDI32.dll
+ 0001:000010fc       ..SelectObject             100020fc f gdi32:GDI32.dll
+ 0001:00001114       ..DefDriverProc            10002114 f winmm:WINMM.dll
+ 0002:00000000       ghModule                   10003000   <common>
+ 0003:00000088       Load                       10004088   txtout.obj
+ 0003:00000090       Free                       10004090   txtout.obj
+ 0003:00000098       Open                       10004098   txtout.obj
+ 0003:000000a0       Close                      100040a0   txtout.obj
+ 0003:000000a8       QueryAbout                 100040a8   txtout.obj
+ 0003:000000b0       About                      100040b0   txtout.obj
+ 0003:000000b8       QueryConfigure             100040b8   txtout.obj
+ 0003:000000c0       Configure                  100040c0   txtout.obj
+ 0003:000000c8       ConfigureDlgProc           100040c8   txtout.obj
+ 0003:000000d0       GetState                   100040d0   txtout.obj
+ 0003:000000d8       SetState                   100040d8   txtout.obj
+ 0003:000000e0       GetInfo                    100040e0   txtout.obj
+ 0003:000000e8       DrawQuery                  100040e8   txtout.obj
+ 0003:000000f0       DrawBegin                  100040f0   txtout.obj
+ 0003:000000f8       Draw                       100040f8   txtout.obj
+ 0003:00000100       DrawEnd                    10004100   txtout.obj
+ 0003:00000108       DriverProc                 10004108   drvproc.obj
+ 0003:00000110       DllMain                    10004110   drvproc.obj
+ 0003:00000118       mbstowcs                   10004118   msvcrt:MSVCRT40.dll
+ 0003:00000120       strlen                     10004120   msvcrt:MSVCRT40.dll
+ 0003:00000128       LocalAlloc                 10004128   kernel32:KERNEL32.dll
+ 0003:00000130       LocalFree                  10004130   kernel32:KERNEL32.dll
+ 0003:00000138       RtlMoveMemory              10004138   kernel32:KERNEL32.dll
+ 0003:00000140       MessageBoxA                10004140   user32:USER32.dll
+ 0003:00000148       LoadStringA                10004148   user32:USER32.dll
+ 0003:00000150       DialogBoxParamA            10004150   user32:USER32.dll
+ 0003:00000158       SetRect                    10004158   user32:USER32.dll
+ 0003:00000160       EndDialog                  10004160   user32:USER32.dll
+ 0003:00000168       GetStockObject             10004168   gdi32:GDI32.dll
+ 0003:00000170       ExtTextOutA                10004170   gdi32:GDI32.dll
+ 0003:00000178       SelectObject               10004178   gdi32:GDI32.dll
+ 0003:00000180       DefDriverProc              10004180   winmm:WINMM.dll
+ 0004:00000000       DefaultState               10005000   txtout.obj
+ 0006:00000000       __IMPORT_DESCRIPTOR_MSVCRT40 10007000   msvcrt:MSVCRT40.dll
+ 0006:00000014       __IMPORT_DESCRIPTOR_KERNEL32 10007014   kernel32:KERNEL32.dll
+ 0006:00000028       __IMPORT_DESCRIPTOR_USER32 10007028   user32:USER32.dll
+ 0006:0000003c       __IMPORT_DESCRIPTOR_GDI32  1000703c   gdi32:GDI32.dll
+ 0006:00000050       __IMPORT_DESCRIPTOR_WINMM  10007050   winmm:WINMM.dll
+ 0006:00000064       __NULL_IMPORT_DESCRIPTOR   10007064   msvcrt:MSVCRT40.dll
+ 0006:00000108       __imp_SelectObject         10007108   gdi32:GDI32.dll
+ 0006:0000010c       __imp_ExtTextOutA          1000710c   gdi32:GDI32.dll
+ 0006:00000110       __imp_GetStockObject       10007110   gdi32:GDI32.dll
+ 0006:00000114       \177GDI32_NULL_THUNK_DATA  10007114   gdi32:GDI32.dll
+ 0006:00000118       __imp_RtlMoveMemory        10007118   kernel32:KERNEL32.dll
+ 0006:0000011c       __imp_LocalAlloc           1000711c   kernel32:KERNEL32.dll
+ 0006:00000120       __imp_LocalFree            10007120   kernel32:KERNEL32.dll
+ 0006:00000124       \177KERNEL32_NULL_THUNK_DATA 10007124   kernel32:KERNEL32.dll
+ 0006:00000128       __imp_mbstowcs             10007128   msvcrt:MSVCRT40.dll
+ 0006:0000012c       __imp_strlen               1000712c   msvcrt:MSVCRT40.dll
+ 0006:00000130       \177MSVCRT40_NULL_THUNK_DATA 10007130   msvcrt:MSVCRT40.dll
+ 0006:00000134       __imp_SetRect              10007134   user32:USER32.dll
+ 0006:00000138       __imp_EndDialog            10007138   user32:USER32.dll
+ 0006:0000013c       __imp_MessageBoxA          1000713c   user32:USER32.dll
+ 0006:00000140       __imp_LoadStringA          10007140   user32:USER32.dll
+ 0006:00000144       __imp_DialogBoxParamA      10007144   user32:USER32.dll
+ 0006:00000148       \177USER32_NULL_THUNK_DATA 10007148   user32:USER32.dll
+ 0006:0000014c       __imp_DefDriverProc        1000714c   winmm:WINMM.dll
+ 0006:00000150       \177WINMM_NULL_THUNK_DATA  10007150   winmm:WINMM.dll
+ 0006:000080c4       .toc                       1000f0c4   <linker-defined>
+
+ entry point at        0000:00000000
+
+ Static symbols
+
+
+ Offset   Rva+Base   Publics by TOC Offset
+
+  8000    100070c4   __imp_DefDriverProc
+  8004    100070c8   ghModule
+  8008    100070cc   __imp_LocalAlloc
+  800c    100070d0   __imp_GetStockObject
+  8010    100070d4   __imp_LocalFree
+  8014    100070d8   __imp_LoadStringA
+  8018    100070dc   __imp_MessageBoxA
+  801c    100070e0   __imp_DialogBoxParamA
+  8024    100070e8   ConfigureDlgProc
+  8028    100070ec   DefaultState
+  802c    100070f0   __imp_mbstowcs
+  8030    100070f4   __imp_SetRect
+  8034    100070f8   __imp_RtlMoveMemory
+  8038    100070fc   __imp_SelectObject
+  803c    10007100   __imp_ExtTextOutA
+  8040    10007104   __imp_EndDialog
+

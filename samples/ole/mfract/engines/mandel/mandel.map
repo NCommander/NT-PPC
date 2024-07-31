@@ -1,0 +1,350 @@
+ mandel
+
+ Timestamp is 64172e31 (Sun Mar 19 10:45:53 2023)
+
+ Preferred load address is 10000000
+
+ Start         Length     Name                   Class
+ 0001:00000000 00002e64H .text                   CODE
+ 0002:00000000 000004b8H .rdata                  DATA
+ 0002:000004c0 00000069H .edata                  DATA
+ 0003:00000000 00000004H .CRT$XCA                DATA
+ 0003:00000008 00000004H .CRT$XCZ                DATA
+ 0003:00000010 00000004H .CRT$XIA                DATA
+ 0003:00000018 00000004H .CRT$XIZ                DATA
+ 0003:00000020 0000006cH .data                   DATA
+ 0003:00000090 00000018H .bss                    DATA
+ 0004:00000000 000006b8H .pdata                  DATA
+ 0005:00000000 0000003cH .idata$2                DATA
+ 0005:0000003c 00000014H .idata$3                DATA
+ 0005:00000050 0000006cH .idata$4                DATA
+ 0005:000000bc 000000c0H .idata$4toc             DATA
+ 0005:0000017c 0000006cH .idata$5                DATA
+ 0005:000001e8 00000176H .idata$6                DATA
+ 0006:00000000 000000e8H .rsrc$01                DATA
+ 0006:000000f0 000009a0H .rsrc$02                DATA
+
+  Address         Publics by Value              Rva+Base   Lib:Object
+
+ 0001:00000000       ..DllMain                  10001000 f mandel.obj
+ 0001:000000bc       ..DllGetClassObject        100010bc f mandel.obj
+ 0001:000001ec       ..DllCanUnloadNow          100011ec f mandel.obj
+ 0001:00000244       ..??0CMandelbrotCF@@QAA@XZ 10001244 f mandel.obj
+ 0001:00000298       ..??1CMandelbrotCF@@QAA@XZ 10001298 f mandel.obj
+ 0001:000002c8       ..?QueryInterface@CMandelbrotCF@@UAAJABU_GUID@@PAPAX@Z 100012c8 f mandel.obj
+ 0001:00000388       ..?AddRef@CMandelbrotCF@@UAAKXZ 10001388 f mandel.obj
+ 0001:000003cc       ..?Release@CMandelbrotCF@@UAAKXZ 100013cc f mandel.obj
+ 0001:00000448       ..?CreateInstance@CMandelbrotCF@@UAAJPAUIUnknown@@ABU_GUID@@PAPAX@Z 10001448 f mandel.obj
+ 0001:000005ac       ..?LockServer@CMandelbrotCF@@UAAJH@Z 100015ac f mandel.obj
+ 0001:00000618       ..?IsEqualGUID@@YAHABU_GUID@@0@Z 10001618 f mandel.obj
+ 0001:00000674       ..??0IClassFactory@@QAA@XZ 10001674 f mandel.obj
+ 0001:000006bc       ..??0IUnknown@@QAA@XZ      100016bc f mandel.obj
+ 0001:000006fc       ..??_GCMandelbrotCF@@QAAPAXI@Z 100016fc f mandel.obj
+ 0001:00000758       ..?QueryInterface@CMandelbrot@@UAAJABU_GUID@@PAPAX@Z 10001758 f mandelob.obj
+ 0001:00000918       ..?AddRef@CMandelbrot@@UAAKXZ 10001918 f mandelob.obj
+ 0001:0000095c       ..?Release@CMandelbrot@@UAAKXZ 1000195c f mandelob.obj
+ 0001:00000a18       ..?GetClassID@CMandelbrot@@UAAJPAU_GUID@@@Z 10001a18 f mandelob.obj
+ 0001:00000a64       ..?IsDirty@CMandelbrot@@UAAJXZ 10001a64 f mandelob.obj
+ 0001:00000ab0       ..?Load@CMandelbrot@@UAAJPAUIStream@@@Z 10001ab0 f mandelob.obj
+ 0001:00000c8c       ..?Save@CMandelbrot@@UAAJPAUIStream@@H@Z 10001c8c f mandelob.obj
+ 0001:00000e7c       ..?GetSizeMax@CMandelbrot@@UAAJPAT_ULARGE_INTEGER@@@Z 10001e7c f mandelob.obj
+ 0001:00000ed4       ..?Init@CMandelbrot@@UAAJPAUIFractalHost@@@Z 10001ed4 f mandelob.obj
+ 0001:00000fc0       ..?SetDefaults@CMandelbrot@@UAAJXZ 10001fc0 f mandelob.obj
+ 0001:000011b0       ..?SetProperties@CMandelbrot@@UAAJPAX@Z 100021b0 f mandelob.obj
+ 0001:00001228       ..?GetExtent@CMandelbrot@@UAAJPAN000@Z 10002228 f mandelob.obj
+ 0001:000012a8       ..?SetExtent@CMandelbrot@@UAAJNNNN@Z 100022a8 f mandelob.obj
+ 0001:00001378       ..?SetGraphSize@CMandelbrot@@UAAJII@Z 10002378 f mandelob.obj
+ 0001:00001438       ..?Start@CMandelbrot@@UAAJXZ 10002438 f mandelob.obj
+ 0001:000014a8       ..?Stop@CMandelbrot@@UAAJXZ 100024a8 f mandelob.obj
+ 0001:00001518       ..?ComputePoint@CMandelbrot@@UAAJPAIHH@Z 10002518 f mandelob.obj
+ 0001:0000179c       ..?DoneDrawingGraph@CMandelbrot@@UAAJXZ 1000279c f mandelob.obj
+ 0001:000017d8       ..?Initialize@CMandelbrot@@QAAHXZ 100027d8 f mandelob.obj
+ 0001:00001870       ..??0CMandelbrot@@QAA@XZ   10002870 f mandelob.obj
+ 0001:000019b8       ..??1CMandelbrot@@UAA@XZ   100029b8 f mandelob.obj
+ 0001:00001a78       ..?DialogProc@CMandelbrot@@UAAHPAXIIJ@Z 10002a78 f mandelob.obj
+ 0001:0000214c       ..??_GCMandelbrot@@UAAPAXI@Z 1000314c f mandelob.obj
+ 0001:000021b4       ..??0IFractalEngine@@QAA@XZ 100031b4 f mandelob.obj
+ 0001:000021fc       ..??0IPersistStream@@QAA@XZ 100031fc f mandelob.obj
+ 0001:00002244       ..??0IQuadrantClient@@QAA@XZ 10003244 f mandelob.obj
+ 0001:0000228c       ..??0CHlprDialog@@QAA@XZ   1000328c f mandelob.obj
+ 0001:000022cc       ..??_GCHlprDialog@@UAAPAXI@Z 100032cc f mandelob.obj
+ 0001:00002328       ..??1CHlprDialog@@UAA@XZ   10003328 f mandelob.obj
+ 0001:00002358       ..??0IPersist@@QAA@XZ      10003358 f mandelob.obj
+ 0001:000023a0       ..?QueryInterface@CMandelbrot@@W3AAJABU_GUID@@PAPAX@Z 100033a0 f mandelob.obj
+ 0001:000023a8       ..?AddRef@CMandelbrot@@W3AAKXZ 100033a8 f mandelob.obj
+ 0001:000023b0       ..?Release@CMandelbrot@@W3AAKXZ 100033b0 f mandelob.obj
+ 0001:000023b8       ..?QueryInterface@CMandelbrot@@W7AAJABU_GUID@@PAPAX@Z 100033b8 f mandelob.obj
+ 0001:000023c0       ..?AddRef@CMandelbrot@@W7AAKXZ 100033c0 f mandelob.obj
+ 0001:000023c8       ..?Release@CMandelbrot@@W7AAKXZ 100033c8 f mandelob.obj
+ 0001:000023d0       ..CoCreateInstance         100033d0 f ole32:ole32.dll
+ 0001:000023e8       .._CRT_INIT                100033e8 f msvcrt:crtdll.obj
+ 0001:00002564       .._DllMainCRTStartup       10003564 f msvcrt:crtdll.obj
+ 0001:000026b8       ..??2@YAPAXI@Z             100036b8 f msvcrt:MSVCRT40.dll
+ 0001:000026d0       ..memcmp                   100036d0 f msvcrt:MSVCRT40.dll
+ 0001:000026e8       .._purecall                100036e8 f msvcrt:MSVCRT40.dll
+ 0001:00002700       ..??3@YAXPAX@Z             10003700 f msvcrt:MSVCRT40.dll
+ 0001:00002718       ..memcpy                   10003718 f msvcrt:MSVCRT40.dll
+ 0001:00002730       ..__utod                   10003730 f msvcrt:utod.obj
+ 0001:00002758       ..__itod                   10003758 f msvcrt:itod.obj
+ 0001:00002784       ..sscanf                   10003784 f msvcrt:MSVCRT40.dll
+ 0001:0000279c       ..sprintf                  1000379c f msvcrt:MSVCRT40.dll
+ 0001:000027b8       ..__restgpr_All            100037b8 f msvcrt:restgpr.obj
+ 0001:000027ec       ..__restgpr_14             100037ec   msvcrt:restgpr.obj
+ 0001:000027f0       ..__restgpr_15             100037f0   msvcrt:restgpr.obj
+ 0001:000027f4       ..__restgpr_16             100037f4   msvcrt:restgpr.obj
+ 0001:000027f8       ..__restgpr_17             100037f8   msvcrt:restgpr.obj
+ 0001:000027fc       ..__restgpr_18             100037fc   msvcrt:restgpr.obj
+ 0001:00002800       ..__restgpr_19             10003800   msvcrt:restgpr.obj
+ 0001:00002804       ..__restgpr_20             10003804   msvcrt:restgpr.obj
+ 0001:00002808       ..__restgpr_21             10003808   msvcrt:restgpr.obj
+ 0001:0000280c       ..__restgpr_22             1000380c   msvcrt:restgpr.obj
+ 0001:00002810       ..__restgpr_23             10003810   msvcrt:restgpr.obj
+ 0001:00002814       ..__restgpr_24             10003814   msvcrt:restgpr.obj
+ 0001:00002818       ..__restgpr_25             10003818   msvcrt:restgpr.obj
+ 0001:0000281c       ..__restgpr_26             1000381c   msvcrt:restgpr.obj
+ 0001:00002820       ..__restgpr_27             10003820   msvcrt:restgpr.obj
+ 0001:00002824       ..__restgpr_28             10003824   msvcrt:restgpr.obj
+ 0001:00002828       ..__restgpr_29             10003828   msvcrt:restgpr.obj
+ 0001:0000282c       ..__restgpr_30             1000382c   msvcrt:restgpr.obj
+ 0001:00002830       ..__restgpr_31             10003830   msvcrt:restgpr.obj
+ 0001:00002838       ..free                     10003838 f msvcrt:MSVCRT40.dll
+ 0001:00002850       .._initterm                10003850 f msvcrt:MSVCRT40.dll
+ 0001:00002868       .._onexit                  10003868 f msvcrt:atonexit.obj
+ 0001:000028d0       ..atexit                   100038d0 f msvcrt:atonexit.obj
+ 0001:00002900       ..malloc                   10003900 f msvcrt:MSVCRT40.dll
+ 0001:00002918       ..__savegpr_All            10003918 f msvcrt:savegpr.obj
+ 0001:0000294c       ..__savegpr_14             1000394c   msvcrt:savegpr.obj
+ 0001:00002950       ..__savegpr_15             10003950   msvcrt:savegpr.obj
+ 0001:00002954       ..__savegpr_16             10003954   msvcrt:savegpr.obj
+ 0001:00002958       ..__savegpr_17             10003958   msvcrt:savegpr.obj
+ 0001:0000295c       ..__savegpr_18             1000395c   msvcrt:savegpr.obj
+ 0001:00002960       ..__savegpr_19             10003960   msvcrt:savegpr.obj
+ 0001:00002964       ..__savegpr_20             10003964   msvcrt:savegpr.obj
+ 0001:00002968       ..__savegpr_21             10003968   msvcrt:savegpr.obj
+ 0001:0000296c       ..__savegpr_22             1000396c   msvcrt:savegpr.obj
+ 0001:00002970       ..__savegpr_23             10003970   msvcrt:savegpr.obj
+ 0001:00002974       ..__savegpr_24             10003974   msvcrt:savegpr.obj
+ 0001:00002978       ..__savegpr_25             10003978   msvcrt:savegpr.obj
+ 0001:0000297c       ..__savegpr_26             1000397c   msvcrt:savegpr.obj
+ 0001:00002980       ..__savegpr_27             10003980   msvcrt:savegpr.obj
+ 0001:00002984       ..__savegpr_28             10003984   msvcrt:savegpr.obj
+ 0001:00002988       ..__savegpr_29             10003988   msvcrt:savegpr.obj
+ 0001:0000298c       ..__savegpr_30             1000398c   msvcrt:savegpr.obj
+ 0001:00002990       ..__savegpr_31             10003990   msvcrt:savegpr.obj
+ 0001:00002998       ..__dllonexit              10003998 f msvcrt:MSVCRT40.dll
+ 0001:000029b0       ..MessageBoxA              100039b0 f user32:USER32.dll
+ 0001:000029c8       ..LoadStringA              100039c8 f user32:USER32.dll
+ 0001:000029e0       ..EndDialog                100039e0 f user32:USER32.dll
+ 0001:000029f8       ..GetDlgItemTextA          100039f8 f user32:USER32.dll
+ 0001:00002a10       ..IsDlgButtonChecked       10003a10 f user32:USER32.dll
+ 0001:00002a28       ..SetDlgItemTextA          10003a28 f user32:USER32.dll
+ 0001:00002a40       ..CheckDlgButton           10003a40 f user32:USER32.dll
+ 0001:00002a58       ..SizeDouble               10003a58 f winhlprs:strmhelp.obj
+ 0001:00002a84       ..WriteDouble              10003a84 f winhlprs:strmhelp.obj
+ 0001:00002b44       ..ReadDouble               10003b44 f winhlprs:strmhelp.obj
+ 0001:00002c58       ..?ShowDialog@CHlprDialog@@UAAHPAXPBD0@Z 10003c58 f winhlprs:cdialog.obj
+ 0001:00002ce0       ..DialogProc               10003ce0 f winhlprs:cdialog.obj
+ 0001:00002e04       ..strlen                   10003e04 f msvcrt:MSVCRT40.dll
+ 0001:00002e1c       ..DialogBoxParamA          10003e1c f user32:USER32.dll
+ 0001:00002e34       ..GetWindowLongA           10003e34 f user32:USER32.dll
+ 0001:00002e4c       ..SetWindowLongA           10003e4c f user32:USER32.dll
+ 0002:00000058       DllMain                    10004058   mandel.obj
+ 0002:00000060       DllGetClassObject          10004060   mandel.obj
+ 0002:00000068       DllCanUnloadNow            10004068   mandel.obj
+ 0002:00000070       ??0CMandelbrotCF@@QAA@XZ   10004070   mandel.obj
+ 0002:00000078       ?QueryInterface@CMandelbrotCF@@UAAJABU_GUID@@PAPAX@Z 10004078   mandel.obj
+ 0002:00000080       ?AddRef@CMandelbrotCF@@UAAKXZ 10004080   mandel.obj
+ 0002:00000088       ?Release@CMandelbrotCF@@UAAKXZ 10004088   mandel.obj
+ 0002:00000090       ?CreateInstance@CMandelbrotCF@@UAAJPAUIUnknown@@ABU_GUID@@PAPAX@Z 10004090   mandel.obj
+ 0002:00000098       ?LockServer@CMandelbrotCF@@UAAJH@Z 10004098   mandel.obj
+ 0002:000000a0       ??1CMandelbrotCF@@QAA@XZ   100040a0   mandel.obj
+ 0002:000000a8       ?IsEqualGUID@@YAHABU_GUID@@0@Z 100040a8   mandel.obj
+ 0002:000000b0       ??_7CMandelbrotCF@@6B@     100040b0   mandel.obj
+ 0002:000000c4       ??0IClassFactory@@QAA@XZ   100040c4   mandel.obj
+ 0002:000000d0       ??_7IClassFactory@@6B@     100040d0   mandel.obj
+ 0002:000000e4       ??0IUnknown@@QAA@XZ        100040e4   mandel.obj
+ 0002:000000f0       ??_7IUnknown@@6B@          100040f0   mandel.obj
+ 0002:000000fc       ??_GCMandelbrotCF@@QAAPAXI@Z 100040fc   mandel.obj
+ 0002:00000108       ?QueryInterface@CMandelbrot@@UAAJABU_GUID@@PAPAX@Z 10004108   mandelob.obj
+ 0002:00000110       ?AddRef@CMandelbrot@@UAAKXZ 10004110   mandelob.obj
+ 0002:00000118       ?Release@CMandelbrot@@UAAKXZ 10004118   mandelob.obj
+ 0002:00000120       ?GetClassID@CMandelbrot@@UAAJPAU_GUID@@@Z 10004120   mandelob.obj
+ 0002:00000128       ?IsDirty@CMandelbrot@@UAAJXZ 10004128   mandelob.obj
+ 0002:00000130       ?Load@CMandelbrot@@UAAJPAUIStream@@@Z 10004130   mandelob.obj
+ 0002:00000138       ?Save@CMandelbrot@@UAAJPAUIStream@@H@Z 10004138   mandelob.obj
+ 0002:00000140       ?GetSizeMax@CMandelbrot@@UAAJPAT_ULARGE_INTEGER@@@Z 10004140   mandelob.obj
+ 0002:00000148       ?Init@CMandelbrot@@UAAJPAUIFractalHost@@@Z 10004148   mandelob.obj
+ 0002:00000150       ?SetDefaults@CMandelbrot@@UAAJXZ 10004150   mandelob.obj
+ 0002:00000168       ?SetProperties@CMandelbrot@@UAAJPAX@Z 10004168   mandelob.obj
+ 0002:00000170       ?GetExtent@CMandelbrot@@UAAJPAN000@Z 10004170   mandelob.obj
+ 0002:00000178       ?SetExtent@CMandelbrot@@UAAJNNNN@Z 10004178   mandelob.obj
+ 0002:00000180       ?SetGraphSize@CMandelbrot@@UAAJII@Z 10004180   mandelob.obj
+ 0002:00000188       ?Start@CMandelbrot@@UAAJXZ 10004188   mandelob.obj
+ 0002:00000190       ?Stop@CMandelbrot@@UAAJXZ  10004190   mandelob.obj
+ 0002:00000198       ?ComputePoint@CMandelbrot@@UAAJPAIHH@Z 10004198   mandelob.obj
+ 0002:000001b0       ?DoneDrawingGraph@CMandelbrot@@UAAJXZ 100041b0   mandelob.obj
+ 0002:000001b8       ?Initialize@CMandelbrot@@QAAHXZ 100041b8   mandelob.obj
+ 0002:000001c0       ??0CMandelbrot@@QAA@XZ     100041c0   mandelob.obj
+ 0002:000001c8       ?DialogProc@CMandelbrot@@UAAHPAXIIJ@Z 100041c8   mandelob.obj
+ 0002:000001d0       ??1CMandelbrot@@UAA@XZ     100041d0   mandelob.obj
+ 0002:000001d8       ??_ECMandelbrot@@UAAPAXI@Z 100041d8   mandelob.obj
+ 0002:000001d8       ??_GCMandelbrot@@UAAPAXI@Z 100041d8   mandelob.obj
+ 0002:000001e0       ?Release@CMandelbrot@@W7AAKXZ 100041e0   mandelob.obj
+ 0002:000001e8       ?AddRef@CMandelbrot@@W7AAKXZ 100041e8   mandelob.obj
+ 0002:000001f0       ?QueryInterface@CMandelbrot@@W7AAJABU_GUID@@PAPAX@Z 100041f0   mandelob.obj
+ 0002:000001f8       ?Release@CMandelbrot@@W3AAKXZ 100041f8   mandelob.obj
+ 0002:00000200       ?AddRef@CMandelbrot@@W3AAKXZ 10004200   mandelob.obj
+ 0002:00000208       ?QueryInterface@CMandelbrot@@W3AAJABU_GUID@@PAPAX@Z 10004208   mandelob.obj
+ 0002:00000210       ??_7CMandelbrot@@6BCHlprDialog@@@ 10004210   mandelob.obj
+ 0002:00000220       ??_7CMandelbrot@@6BIQuadrantClient@@@ 10004220   mandelob.obj
+ 0002:00000238       ??_7CMandelbrot@@6BIPersistStream@@@ 10004238   mandelob.obj
+ 0002:00000258       ??_7CMandelbrot@@6BIFractalEngine@@@ 10004258   mandelob.obj
+ 0002:00000284       ??0IFractalEngine@@QAA@XZ  10004284   mandelob.obj
+ 0002:00000290       ??_7IFractalEngine@@6B@    10004290   mandelob.obj
+ 0002:000002bc       ??0IPersistStream@@QAA@XZ  100042bc   mandelob.obj
+ 0002:000002c8       ??_7IPersistStream@@6B@    100042c8   mandelob.obj
+ 0002:000002e8       ??0IQuadrantClient@@QAA@XZ 100042e8   mandelob.obj
+ 0002:000002f0       ??_7IQuadrantClient@@6B@   100042f0   mandelob.obj
+ 0002:00000304       ??_ECHlprDialog@@UAAPAXI@Z 10004304   mandelob.obj
+ 0002:00000304       ??_GCHlprDialog@@UAAPAXI@Z 10004304   mandelob.obj
+ 0002:0000030c       ??0CHlprDialog@@QAA@XZ     1000430c   mandelob.obj
+ 0002:00000318       ??_7CHlprDialog@@6B@       10004318   mandelob.obj
+ 0002:00000324       ??1CHlprDialog@@UAA@XZ     10004324   mandelob.obj
+ 0002:0000032c       ??0IPersist@@QAA@XZ        1000432c   mandelob.obj
+ 0002:00000338       ??_7IPersist@@6B@          10004338   mandelob.obj
+ 0002:00000348       CoCreateInstance           10004348   ole32:ole32.dll
+ 0002:00000350       IID_IClassFactory          10004350   uuid:unknwn_i_guid1.obj
+ 0002:00000360       IID_IUnknown               10004360   uuid:unknwn_i_guid0.obj
+ 0002:00000370       IID_IPersistStream         10004370   uuid:objidl_i_guid12.obj
+ 0002:00000380       IID_IPersist               10004380   uuid:objidl_i_guid11.obj
+ 0002:00000390       _CRT_INIT                  10004390   msvcrt:crtdll.obj
+ 0002:00000398       _DllMainCRTStartup         10004398   msvcrt:crtdll.obj
+ 0002:000003a0       ??2@YAPAXI@Z               100043a0   msvcrt:MSVCRT40.dll
+ 0002:000003a8       memcmp                     100043a8   msvcrt:MSVCRT40.dll
+ 0002:000003b0       _purecall                  100043b0   msvcrt:MSVCRT40.dll
+ 0002:000003b8       ??3@YAXPAX@Z               100043b8   msvcrt:MSVCRT40.dll
+ 0002:000003c0       memcpy                     100043c0   msvcrt:MSVCRT40.dll
+ 0002:000003c8       sscanf                     100043c8   msvcrt:MSVCRT40.dll
+ 0002:000003d0       sprintf                    100043d0   msvcrt:MSVCRT40.dll
+ 0002:000003d8       free                       100043d8   msvcrt:MSVCRT40.dll
+ 0002:000003e0       _initterm                  100043e0   msvcrt:MSVCRT40.dll
+ 0002:000003e8       _onexit                    100043e8   msvcrt:atonexit.obj
+ 0002:000003f0       atexit                     100043f0   msvcrt:atonexit.obj
+ 0002:000003f8       malloc                     100043f8   msvcrt:MSVCRT40.dll
+ 0002:00000400       __dllonexit                10004400   msvcrt:MSVCRT40.dll
+ 0002:00000408       MessageBoxA                10004408   user32:USER32.dll
+ 0002:00000410       LoadStringA                10004410   user32:USER32.dll
+ 0002:00000418       EndDialog                  10004418   user32:USER32.dll
+ 0002:00000420       GetDlgItemTextA            10004420   user32:USER32.dll
+ 0002:00000428       IsDlgButtonChecked         10004428   user32:USER32.dll
+ 0002:00000430       SetDlgItemTextA            10004430   user32:USER32.dll
+ 0002:00000438       CheckDlgButton             10004438   user32:USER32.dll
+ 0002:00000440       IID_IQuadrantClient        10004440   fguids:qudcln_i.obj
+ 0002:00000450       IID_IFractalEngine         10004450   fguids:frcngn_i.obj
+ 0002:00000460       IID_IQuadrantEngine        10004460   fguids:qudngn_i.obj
+ 0002:00000470       SizeDouble                 10004470   winhlprs:strmhelp.obj
+ 0002:00000478       WriteDouble                10004478   winhlprs:strmhelp.obj
+ 0002:00000480       ReadDouble                 10004480   winhlprs:strmhelp.obj
+ 0002:00000488       ?ShowDialog@CHlprDialog@@UAAHPAXPBD0@Z 10004488   winhlprs:cdialog.obj
+ 0002:00000490       DialogProc                 10004490   winhlprs:cdialog.obj
+ 0002:00000498       strlen                     10004498   msvcrt:MSVCRT40.dll
+ 0002:000004a0       DialogBoxParamA            100044a0   user32:USER32.dll
+ 0002:000004a8       GetWindowLongA             100044a8   user32:USER32.dll
+ 0002:000004b0       SetWindowLongA             100044b0   user32:USER32.dll
+ 0003:00000000       __xc_a                     10005000   msvcrt:cinitexe.obj
+ 0003:00000008       __xc_z                     10005008   msvcrt:cinitexe.obj
+ 0003:00000010       __xi_a                     10005010   msvcrt:cinitexe.obj
+ 0003:00000018       __xi_z                     10005018   msvcrt:cinitexe.obj
+ 0003:00000060       ?CLSID_MANDELBROT@@3U_GUID@@A 10005060   fguids:mandcid.obj
+ 0003:00000070       ?CLSID_QUADRANTENGINE@@3U_GUID@@A 10005070   fguids:quadcid.obj
+ 0003:00000090       ?ghinst@@3PAXA             10005090   mandel.obj
+ 0003:00000094       ?gcRef@@3KA                10005094   mandel.obj
+ 0003:00000098       ?gcLock@@3KA               10005098   mandel.obj
+ 0003:0000009c       __onexitend                1000509c   <common>
+ 0003:000000a0       __onexitbegin              100050a0   <common>
+ 0003:000000a4       _pRawDllMain               100050a4   <common>
+ 0005:00000000       __IMPORT_DESCRIPTOR_ole32  10007000   ole32:ole32.dll
+ 0005:00000014       __IMPORT_DESCRIPTOR_MSVCRT40 10007014   msvcrt:MSVCRT40.dll
+ 0005:00000028       __IMPORT_DESCRIPTOR_USER32 10007028   user32:USER32.dll
+ 0005:0000003c       __NULL_IMPORT_DESCRIPTOR   1000703c   ole32:ole32.dll
+ 0005:0000017c       __imp__onexit              1000717c   msvcrt:MSVCRT40.dll
+ 0005:00000180       __imp_??2@YAPAXI@Z         10007180   msvcrt:MSVCRT40.dll
+ 0005:00000184       __imp_memcmp               10007184   msvcrt:MSVCRT40.dll
+ 0005:00000188       __imp__purecall            10007188   msvcrt:MSVCRT40.dll
+ 0005:0000018c       __imp_??3@YAXPAX@Z         1000718c   msvcrt:MSVCRT40.dll
+ 0005:00000190       __imp_memcpy               10007190   msvcrt:MSVCRT40.dll
+ 0005:00000194       __imp_sscanf               10007194   msvcrt:MSVCRT40.dll
+ 0005:00000198       __imp_sprintf              10007198   msvcrt:MSVCRT40.dll
+ 0005:0000019c       __imp_free                 1000719c   msvcrt:MSVCRT40.dll
+ 0005:000001a0       __imp__initterm            100071a0   msvcrt:MSVCRT40.dll
+ 0005:000001a4       __imp_malloc               100071a4   msvcrt:MSVCRT40.dll
+ 0005:000001a8       __imp___dllonexit          100071a8   msvcrt:MSVCRT40.dll
+ 0005:000001ac       __imp_strlen               100071ac   msvcrt:MSVCRT40.dll
+ 0005:000001b0       \177MSVCRT40_NULL_THUNK_DATA 100071b0   msvcrt:MSVCRT40.dll
+ 0005:000001b4       __imp_SetDlgItemTextA      100071b4   user32:USER32.dll
+ 0005:000001b8       __imp_MessageBoxA          100071b8   user32:USER32.dll
+ 0005:000001bc       __imp_LoadStringA          100071bc   user32:USER32.dll
+ 0005:000001c0       __imp_EndDialog            100071c0   user32:USER32.dll
+ 0005:000001c4       __imp_GetDlgItemTextA      100071c4   user32:USER32.dll
+ 0005:000001c8       __imp_IsDlgButtonChecked   100071c8   user32:USER32.dll
+ 0005:000001cc       __imp_CheckDlgButton       100071cc   user32:USER32.dll
+ 0005:000001d0       __imp_GetWindowLongA       100071d0   user32:USER32.dll
+ 0005:000001d4       __imp_DialogBoxParamA      100071d4   user32:USER32.dll
+ 0005:000001d8       __imp_SetWindowLongA       100071d8   user32:USER32.dll
+ 0005:000001dc       \177USER32_NULL_THUNK_DATA 100071dc   user32:USER32.dll
+ 0005:000001e0       __imp_CoCreateInstance     100071e0   ole32:ole32.dll
+ 0005:000001e4       \177ole32_NULL_THUNK_DATA  100071e4   ole32:ole32.dll
+ 0005:000080bc       .toc                       1000f0bc   <linker-defined>
+
+ entry point at        0002:00000398
+
+ Static symbols
+
+
+ Offset   Rva+Base   Publics by TOC Offset
+
+  8000    100070bc   IID_IFractalEngine
+  8004    100070c0   IID_IPersist
+  8008    100070c4   IID_IPersistStream
+  800c    100070c8   IID_IUnknown
+  8010    100070cc   IID_IQuadrantClient
+  8014    100070d0   ?gcRef@@3KA
+  8018    100070d4   ?CLSID_MANDELBROT@@3U_GUID@@A
+  8020    100070dc   ?ghinst@@3PAXA
+  8024    100070e0   __imp_CoCreateInstance
+  8028    100070e4   ?CLSID_QUADRANTENGINE@@3U_GUID@@A
+  802c    100070e8   IID_IQuadrantEngine
+  8030    100070ec   ??_7CMandelbrot@@6BIFractalEngine@@@
+  8034    100070f0   ??_7CMandelbrot@@6BIPersistStream@@@
+  8038    100070f4   ??_7CMandelbrot@@6BIQuadrantClient@@@
+  803c    100070f8   ??_7CMandelbrot@@6BCHlprDialog@@@
+  8040    100070fc   __imp_CheckDlgButton
+  8048    10007104   __imp_SetDlgItemTextA
+  804c    10007108   __imp_IsDlgButtonChecked
+  8050    1000710c   __imp_GetDlgItemTextA
+  8054    10007110   __imp_EndDialog
+  8058    10007114   __imp_LoadStringA
+  805c    10007118   __imp_MessageBoxA
+  8060    1000711c   ??_7IFractalEngine@@6B@
+  8064    10007120   ??_7IPersistStream@@6B@
+  8068    10007124   ??_7IQuadrantClient@@6B@
+  806c    10007128   ??_7CHlprDialog@@6B@
+  8070    1000712c   ??_7IPersist@@6B@
+  8074    10007130   ?gcLock@@3KA
+  8078    10007134   IID_IClassFactory
+  807c    10007138   ??_7CMandelbrotCF@@6B@
+  8080    1000713c   ??_7IClassFactory@@6B@
+  8084    10007140   ??_7IUnknown@@6B@
+  8088    10007144   __onexitbegin
+  808c    10007148   __imp__onexit
+  8090    1000714c   __onexitend
+  8098    10007154   __imp_malloc
+  809c    10007158   __xc_a
+  80a0    1000715c   __xc_z
+  80a4    10007160   __imp_free
+  80a8    10007164   _pRawDllMain
+  80ac    10007168   __imp_DialogBoxParamA
+  80b0    1000716c   DialogProc
+  80b4    10007170   __imp_SetWindowLongA
+  80b8    10007174   __imp_GetWindowLongA
+

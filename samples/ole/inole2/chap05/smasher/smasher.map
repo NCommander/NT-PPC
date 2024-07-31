@@ -1,0 +1,196 @@
+ smasher
+
+ Timestamp is 6417318b (Sun Mar 19 11:00:11 2023)
+
+ Preferred load address is 77000000
+
+ Start         Length     Name                   Class
+ 0001:00000000 00001358H .text                   CODE
+ 0002:00000000 00000188H .rdata                  DATA
+ 0002:00000190 0000004eH .edata                  DATA
+ 0003:00000000 00000004H .CRT$XCA                DATA
+ 0003:00000008 00000004H .CRT$XCZ                DATA
+ 0003:00000010 00000004H .CRT$XIA                DATA
+ 0003:00000018 00000004H .CRT$XIZ                DATA
+ 0003:00000020 000001f4H .data                   DATA
+ 0003:00000218 00000014H .bss                    DATA
+ 0004:00000000 00000244H .pdata                  DATA
+ 0005:00000000 00000050H .idata$2                DATA
+ 0005:00000050 00000014H .idata$3                DATA
+ 0005:00000064 00000064H .idata$4                DATA
+ 0005:000000c8 00000070H .idata$4toc             DATA
+ 0005:00000138 00000064H .idata$5                DATA
+ 0005:0000019c 00000154H .idata$6                DATA
+ 0006:00000000 00000118H .rsrc$01                DATA
+ 0006:00000120 00000208H .rsrc$02                DATA
+
+  Address         Publics by Value              Rva+Base   Lib:Object
+
+ 0001:00000000       ..DllMain                  77001000 f smasher.obj
+ 0001:00000050       ..?FMExtensionProc@@YAPAUHMENU__@@PAUHWND__@@IJ@Z 77001050 f smasher.obj
+ 0001:0000043c       ..?SmashSelectedFiles@@YAHPAUHWND__@@@Z 7700143c f smasher.obj
+ 0001:00000d0c       ..CoUninitialize           77001d0c f ole32:ole32.dll
+ 0001:00000d24       ..CoInitialize             77001d24 f ole32:ole32.dll
+ 0001:00000d3c       ..StgOpenStorage           77001d3c f ole32:ole32.dll
+ 0001:00000d54       ..StgCreateDocfile         77001d54 f ole32:ole32.dll
+ 0001:00000d6c       ..StgIsStorageFile         77001d6c f ole32:ole32.dll
+ 0001:00000d84       ..CoGetMalloc              77001d84 f ole32:ole32.dll
+ 0001:00000d9c       .._CRT_INIT                77001d9c f msvcrt:crtdll.obj
+ 0001:00000f18       .._DllMainCRTStartup       77001f18 f msvcrt:crtdll.obj
+ 0001:0000106c       ..mbstowcs                 7700206c f msvcrt:MSVCRT40.dll
+ 0001:00001088       ..__restgpr_All            77002088 f msvcrt:restgpr.obj
+ 0001:000010bc       ..__restgpr_14             770020bc   msvcrt:restgpr.obj
+ 0001:000010c0       ..__restgpr_15             770020c0   msvcrt:restgpr.obj
+ 0001:000010c4       ..__restgpr_16             770020c4   msvcrt:restgpr.obj
+ 0001:000010c8       ..__restgpr_17             770020c8   msvcrt:restgpr.obj
+ 0001:000010cc       ..__restgpr_18             770020cc   msvcrt:restgpr.obj
+ 0001:000010d0       ..__restgpr_19             770020d0   msvcrt:restgpr.obj
+ 0001:000010d4       ..__restgpr_20             770020d4   msvcrt:restgpr.obj
+ 0001:000010d8       ..__restgpr_21             770020d8   msvcrt:restgpr.obj
+ 0001:000010dc       ..__restgpr_22             770020dc   msvcrt:restgpr.obj
+ 0001:000010e0       ..__restgpr_23             770020e0   msvcrt:restgpr.obj
+ 0001:000010e4       ..__restgpr_24             770020e4   msvcrt:restgpr.obj
+ 0001:000010e8       ..__restgpr_25             770020e8   msvcrt:restgpr.obj
+ 0001:000010ec       ..__restgpr_26             770020ec   msvcrt:restgpr.obj
+ 0001:000010f0       ..__restgpr_27             770020f0   msvcrt:restgpr.obj
+ 0001:000010f4       ..__restgpr_28             770020f4   msvcrt:restgpr.obj
+ 0001:000010f8       ..__restgpr_29             770020f8   msvcrt:restgpr.obj
+ 0001:000010fc       ..__restgpr_30             770020fc   msvcrt:restgpr.obj
+ 0001:00001100       ..__restgpr_31             77002100   msvcrt:restgpr.obj
+ 0001:00001108       ..free                     77002108 f msvcrt:MSVCRT40.dll
+ 0001:00001120       .._initterm                77002120 f msvcrt:MSVCRT40.dll
+ 0001:00001138       .._onexit                  77002138 f msvcrt:atonexit.obj
+ 0001:000011a0       ..atexit                   770021a0 f msvcrt:atonexit.obj
+ 0001:000011d0       ..malloc                   770021d0 f msvcrt:MSVCRT40.dll
+ 0001:000011e8       ..__savegpr_All            770021e8 f msvcrt:savegpr.obj
+ 0001:0000121c       ..__savegpr_14             7700221c   msvcrt:savegpr.obj
+ 0001:00001220       ..__savegpr_15             77002220   msvcrt:savegpr.obj
+ 0001:00001224       ..__savegpr_16             77002224   msvcrt:savegpr.obj
+ 0001:00001228       ..__savegpr_17             77002228   msvcrt:savegpr.obj
+ 0001:0000122c       ..__savegpr_18             7700222c   msvcrt:savegpr.obj
+ 0001:00001230       ..__savegpr_19             77002230   msvcrt:savegpr.obj
+ 0001:00001234       ..__savegpr_20             77002234   msvcrt:savegpr.obj
+ 0001:00001238       ..__savegpr_21             77002238   msvcrt:savegpr.obj
+ 0001:0000123c       ..__savegpr_22             7700223c   msvcrt:savegpr.obj
+ 0001:00001240       ..__savegpr_23             77002240   msvcrt:savegpr.obj
+ 0001:00001244       ..__savegpr_24             77002244   msvcrt:savegpr.obj
+ 0001:00001248       ..__savegpr_25             77002248   msvcrt:savegpr.obj
+ 0001:0000124c       ..__savegpr_26             7700224c   msvcrt:savegpr.obj
+ 0001:00001250       ..__savegpr_27             77002250   msvcrt:savegpr.obj
+ 0001:00001254       ..__savegpr_28             77002254   msvcrt:savegpr.obj
+ 0001:00001258       ..__savegpr_29             77002258   msvcrt:savegpr.obj
+ 0001:0000125c       ..__savegpr_30             7700225c   msvcrt:savegpr.obj
+ 0001:00001260       ..__savegpr_31             77002260   msvcrt:savegpr.obj
+ 0001:00001268       ..__dllonexit              77002268 f msvcrt:MSVCRT40.dll
+ 0001:00001280       ..OpenFile                 77002280 f kernel32:KERNEL32.dll
+ 0001:00001298       ..lstrcpyA                 77002298 f kernel32:KERNEL32.dll
+ 0001:000012b0       ..LoadMenuA                770022b0 f user32:USER32.dll
+ 0001:000012c8       ..LoadStringA              770022c8 f user32:USER32.dll
+ 0001:000012e0       ..MessageBoxA              770022e0 f user32:USER32.dll
+ 0001:000012f8       ..wsprintfA                770022f8 f user32:USER32.dll
+ 0001:00001310       ..LoadCursorA              77002310 f user32:USER32.dll
+ 0001:00001328       ..SetCursor                77002328 f user32:USER32.dll
+ 0001:00001340       ..SendMessageA             77002340 f user32:USER32.dll
+ 0002:000000b0       DllMain                    770030b0   smasher.obj
+ 0002:000000b8       ?FMExtensionProc@@YAPAUHMENU__@@PAUHWND__@@IJ@Z 770030b8   smasher.obj
+ 0002:000000c0       ?SmashSelectedFiles@@YAHPAUHWND__@@@Z 770030c0   smasher.obj
+ 0002:000000c8       CoUninitialize             770030c8   ole32:ole32.dll
+ 0002:000000d0       CoInitialize               770030d0   ole32:ole32.dll
+ 0002:000000d8       StgOpenStorage             770030d8   ole32:ole32.dll
+ 0002:000000e0       StgCreateDocfile           770030e0   ole32:ole32.dll
+ 0002:000000e8       StgIsStorageFile           770030e8   ole32:ole32.dll
+ 0002:000000f0       CoGetMalloc                770030f0   ole32:ole32.dll
+ 0002:000000f8       _CRT_INIT                  770030f8   msvcrt:crtdll.obj
+ 0002:00000100       _DllMainCRTStartup         77003100   msvcrt:crtdll.obj
+ 0002:00000108       mbstowcs                   77003108   msvcrt:MSVCRT40.dll
+ 0002:00000110       free                       77003110   msvcrt:MSVCRT40.dll
+ 0002:00000118       _initterm                  77003118   msvcrt:MSVCRT40.dll
+ 0002:00000120       _onexit                    77003120   msvcrt:atonexit.obj
+ 0002:00000128       atexit                     77003128   msvcrt:atonexit.obj
+ 0002:00000130       malloc                     77003130   msvcrt:MSVCRT40.dll
+ 0002:00000138       __dllonexit                77003138   msvcrt:MSVCRT40.dll
+ 0002:00000140       OpenFile                   77003140   kernel32:KERNEL32.dll
+ 0002:00000148       lstrcpyA                   77003148   kernel32:KERNEL32.dll
+ 0002:00000150       LoadMenuA                  77003150   user32:USER32.dll
+ 0002:00000158       LoadStringA                77003158   user32:USER32.dll
+ 0002:00000160       MessageBoxA                77003160   user32:USER32.dll
+ 0002:00000168       wsprintfA                  77003168   user32:USER32.dll
+ 0002:00000170       LoadCursorA                77003170   user32:USER32.dll
+ 0002:00000178       SetCursor                  77003178   user32:USER32.dll
+ 0002:00000180       SendMessageA               77003180   user32:USER32.dll
+ 0003:00000000       __xc_a                     77004000   msvcrt:cinitexe.obj
+ 0003:00000008       __xc_z                     77004008   msvcrt:cinitexe.obj
+ 0003:00000010       __xi_a                     77004010   msvcrt:cinitexe.obj
+ 0003:00000018       __xi_z                     77004018   msvcrt:cinitexe.obj
+ 0003:00000020       ?btns@@3PAUtagEXT_BUTTON@@A 77004020   smasher.obj
+ 0003:00000218       ?g_hInst@@3PAUHINSTANCE__@@A 77004218   smasher.obj
+ 0003:0000021c       ?fInitialized@@3HA         7700421c   smasher.obj
+ 0003:00000220       __onexitend                77004220   <common>
+ 0003:00000224       __onexitbegin              77004224   <common>
+ 0003:00000228       _pRawDllMain               77004228   <common>
+ 0005:00000000       __IMPORT_DESCRIPTOR_ole32  77006000   ole32:ole32.dll
+ 0005:00000014       __IMPORT_DESCRIPTOR_MSVCRT40 77006014   msvcrt:MSVCRT40.dll
+ 0005:00000028       __IMPORT_DESCRIPTOR_KERNEL32 77006028   kernel32:KERNEL32.dll
+ 0005:0000003c       __IMPORT_DESCRIPTOR_USER32 7700603c   user32:USER32.dll
+ 0005:00000050       __NULL_IMPORT_DESCRIPTOR   77006050   ole32:ole32.dll
+ 0005:00000138       __imp_lstrcpyA             77006138   kernel32:KERNEL32.dll
+ 0005:0000013c       __imp_OpenFile             7700613c   kernel32:KERNEL32.dll
+ 0005:00000140       \177KERNEL32_NULL_THUNK_DATA 77006140   kernel32:KERNEL32.dll
+ 0005:00000144       __imp__onexit              77006144   msvcrt:MSVCRT40.dll
+ 0005:00000148       __imp___dllonexit          77006148   msvcrt:MSVCRT40.dll
+ 0005:0000014c       __imp_mbstowcs             7700614c   msvcrt:MSVCRT40.dll
+ 0005:00000150       __imp_free                 77006150   msvcrt:MSVCRT40.dll
+ 0005:00000154       __imp__initterm            77006154   msvcrt:MSVCRT40.dll
+ 0005:00000158       __imp_malloc               77006158   msvcrt:MSVCRT40.dll
+ 0005:0000015c       \177MSVCRT40_NULL_THUNK_DATA 7700615c   msvcrt:MSVCRT40.dll
+ 0005:00000160       __imp_LoadMenuA            77006160   user32:USER32.dll
+ 0005:00000164       __imp_SendMessageA         77006164   user32:USER32.dll
+ 0005:00000168       __imp_MessageBoxA          77006168   user32:USER32.dll
+ 0005:0000016c       __imp_LoadStringA          7700616c   user32:USER32.dll
+ 0005:00000170       __imp_LoadCursorA          77006170   user32:USER32.dll
+ 0005:00000174       __imp_SetCursor            77006174   user32:USER32.dll
+ 0005:00000178       __imp_wsprintfA            77006178   user32:USER32.dll
+ 0005:0000017c       \177USER32_NULL_THUNK_DATA 7700617c   user32:USER32.dll
+ 0005:00000180       __imp_StgOpenStorage       77006180   ole32:ole32.dll
+ 0005:00000184       __imp_CoGetMalloc          77006184   ole32:ole32.dll
+ 0005:00000188       __imp_CoInitialize         77006188   ole32:ole32.dll
+ 0005:0000018c       __imp_CoUninitialize       7700618c   ole32:ole32.dll
+ 0005:00000190       __imp_StgIsStorageFile     77006190   ole32:ole32.dll
+ 0005:00000194       __imp_StgCreateDocfile     77006194   ole32:ole32.dll
+ 0005:00000198       \177ole32_NULL_THUNK_DATA  77006198   ole32:ole32.dll
+ 0005:000080c8       .toc                       7700e0c8   <linker-defined>
+
+ entry point at        0002:00000100
+
+ Static symbols
+
+
+ Offset   Rva+Base   Publics by TOC Offset
+
+  8000    770060c8   ?g_hInst@@3PAUHINSTANCE__@@A
+  8004    770060cc   __imp_CoInitialize
+  8008    770060d0   ?fInitialized@@3HA
+  800c    770060d4   __imp_LoadStringA
+  8010    770060d8   __imp_LoadMenuA
+  8014    770060dc   __imp_CoUninitialize
+  8018    770060e0   ?btns@@3PAUtagEXT_BUTTON@@A
+  801c    770060e4   __imp_SendMessageA
+  8020    770060e8   __imp_CoGetMalloc
+  8024    770060ec   __imp_LoadCursorA
+  8028    770060f0   __imp_SetCursor
+  802c    770060f4   __imp_StgIsStorageFile
+  8030    770060f8   __imp_wsprintfA
+  8038    77006100   __imp_MessageBoxA
+  803c    77006104   __imp_StgCreateDocfile
+  8040    77006108   __imp_StgOpenStorage
+  8044    7700610c   __imp_lstrcpyA
+  8048    77006110   __imp_OpenFile
+  804c    77006114   __onexitbegin
+  8050    77006118   __imp__onexit
+  8054    7700611c   __onexitend
+  805c    77006124   __imp_malloc
+  8060    77006128   __xc_a
+  8064    7700612c   __xc_z
+  8068    77006130   __imp_free
+  806c    77006134   _pRawDllMain
+

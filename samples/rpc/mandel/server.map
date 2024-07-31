@@ -1,0 +1,231 @@
+ server
+
+ Timestamp is 64173b5e (Sun Mar 19 11:42:06 2023)
+
+ Preferred load address is 00400000
+
+ Start         Length     Name                   Class
+ 0001:00000000 000012f4H .text                   CODE
+ 0002:00000000 00000278H .rdata                  DATA
+ 0002:00000278 00000028H .xdata                  DATA
+ 0002:000002a0 00000000H .edata                  DATA
+ 0003:00000000 00000004H .CRT$XCA                DATA
+ 0003:00000008 00000004H .CRT$XCZ                DATA
+ 0003:00000010 00000004H .CRT$XIA                DATA
+ 0003:00000018 00000004H .CRT$XIZ                DATA
+ 0003:00000020 0000019cH .data                   DATA
+ 0003:000001bc 00000008H .bss                    DATA
+ 0004:00000000 0000035cH .pdata                  DATA
+ 0005:00000000 00000028H .idata$2                DATA
+ 0005:00000028 00000014H .idata$3                DATA
+ 0005:0000003c 00000084H .idata$4                DATA
+ 0005:000000c0 00000080H .idata$4toc             DATA
+ 0005:00000140 00000084H .idata$5                DATA
+ 0005:000001c4 000001fcH .idata$6                DATA
+
+  Address         Publics by Value              Rva+Base   Lib:Object
+
+ 0001:00000000       ..Usage                    00401000 f server.obj
+ 0001:000001d0       ..main                     004011d0 f server.obj
+ 0001:0000070c       ..MIDL_user_allocate       0040170c f server.obj
+ 0001:0000075c       ..MIDL_user_free           0040175c f server.obj
+ 0001:000007a8       ..MandelCalc               004017a8 f calc.obj
+ 0001:00000974       ..calcmand                 00401974 f calc.obj
+ 0001:00000a78       ..mdlrpc_MandelCalc        00401a78 f mdlrpc_s.obj
+ 0001:00000cc4       ..RpcMgmtWaitServerListen  00401cc4 f rpcrt4:RPCRT4.dll
+ 0001:00000cdc       ..RpcServerListen          00401cdc f rpcrt4:RPCRT4.dll
+ 0001:00000cf4       ..RpcServerRegisterIf      00401cf4 f rpcrt4:RPCRT4.dll
+ 0001:00000d0c       ..RpcServerUseProtseqEpA   00401d0c f rpcrt4:RPCRT4.dll
+ 0001:00000d24       ..NdrPointerFree           00401d24 f rpcrt4:RPCRT4.dll
+ 0001:00000d3c       ..NdrFixedArrayMarshall    00401d3c f rpcrt4:RPCRT4.dll
+ 0001:00000d54       ..RpcRaiseException        00401d54 f rpcrt4:RPCRT4.dll
+ 0001:00000d6c       ..I_RpcGetBuffer           00401d6c f rpcrt4:RPCRT4.dll
+ 0001:00000d84       ..NdrSimpleStructUnmarshall 00401d84 f rpcrt4:RPCRT4.dll
+ 0001:00000d9c       ..NdrConvert               00401d9c f rpcrt4:RPCRT4.dll
+ 0001:00000db4       ..NdrServerInitializeNew   00401db4 f rpcrt4:RPCRT4.dll
+ 0001:00000dcc       ..exit                     00401dcc f msvcrt:MSVCRT40.dll
+ 0001:00000de4       ..fprintf                  00401de4 f msvcrt:MSVCRT40.dll
+ 0001:00000dfc       ..printf                   00401dfc f msvcrt:MSVCRT40.dll
+ 0001:00000e14       ..atoi                     00401e14 f msvcrt:MSVCRT40.dll
+ 0001:00000e2c       ..tolower                  00401e2c f msvcrt:MSVCRT40.dll
+ 0001:00000e44       ..malloc                   00401e44 f msvcrt:MSVCRT40.dll
+ 0001:00000e5c       ..free                     00401e5c f msvcrt:MSVCRT40.dll
+ 0001:00000e78       ..__itod                   00401e78 f msvcrt:itod.obj
+ 0001:00000ea4       ..__C_specific_handler     00401ea4 f msvcrt:MSVCRT40.dll
+ 0001:00000ec0       ..__restgpr_All            00401ec0 f msvcrt:restgpr.obj
+ 0001:00000ef4       ..__restgpr_14             00401ef4   msvcrt:restgpr.obj
+ 0001:00000ef8       ..__restgpr_15             00401ef8   msvcrt:restgpr.obj
+ 0001:00000efc       ..__restgpr_16             00401efc   msvcrt:restgpr.obj
+ 0001:00000f00       ..__restgpr_17             00401f00   msvcrt:restgpr.obj
+ 0001:00000f04       ..__restgpr_18             00401f04   msvcrt:restgpr.obj
+ 0001:00000f08       ..__restgpr_19             00401f08   msvcrt:restgpr.obj
+ 0001:00000f0c       ..__restgpr_20             00401f0c   msvcrt:restgpr.obj
+ 0001:00000f10       ..__restgpr_21             00401f10   msvcrt:restgpr.obj
+ 0001:00000f14       ..__restgpr_22             00401f14   msvcrt:restgpr.obj
+ 0001:00000f18       ..__restgpr_23             00401f18   msvcrt:restgpr.obj
+ 0001:00000f1c       ..__restgpr_24             00401f1c   msvcrt:restgpr.obj
+ 0001:00000f20       ..__restgpr_25             00401f20   msvcrt:restgpr.obj
+ 0001:00000f24       ..__restgpr_26             00401f24   msvcrt:restgpr.obj
+ 0001:00000f28       ..__restgpr_27             00401f28   msvcrt:restgpr.obj
+ 0001:00000f2c       ..__restgpr_28             00401f2c   msvcrt:restgpr.obj
+ 0001:00000f30       ..__restgpr_29             00401f30   msvcrt:restgpr.obj
+ 0001:00000f34       ..__restgpr_30             00401f34   msvcrt:restgpr.obj
+ 0001:00000f38       ..__restgpr_31             00401f38   msvcrt:restgpr.obj
+ 0001:00000f40       ..mainCRTStartup           00401f40 f msvcrt:crtexe.obj
+ 0001:00001124       .._matherr                 00402124 f msvcrt:merr.obj
+ 0001:00001130       ..__savegpr_All            00402130 f msvcrt:savegpr.obj
+ 0001:00001164       ..__savegpr_14             00402164   msvcrt:savegpr.obj
+ 0001:00001168       ..__savegpr_15             00402168   msvcrt:savegpr.obj
+ 0001:0000116c       ..__savegpr_16             0040216c   msvcrt:savegpr.obj
+ 0001:00001170       ..__savegpr_17             00402170   msvcrt:savegpr.obj
+ 0001:00001174       ..__savegpr_18             00402174   msvcrt:savegpr.obj
+ 0001:00001178       ..__savegpr_19             00402178   msvcrt:savegpr.obj
+ 0001:0000117c       ..__savegpr_20             0040217c   msvcrt:savegpr.obj
+ 0001:00001180       ..__savegpr_21             00402180   msvcrt:savegpr.obj
+ 0001:00001184       ..__savegpr_22             00402184   msvcrt:savegpr.obj
+ 0001:00001188       ..__savegpr_23             00402188   msvcrt:savegpr.obj
+ 0001:0000118c       ..__savegpr_24             0040218c   msvcrt:savegpr.obj
+ 0001:00001190       ..__savegpr_25             00402190   msvcrt:savegpr.obj
+ 0001:00001194       ..__savegpr_26             00402194   msvcrt:savegpr.obj
+ 0001:00001198       ..__savegpr_27             00402198   msvcrt:savegpr.obj
+ 0001:0000119c       ..__savegpr_28             0040219c   msvcrt:savegpr.obj
+ 0001:000011a0       ..__savegpr_29             004021a0   msvcrt:savegpr.obj
+ 0001:000011a4       ..__savegpr_30             004021a4   msvcrt:savegpr.obj
+ 0001:000011a8       ..__savegpr_31             004021a8   msvcrt:savegpr.obj
+ 0001:000011b0       .._exit                    004021b0 f msvcrt:MSVCRT40.dll
+ 0001:000011c8       .._XcptFilter              004021c8 f msvcrt:MSVCRT40.dll
+ 0001:000011e0       ..__getmainargs            004021e0 f msvcrt:MSVCRT40.dll
+ 0001:000011f8       .._initterm                004021f8 f msvcrt:MSVCRT40.dll
+ 0001:00001210       ..__setusermatherr         00402210 f msvcrt:MSVCRT40.dll
+ 0001:00001228       .._setargv                 00402228 f msvcrt:dllargv.obj
+ 0001:0000122c       .._onexit                  0040222c f msvcrt:atonexit.obj
+ 0001:00001294       ..atexit                   00402294 f msvcrt:atonexit.obj
+ 0001:000012c4       ..__set_app_type           004022c4 f msvcrt:MSVCRT40.dll
+ 0001:000012dc       ..__dllonexit              004022dc f msvcrt:MSVCRT40.dll
+ 0002:00000058       Usage                      00403058   server.obj
+ 0002:00000060       main                       00403060   server.obj
+ 0002:00000068       MIDL_user_allocate         00403068   server.obj
+ 0002:00000070       MIDL_user_free             00403070   server.obj
+ 0002:00000078       MandelCalc                 00403078   calc.obj
+ 0002:00000090       calcmand                   00403090   calc.obj
+ 0002:00000178       mdlrpc_MandelCalc          00403178   mdlrpc_s.obj
+ 0002:00000180       RpcMgmtWaitServerListen    00403180   rpcrt4:RPCRT4.dll
+ 0002:00000188       RpcServerListen            00403188   rpcrt4:RPCRT4.dll
+ 0002:00000190       RpcServerRegisterIf        00403190   rpcrt4:RPCRT4.dll
+ 0002:00000198       RpcServerUseProtseqEpA     00403198   rpcrt4:RPCRT4.dll
+ 0002:000001a0       NdrPointerFree             004031a0   rpcrt4:RPCRT4.dll
+ 0002:000001a8       NdrFixedArrayMarshall      004031a8   rpcrt4:RPCRT4.dll
+ 0002:000001b0       RpcRaiseException          004031b0   rpcrt4:RPCRT4.dll
+ 0002:000001b8       I_RpcGetBuffer             004031b8   rpcrt4:RPCRT4.dll
+ 0002:000001c0       NdrSimpleStructUnmarshall  004031c0   rpcrt4:RPCRT4.dll
+ 0002:000001c8       NdrConvert                 004031c8   rpcrt4:RPCRT4.dll
+ 0002:000001d0       NdrServerInitializeNew     004031d0   rpcrt4:RPCRT4.dll
+ 0002:000001d8       exit                       004031d8   msvcrt:MSVCRT40.dll
+ 0002:000001e0       fprintf                    004031e0   msvcrt:MSVCRT40.dll
+ 0002:000001e8       printf                     004031e8   msvcrt:MSVCRT40.dll
+ 0002:000001f0       atoi                       004031f0   msvcrt:MSVCRT40.dll
+ 0002:000001f8       tolower                    004031f8   msvcrt:MSVCRT40.dll
+ 0002:00000200       malloc                     00403200   msvcrt:MSVCRT40.dll
+ 0002:00000208       free                       00403208   msvcrt:MSVCRT40.dll
+ 0002:00000210       __C_specific_handler       00403210   msvcrt:MSVCRT40.dll
+ 0002:00000218       mainCRTStartup             00403218   msvcrt:crtexe.obj
+ 0002:00000220       _matherr                   00403220   msvcrt:merr.obj
+ 0002:00000228       _exit                      00403228   msvcrt:MSVCRT40.dll
+ 0002:00000230       _XcptFilter                00403230   msvcrt:MSVCRT40.dll
+ 0002:00000238       __getmainargs              00403238   msvcrt:MSVCRT40.dll
+ 0002:00000240       _initterm                  00403240   msvcrt:MSVCRT40.dll
+ 0002:00000248       __setusermatherr           00403248   msvcrt:MSVCRT40.dll
+ 0002:00000250       _setargv                   00403250   msvcrt:dllargv.obj
+ 0002:00000258       _onexit                    00403258   msvcrt:atonexit.obj
+ 0002:00000260       atexit                     00403260   msvcrt:atonexit.obj
+ 0002:00000268       __set_app_type             00403268   msvcrt:MSVCRT40.dll
+ 0002:00000270       __dllonexit                00403270   msvcrt:MSVCRT40.dll
+ 0003:00000000       __xc_a                     00404000   msvcrt:cinitexe.obj
+ 0003:00000008       __xc_z                     00404008   msvcrt:cinitexe.obj
+ 0003:00000010       __xi_a                     00404010   msvcrt:cinitexe.obj
+ 0003:00000018       __xi_z                     00404018   msvcrt:cinitexe.obj
+ 0003:00000178       mdlrpc_ServerIfHandle      00404178   mdlrpc_s.obj
+ 0003:00000188       mdlrpc_DispatchTable       00404188   mdlrpc_s.obj
+ 0003:00000198       __defaultmatherr           00404198   msvcrt:merr.obj
+ 0003:000001a0       _dowildcard                004041a0   msvcrt:wildcard.obj
+ 0003:000001a8       _newmode                   004041a8   msvcrt:_newmode.obj
+ 0003:000001b0       _commode                   004041b0   msvcrt:xncommod.obj
+ 0003:000001b8       _fmode                     004041b8   msvcrt:xtxtmode.obj
+ 0003:000001bc       __onexitend                004041bc   <common>
+ 0003:000001c0       __onexitbegin              004041c0   <common>
+ 0005:00000000       __IMPORT_DESCRIPTOR_RPCRT4 00406000   rpcrt4:RPCRT4.dll
+ 0005:00000014       __IMPORT_DESCRIPTOR_MSVCRT40 00406014   msvcrt:MSVCRT40.dll
+ 0005:00000028       __NULL_IMPORT_DESCRIPTOR   00406028   rpcrt4:RPCRT4.dll
+ 0005:00000140       __imp_atoi                 00406140   msvcrt:MSVCRT40.dll
+ 0005:00000144       __imp_tolower              00406144   msvcrt:MSVCRT40.dll
+ 0005:00000148       __imp___dllonexit          00406148   msvcrt:MSVCRT40.dll
+ 0005:0000014c       __imp__onexit              0040614c   msvcrt:MSVCRT40.dll
+ 0005:00000150       __imp__fmode               00406150   msvcrt:MSVCRT40.dll
+ 0005:00000154       __imp__commode             00406154   msvcrt:MSVCRT40.dll
+ 0005:00000158       __imp___set_app_type       00406158   msvcrt:MSVCRT40.dll
+ 0005:0000015c       __imp__initterm            0040615c   msvcrt:MSVCRT40.dll
+ 0005:00000160       __imp___getmainargs        00406160   msvcrt:MSVCRT40.dll
+ 0005:00000164       __imp___setusermatherr     00406164   msvcrt:MSVCRT40.dll
+ 0005:00000168       __imp__XcptFilter          00406168   msvcrt:MSVCRT40.dll
+ 0005:0000016c       __imp_exit                 0040616c   msvcrt:MSVCRT40.dll
+ 0005:00000170       __imp__iob                 00406170   msvcrt:MSVCRT40.dll
+ 0005:00000174       __imp_fprintf              00406174   msvcrt:MSVCRT40.dll
+ 0005:00000178       __imp_printf               00406178   msvcrt:MSVCRT40.dll
+ 0005:0000017c       __imp__exit                0040617c   msvcrt:MSVCRT40.dll
+ 0005:00000180       __imp___initenv            00406180   msvcrt:MSVCRT40.dll
+ 0005:00000184       __imp_malloc               00406184   msvcrt:MSVCRT40.dll
+ 0005:00000188       __imp_free                 00406188   msvcrt:MSVCRT40.dll
+ 0005:0000018c       __imp___C_specific_handler 0040618c   msvcrt:MSVCRT40.dll
+ 0005:00000190       \177MSVCRT40_NULL_THUNK_DATA 00406190   msvcrt:MSVCRT40.dll
+ 0005:00000194       __imp_NdrConvert           00406194   rpcrt4:RPCRT4.dll
+ 0005:00000198       __imp_NdrServerInitializeNew 00406198   rpcrt4:RPCRT4.dll
+ 0005:0000019c       __imp_RpcRaiseException    0040619c   rpcrt4:RPCRT4.dll
+ 0005:000001a0       __imp_NdrSimpleStructUnmarshall 004061a0   rpcrt4:RPCRT4.dll
+ 0005:000001a4       __imp_I_RpcGetBuffer       004061a4   rpcrt4:RPCRT4.dll
+ 0005:000001a8       __imp_RpcServerUseProtseqEpA 004061a8   rpcrt4:RPCRT4.dll
+ 0005:000001ac       __imp_NdrFixedArrayMarshall 004061ac   rpcrt4:RPCRT4.dll
+ 0005:000001b0       __imp_NdrPointerFree       004061b0   rpcrt4:RPCRT4.dll
+ 0005:000001b4       __imp_RpcMgmtWaitServerListen 004061b4   rpcrt4:RPCRT4.dll
+ 0005:000001b8       __imp_RpcServerRegisterIf  004061b8   rpcrt4:RPCRT4.dll
+ 0005:000001bc       __imp_RpcServerListen      004061bc   rpcrt4:RPCRT4.dll
+ 0005:000001c0       \177RPCRT4_NULL_THUNK_DATA 004061c0   rpcrt4:RPCRT4.dll
+ 0005:000080c0       .toc                       0040e0c0   <linker-defined>
+
+ entry point at        0002:00000218
+
+ Static symbols
+
+ 0001:00000c70       $L22862                    00401c70 f mdlrpc_s.obj
+
+ Offset   Rva+Base   Publics by TOC Offset
+
+  8008    004060c8   __imp_fprintf
+  800c    004060cc   __imp__iob
+  8014    004060d4   __imp_exit
+  8018    004060d8   __imp_tolower
+  801c    004060dc   __imp_atoi
+  8020    004060e0   __imp_printf
+  8024    004060e4   mdlrpc_ServerIfHandle
+  8028    004060e8   __imp_malloc
+  802c    004060ec   __imp_free
+  8030    004060f0   __onexitbegin
+  8034    004060f4   __imp__onexit
+  8038    004060f8   __onexitend
+  803c    004060fc   __imp___set_app_type
+  8040    00406100   __imp__fmode
+  8044    00406104   _fmode
+  8048    00406108   __imp__commode
+  804c    0040610c   _commode
+  8050    00406110   __defaultmatherr
+  8054    00406114   __imp___setusermatherr
+  8058    00406118   _matherr
+  805c    0040611c   __xi_a
+  8060    00406120   __xi_z
+  8064    00406124   _newmode
+  8068    00406128   _dowildcard
+  806c    0040612c   __imp___getmainargs
+  8070    00406130   __xc_a
+  8074    00406134   __xc_z
+  8078    00406138   __imp___initenv
+  807c    0040613c   __imp__exit
+

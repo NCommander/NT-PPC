@@ -1,0 +1,370 @@
+ server
+
+ Timestamp is 64173a9a (Sun Mar 19 11:38:50 2023)
+
+ Preferred load address is 00400000
+
+ Start         Length     Name                   Class
+ 0001:00000000 00004994H .text                   CODE
+ 0002:00000000 000004d8H .rdata                  DATA
+ 0002:000004d8 00000118H .xdata                  DATA
+ 0002:000005f0 00000000H .edata                  DATA
+ 0003:00000000 00000004H .CRT$XCA                DATA
+ 0003:00000008 00000004H .CRT$XCZ                DATA
+ 0003:00000010 00000004H .CRT$XIA                DATA
+ 0003:00000018 00000004H .CRT$XIZ                DATA
+ 0003:00000020 000003e4H .data                   DATA
+ 0003:00000408 0000001cH .bss                    DATA
+ 0004:00000000 000008c0H .pdata                  DATA
+ 0005:00000000 00000028H .idata$2                DATA
+ 0005:00000028 00000014H .idata$3                DATA
+ 0005:0000003c 00000098H .idata$4                DATA
+ 0005:000000d4 00000098H .idata$4toc             DATA
+ 0005:0000016c 00000098H .idata$5                DATA
+ 0005:00000204 0000027eH .idata$6                DATA
+
+  Address         Publics by Value              Rva+Base   Lib:Object
+
+ 0001:00000000       ..Usage                    00401000 f server.obj
+ 0001:00000078       ..main                     00401078 f server.obj
+ 0001:000003b8       ..RecordTreeNodeFree       004013b8 f util0.obj
+ 0001:0000042c       ..RecordTreeFree           0040142c f util0.obj
+ 0001:000004a4       ..RDict_Free_Dict          004014a4 f util0.obj
+ 0001:000004e4       ..allocate_state           004014e4 f util0.obj
+ 0001:00000580       ..free_state               00401580 f util0.obj
+ 0001:000005fc       ..RDict_Duplicate          004015fc f util0.obj
+ 0001:00000678       ..DictState_Duplicate      00401678 f util0.obj
+ 0001:000006dc       ..TreeNode_Duplicate       004016dc f util0.obj
+ 0001:00000744       ..Tree_Duplicate           00401744 f util0.obj
+ 0001:000007c8       ..MIDL_user_allocate       004017c8 f util0.obj
+ 0001:00000818       ..MIDL_user_free           00401818 f util0.obj
+ 0001:00000864       ..comp                     00401864 f util0.obj
+ 0001:000008e4       ..ItemDuplicate            004018e4 f util0.obj
+ 0001:00000940       ..makeRecord               00401940 f util0.obj
+ 0001:00000a08       ..freeRecord               00401a08 f util0.obj
+ 0001:00000a5c       ..ItemCopy                 00401a5c f util0.obj
+ 0001:00000b04       ..printRecord              00401b04 f util0.obj
+ 0001:00000b6c       ..Dict_Print               00401b6c f util0.obj
+ 0001:00000bb0       ..prinTree                 00401bb0 f util0.obj
+ 0001:00000cc4       ..makeNode                 00401cc4 f util0.obj
+ 0001:00000d24       ..dict_VDict_New           00401d24 f replay_s.obj
+ 0001:00000ed0       ..dict_VDict_Find          00401ed0 f replay_s.obj
+ 0001:00001104       ..dict_VDict_Next          00402104 f replay_s.obj
+ 0001:00001338       ..dict_VDict_Prev          00402338 f replay_s.obj
+ 0001:0000156c       ..dict_VDict_Curr_Next     0040256c f replay_s.obj
+ 0001:0000177c       ..dict_VDict_Curr_Prev     0040277c f replay_s.obj
+ 0001:0000198c       ..dict_VDict_Insert        0040298c f replay_s.obj
+ 0001:00001b60       ..dict_VDict_Delete        00402b60 f replay_s.obj
+ 0001:00001d94       ..dict_VDict_Get_Dict      00402d94 f replay_s.obj
+ 0001:00001fa4       ..dict_VDict_Curr_Item     00402fa4 f replay_s.obj
+ 0001:000021b4       ..dict_VDict_Curr_Delete   004031b4 f replay_s.obj
+ 0001:000023c4       ..dict_VDict_X_Dict        004033c4 f replay_s.obj
+ 0001:0000251c       ..dict_VDict_I_Dict        0040351c f replay_s.obj
+ 0001:0000269c       ..VDict_rundown            0040369c f replay.obj
+ 0001:000027c0       ..VDict_New                004037c0 f replay.obj
+ 0001:0000294c       ..VDict_Find               0040394c f replay.obj
+ 0001:00002a00       ..VDict_Next               00403a00 f replay.obj
+ 0001:00002aec       ..VDict_Prev               00403aec f replay.obj
+ 0001:00002bd8       ..VDict_Curr_Next          00403bd8 f replay.obj
+ 0001:00002cb4       ..VDict_Curr_Prev          00403cb4 f replay.obj
+ 0001:00002d90       ..VDict_Insert             00403d90 f replay.obj
+ 0001:00002e04       ..VDict_Delete             00403e04 f replay.obj
+ 0001:00002e58       ..VDict_Curr_Item          00403e58 f replay.obj
+ 0001:00002f00       ..VDict_Curr_Delete        00403f00 f replay.obj
+ 0001:00002f98       ..VDict_Get_Dict           00403f98 f replay.obj
+ 0001:00003024       ..Init_dict                00404024 f replay.obj
+ 0001:0000328c       ..VDict_X_Dict             0040428c f replay.obj
+ 0001:00003300       ..VDict_I_Dict             00404300 f replay.obj
+ 0001:0000339c       ..Dict_New                 0040439c f dict0.obj
+ 0001:00003430       ..Dict_Find                00404430 f dict0.obj
+ 0001:00003530       ..Dict_Next                00404530 f dict0.obj
+ 0001:000036d8       ..Dict_Prev                004046d8 f dict0.obj
+ 0001:00003884       ..Dict_Insert              00404884 f dict0.obj
+ 0001:00003a70       ..Dict_Delete              00404a70 f dict0.obj
+ 0001:00003c80       ..tdSplay                  00404c80 f dict0.obj
+ 0001:00004050       ..tdSplayLeft              00405050 f dict0.obj
+ 0001:000041cc       ..tdSplayRight             004051cc f dict0.obj
+ 0001:00004304       ..RpcServerListen          00405304 f rpcrt4:RPCRT4.dll
+ 0001:0000431c       ..RpcServerRegisterIf      0040531c f rpcrt4:RPCRT4.dll
+ 0001:00004334       ..RpcServerUseProtseqEpA   00405334 f rpcrt4:RPCRT4.dll
+ 0001:0000434c       ..NdrSimpleTypeMarshall    0040534c f rpcrt4:RPCRT4.dll
+ 0001:00004364       ..NdrServerContextMarshall 00405364 f rpcrt4:RPCRT4.dll
+ 0001:0000437c       ..RpcRaiseException        0040537c f rpcrt4:RPCRT4.dll
+ 0001:00004394       ..I_RpcGetBuffer           00405394 f rpcrt4:RPCRT4.dll
+ 0001:000043ac       ..NDRSContextUnmarshall    004053ac f rpcrt4:RPCRT4.dll
+ 0001:000043c4       ..NdrConvert               004053c4 f rpcrt4:RPCRT4.dll
+ 0001:000043dc       ..NdrServerInitializeNew   004053dc f rpcrt4:RPCRT4.dll
+ 0001:000043f4       ..NdrPointerFree           004053f4 f rpcrt4:RPCRT4.dll
+ 0001:0000440c       ..NdrPointerMarshall       0040540c f rpcrt4:RPCRT4.dll
+ 0001:00004424       ..NdrPointerBufferSize     00405424 f rpcrt4:RPCRT4.dll
+ 0001:0000443c       ..NdrPointerUnmarshall     0040543c f rpcrt4:RPCRT4.dll
+ 0001:00004454       ..NdrServerContextUnmarshall 00405454 f rpcrt4:RPCRT4.dll
+ 0001:0000446c       ..NdrSimpleStructUnmarshall 0040546c f rpcrt4:RPCRT4.dll
+ 0001:00004484       ..exit                     00405484 f msvcrt:MSVCRT40.dll
+ 0001:0000449c       ..printf                   0040549c f msvcrt:MSVCRT40.dll
+ 0001:000044b4       ..tolower                  004054b4 f msvcrt:MSVCRT40.dll
+ 0001:000044cc       ..strcpy                   004054cc f msvcrt:MSVCRT40.dll
+ 0001:000044e4       ..malloc                   004054e4 f msvcrt:MSVCRT40.dll
+ 0001:000044fc       ..free                     004054fc f msvcrt:MSVCRT40.dll
+ 0001:00004514       ..strcmp                   00405514 f msvcrt:MSVCRT40.dll
+ 0001:0000452c       ..strlen                   0040552c f msvcrt:MSVCRT40.dll
+ 0001:00004544       ..__C_specific_handler     00405544 f msvcrt:MSVCRT40.dll
+ 0001:00004560       ..__restgpr_All            00405560 f msvcrt:restgpr.obj
+ 0001:00004594       ..__restgpr_14             00405594   msvcrt:restgpr.obj
+ 0001:00004598       ..__restgpr_15             00405598   msvcrt:restgpr.obj
+ 0001:0000459c       ..__restgpr_16             0040559c   msvcrt:restgpr.obj
+ 0001:000045a0       ..__restgpr_17             004055a0   msvcrt:restgpr.obj
+ 0001:000045a4       ..__restgpr_18             004055a4   msvcrt:restgpr.obj
+ 0001:000045a8       ..__restgpr_19             004055a8   msvcrt:restgpr.obj
+ 0001:000045ac       ..__restgpr_20             004055ac   msvcrt:restgpr.obj
+ 0001:000045b0       ..__restgpr_21             004055b0   msvcrt:restgpr.obj
+ 0001:000045b4       ..__restgpr_22             004055b4   msvcrt:restgpr.obj
+ 0001:000045b8       ..__restgpr_23             004055b8   msvcrt:restgpr.obj
+ 0001:000045bc       ..__restgpr_24             004055bc   msvcrt:restgpr.obj
+ 0001:000045c0       ..__restgpr_25             004055c0   msvcrt:restgpr.obj
+ 0001:000045c4       ..__restgpr_26             004055c4   msvcrt:restgpr.obj
+ 0001:000045c8       ..__restgpr_27             004055c8   msvcrt:restgpr.obj
+ 0001:000045cc       ..__restgpr_28             004055cc   msvcrt:restgpr.obj
+ 0001:000045d0       ..__restgpr_29             004055d0   msvcrt:restgpr.obj
+ 0001:000045d4       ..__restgpr_30             004055d4   msvcrt:restgpr.obj
+ 0001:000045d8       ..__restgpr_31             004055d8   msvcrt:restgpr.obj
+ 0001:000045e0       ..mainCRTStartup           004055e0 f msvcrt:crtexe.obj
+ 0001:000047c4       .._matherr                 004057c4 f msvcrt:merr.obj
+ 0001:000047d0       ..__savegpr_All            004057d0 f msvcrt:savegpr.obj
+ 0001:00004804       ..__savegpr_14             00405804   msvcrt:savegpr.obj
+ 0001:00004808       ..__savegpr_15             00405808   msvcrt:savegpr.obj
+ 0001:0000480c       ..__savegpr_16             0040580c   msvcrt:savegpr.obj
+ 0001:00004810       ..__savegpr_17             00405810   msvcrt:savegpr.obj
+ 0001:00004814       ..__savegpr_18             00405814   msvcrt:savegpr.obj
+ 0001:00004818       ..__savegpr_19             00405818   msvcrt:savegpr.obj
+ 0001:0000481c       ..__savegpr_20             0040581c   msvcrt:savegpr.obj
+ 0001:00004820       ..__savegpr_21             00405820   msvcrt:savegpr.obj
+ 0001:00004824       ..__savegpr_22             00405824   msvcrt:savegpr.obj
+ 0001:00004828       ..__savegpr_23             00405828   msvcrt:savegpr.obj
+ 0001:0000482c       ..__savegpr_24             0040582c   msvcrt:savegpr.obj
+ 0001:00004830       ..__savegpr_25             00405830   msvcrt:savegpr.obj
+ 0001:00004834       ..__savegpr_26             00405834   msvcrt:savegpr.obj
+ 0001:00004838       ..__savegpr_27             00405838   msvcrt:savegpr.obj
+ 0001:0000483c       ..__savegpr_28             0040583c   msvcrt:savegpr.obj
+ 0001:00004840       ..__savegpr_29             00405840   msvcrt:savegpr.obj
+ 0001:00004844       ..__savegpr_30             00405844   msvcrt:savegpr.obj
+ 0001:00004848       ..__savegpr_31             00405848   msvcrt:savegpr.obj
+ 0001:00004850       .._exit                    00405850 f msvcrt:MSVCRT40.dll
+ 0001:00004868       .._XcptFilter              00405868 f msvcrt:MSVCRT40.dll
+ 0001:00004880       ..__getmainargs            00405880 f msvcrt:MSVCRT40.dll
+ 0001:00004898       .._initterm                00405898 f msvcrt:MSVCRT40.dll
+ 0001:000048b0       ..__setusermatherr         004058b0 f msvcrt:MSVCRT40.dll
+ 0001:000048c8       .._setargv                 004058c8 f msvcrt:dllargv.obj
+ 0001:000048cc       .._onexit                  004058cc f msvcrt:atonexit.obj
+ 0001:00004934       ..atexit                   00405934 f msvcrt:atonexit.obj
+ 0001:00004964       ..__set_app_type           00405964 f msvcrt:MSVCRT40.dll
+ 0001:0000497c       ..__dllonexit              0040597c f msvcrt:MSVCRT40.dll
+ 0002:00000058       Usage                      00406058   server.obj
+ 0002:00000060       main                       00406060   server.obj
+ 0002:00000068       RecordTreeNodeFree         00406068   util0.obj
+ 0002:00000070       RecordTreeFree             00406070   util0.obj
+ 0002:00000078       RDict_Free_Dict            00406078   util0.obj
+ 0002:00000080       allocate_state             00406080   util0.obj
+ 0002:00000088       free_state                 00406088   util0.obj
+ 0002:00000090       RDict_Duplicate            00406090   util0.obj
+ 0002:00000098       DictState_Duplicate        00406098   util0.obj
+ 0002:000000a0       TreeNode_Duplicate         004060a0   util0.obj
+ 0002:000000a8       Tree_Duplicate             004060a8   util0.obj
+ 0002:000000b0       MIDL_user_allocate         004060b0   util0.obj
+ 0002:000000b8       MIDL_user_free             004060b8   util0.obj
+ 0002:000000c0       comp                       004060c0   util0.obj
+ 0002:000000c8       ItemDuplicate              004060c8   util0.obj
+ 0002:000000d0       makeRecord                 004060d0   util0.obj
+ 0002:000000d8       freeRecord                 004060d8   util0.obj
+ 0002:000000e0       ItemCopy                   004060e0   util0.obj
+ 0002:000000e8       printRecord                004060e8   util0.obj
+ 0002:000000f0       Dict_Print                 004060f0   util0.obj
+ 0002:000000f8       prinTree                   004060f8   util0.obj
+ 0002:00000100       makeNode                   00406100   util0.obj
+ 0002:00000288       dict_VDict_New             00406288   replay_s.obj
+ 0002:00000290       dict_VDict_Find            00406290   replay_s.obj
+ 0002:00000298       dict_VDict_Next            00406298   replay_s.obj
+ 0002:000002a0       dict_VDict_Prev            004062a0   replay_s.obj
+ 0002:000002a8       dict_VDict_Curr_Next       004062a8   replay_s.obj
+ 0002:000002b0       dict_VDict_Curr_Prev       004062b0   replay_s.obj
+ 0002:000002b8       dict_VDict_Insert          004062b8   replay_s.obj
+ 0002:000002c0       dict_VDict_Delete          004062c0   replay_s.obj
+ 0002:000002c8       dict_VDict_Get_Dict        004062c8   replay_s.obj
+ 0002:000002d0       dict_VDict_Curr_Item       004062d0   replay_s.obj
+ 0002:000002d8       dict_VDict_Curr_Delete     004062d8   replay_s.obj
+ 0002:000002e0       dict_VDict_X_Dict          004062e0   replay_s.obj
+ 0002:000002e8       dict_VDict_I_Dict          004062e8   replay_s.obj
+ 0002:000002f0       VDict_rundown              004062f0   replay.obj
+ 0002:000002f8       VDict_New                  004062f8   replay.obj
+ 0002:00000300       VDict_Find                 00406300   replay.obj
+ 0002:00000308       VDict_Next                 00406308   replay.obj
+ 0002:00000310       VDict_Prev                 00406310   replay.obj
+ 0002:00000318       VDict_Curr_Next            00406318   replay.obj
+ 0002:00000320       VDict_Curr_Prev            00406320   replay.obj
+ 0002:00000328       VDict_Insert               00406328   replay.obj
+ 0002:00000330       VDict_Delete               00406330   replay.obj
+ 0002:00000338       VDict_Curr_Item            00406338   replay.obj
+ 0002:00000340       VDict_Curr_Delete          00406340   replay.obj
+ 0002:00000348       VDict_Get_Dict             00406348   replay.obj
+ 0002:00000350       Init_dict                  00406350   replay.obj
+ 0002:00000358       VDict_X_Dict               00406358   replay.obj
+ 0002:00000360       VDict_I_Dict               00406360   replay.obj
+ 0002:00000368       Dict_New                   00406368   dict0.obj
+ 0002:00000370       Dict_Find                  00406370   dict0.obj
+ 0002:00000378       Dict_Next                  00406378   dict0.obj
+ 0002:00000380       Dict_Prev                  00406380   dict0.obj
+ 0002:00000388       Dict_Insert                00406388   dict0.obj
+ 0002:00000390       Dict_Delete                00406390   dict0.obj
+ 0002:00000398       tdSplay                    00406398   dict0.obj
+ 0002:000003a0       tdSplayLeft                004063a0   dict0.obj
+ 0002:000003a8       tdSplayRight               004063a8   dict0.obj
+ 0002:000003b0       RpcServerListen            004063b0   rpcrt4:RPCRT4.dll
+ 0002:000003b8       RpcServerRegisterIf        004063b8   rpcrt4:RPCRT4.dll
+ 0002:000003c0       RpcServerUseProtseqEpA     004063c0   rpcrt4:RPCRT4.dll
+ 0002:000003c8       NdrSimpleTypeMarshall      004063c8   rpcrt4:RPCRT4.dll
+ 0002:000003d0       NdrServerContextMarshall   004063d0   rpcrt4:RPCRT4.dll
+ 0002:000003d8       RpcRaiseException          004063d8   rpcrt4:RPCRT4.dll
+ 0002:000003e0       I_RpcGetBuffer             004063e0   rpcrt4:RPCRT4.dll
+ 0002:000003e8       NDRSContextUnmarshall      004063e8   rpcrt4:RPCRT4.dll
+ 0002:000003f0       NdrConvert                 004063f0   rpcrt4:RPCRT4.dll
+ 0002:000003f8       NdrServerInitializeNew     004063f8   rpcrt4:RPCRT4.dll
+ 0002:00000400       NdrPointerFree             00406400   rpcrt4:RPCRT4.dll
+ 0002:00000408       NdrPointerMarshall         00406408   rpcrt4:RPCRT4.dll
+ 0002:00000410       NdrPointerBufferSize       00406410   rpcrt4:RPCRT4.dll
+ 0002:00000418       NdrPointerUnmarshall       00406418   rpcrt4:RPCRT4.dll
+ 0002:00000420       NdrServerContextUnmarshall 00406420   rpcrt4:RPCRT4.dll
+ 0002:00000428       NdrSimpleStructUnmarshall  00406428   rpcrt4:RPCRT4.dll
+ 0002:00000430       exit                       00406430   msvcrt:MSVCRT40.dll
+ 0002:00000438       printf                     00406438   msvcrt:MSVCRT40.dll
+ 0002:00000440       tolower                    00406440   msvcrt:MSVCRT40.dll
+ 0002:00000448       strcpy                     00406448   msvcrt:MSVCRT40.dll
+ 0002:00000450       malloc                     00406450   msvcrt:MSVCRT40.dll
+ 0002:00000458       free                       00406458   msvcrt:MSVCRT40.dll
+ 0002:00000460       strcmp                     00406460   msvcrt:MSVCRT40.dll
+ 0002:00000468       strlen                     00406468   msvcrt:MSVCRT40.dll
+ 0002:00000470       __C_specific_handler       00406470   msvcrt:MSVCRT40.dll
+ 0002:00000478       mainCRTStartup             00406478   msvcrt:crtexe.obj
+ 0002:00000480       _matherr                   00406480   msvcrt:merr.obj
+ 0002:00000488       _exit                      00406488   msvcrt:MSVCRT40.dll
+ 0002:00000490       _XcptFilter                00406490   msvcrt:MSVCRT40.dll
+ 0002:00000498       __getmainargs              00406498   msvcrt:MSVCRT40.dll
+ 0002:000004a0       _initterm                  004064a0   msvcrt:MSVCRT40.dll
+ 0002:000004a8       __setusermatherr           004064a8   msvcrt:MSVCRT40.dll
+ 0002:000004b0       _setargv                   004064b0   msvcrt:dllargv.obj
+ 0002:000004b8       _onexit                    004064b8   msvcrt:atonexit.obj
+ 0002:000004c0       atexit                     004064c0   msvcrt:atonexit.obj
+ 0002:000004c8       __set_app_type             004064c8   msvcrt:MSVCRT40.dll
+ 0002:000004d0       __dllonexit                004064d0   msvcrt:MSVCRT40.dll
+ 0003:00000000       __xc_a                     00407000   msvcrt:cinitexe.obj
+ 0003:00000008       __xc_z                     00407008   msvcrt:cinitexe.obj
+ 0003:00000010       __xi_a                     00407010   msvcrt:cinitexe.obj
+ 0003:00000018       __xi_z                     00407018   msvcrt:cinitexe.obj
+ 0003:00000120       spaces                     00407120   util0.obj
+ 0003:00000240       dict_ServerIfHandle        00407240   replay_s.obj
+ 0003:00000280       dict_DispatchTable         00407280   replay_s.obj
+ 0003:000003d8       Dummy                      004073d8   dict0.obj
+ 0003:000003e0       __defaultmatherr           004073e0   msvcrt:merr.obj
+ 0003:000003e8       _dowildcard                004073e8   msvcrt:wildcard.obj
+ 0003:000003f0       _newmode                   004073f0   msvcrt:_newmode.obj
+ 0003:000003f8       _commode                   004073f8   msvcrt:xncommod.obj
+ 0003:00000400       _fmode                     00407400   msvcrt:xtxtmode.obj
+ 0003:00000410       Dumbo                      00407410   <common>
+ 0003:0000041c       __onexitend                0040741c   <common>
+ 0003:00000420       __onexitbegin              00407420   <common>
+ 0005:00000000       __IMPORT_DESCRIPTOR_RPCRT4 00409000   rpcrt4:RPCRT4.dll
+ 0005:00000014       __IMPORT_DESCRIPTOR_MSVCRT40 00409014   msvcrt:MSVCRT40.dll
+ 0005:00000028       __NULL_IMPORT_DESCRIPTOR   00409028   rpcrt4:RPCRT4.dll
+ 0005:0000016c       __imp_tolower              0040916c   msvcrt:MSVCRT40.dll
+ 0005:00000170       __imp_printf               00409170   msvcrt:MSVCRT40.dll
+ 0005:00000174       __imp__onexit              00409174   msvcrt:MSVCRT40.dll
+ 0005:00000178       __imp___dllonexit          00409178   msvcrt:MSVCRT40.dll
+ 0005:0000017c       __imp___set_app_type       0040917c   msvcrt:MSVCRT40.dll
+ 0005:00000180       __imp__fmode               00409180   msvcrt:MSVCRT40.dll
+ 0005:00000184       __imp__commode             00409184   msvcrt:MSVCRT40.dll
+ 0005:00000188       __imp___setusermatherr     00409188   msvcrt:MSVCRT40.dll
+ 0005:0000018c       __imp__initterm            0040918c   msvcrt:MSVCRT40.dll
+ 0005:00000190       __imp___getmainargs        00409190   msvcrt:MSVCRT40.dll
+ 0005:00000194       __imp___initenv            00409194   msvcrt:MSVCRT40.dll
+ 0005:00000198       __imp__XcptFilter          00409198   msvcrt:MSVCRT40.dll
+ 0005:0000019c       __imp__exit                0040919c   msvcrt:MSVCRT40.dll
+ 0005:000001a0       __imp___C_specific_handler 004091a0   msvcrt:MSVCRT40.dll
+ 0005:000001a4       __imp_free                 004091a4   msvcrt:MSVCRT40.dll
+ 0005:000001a8       __imp_exit                 004091a8   msvcrt:MSVCRT40.dll
+ 0005:000001ac       __imp_strlen               004091ac   msvcrt:MSVCRT40.dll
+ 0005:000001b0       __imp_malloc               004091b0   msvcrt:MSVCRT40.dll
+ 0005:000001b4       __imp_strcpy               004091b4   msvcrt:MSVCRT40.dll
+ 0005:000001b8       __imp_strcmp               004091b8   msvcrt:MSVCRT40.dll
+ 0005:000001bc       \177MSVCRT40_NULL_THUNK_DATA 004091bc   msvcrt:MSVCRT40.dll
+ 0005:000001c0       __imp_NdrSimpleStructUnmarshall 004091c0   rpcrt4:RPCRT4.dll
+ 0005:000001c4       __imp_NdrServerContextUnmarshall 004091c4   rpcrt4:RPCRT4.dll
+ 0005:000001c8       __imp_NdrPointerUnmarshall 004091c8   rpcrt4:RPCRT4.dll
+ 0005:000001cc       __imp_NdrPointerBufferSize 004091cc   rpcrt4:RPCRT4.dll
+ 0005:000001d0       __imp_NdrPointerMarshall   004091d0   rpcrt4:RPCRT4.dll
+ 0005:000001d4       __imp_NdrPointerFree       004091d4   rpcrt4:RPCRT4.dll
+ 0005:000001d8       __imp_NdrServerInitializeNew 004091d8   rpcrt4:RPCRT4.dll
+ 0005:000001dc       __imp_NdrConvert           004091dc   rpcrt4:RPCRT4.dll
+ 0005:000001e0       __imp_NDRSContextUnmarshall 004091e0   rpcrt4:RPCRT4.dll
+ 0005:000001e4       __imp_I_RpcGetBuffer       004091e4   rpcrt4:RPCRT4.dll
+ 0005:000001e8       __imp_RpcRaiseException    004091e8   rpcrt4:RPCRT4.dll
+ 0005:000001ec       __imp_NdrServerContextMarshall 004091ec   rpcrt4:RPCRT4.dll
+ 0005:000001f0       __imp_NdrSimpleTypeMarshall 004091f0   rpcrt4:RPCRT4.dll
+ 0005:000001f4       __imp_RpcServerUseProtseqEpA 004091f4   rpcrt4:RPCRT4.dll
+ 0005:000001f8       __imp_RpcServerRegisterIf  004091f8   rpcrt4:RPCRT4.dll
+ 0005:000001fc       __imp_RpcServerListen      004091fc   rpcrt4:RPCRT4.dll
+ 0005:00000200       \177RPCRT4_NULL_THUNK_DATA 00409200   rpcrt4:RPCRT4.dll
+ 0005:000080d4       .toc                       004110d4   <linker-defined>
+
+ entry point at        0002:00000478
+
+ Static symbols
+
+ 0001:00000ec0       $L23052                    00401ec0 f replay_s.obj
+ 0001:000010b0       $L23072                    004020b0 f replay_s.obj
+ 0001:000012e4       $L23088                    004022e4 f replay_s.obj
+ 0001:00001518       $L23104                    00402518 f replay_s.obj
+ 0001:0000172c       $L23120                    0040272c f replay_s.obj
+ 0001:0000193c       $L23136                    0040293c f replay_s.obj
+ 0001:00001b10       $L23152                    00402b10 f replay_s.obj
+ 0001:00001d40       $L23168                    00402d40 f replay_s.obj
+ 0001:00001f54       $L23184                    00402f54 f replay_s.obj
+ 0001:00002164       $L23200                    00403164 f replay_s.obj
+ 0001:00002374       $L23216                    00403374 f replay_s.obj
+ 0001:0000250c       $L23232                    0040350c f replay_s.obj
+ 0001:0000268c       $L23248                    0040368c f replay_s.obj
+
+ Offset   Rva+Base   Publics by TOC Offset
+
+  8000    004090d4   Dumbo
+  8004    004090d8   Dummy
+  8008    004090dc   __imp_printf
+  8010    004090e4   comp
+  8014    004090e8   tdSplay
+  8018    004090ec   printRecord
+  8024    004090f8   VDict_rundown
+  802c    00409100   __imp_malloc
+  8030    00409104   __imp_free
+  8034    00409108   spaces
+  803c    00409110   __imp_exit
+  8040    00409114   __imp_tolower
+  8044    00409118   dict_ServerIfHandle
+  8048    0040911c   __onexitbegin
+  804c    00409120   __imp__onexit
+  8050    00409124   __onexitend
+  8054    00409128   __imp___set_app_type
+  8058    0040912c   __imp__fmode
+  805c    00409130   _fmode
+  8060    00409134   __imp__commode
+  8064    00409138   _commode
+  8068    0040913c   __defaultmatherr
+  806c    00409140   __imp___setusermatherr
+  8070    00409144   _matherr
+  8074    00409148   __xi_a
+  8078    0040914c   __xi_z
+  807c    00409150   _newmode
+  8080    00409154   _dowildcard
+  8084    00409158   __imp___getmainargs
+  8088    0040915c   __xc_a
+  808c    00409160   __xc_z
+  8090    00409164   __imp___initenv
+  8094    00409168   __imp__exit
+

@@ -1,0 +1,324 @@
+ stastrip
+
+ Timestamp is 6417300c (Sun Mar 19 10:53:48 2023)
+
+ Preferred load address is 77000000
+
+ Start         Length     Name                   Class
+ 0001:00000000 000028b8H .text                   CODE
+ 0002:00000000 00000288H .rdata                  DATA
+ 0002:00000290 000000aeH .edata                  DATA
+ 0003:00000000 00000004H .CRT$XCA                DATA
+ 0003:00000008 00000004H .CRT$XCZ                DATA
+ 0003:00000010 00000004H .CRT$XIA                DATA
+ 0003:00000018 00000004H .CRT$XIZ                DATA
+ 0003:00000020 00000024H .data                   DATA
+ 0003:00000044 0000000cH .bss                    DATA
+ 0004:00000000 00000564H .pdata                  DATA
+ 0005:00000000 00000050H .idata$2                DATA
+ 0005:00000050 00000014H .idata$3                DATA
+ 0005:00000064 000000dcH .idata$4                DATA
+ 0005:00000140 000000e4H .idata$4toc             DATA
+ 0005:00000224 000000dcH .idata$5                DATA
+ 0005:00000300 00000308H .idata$6                DATA
+ 0006:00000000 00000058H .rsrc$01                DATA
+ 0006:00000060 000005c0H .rsrc$02                DATA
+
+  Address         Publics by Value              Rva+Base   Lib:Object
+
+ 0001:00000000       ..DllMain                  77001000 f init.obj
+ 0001:00000170       ..StatStripMessageMap      77001170 f init.obj
+ 0001:00000724       ..StatStripClean           77001724 f init.obj
+ 0001:00000d58       ..StatStripWndProc         77001d58 f stastrip.obj
+ 0001:00001aa8       ..StatStripMenuSelect      77002aa8 f stastrip.obj
+ 0001:00001c4c       ..StatStripMessageDisplay  77002c4c f stastrip.obj
+ 0001:00001f9c       .._CRT_INIT                77002f9c f msvcrt:crtdll.obj
+ 0001:00002118       .._DllMainCRTStartup       77003118 f msvcrt:crtdll.obj
+ 0001:0000226c       ..memcpy                   7700326c f msvcrt:MSVCRT40.dll
+ 0001:00002288       ..__restgpr_All            77003288 f msvcrt:restgpr.obj
+ 0001:000022bc       ..__restgpr_14             770032bc   msvcrt:restgpr.obj
+ 0001:000022c0       ..__restgpr_15             770032c0   msvcrt:restgpr.obj
+ 0001:000022c4       ..__restgpr_16             770032c4   msvcrt:restgpr.obj
+ 0001:000022c8       ..__restgpr_17             770032c8   msvcrt:restgpr.obj
+ 0001:000022cc       ..__restgpr_18             770032cc   msvcrt:restgpr.obj
+ 0001:000022d0       ..__restgpr_19             770032d0   msvcrt:restgpr.obj
+ 0001:000022d4       ..__restgpr_20             770032d4   msvcrt:restgpr.obj
+ 0001:000022d8       ..__restgpr_21             770032d8   msvcrt:restgpr.obj
+ 0001:000022dc       ..__restgpr_22             770032dc   msvcrt:restgpr.obj
+ 0001:000022e0       ..__restgpr_23             770032e0   msvcrt:restgpr.obj
+ 0001:000022e4       ..__restgpr_24             770032e4   msvcrt:restgpr.obj
+ 0001:000022e8       ..__restgpr_25             770032e8   msvcrt:restgpr.obj
+ 0001:000022ec       ..__restgpr_26             770032ec   msvcrt:restgpr.obj
+ 0001:000022f0       ..__restgpr_27             770032f0   msvcrt:restgpr.obj
+ 0001:000022f4       ..__restgpr_28             770032f4   msvcrt:restgpr.obj
+ 0001:000022f8       ..__restgpr_29             770032f8   msvcrt:restgpr.obj
+ 0001:000022fc       ..__restgpr_30             770032fc   msvcrt:restgpr.obj
+ 0001:00002300       ..__restgpr_31             77003300   msvcrt:restgpr.obj
+ 0001:00002308       ..free                     77003308 f msvcrt:MSVCRT40.dll
+ 0001:00002320       .._initterm                77003320 f msvcrt:MSVCRT40.dll
+ 0001:00002338       .._onexit                  77003338 f msvcrt:atonexit.obj
+ 0001:000023a0       ..atexit                   770033a0 f msvcrt:atonexit.obj
+ 0001:000023d0       ..malloc                   770033d0 f msvcrt:MSVCRT40.dll
+ 0001:000023e8       ..__savegpr_All            770033e8 f msvcrt:savegpr.obj
+ 0001:0000241c       ..__savegpr_14             7700341c   msvcrt:savegpr.obj
+ 0001:00002420       ..__savegpr_15             77003420   msvcrt:savegpr.obj
+ 0001:00002424       ..__savegpr_16             77003424   msvcrt:savegpr.obj
+ 0001:00002428       ..__savegpr_17             77003428   msvcrt:savegpr.obj
+ 0001:0000242c       ..__savegpr_18             7700342c   msvcrt:savegpr.obj
+ 0001:00002430       ..__savegpr_19             77003430   msvcrt:savegpr.obj
+ 0001:00002434       ..__savegpr_20             77003434   msvcrt:savegpr.obj
+ 0001:00002438       ..__savegpr_21             77003438   msvcrt:savegpr.obj
+ 0001:0000243c       ..__savegpr_22             7700343c   msvcrt:savegpr.obj
+ 0001:00002440       ..__savegpr_23             77003440   msvcrt:savegpr.obj
+ 0001:00002444       ..__savegpr_24             77003444   msvcrt:savegpr.obj
+ 0001:00002448       ..__savegpr_25             77003448   msvcrt:savegpr.obj
+ 0001:0000244c       ..__savegpr_26             7700344c   msvcrt:savegpr.obj
+ 0001:00002450       ..__savegpr_27             77003450   msvcrt:savegpr.obj
+ 0001:00002454       ..__savegpr_28             77003454   msvcrt:savegpr.obj
+ 0001:00002458       ..__savegpr_29             77003458   msvcrt:savegpr.obj
+ 0001:0000245c       ..__savegpr_30             7700345c   msvcrt:savegpr.obj
+ 0001:00002460       ..__savegpr_31             77003460   msvcrt:savegpr.obj
+ 0001:00002468       ..__dllonexit              77003468 f msvcrt:MSVCRT40.dll
+ 0001:00002480       ..LocalFree                77003480 f kernel32:KERNEL32.dll
+ 0001:00002498       ..LocalAlloc               77003498 f kernel32:KERNEL32.dll
+ 0001:000024b0       ..SizeofResource           770034b0 f kernel32:KERNEL32.dll
+ 0001:000024c8       ..LockResource             770034c8 f kernel32:KERNEL32.dll
+ 0001:000024e0       ..LoadResource             770034e0 f kernel32:KERNEL32.dll
+ 0001:000024f8       ..FindResourceA            770034f8 f kernel32:KERNEL32.dll
+ 0001:00002510       ..FreeResource             77003510 f kernel32:KERNEL32.dll
+ 0001:00002528       ..GlobalLock               77003528 f kernel32:KERNEL32.dll
+ 0001:00002540       ..GlobalAlloc              77003540 f kernel32:KERNEL32.dll
+ 0001:00002558       ..GlobalFree               77003558 f kernel32:KERNEL32.dll
+ 0001:00002570       ..GlobalUnlock             77003570 f kernel32:KERNEL32.dll
+ 0001:00002588       ..MulDiv                   77003588 f kernel32:KERNEL32.dll
+ 0001:000025a0       ..RegisterClassA           770035a0 f user32:USER32.dll
+ 0001:000025b8       ..LoadCursorA              770035b8 f user32:USER32.dll
+ 0001:000025d0       ..GetSubMenu               770035d0 f user32:USER32.dll
+ 0001:000025e8       ..GetMenu                  770035e8 f user32:USER32.dll
+ 0001:00002600       ..GetWindowLongA           77003600 f user32:USER32.dll
+ 0001:00002618       ..IsWindow                 77003618 f user32:USER32.dll
+ 0001:00002630       ..LoadStringA              77003630 f user32:USER32.dll
+ 0001:00002648       ..UpdateWindow             77003648 f user32:USER32.dll
+ 0001:00002660       ..InvalidateRect           77003660 f user32:USER32.dll
+ 0001:00002678       ..IsWindowEnabled          77003678 f user32:USER32.dll
+ 0001:00002690       ..DefWindowProcA           77003690 f user32:USER32.dll
+ 0001:000026a8       ..SetWindowLongA           770036a8 f user32:USER32.dll
+ 0001:000026c0       ..ReleaseDC                770036c0 f user32:USER32.dll
+ 0001:000026d8       ..GetDC                    770036d8 f user32:USER32.dll
+ 0001:000026f0       ..EndPaint                 770036f0 f user32:USER32.dll
+ 0001:00002708       ..GetWindowTextA           77003708 f user32:USER32.dll
+ 0001:00002720       ..FillRect                 77003720 f user32:USER32.dll
+ 0001:00002738       ..GetSysColor              77003738 f user32:USER32.dll
+ 0001:00002750       ..GetClientRect            77003750 f user32:USER32.dll
+ 0001:00002768       ..BeginPaint               77003768 f user32:USER32.dll
+ 0001:00002780       ..SetWindowTextA           77003780 f user32:USER32.dll
+ 0001:00002798       ..DeleteObject             77003798 f gdi32:GDI32.dll
+ 0001:000027b0       ..CreateFontA              770037b0 f gdi32:GDI32.dll
+ 0001:000027c8       ..GetDeviceCaps            770037c8 f gdi32:GDI32.dll
+ 0001:000027e0       ..TextOutA                 770037e0 f gdi32:GDI32.dll
+ 0001:000027f8       ..GetTextMetricsA          770037f8 f gdi32:GDI32.dll
+ 0001:00002810       ..SetTextColor             77003810 f gdi32:GDI32.dll
+ 0001:00002828       ..SetBkMode                77003828 f gdi32:GDI32.dll
+ 0001:00002840       ..CreateSolidBrush         77003840 f gdi32:GDI32.dll
+ 0001:00002858       ..LineTo                   77003858 f gdi32:GDI32.dll
+ 0001:00002870       ..MoveToEx                 77003870 f gdi32:GDI32.dll
+ 0001:00002888       ..SelectObject             77003888 f gdi32:GDI32.dll
+ 0001:000028a0       ..CreatePen                770038a0 f gdi32:GDI32.dll
+ 0002:000000a8       DllMain                    770040a8   init.obj
+ 0002:000000b0       StatStripMessageMap        770040b0   init.obj
+ 0002:000000b8       StatStripClean             770040b8   init.obj
+ 0002:000000c0       StatStripWndProc           770040c0   stastrip.obj
+ 0002:000000c8       StatStripMenuSelect        770040c8   stastrip.obj
+ 0002:000000d0       StatStripMessageDisplay    770040d0   stastrip.obj
+ 0002:000000d8       _CRT_INIT                  770040d8   msvcrt:crtdll.obj
+ 0002:000000e0       _DllMainCRTStartup         770040e0   msvcrt:crtdll.obj
+ 0002:000000e8       memcpy                     770040e8   msvcrt:MSVCRT40.dll
+ 0002:000000f0       free                       770040f0   msvcrt:MSVCRT40.dll
+ 0002:000000f8       _initterm                  770040f8   msvcrt:MSVCRT40.dll
+ 0002:00000100       _onexit                    77004100   msvcrt:atonexit.obj
+ 0002:00000108       atexit                     77004108   msvcrt:atonexit.obj
+ 0002:00000110       malloc                     77004110   msvcrt:MSVCRT40.dll
+ 0002:00000118       __dllonexit                77004118   msvcrt:MSVCRT40.dll
+ 0002:00000120       LocalFree                  77004120   kernel32:KERNEL32.dll
+ 0002:00000128       LocalAlloc                 77004128   kernel32:KERNEL32.dll
+ 0002:00000130       SizeofResource             77004130   kernel32:KERNEL32.dll
+ 0002:00000138       LockResource               77004138   kernel32:KERNEL32.dll
+ 0002:00000140       LoadResource               77004140   kernel32:KERNEL32.dll
+ 0002:00000148       FindResourceA              77004148   kernel32:KERNEL32.dll
+ 0002:00000150       FreeResource               77004150   kernel32:KERNEL32.dll
+ 0002:00000158       GlobalLock                 77004158   kernel32:KERNEL32.dll
+ 0002:00000160       GlobalAlloc                77004160   kernel32:KERNEL32.dll
+ 0002:00000168       GlobalFree                 77004168   kernel32:KERNEL32.dll
+ 0002:00000170       GlobalUnlock               77004170   kernel32:KERNEL32.dll
+ 0002:00000178       MulDiv                     77004178   kernel32:KERNEL32.dll
+ 0002:00000180       RegisterClassA             77004180   user32:USER32.dll
+ 0002:00000188       LoadCursorA                77004188   user32:USER32.dll
+ 0002:00000190       GetSubMenu                 77004190   user32:USER32.dll
+ 0002:00000198       GetMenu                    77004198   user32:USER32.dll
+ 0002:000001a0       GetWindowLongA             770041a0   user32:USER32.dll
+ 0002:000001a8       IsWindow                   770041a8   user32:USER32.dll
+ 0002:000001b0       LoadStringA                770041b0   user32:USER32.dll
+ 0002:000001b8       UpdateWindow               770041b8   user32:USER32.dll
+ 0002:000001c0       InvalidateRect             770041c0   user32:USER32.dll
+ 0002:000001c8       IsWindowEnabled            770041c8   user32:USER32.dll
+ 0002:000001d0       DefWindowProcA             770041d0   user32:USER32.dll
+ 0002:000001d8       SetWindowLongA             770041d8   user32:USER32.dll
+ 0002:000001e0       ReleaseDC                  770041e0   user32:USER32.dll
+ 0002:000001e8       GetDC                      770041e8   user32:USER32.dll
+ 0002:000001f0       EndPaint                   770041f0   user32:USER32.dll
+ 0002:000001f8       GetWindowTextA             770041f8   user32:USER32.dll
+ 0002:00000200       FillRect                   77004200   user32:USER32.dll
+ 0002:00000208       GetSysColor                77004208   user32:USER32.dll
+ 0002:00000210       GetClientRect              77004210   user32:USER32.dll
+ 0002:00000218       BeginPaint                 77004218   user32:USER32.dll
+ 0002:00000220       SetWindowTextA             77004220   user32:USER32.dll
+ 0002:00000228       DeleteObject               77004228   gdi32:GDI32.dll
+ 0002:00000230       CreateFontA                77004230   gdi32:GDI32.dll
+ 0002:00000238       GetDeviceCaps              77004238   gdi32:GDI32.dll
+ 0002:00000240       TextOutA                   77004240   gdi32:GDI32.dll
+ 0002:00000248       GetTextMetricsA            77004248   gdi32:GDI32.dll
+ 0002:00000250       SetTextColor               77004250   gdi32:GDI32.dll
+ 0002:00000258       SetBkMode                  77004258   gdi32:GDI32.dll
+ 0002:00000260       CreateSolidBrush           77004260   gdi32:GDI32.dll
+ 0002:00000268       LineTo                     77004268   gdi32:GDI32.dll
+ 0002:00000270       MoveToEx                   77004270   gdi32:GDI32.dll
+ 0002:00000278       SelectObject               77004278   gdi32:GDI32.dll
+ 0002:00000280       CreatePen                  77004280   gdi32:GDI32.dll
+ 0003:00000000       __xc_a                     77005000   msvcrt:cinitexe.obj
+ 0003:00000008       __xc_z                     77005008   msvcrt:cinitexe.obj
+ 0003:00000010       __xi_a                     77005010   msvcrt:cinitexe.obj
+ 0003:00000018       __xi_z                     77005018   msvcrt:cinitexe.obj
+ 0003:00000044       __onexitend                77005044   <common>
+ 0003:00000048       __onexitbegin              77005048   <common>
+ 0003:0000004c       _pRawDllMain               7700504c   <common>
+ 0005:00000000       __IMPORT_DESCRIPTOR_MSVCRT40 77007000   msvcrt:MSVCRT40.dll
+ 0005:00000014       __IMPORT_DESCRIPTOR_KERNEL32 77007014   kernel32:KERNEL32.dll
+ 0005:00000028       __IMPORT_DESCRIPTOR_USER32 77007028   user32:USER32.dll
+ 0005:0000003c       __IMPORT_DESCRIPTOR_GDI32  7700703c   gdi32:GDI32.dll
+ 0005:00000050       __NULL_IMPORT_DESCRIPTOR   77007050   msvcrt:MSVCRT40.dll
+ 0005:00000224       __imp_SetBkMode            77007224   gdi32:GDI32.dll
+ 0005:00000228       __imp_CreateFontA          77007228   gdi32:GDI32.dll
+ 0005:0000022c       __imp_GetDeviceCaps        7700722c   gdi32:GDI32.dll
+ 0005:00000230       __imp_TextOutA             77007230   gdi32:GDI32.dll
+ 0005:00000234       __imp_GetTextMetricsA      77007234   gdi32:GDI32.dll
+ 0005:00000238       __imp_SetTextColor         77007238   gdi32:GDI32.dll
+ 0005:0000023c       __imp_MoveToEx             7700723c   gdi32:GDI32.dll
+ 0005:00000240       __imp_SelectObject         77007240   gdi32:GDI32.dll
+ 0005:00000244       __imp_LineTo               77007244   gdi32:GDI32.dll
+ 0005:00000248       __imp_CreatePen            77007248   gdi32:GDI32.dll
+ 0005:0000024c       __imp_CreateSolidBrush     7700724c   gdi32:GDI32.dll
+ 0005:00000250       __imp_DeleteObject         77007250   gdi32:GDI32.dll
+ 0005:00000254       \177GDI32_NULL_THUNK_DATA  77007254   gdi32:GDI32.dll
+ 0005:00000258       __imp_LocalAlloc           77007258   kernel32:KERNEL32.dll
+ 0005:0000025c       __imp_FreeResource         7700725c   kernel32:KERNEL32.dll
+ 0005:00000260       __imp_LoadResource         77007260   kernel32:KERNEL32.dll
+ 0005:00000264       __imp_LockResource         77007264   kernel32:KERNEL32.dll
+ 0005:00000268       __imp_GlobalUnlock         77007268   kernel32:KERNEL32.dll
+ 0005:0000026c       __imp_MulDiv               7700726c   kernel32:KERNEL32.dll
+ 0005:00000270       __imp_SizeofResource       77007270   kernel32:KERNEL32.dll
+ 0005:00000274       __imp_GlobalLock           77007274   kernel32:KERNEL32.dll
+ 0005:00000278       __imp_LocalFree            77007278   kernel32:KERNEL32.dll
+ 0005:0000027c       __imp_GlobalAlloc          7700727c   kernel32:KERNEL32.dll
+ 0005:00000280       __imp_FindResourceA        77007280   kernel32:KERNEL32.dll
+ 0005:00000284       __imp_GlobalFree           77007284   kernel32:KERNEL32.dll
+ 0005:00000288       \177KERNEL32_NULL_THUNK_DATA 77007288   kernel32:KERNEL32.dll
+ 0005:0000028c       __imp__onexit              7700728c   msvcrt:MSVCRT40.dll
+ 0005:00000290       __imp___dllonexit          77007290   msvcrt:MSVCRT40.dll
+ 0005:00000294       __imp_malloc               77007294   msvcrt:MSVCRT40.dll
+ 0005:00000298       __imp__initterm            77007298   msvcrt:MSVCRT40.dll
+ 0005:0000029c       __imp_free                 7700729c   msvcrt:MSVCRT40.dll
+ 0005:000002a0       __imp_memcpy               770072a0   msvcrt:MSVCRT40.dll
+ 0005:000002a4       \177MSVCRT40_NULL_THUNK_DATA 770072a4   msvcrt:MSVCRT40.dll
+ 0005:000002a8       __imp_SetWindowLongA       770072a8   user32:USER32.dll
+ 0005:000002ac       __imp_EndPaint             770072ac   user32:USER32.dll
+ 0005:000002b0       __imp_GetWindowTextA       770072b0   user32:USER32.dll
+ 0005:000002b4       __imp_FillRect             770072b4   user32:USER32.dll
+ 0005:000002b8       __imp_GetSysColor          770072b8   user32:USER32.dll
+ 0005:000002bc       __imp_GetClientRect        770072bc   user32:USER32.dll
+ 0005:000002c0       __imp_BeginPaint           770072c0   user32:USER32.dll
+ 0005:000002c4       __imp_SetWindowTextA       770072c4   user32:USER32.dll
+ 0005:000002c8       __imp_ReleaseDC            770072c8   user32:USER32.dll
+ 0005:000002cc       __imp_GetDC                770072cc   user32:USER32.dll
+ 0005:000002d0       __imp_DefWindowProcA       770072d0   user32:USER32.dll
+ 0005:000002d4       __imp_IsWindowEnabled      770072d4   user32:USER32.dll
+ 0005:000002d8       __imp_InvalidateRect       770072d8   user32:USER32.dll
+ 0005:000002dc       __imp_LoadStringA          770072dc   user32:USER32.dll
+ 0005:000002e0       __imp_IsWindow             770072e0   user32:USER32.dll
+ 0005:000002e4       __imp_GetWindowLongA       770072e4   user32:USER32.dll
+ 0005:000002e8       __imp_GetMenu              770072e8   user32:USER32.dll
+ 0005:000002ec       __imp_GetSubMenu           770072ec   user32:USER32.dll
+ 0005:000002f0       __imp_LoadCursorA          770072f0   user32:USER32.dll
+ 0005:000002f4       __imp_RegisterClassA       770072f4   user32:USER32.dll
+ 0005:000002f8       __imp_UpdateWindow         770072f8   user32:USER32.dll
+ 0005:000002fc       \177USER32_NULL_THUNK_DATA 770072fc   user32:USER32.dll
+ 0005:00008140       .toc                       7700f140   <linker-defined>
+
+ entry point at        0002:000000e0
+
+ Static symbols
+
+ 0001:00001450       ..StatStripPaint           77002450 f stastrip.obj
+ 0001:00001d88       ..IDFromHMenu              77002d88 f stastrip.obj
+ 0001:00001e98       ..IStringFromID            77002e98 f stastrip.obj
+ 0001:00000054       ..FRegisterControl         77001054 f init.obj
+ 0001:000008f4       ..HStringCache             770018f4 f init.obj
+ 0001:00000a80       ..HStringCacheFree         77001a80 f init.obj
+ 0001:00000afc       ..StatMessageMapSort       77001afc f init.obj
+
+ Offset   Rva+Base   Publics by TOC Offset
+
+  8000    77007140   __imp_GetWindowLongA
+  8004    77007144   __imp_LocalAlloc
+  8008    77007148   __imp_GetDC
+  800c    7700714c   __imp_MulDiv
+  8010    77007150   __imp_GetDeviceCaps
+  8014    77007154   __imp_ReleaseDC
+  801c    7700715c   __imp_CreateFontA
+  8020    77007160   __imp_SetWindowLongA
+  8024    77007164   __imp_DefWindowProcA
+  8028    77007168   __imp_LocalFree
+  802c    7700716c   __imp_IsWindowEnabled
+  8030    77007170   __imp_DeleteObject
+  8034    77007174   __imp_InvalidateRect
+  8038    77007178   __imp_UpdateWindow
+  803c    7700717c   __imp_BeginPaint
+  8040    77007180   __imp_GetClientRect
+  8044    77007184   __imp_GetSysColor
+  8048    77007188   __imp_CreatePen
+  804c    7700718c   __imp_SelectObject
+  8050    77007190   __imp_MoveToEx
+  8054    77007194   __imp_LineTo
+  8058    77007198   __imp_CreateSolidBrush
+  805c    7700719c   __imp_FillRect
+  8060    770071a0   __imp_SetBkMode
+  8064    770071a4   __imp_SetTextColor
+  8068    770071a8   __imp_GetTextMetricsA
+  806c    770071ac   __imp_GetWindowTextA
+  8070    770071b0   __imp_TextOutA
+  8074    770071b4   __imp_EndPaint
+  8078    770071b8   __imp_IsWindow
+  807c    770071bc   __imp_SetWindowTextA
+  8080    770071c0   __imp_GetMenu
+  8084    770071c4   __imp_GetSubMenu
+  808c    770071cc   StatStripWndProc
+  8090    770071d0   __imp_LoadCursorA
+  8094    770071d4   __imp_RegisterClassA
+  8098    770071d8   __imp_FindResourceA
+  809c    770071dc   __imp_LoadResource
+  80a0    770071e0   __imp_LockResource
+  80a4    770071e4   __imp_SizeofResource
+  80a8    770071e8   __imp_FreeResource
+  80ac    770071ec   __imp_GlobalAlloc
+  80b0    770071f0   __imp_GlobalLock
+  80b4    770071f4   __imp_LoadStringA
+  80b8    770071f8   __imp_GlobalUnlock
+  80bc    770071fc   __imp_GlobalFree
+  80c0    77007200   __onexitbegin
+  80c4    77007204   __imp__onexit
+  80c8    77007208   __onexitend
+  80d0    77007210   __imp_malloc
+  80d4    77007214   __xc_a
+  80d8    77007218   __xc_z
+  80dc    7700721c   __imp_free
+  80e0    77007220   _pRawDllMain
+
